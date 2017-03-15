@@ -17,6 +17,7 @@ view topLevelType =
                 [ h1 [] [ text "Sanntidsdata fra Ruter" ]
                 , viewFilterInput model
                 , model.stops
+                    |> List.sortBy .name
                     |> filterStops model.filterInput
                     |> viewStops
                 ]
