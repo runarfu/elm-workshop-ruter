@@ -18,7 +18,8 @@ main =
 
 initModel : Model
 initModel =
-    { stops = []
+    { filterInput = ""
+    , stops = []
     }
 
 

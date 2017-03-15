@@ -10,9 +10,11 @@ type TopLevelType
 
 
 type alias Model =
-    { stops : List Stop
+    { filterInput : String
+    , stops : List Stop
     }
 
 
 type Msg
-    = StopsResponse (Result Http.Error (List Stop))
+    = FilterInput String
+    | StopsResponse (Result Http.Error (List Stop))

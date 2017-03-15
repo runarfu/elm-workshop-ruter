@@ -10,6 +10,11 @@ update msg topLevel =
     case topLevel of
         NormalState model ->
             case msg of
+                FilterInput input ->
+                    model
+                        |> updateFilterInput input
+                        |> noCmd
+
                 StopsResponse result ->
                     case result of
                         Ok stops ->
@@ -24,6 +29,11 @@ update msg topLevel =
 
         FailedState _ ->
             ( topLevel, Cmd.none )
+
+
+updateFilterInput : String -> Model -> Model
+updateFilterInput input model =
+    { model | filterInput = input }
 
 
 updateStops : List Stop -> Model -> Model
