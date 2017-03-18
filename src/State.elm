@@ -85,7 +85,7 @@ discardStop stop model =
 
 getStops : Cmd Msg
 getStops =
-    RuterAPI.getStops
+    RuterAPI.getClosestStops 10
         |> Http.send StopsResponse
 
 

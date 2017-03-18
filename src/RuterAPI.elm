@@ -5,11 +5,24 @@ import Json.Decode.Pipeline
 import Http
 
 
-getStops : Http.Request (List Stop)
-getStops =
+getClosestStops : Int -> Http.Request (List Stop)
+getClosestStops proposals =
     let
+        x =
+            597152
+
+        y =
+            6643471
+
         url =
-            "../static_data/alle_stopp_i_oslo.json"
+            "http://127.0.0.1:5000/"
+                ++ "http://reisapi.ruter.no/place/getcloseststops?coordinates="
+                ++ "(x="
+                ++ toString x
+                ++ ",y="
+                ++ toString y
+                ++ ")&proposals="
+                ++ (toString proposals)
     in
         Http.get url decodeStops
 
