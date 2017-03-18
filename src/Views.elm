@@ -13,19 +13,35 @@ view : Model -> Html Msg
 view model =
     div []
         [ h1 [] [ text "Sanntidsdata fra Ruter" ]
+        , viewChosenStops model
         , viewStopsAndFilters model
         ]
 
 
+viewChosenStops : Model -> Html Msg
+viewChosenStops model =
+    let
+        row stop =
+            div []
+                [ button [ onClick (DiscardStop stop) ] [ text "-" ]
+                , span [] [ text stop.name ]
+                ]
+    in
+        model.chosenStops
+            |> List.sortBy .name
+            |> List.map row
+            |> p []
+
+
 viewStopsAndFilters : Model -> Html Msg
 viewStopsAndFilters model =
-    div []
-        [ viewFilterInput
-        , model.stops
-            |> List.sortBy .name
-            |> filterStops model.filterInput
-            |> viewStops
-        ]
+    [ viewFilterInput
+    , model.stops
+        |> List.sortBy .name
+        |> filterStops model.filterInput
+        |> viewStops
+    ]
+        |> p []
 
 
 viewFilterInput : Html Msg
@@ -50,38 +66,17 @@ filterStops filterText stops =
 
 viewStops : List Stop -> Html Msg
 viewStops stops =
-    let
-        headersAndFunctions =
-            [ ( "Navn", .name )
-            , ( "Kortnavn", .shortName )
-            , ( "ID", .iD >> toString )
-            ]
-
-        functions =
-            headersAndFunctions
-                |> List.map Tuple.second
-
-        header txt =
-            th [] [ text txt ]
-
-        tableHeaders =
-            headersAndFunctions
-                |> List.map Tuple.first
-                |> List.map header
-                |> tr []
-    in
-        stops
-            |> List.map (viewStop functions)
-            |> List.append [ tableHeaders ]
-            |> table []
+    stops
+        |> List.map stopRow
+        |> table []
 
 
-viewStop : List (Stop -> String) -> Stop -> Html Msg
-viewStop functions stop =
-    let
-        row function =
-            td [] [ text (function stop) ]
-    in
-        functions
-            |> List.map row
-            |> tr []
+stopRow : Stop -> Html Msg
+stopRow stop =
+    [ button [ onClick (ChooseStop stop) ] [ text "+" ]
+    , text stop.name
+    , text stop.shortName
+    , text (toString stop.iD)
+    ]
+        |> List.map (\content -> td [] [ content ])
+        |> tr []

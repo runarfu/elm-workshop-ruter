@@ -18,7 +18,7 @@ main =
 
 initModel : Model
 initModel =
-    { stops = [], filterInput = "" }
+    { stops = [], filterInput = "", chosenStops = [] }
 
 
 initCmd : Cmd Msg
