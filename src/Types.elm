@@ -2,6 +2,7 @@ module Types exposing (..)
 
 import RuterAPI exposing (..)
 import Http
+import Time exposing (Time)
 
 
 type Model
@@ -16,3 +17,4 @@ type Msg
     | ChooseStop Stop
     | StopsResponse (Result Http.Error (List Stop))
     | DeparturesResponse (Result Http.Error (List Departure))
+    | Tick Time

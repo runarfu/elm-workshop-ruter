@@ -1,6 +1,7 @@
 module Main exposing (..)
 
 import Html
+import Time exposing (Time)
 import State exposing (..)
 import Types exposing (..)
 import Views exposing (..)
@@ -23,4 +24,4 @@ initCmd =
 
 subscriptions : Model -> Sub Msg
 subscriptions topLevel =
-    Sub.none
+    Time.every (5 * Time.second) Tick

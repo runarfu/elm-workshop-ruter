@@ -32,6 +32,10 @@ update msg model =
                     model
                         |> updateWithResultOrCrash result (updateDepartures chosenStop)
 
+                Tick time ->
+                    model
+                        |> andCmd (getDepartures chosenStop)
+
                 _ ->
                     noCmd model
 
