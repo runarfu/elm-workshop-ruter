@@ -12,9 +12,12 @@ type Model
     | Crashed { errorMessage : String }
 
 
+type alias HttpResponse a =
+    Result Http.Error a
+
+
 type Msg
-    = FilterInput String
-    | ChooseStop Stop
-    | StopsResponse (Result Http.Error (List Stop))
-    | DeparturesResponse (Result Http.Error (List Departure))
+    = ChooseStop Stop
+    | StopsResponse (HttpResponse (List Stop))
+    | DeparturesResponse (HttpResponse (List Departure))
     | Tick Time
