@@ -24,4 +24,4 @@ initCmd =
 
 subscriptions : Model -> Sub Msg
 subscriptions topLevel =
-    Time.every (5 * Time.second) Tick
+    Time.every (1 * Time.second) Tick

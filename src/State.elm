@@ -1,6 +1,8 @@
 module State exposing (..)
 
 import Http
+import Time exposing (Time)
+import Date exposing (Date)
 import Types exposing (..)
 import RuterAPI exposing (..)
 
@@ -20,27 +22,38 @@ update msg model =
         ChoosingStops { availableStops } ->
             case msg of
                 ChooseStop stop ->
-                    ChosenStop { chosenStop = stop, departures = [] }
+                    ChosenStop { chosenStop = stop, departures = [], now = Nothing }
                         |> andCmd (getDepartures stop)
 
                 _ ->
                     noCmd model
 
-        ChosenStop { chosenStop, departures } ->
+        ChosenStop { chosenStop, departures, now } ->
             case msg of
                 DeparturesResponse result ->
                     model
-                        |> updateWithResultOrCrash result (updateDepartures chosenStop)
+                        |> updateWithResultOrCrash result (updateDepartures chosenStop now)
 
                 Tick time ->
                     model
-                        |> andCmd (getDepartures chosenStop)
+                        |> updateNow time
+                        |> noCmd
 
                 _ ->
                     noCmd model
 
         Crashed _ ->
             noCmd model
+
+
+updateNow : Time -> Model -> Model
+updateNow time model =
+    case model of
+        ChosenStop { chosenStop, departures, now } ->
+            ChosenStop { chosenStop = chosenStop, departures = departures, now = time |> Date.fromTime |> Just }
+
+        _ ->
+            model
 
 
 updateWithResultOrCrash : Result Http.Error a -> (a -> Model -> Model) -> Model -> ( Model, Cmd Msg )
@@ -61,9 +74,9 @@ updateStops stops model =
     ChoosingStops { availableStops = stops }
 
 
-updateDepartures : Stop -> List Departure -> Model -> Model
-updateDepartures stop departures model =
-    ChosenStop { chosenStop = stop, departures = departures }
+updateDepartures : Stop -> Maybe Date -> List Departure -> Model -> Model
+updateDepartures stop date departures model =
+    ChosenStop { chosenStop = stop, now = date, departures = departures }
 
 
 getStops : Cmd Msg
