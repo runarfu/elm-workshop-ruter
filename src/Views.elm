@@ -22,15 +22,15 @@ viewChosenStops : Model -> Html Msg
 viewChosenStops model =
     let
         row stop =
-            div []
-                [ button [ onClick (DiscardStop stop) ] [ text "-" ]
-                , span [] [ text stop.name ]
+            tr []
+                [ td [] [ button [ onClick (DiscardStop stop) ] [ text "-" ] ]
+                , td [] [ text stop.name ]
                 ]
     in
         model.chosenStops
             |> List.sortBy .name
             |> List.map row
-            |> p []
+            |> table []
 
 
 viewStopsAndFilters : Model -> Html Msg
