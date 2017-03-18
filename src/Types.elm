@@ -4,15 +4,15 @@ import RuterAPI exposing (..)
 import Http
 
 
-type alias Model =
-    { filterInput : String
-    , stops : List Stop
-    , chosenStops : List Stop
-    }
+type Model
+    = Initialized
+    | ChoosingStops { availableStops : List Stop }
+    | ChosenStop { chosenStop : Stop, departures : List Departure }
+    | Crashed { errorMessage : String }
 
 
 type Msg
     = FilterInput String
     | ChooseStop Stop
-    | DiscardStop Stop
     | StopsResponse (Result Http.Error (List Stop))
+    | DeparturesResponse (Result Http.Error (List Departure))

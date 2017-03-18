@@ -1,10 +1,7 @@
 module Views exposing (view)
 
 import Html exposing (..)
-import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import String
-import Char
 import Types exposing (..)
 import RuterAPI exposing (..)
 
@@ -13,70 +10,59 @@ view : Model -> Html Msg
 view model =
     div []
         [ h1 [] [ text "Sanntidsdata fra Ruter" ]
-        , viewChosenStops model
-        , viewStopsAndFilters model
+        , case model of
+            Initialized ->
+                initialized
+
+            ChoosingStops { availableStops } ->
+                viewStops availableStops
+
+            ChosenStop { chosenStop, departures } ->
+                viewDepartures chosenStop departures
+
+            Crashed { errorMessage } ->
+                viewCrashReport errorMessage
         ]
 
 
-viewChosenStops : Model -> Html Msg
-viewChosenStops model =
-    let
-        row stop =
-            tr []
-                [ td [] [ button [ onClick (DiscardStop stop) ] [ text "-" ] ]
-                , td [] [ text stop.name ]
-                ]
-    in
-        model.chosenStops
-            |> List.sortBy .name
-            |> List.map row
-            |> table []
-
-
-viewStopsAndFilters : Model -> Html Msg
-viewStopsAndFilters model =
-    [ viewFilterInput
-    , model.stops
-        |> List.sortBy .name
-        |> filterStops model.filterInput
-        |> viewStops
-    ]
-        |> p []
-
-
-viewFilterInput : Html Msg
-viewFilterInput =
-    input
-        [ onInput FilterInput
-        , autofocus True
-        , placeholder "Filtrér"
-        ]
-        []
-
-
-filterStops : String -> List Stop -> List Stop
-filterStops filterText stops =
-    let
-        matches stop =
-            String.contains (String.map Char.toLower filterText) (String.map Char.toLower stop.name)
-    in
-        stops
-            |> List.filter matches
+initialized : Html Msg
+initialized =
+    div [] [ text "" ]
 
 
 viewStops : List Stop -> Html Msg
-viewStops stops =
-    stops
-        |> List.map stopRow
-        |> table []
+viewStops availableStops =
+    let
+        row stop =
+            div [] [ button [ onClick (ChooseStop stop) ] [ text stop.name ] ]
+    in
+        availableStops
+            |> List.map row
+            |> div []
 
 
-stopRow : Stop -> Html Msg
-stopRow stop =
-    [ button [ onClick (ChooseStop stop) ] [ text "+" ]
-    , text stop.name
-    , text stop.shortName
-    , text (toString stop.iD)
-    ]
-        |> List.map (\content -> td [] [ content ])
-        |> tr []
+viewDepartures : Stop -> List Departure -> Html Msg
+viewDepartures stop departures =
+    let
+        row departure =
+            [ departure.lineRef
+            , departure.destinationName
+            , departure.expectedArrivalTime |> toString
+            ]
+                |> List.map (\content -> td [] [ text content ])
+                |> tr []
+    in
+        div []
+            [ h2 [] [ text stop.name ]
+            , departures
+                |> List.map row
+                |> table []
+            ]
+
+
+viewCrashReport : String -> Html Msg
+viewCrashReport errorMessage =
+    div []
+        [ h2 [] [ text "Oh noes!" ]
+        , p [] [ text errorMessage ]
+        ]

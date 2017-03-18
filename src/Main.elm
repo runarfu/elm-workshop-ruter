@@ -9,16 +9,11 @@ import Views exposing (..)
 main : Program Never Model Msg
 main =
     Html.program
-        { init = ( initModel, initCmd )
+        { init = ( Initialized, getStops )
         , view = view
         , update = update
         , subscriptions = subscriptions
         }
-
-
-initModel : Model
-initModel =
-    { stops = [], filterInput = "", chosenStops = [] }
 
 
 initCmd : Cmd Msg

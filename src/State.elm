@@ -7,80 +7,59 @@ import RuterAPI exposing (..)
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    case msg of
-        FilterInput input ->
-            model
-                |> updateFilterInput input
-                |> noCmd
-
-        ChooseStop stop ->
-            model
-                |> chooseStop stop
-                |> noCmd
-
-        DiscardStop stop ->
-            model
-                |> discardStop stop
-                |> noCmd
-
-        StopsResponse result ->
-            case result of
-                Ok stops ->
+    case model of
+        Initialized ->
+            case msg of
+                StopsResponse result ->
                     model
-                        |> updateStops stops
-                        |> noCmd
+                        |> updateWithResultOrCrash result updateStops
 
-                Err error ->
-                    "StopsResponse failed: "
-                        ++ (toString error)
-                        |> Debug.crash
+                _ ->
+                    noCmd model
+
+        ChoosingStops { availableStops } ->
+            case msg of
+                ChooseStop stop ->
+                    ChosenStop { chosenStop = stop, departures = [] }
+                        |> andCmd (getDepartures stop)
+
+                _ ->
+                    noCmd model
+
+        ChosenStop { chosenStop, departures } ->
+            case msg of
+                DeparturesResponse result ->
+                    model
+                        |> updateWithResultOrCrash result (updateDepartures chosenStop)
+
+                _ ->
+                    noCmd model
+
+        Crashed _ ->
+            noCmd model
 
 
-updateFilterInput : String -> Model -> Model
-updateFilterInput input model =
-    { model | filterInput = input }
+updateWithResultOrCrash : Result Http.Error a -> (a -> Model -> Model) -> Model -> ( Model, Cmd Msg )
+updateWithResultOrCrash result function model =
+    case result of
+        Ok value ->
+            model
+                |> function value
+                |> noCmd
+
+        Err error ->
+            model
+                |> crash (toString error)
 
 
 updateStops : List Stop -> Model -> Model
 updateStops stops model =
-    { model | stops = stops }
+    ChoosingStops { availableStops = stops }
 
 
-chooseStop : Stop -> Model -> Model
-chooseStop stop model =
-    let
-        stopIsAlreadyChosen =
-            stopListContainsElement model.chosenStops stop
-    in
-        if stopIsAlreadyChosen then
-            model
-        else
-            addStopToChosenList stop model
-
-
-addStopToChosenList : Stop -> Model -> Model
-addStopToChosenList stop model =
-    { model | chosenStops = stop :: model.chosenStops }
-
-
-stopListContainsElement : List Stop -> Stop -> Bool
-stopListContainsElement stopList stop =
-    stopList
-        |> List.any (stopEquals stop)
-
-
-stopEquals : Stop -> Stop -> Bool
-stopEquals stop1 stop2 =
-    stop1.iD == stop2.iD
-
-
-discardStop : Stop -> Model -> Model
-discardStop stop model =
-    { model
-        | chosenStops =
-            model.chosenStops
-                |> List.filter (not << stopEquals stop)
-    }
+updateDepartures : Stop -> List Departure -> Model -> Model
+updateDepartures stop departures model =
+    ChosenStop { chosenStop = stop, departures = departures }
 
 
 getStops : Cmd Msg
@@ -89,6 +68,22 @@ getStops =
         |> Http.send StopsResponse
 
 
+getDepartures : Stop -> Cmd Msg
+getDepartures stop =
+    RuterAPI.getDepartures stop
+        |> Http.send DeparturesResponse
+
+
 noCmd : Model -> ( Model, Cmd Msg )
 noCmd model =
     ( model, Cmd.none )
+
+
+andCmd : Cmd Msg -> Model -> ( Model, Cmd Msg )
+andCmd cmd model =
+    ( model, cmd )
+
+
+crash : String -> Model -> ( Model, Cmd Msg )
+crash errorMessage model =
+    ( Crashed { errorMessage = errorMessage }, Cmd.none )
