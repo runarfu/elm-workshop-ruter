@@ -6,10 +6,10 @@ import Types exposing (..)
 import Views exposing (..)
 
 
-main : Program Never TopLevelType Msg
+main : Program Never Model Msg
 main =
     Html.program
-        { init = ( NormalState initModel, initCmd )
+        { init = ( initModel, initCmd )
         , view = view
         , update = update
         , subscriptions = subscriptions
@@ -18,8 +18,8 @@ main =
 
 initModel : Model
 initModel =
-    { filterInput = ""
-    , stops = []
+    { stopsAndFilters =
+        { stops = [], filterInput = "" }
     }
 
 
@@ -28,6 +28,6 @@ initCmd =
     getStops
 
 
-subscriptions : TopLevelType -> Sub Msg
+subscriptions : Model -> Sub Msg
 subscriptions topLevel =
     Sub.none

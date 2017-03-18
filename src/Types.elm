@@ -4,12 +4,12 @@ import RuterAPI exposing (..)
 import Http
 
 
-type TopLevelType
-    = NormalState Model
-    | FailedState String
-
-
 type alias Model =
+    { stopsAndFilters : StopsAndFilters
+    }
+
+
+type alias StopsAndFilters =
     { filterInput : String
     , stops : List Stop
     }

@@ -9,28 +9,27 @@ import Types exposing (..)
 import RuterAPI exposing (..)
 
 
-view : TopLevelType -> Html Msg
-view topLevelType =
-    case topLevelType of
-        NormalState model ->
-            div []
-                [ h1 [] [ text "Sanntidsdata fra Ruter" ]
-                , viewFilterInput model
-                , model.stops
-                    |> List.sortBy .name
-                    |> filterStops model.filterInput
-                    |> viewStops
-                ]
-
-        FailedState errorMessage ->
-            div []
-                [ h1 [] [ text "Oh noes!" ]
-                , p [] [ text errorMessage ]
-                ]
+view : Model -> Html Msg
+view model =
+    div []
+        [ h1 [] [ text "Sanntidsdata fra Ruter" ]
+        , viewStopsAndFilters model.stopsAndFilters
+        ]
 
 
-viewFilterInput : Model -> Html Msg
-viewFilterInput model =
+viewStopsAndFilters : StopsAndFilters -> Html Msg
+viewStopsAndFilters stopsAndFilters =
+    div []
+        [ viewFilterInput
+        , stopsAndFilters.stops
+            |> List.sortBy .name
+            |> filterStops stopsAndFilters.filterInput
+            |> viewStops
+        ]
+
+
+viewFilterInput : Html Msg
+viewFilterInput =
     input
         [ onInput FilterInput
         , autofocus True
