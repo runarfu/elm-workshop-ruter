@@ -9,13 +9,15 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         FilterInput input ->
-            { model | stopsAndFilters = updateFilterInput input model.stopsAndFilters }
+            model
+                |> updateFilterInput input
                 |> noCmd
 
         StopsResponse result ->
             case result of
                 Ok stops ->
-                    { model | stopsAndFilters = updateStops stops model.stopsAndFilters }
+                    model
+                        |> updateStops stops
                         |> noCmd
 
                 Err error ->
@@ -24,14 +26,14 @@ update msg model =
                         |> Debug.crash
 
 
-updateFilterInput : String -> StopsAndFilters -> StopsAndFilters
-updateFilterInput input stopsAndFilters =
-    { stopsAndFilters | filterInput = input }
+updateFilterInput : String -> Model -> Model
+updateFilterInput input model =
+    { model | filterInput = input }
 
 
-updateStops : List Stop -> StopsAndFilters -> StopsAndFilters
-updateStops stops stopsAndFilters =
-    { stopsAndFilters | stops = stops }
+updateStops : List Stop -> Model -> Model
+updateStops stops model =
+    { model | stops = stops }
 
 
 getStops : Cmd Msg

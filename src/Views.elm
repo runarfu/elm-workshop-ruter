@@ -13,17 +13,17 @@ view : Model -> Html Msg
 view model =
     div []
         [ h1 [] [ text "Sanntidsdata fra Ruter" ]
-        , viewStopsAndFilters model.stopsAndFilters
+        , viewStopsAndFilters model
         ]
 
 
-viewStopsAndFilters : StopsAndFilters -> Html Msg
-viewStopsAndFilters stopsAndFilters =
+viewStopsAndFilters : Model -> Html Msg
+viewStopsAndFilters model =
     div []
         [ viewFilterInput
-        , stopsAndFilters.stops
+        , model.stops
             |> List.sortBy .name
-            |> filterStops stopsAndFilters.filterInput
+            |> filterStops model.filterInput
             |> viewStops
         ]
 
