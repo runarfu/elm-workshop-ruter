@@ -15,6 +15,7 @@ update msg model =
                 StopsResponse result ->
                     model
                         |> updateWithResultOrCrash result updateStops
+                        |> noCmd
 
                 _ ->
                     noCmd model
@@ -33,6 +34,7 @@ update msg model =
                 DeparturesResponse result ->
                     model
                         |> updateWithResultOrCrash result (updateDepartures chosenStop now)
+                        |> andCmd (getDepartures chosenStop)
 
                 Tick time ->
                     model
@@ -56,13 +58,12 @@ updateNow time model =
             model
 
 
-updateWithResultOrCrash : Result Http.Error a -> (a -> Model -> Model) -> Model -> ( Model, Cmd Msg )
+updateWithResultOrCrash : Result Http.Error a -> (a -> Model -> Model) -> Model -> Model
 updateWithResultOrCrash result function model =
     case result of
         Ok value ->
             model
                 |> function value
-                |> noCmd
 
         Err error ->
             model
@@ -101,6 +102,6 @@ andCmd cmd model =
     ( model, cmd )
 
 
-crash : String -> Model -> ( Model, Cmd Msg )
+crash : String -> Model -> Model
 crash errorMessage model =
-    ( Crashed { errorMessage = errorMessage }, Cmd.none )
+    Crashed { errorMessage = errorMessage }
