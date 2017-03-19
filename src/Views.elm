@@ -73,9 +73,9 @@ viewDateDifference date1 date2 =
                 - Date.toTime date2
     in
         if timeDelta > 0 then
-            formatTimedelta timeDelta ++ " (" ++ (toString timeDelta) ++ ")"
+            formatTimedelta timeDelta
         else
-            "- " ++ formatTimedelta ((-1) * timeDelta) ++ " (" ++ (toString timeDelta) ++ ")"
+            "- " ++ formatTimedelta ((-1) * timeDelta)
 
 
 formatTimedelta : Time.Time -> String

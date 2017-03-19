@@ -9916,28 +9916,10 @@ var _runarfu$elm_workshop_ruter$Views$formatTimedelta = function (timeDelta) {
 var _runarfu$elm_workshop_ruter$Views$viewDateDifference = F2(
 	function (date1, date2) {
 		var timeDelta = _elm_lang$core$Date$toTime(date1) - _elm_lang$core$Date$toTime(date2);
-		return (_elm_lang$core$Native_Utils.cmp(timeDelta, 0) > 0) ? A2(
-			_elm_lang$core$Basics_ops['++'],
-			_runarfu$elm_workshop_ruter$Views$formatTimedelta(timeDelta),
-			A2(
-				_elm_lang$core$Basics_ops['++'],
-				' (',
-				A2(
-					_elm_lang$core$Basics_ops['++'],
-					_elm_lang$core$Basics$toString(timeDelta),
-					')'))) : A2(
+		return (_elm_lang$core$Native_Utils.cmp(timeDelta, 0) > 0) ? _runarfu$elm_workshop_ruter$Views$formatTimedelta(timeDelta) : A2(
 			_elm_lang$core$Basics_ops['++'],
 			'- ',
-			A2(
-				_elm_lang$core$Basics_ops['++'],
-				_runarfu$elm_workshop_ruter$Views$formatTimedelta(-1 * timeDelta),
-				A2(
-					_elm_lang$core$Basics_ops['++'],
-					' (',
-					A2(
-						_elm_lang$core$Basics_ops['++'],
-						_elm_lang$core$Basics$toString(timeDelta),
-						')'))));
+			_runarfu$elm_workshop_ruter$Views$formatTimedelta(-1 * timeDelta));
 	});
 var _runarfu$elm_workshop_ruter$Views$googleCalendarUrl = function (departure) {
 	var timeString = A2(_thaterikperson$elm_strftime$Strftime$format, '%Y%m%dT%H%M%S', departure.expectedArrivalTime);
