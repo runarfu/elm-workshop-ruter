@@ -9291,7 +9291,7 @@ var _runarfu$elm_workshop_ruter$RuterAPI$closestStopsURL = F3(
 	function (x, y, proposals) {
 		return A2(
 			_elm_lang$core$Basics_ops['++'],
-			'http://reisapi.ruter.no/place/getcloseststops?coordinates=',
+			'https://reisapi.ruter.no/place/getcloseststops?coordinates=',
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				'(x=',
@@ -9336,8 +9336,8 @@ var _runarfu$elm_workshop_ruter$RuterAPI$decodeStop = A3(
 					_NoRedInk$elm_decode_pipeline$Json_Decode_Pipeline$decode(_runarfu$elm_workshop_ruter$RuterAPI$Stop))))));
 var _runarfu$elm_workshop_ruter$RuterAPI$decodeStops = _elm_lang$core$Json_Decode$list(_runarfu$elm_workshop_ruter$RuterAPI$decodeStop);
 var _runarfu$elm_workshop_ruter$RuterAPI$getClosestStops = function (proposals) {
-	var universitetsGata7 = A2(_runarfu$elm_workshop_ruter$RuterAPI$closestStopsURL, 597152, 6643471);
-	var url = universitetsGata7(proposals);
+	var sundtKvartalet = A2(_runarfu$elm_workshop_ruter$RuterAPI$closestStopsURL, 598571, 6643551);
+	var url = sundtKvartalet(proposals);
 	return A2(_elm_lang$http$Http$get, url, _runarfu$elm_workshop_ruter$RuterAPI$decodeStops);
 };
 var _runarfu$elm_workshop_ruter$RuterAPI$Departure = F4(
@@ -9393,7 +9393,7 @@ var _runarfu$elm_workshop_ruter$RuterAPI$decodeDepartures = _elm_lang$core$Json_
 var _runarfu$elm_workshop_ruter$RuterAPI$getDepartures = function (stop) {
 	var url = A2(
 		_elm_lang$core$Basics_ops['++'],
-		'http://reisapi.ruter.no/stopvisit/getdepartures/',
+		'https://reisapi.ruter.no/stopvisit/getdepartures/',
 		_elm_lang$core$Basics$toString(stop.iD));
 	return A2(_elm_lang$http$Http$get, url, _runarfu$elm_workshop_ruter$RuterAPI$decodeDepartures);
 };
