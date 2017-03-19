@@ -42,6 +42,7 @@ viewStops availableStops =
             div [] [ button [ onClick (ChooseStop stop) ] [ text stop.name ] ]
     in
         availableStops
+            |> List.sortBy .name
             |> List.map row
             |> div []
 

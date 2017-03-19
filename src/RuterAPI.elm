@@ -6,6 +6,15 @@ import Http
 import Date exposing (Date)
 
 
+getAllStopsInOslo : Http.Request (List Stop)
+getAllStopsInOslo =
+    let
+        url =
+            "../static_data/alle_stopp_i_oslo.json"
+    in
+        Http.get url decodeStops
+
+
 getClosestStops : Int -> Http.Request (List Stop)
 getClosestStops proposals =
     let
