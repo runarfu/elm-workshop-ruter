@@ -81,7 +81,7 @@ updateDepartures stop date departures model =
 
 getStops : Cmd Msg
 getStops =
-    RuterAPI.getClosestStops 10
+    RuterAPI.getClosestStops 100
         |> Http.send StopsResponse
 
 

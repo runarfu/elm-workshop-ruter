@@ -9,30 +9,31 @@ import Date exposing (Date)
 getClosestStops : Int -> Http.Request (List Stop)
 getClosestStops proposals =
     let
-        x =
-            597152
-
-        y =
-            6643471
+        universitetsGata7 =
+            closestStopsURL 597152 6643471
 
         url =
-            "http://127.0.0.1:5000/"
-                ++ "http://reisapi.ruter.no/place/getcloseststops?coordinates="
-                ++ "(x="
-                ++ toString x
-                ++ ",y="
-                ++ toString y
-                ++ ")&proposals="
-                ++ (toString proposals)
+            universitetsGata7 proposals
     in
         Http.get url decodeStops
+
+
+closestStopsURL : Int -> Int -> Int -> String
+closestStopsURL x y proposals =
+    "http://reisapi.ruter.no/place/getcloseststops?coordinates="
+        ++ "(x="
+        ++ toString x
+        ++ ",y="
+        ++ toString y
+        ++ ")&proposals="
+        ++ (toString proposals)
 
 
 getDepartures : Stop -> Http.Request (List Departure)
 getDepartures stop =
     let
         url =
-            "http://127.0.0.1:5000/http://reisapi.ruter.no/stopvisit/getdepartures/"
+            "http://reisapi.ruter.no/stopvisit/getdepartures/"
                 ++ toString stop.iD
     in
         Http.get url decodeDepartures
