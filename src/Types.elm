@@ -8,7 +8,7 @@ import Date exposing (Date)
 
 type Model
     = Initialized
-    | ChoosingStops { availableStops : List Stop }
+    | ChoosingStops { stopFilter : String, availableStops : List Stop }
     | ChosenStop { chosenStop : Stop, departures : List Departure, now : Maybe Date }
     | Crashed { errorMessage : String }
 
@@ -18,7 +18,8 @@ type alias HttpResponse a =
 
 
 type Msg
-    = ChooseStop Stop
+    = StopFilterInput String
+    | ChooseStop Stop
     | StopsResponse (HttpResponse (List Stop))
     | DeparturesResponse (HttpResponse (List Departure))
     | Tick Time

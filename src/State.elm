@@ -22,6 +22,11 @@ update msg model =
 
         ChoosingStops { availableStops } ->
             case msg of
+                StopFilterInput input ->
+                    model
+                        |> updateStopFilter input
+                        |> noCmd
+
                 ChooseStop stop ->
                     ChosenStop { chosenStop = stop, departures = [], now = Nothing }
                         |> andCmd (getDepartures stop)
@@ -72,12 +77,22 @@ updateWithResultOrCrash result function model =
 
 updateStops : List Stop -> Model -> Model
 updateStops stops model =
-    ChoosingStops { availableStops = stops }
+    ChoosingStops { availableStops = stops, stopFilter = "" }
 
 
 updateDepartures : Stop -> Maybe Date -> List Departure -> Model -> Model
 updateDepartures stop date departures model =
     ChosenStop { chosenStop = stop, now = date, departures = departures }
+
+
+updateStopFilter : String -> Model -> Model
+updateStopFilter input model =
+    case model of
+        ChoosingStops { availableStops, stopFilter } ->
+            ChoosingStops { availableStops = availableStops, stopFilter = input }
+
+        _ ->
+            model
 
 
 getStops : Cmd Msg

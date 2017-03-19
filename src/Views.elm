@@ -6,6 +6,8 @@ import Html.Events exposing (..)
 import Http
 import Time exposing (Time)
 import Date exposing (Date)
+import String
+import Char
 import Strftime
 import Types exposing (..)
 import RuterAPI exposing (..)
@@ -19,8 +21,13 @@ view model =
             Initialized ->
                 initialized
 
-            ChoosingStops { availableStops } ->
-                viewStops availableStops
+            ChoosingStops { availableStops, stopFilter } ->
+                div []
+                    [ viewStopFilter
+                    , availableStops
+                        |> filterStops stopFilter
+                        |> viewStops
+                    ]
 
             ChosenStop { chosenStop, departures, now } ->
                 viewDepartures chosenStop departures now
@@ -33,6 +40,21 @@ view model =
 initialized : Html Msg
 initialized =
     div [] [ text "" ]
+
+
+viewStopFilter : Html Msg
+viewStopFilter =
+    input [ onInput StopFilterInput, placeholder "Filtrér", autofocus True ] []
+
+
+filterStops : String -> List Stop -> List Stop
+filterStops pattern stops =
+    let
+        match stop =
+            String.contains (String.map Char.toLower pattern) (String.map Char.toLower stop.name)
+    in
+        stops
+            |> List.filter match
 
 
 viewStops : List Stop -> Html Msg
