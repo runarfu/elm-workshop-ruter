@@ -3,6 +3,7 @@ module Views exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
+import Http
 import Time exposing (Time)
 import Date exposing (Date)
 import Strftime
@@ -57,7 +58,7 @@ googleCalendarUrl departure =
     in
         "https://calendar.google.com/calendar/render?action=TEMPLATE"
             ++ "&text="
-            ++ txt
+            ++ Http.encodeUri txt
             ++ "&dates="
             ++ timeString
             ++ "/"
