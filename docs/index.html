@@ -9421,12 +9421,8 @@ var _runarfu$elm_workshop_ruter$Types$ChooseStop = function (a) {
 };
 var _runarfu$elm_workshop_ruter$State$crash = F2(
 	function (errorMessage, model) {
-		return {
-			ctor: '_Tuple2',
-			_0: _runarfu$elm_workshop_ruter$Types$Crashed(
-				{errorMessage: errorMessage}),
-			_1: _elm_lang$core$Platform_Cmd$none
-		};
+		return _runarfu$elm_workshop_ruter$Types$Crashed(
+			{errorMessage: errorMessage});
 	});
 var _runarfu$elm_workshop_ruter$State$andCmd = F2(
 	function (cmd, model) {
@@ -9459,8 +9455,7 @@ var _runarfu$elm_workshop_ruter$State$updateWithResultOrCrash = F3(
 	function (result, $function, model) {
 		var _p0 = result;
 		if (_p0.ctor === 'Ok') {
-			return _runarfu$elm_workshop_ruter$State$noCmd(
-				A2($function, _p0._0, model));
+			return A2($function, _p0._0, model);
 		} else {
 			return A2(
 				_runarfu$elm_workshop_ruter$State$crash,
@@ -9490,7 +9485,8 @@ var _runarfu$elm_workshop_ruter$State$update = F2(
 			case 'Initialized':
 				var _p3 = msg;
 				if (_p3.ctor === 'StopsResponse') {
-					return A3(_runarfu$elm_workshop_ruter$State$updateWithResultOrCrash, _p3._0, _runarfu$elm_workshop_ruter$State$updateStops, model);
+					return _runarfu$elm_workshop_ruter$State$noCmd(
+						A3(_runarfu$elm_workshop_ruter$State$updateWithResultOrCrash, _p3._0, _runarfu$elm_workshop_ruter$State$updateStops, model));
 				} else {
 					return _runarfu$elm_workshop_ruter$State$noCmd(model);
 				}
@@ -9511,14 +9507,18 @@ var _runarfu$elm_workshop_ruter$State$update = F2(
 					return _runarfu$elm_workshop_ruter$State$noCmd(model);
 				}
 			case 'ChosenStop':
+				var _p7 = _p2._0.chosenStop;
 				var _p6 = msg;
 				switch (_p6.ctor) {
 					case 'DeparturesResponse':
-						return A3(
-							_runarfu$elm_workshop_ruter$State$updateWithResultOrCrash,
-							_p6._0,
-							A2(_runarfu$elm_workshop_ruter$State$updateDepartures, _p2._0.chosenStop, _p2._0.now),
-							model);
+						return A2(
+							_runarfu$elm_workshop_ruter$State$andCmd,
+							_runarfu$elm_workshop_ruter$State$getDepartures(_p7),
+							A3(
+								_runarfu$elm_workshop_ruter$State$updateWithResultOrCrash,
+								_p6._0,
+								A2(_runarfu$elm_workshop_ruter$State$updateDepartures, _p7, _p2._0.now),
+								model));
 					case 'Tick':
 						return _runarfu$elm_workshop_ruter$State$noCmd(
 							A2(_runarfu$elm_workshop_ruter$State$updateNow, _p6._0, model));
