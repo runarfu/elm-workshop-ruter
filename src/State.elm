@@ -1,104 +1,70 @@
 module State exposing (..)
 
 import Http
-import Time exposing (Time)
-import Date exposing (Date)
 import Types exposing (..)
 import RuterAPI exposing (..)
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    case model of
-        Initialized ->
-            case msg of
-                StopsResponse result ->
-                    model
-                        |> updateWithResultOrCrash result updateStops
-                        |> noCmd
+    case msg of
+        StopsResponse response ->
+            response
+                |> crashIfError
+                |> updateStops model
+                |> noCmd
 
-                _ ->
-                    noCmd model
+        DeparturesResponse response ->
+            response
+                |> crashIfError
+                |> updateDepartures model
+                |> do (getDeparturesIfStopIsChosen model.chosenStop)
 
-        ChoosingStops { availableStops } ->
-            case msg of
-                StopFilterInput input ->
-                    model
-                        |> updateStopFilter input
-                        |> noCmd
-
-                ChooseStop stop ->
-                    ChosenStop { chosenStop = stop, departures = [], now = Nothing }
-                        |> andCmd (getDepartures stop)
-
-                _ ->
-                    noCmd model
-
-        ChosenStop { chosenStop, departures, now } ->
-            case msg of
-                DeparturesResponse result ->
-                    model
-                        |> updateWithResultOrCrash result (updateDepartures chosenStop now)
-                        |> andCmd (getDepartures chosenStop)
-
-                Tick time ->
-                    model
-                        |> updateNow time
-                        |> noCmd
-
-                _ ->
-                    noCmd model
-
-        Crashed _ ->
-            noCmd model
-
-
-updateNow : Time -> Model -> Model
-updateNow time model =
-    case model of
-        ChosenStop { chosenStop, departures, now } ->
-            ChosenStop { chosenStop = chosenStop, departures = departures, now = time |> Date.fromTime |> Just }
-
-        _ ->
+        FilterInput input ->
             model
+                |> updateFilter input
+                |> noCmd
 
-
-updateWithResultOrCrash : Result Http.Error a -> (a -> Model -> Model) -> Model -> Model
-updateWithResultOrCrash result function model =
-    case result of
-        Ok value ->
+        ChooseStop stop ->
             model
-                |> function value
-
-        Err error ->
-            model
-                |> crash (toString error)
+                |> updateChosenStop stop
+                |> do (getDepartures stop)
 
 
-updateStops : List Stop -> Model -> Model
-updateStops stops model =
-    ChoosingStops { availableStops = stops, stopFilter = "" }
+updateStops : Model -> List Stop -> Model
+updateStops model stops =
+    { model | stops = stops }
 
 
-updateDepartures : Stop -> Maybe Date -> List Departure -> Model -> Model
-updateDepartures stop date departures model =
-    ChosenStop { chosenStop = stop, now = date, departures = departures }
+updateDepartures : Model -> List Departure -> Model
+updateDepartures model departures =
+    { model | departures = departures }
 
 
-updateStopFilter : String -> Model -> Model
-updateStopFilter input model =
-    case model of
-        ChoosingStops { availableStops, stopFilter } ->
-            ChoosingStops { availableStops = availableStops, stopFilter = input }
-
-        _ ->
-            model
+updateFilter : String -> Model -> Model
+updateFilter input model =
+    { model | nameFilter = input }
 
 
-getStops : Cmd Msg
-getStops =
+updateChosenStop : Stop -> Model -> Model
+updateChosenStop stop model =
+    { model | chosenStop = Just stop }
+
+
+getAllStopsInOslo : Cmd Msg
+getAllStopsInOslo =
     RuterAPI.getAllStopsInOslo
         |> Http.send StopsResponse
+
+
+getDeparturesIfStopIsChosen : Maybe Stop -> Cmd Msg
+getDeparturesIfStopIsChosen maybeStop =
+    case maybeStop of
+        Just stop ->
+            getDepartures stop
+
+        Nothing ->
+            Cmd.none
 
 
 getDepartures : Stop -> Cmd Msg
@@ -107,16 +73,23 @@ getDepartures stop =
         |> Http.send DeparturesResponse
 
 
+crashIfError : Result e v -> v
+crashIfError result =
+    case result of
+        Ok value ->
+            value
+
+        Err error ->
+            error
+                |> toString
+                |> Debug.crash
+
+
 noCmd : Model -> ( Model, Cmd Msg )
 noCmd model =
     ( model, Cmd.none )
 
 
-andCmd : Cmd Msg -> Model -> ( Model, Cmd Msg )
-andCmd cmd model =
+do : Cmd Msg -> Model -> ( Model, Cmd Msg )
+do cmd model =
     ( model, cmd )
-
-
-crash : String -> Model -> Model
-crash errorMessage model =
-    Crashed { errorMessage = errorMessage }

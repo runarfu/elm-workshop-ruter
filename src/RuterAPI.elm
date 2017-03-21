@@ -6,6 +6,23 @@ import Http
 import Date exposing (Date)
 
 
+type alias Stop =
+    { x : Int
+    , y : Int
+    , shortName : String
+    , iD : Int
+    , name : String
+    }
+
+
+type alias Departure =
+    { recordedAtTime : Date
+    , destinationName : String
+    , expectedArrivalTime : Date
+    , lineRef : String
+    }
+
+
 getAllStopsInOslo : Http.Request (List Stop)
 getAllStopsInOslo =
     let
@@ -13,29 +30,6 @@ getAllStopsInOslo =
             "../static_data/alle_stopp_i_oslo.json"
     in
         Http.get url decodeStops
-
-
-getClosestStops : Int -> Http.Request (List Stop)
-getClosestStops proposals =
-    let
-        sundtKvartalet =
-            closestStopsURL 598571 6643551
-
-        url =
-            sundtKvartalet proposals
-    in
-        Http.get url decodeStops
-
-
-closestStopsURL : Int -> Int -> Int -> String
-closestStopsURL x y proposals =
-    "https://reisapi.ruter.no/place/getcloseststops?coordinates="
-        ++ "(x="
-        ++ toString x
-        ++ ",y="
-        ++ toString y
-        ++ ")&proposals="
-        ++ (toString proposals)
 
 
 getDepartures : Stop -> Http.Request (List Departure)
@@ -46,15 +40,6 @@ getDepartures stop =
                 ++ toString stop.iD
     in
         Http.get url decodeDepartures
-
-
-type alias Stop =
-    { x : Int
-    , y : Int
-    , shortName : String
-    , iD : Int
-    , name : String
-    }
 
 
 decodeStops : Json.Decode.Decoder (List Stop)
@@ -70,14 +55,6 @@ decodeStop =
         |> Json.Decode.Pipeline.required "ShortName" (Json.Decode.string)
         |> Json.Decode.Pipeline.required "ID" (Json.Decode.int)
         |> Json.Decode.Pipeline.required "Name" (Json.Decode.string)
-
-
-type alias Departure =
-    { recordedAtTime : Date
-    , destinationName : String
-    , expectedArrivalTime : Date
-    , lineRef : String
-    }
 
 
 date : Json.Decode.Decoder Date
