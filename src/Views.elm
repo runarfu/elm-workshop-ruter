@@ -166,7 +166,12 @@ viewStops stops =
     let
         row stop =
             div []
-                [ button [ onClick (ChooseStop stop), style [ ( "margin-right", "10px" ) ] ] [ text "🕐" ]
+                [ button
+                    [ onClick (ChooseStop stop)
+                    , style [ ( "margin-right", "10px" ) ]
+                    , title ("Last sanntidsdata for " ++ stop.name)
+                    ]
+                    [ text "🕐" ]
                 , span [] [ text stop.name ]
                 ]
     in
