@@ -82,12 +82,28 @@ timeDeltaInMinutes maybeNow arrivalTime =
             "N/A"
 
 
+colourBox : String -> Html Msg
+colourBox colour =
+    div
+        [ style
+            [ ( "float", "left" )
+            , ( "width", "20px" )
+            , ( "height", "20px" )
+            , ( "margin", "5px" )
+            , ( "border", "1 px solid rgba(0, 0, 0, .2)" )
+            , ( "background", "#" ++ colour )
+            ]
+        ]
+        []
+
+
 viewDepartures : Model -> Html Msg
 viewDepartures model =
     let
         row departure =
             tr []
-                [ td [] [ text departure.lineRef ]
+                [ td [] [ colourBox departure.lineColour ]
+                , td [] [ text departure.lineRef ]
                 , td [] [ text departure.destinationName ]
                 , td [] [ text (timeDeltaInMinutes model.now departure.expectedArrivalTime) ]
                 , td [] [ text (toString departure.expectedArrivalTime) ]

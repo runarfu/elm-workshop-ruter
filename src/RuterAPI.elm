@@ -20,6 +20,7 @@ type alias Departure =
     , destinationName : String
     , expectedArrivalTime : Date
     , lineRef : String
+    , lineColour : String
     }
 
 
@@ -93,3 +94,4 @@ decodeDeparture =
         |> Json.Decode.Pipeline.requiredAt [ "MonitoredVehicleJourney", "DestinationName" ] Json.Decode.string
         |> Json.Decode.Pipeline.requiredAt [ "MonitoredVehicleJourney", "MonitoredCall", "ExpectedArrivalTime" ] date
         |> Json.Decode.Pipeline.requiredAt [ "MonitoredVehicleJourney", "LineRef" ] Json.Decode.string
+        |> Json.Decode.Pipeline.requiredAt [ "Extensions", "LineColour" ] Json.Decode.string
