@@ -1,6 +1,7 @@
 module Main exposing (..)
 
 import Html
+import Time exposing (every, second)
 import State exposing (..)
 import Types exposing (..)
 import Views exposing (..)
@@ -22,9 +23,10 @@ initModel =
     , stops = []
     , chosenStop = Nothing
     , departures = []
+    , now = Nothing
     }
 
 
 subscriptions : Model -> Sub Msg
-subscriptions =
-    \_ -> Sub.none
+subscriptions model =
+    every second Tick

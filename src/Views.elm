@@ -1,5 +1,7 @@
 module Views exposing (..)
 
+import Date exposing (Date)
+import Time exposing (inMinutes)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
@@ -31,7 +33,7 @@ rightColumn : Model -> Html Msg
 rightColumn model =
     div [ style [ ( "float", "right" ), ( "width", "50%" ) ] ]
         [ viewChosenStop model.chosenStop
-        , viewDepartures model.departures
+        , viewDepartures model
         ]
 
 
@@ -45,17 +47,41 @@ viewChosenStop maybeStop =
             div [] []
 
 
-viewDepartures : List Departure -> Html Msg
-viewDepartures departures =
+timeDeltaInMinutes : Maybe Date -> Date -> String
+timeDeltaInMinutes maybeNow arrivalTime =
+    case maybeNow of
+        Just now ->
+            let
+                time1 =
+                    Date.toTime now
+
+                time2 =
+                    Date.toTime arrivalTime
+
+                timeDelta =
+                    time2 - time1
+            in
+                timeDelta
+                    |> inMinutes
+                    |> ceiling
+                    |> toString
+
+        Nothing ->
+            "N/A"
+
+
+viewDepartures : Model -> Html Msg
+viewDepartures model =
     let
         row departure =
             tr []
                 [ td [] [ text departure.lineRef ]
                 , td [] [ text departure.destinationName ]
+                , td [] [ text (timeDeltaInMinutes model.now departure.expectedArrivalTime) ]
                 , td [] [ text (toString departure.expectedArrivalTime) ]
                 ]
     in
-        departures
+        model.departures
             |> List.map row
             |> table []
 

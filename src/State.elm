@@ -1,6 +1,8 @@
 module State exposing (..)
 
 import Http
+import Time exposing (Time)
+import Date exposing (Date)
 import Types exposing (..)
 import RuterAPI exposing (..)
 
@@ -30,6 +32,11 @@ update msg model =
                 |> updateChosenStop stop
                 |> do (getDepartures stop)
 
+        Tick time ->
+            model
+                |> updateNow time
+                |> noCmd
+
 
 updateStops : Model -> List Stop -> Model
 updateStops model stops =
@@ -49,6 +56,16 @@ updateFilter input model =
 updateChosenStop : Stop -> Model -> Model
 updateChosenStop stop model =
     { model | chosenStop = Just stop }
+
+
+updateNow : Time -> Model -> Model
+updateNow time model =
+    { model
+        | now =
+            time
+                |> Date.fromTime
+                |> Just
+    }
 
 
 getAllStopsInOslo : Cmd Msg
