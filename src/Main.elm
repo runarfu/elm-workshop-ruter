@@ -24,6 +24,7 @@ initModel =
     , chosenStop = Nothing
     , departures = []
     , now = Nothing
+    , errorMessage = Nothing
     }
 
 

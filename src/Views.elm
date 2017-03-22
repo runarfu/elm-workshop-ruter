@@ -14,6 +14,7 @@ view : Model -> Html Msg
 view model =
     div [ style [ ( "width", "100%" ), ( "overflow", "hidden" ) ] ]
         [ header model
+        , viewErrorMessageIfPresent model
         , leftColumn model
         , rightColumn model
         ]
@@ -29,6 +30,19 @@ header model =
                 |> Maybe.withDefault ""
     in
         h1 [] [ text ("Sanntidsdata fra Ruter" ++ time) ]
+
+
+viewErrorMessageIfPresent : Model -> Html Msg
+viewErrorMessageIfPresent model =
+    case model.errorMessage of
+        Just errorMessage ->
+            div []
+                [ h2 [] [ text "Oh noes, noe feilet!" ]
+                , p [] [ text errorMessage ]
+                ]
+
+        Nothing ->
+            div [] []
 
 
 leftColumn : Model -> Html Msg

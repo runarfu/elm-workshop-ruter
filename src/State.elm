@@ -12,13 +12,11 @@ update msg model =
     case msg of
         StopsResponse response ->
             response
-                |> crashIfError
                 |> updateStops model
                 |> noCmd
 
         DeparturesResponse response ->
             response
-                |> crashIfError
                 |> updateDepartures model
                 |> noCmd
 
@@ -43,14 +41,24 @@ update msg model =
                 |> do (getDeparturesIfStopIsChosen model.chosenStop)
 
 
-updateStops : Model -> List Stop -> Model
-updateStops model stops =
-    { model | stops = stops }
+updateStops : Model -> Result Http.Error (List Stop) -> Model
+updateStops model result =
+    case result of
+        Ok stops ->
+            { model | stops = stops }
+
+        Err errorMessage ->
+            { model | errorMessage = Just (toString errorMessage) }
 
 
-updateDepartures : Model -> List Departure -> Model
-updateDepartures model departures =
-    { model | departures = departures }
+updateDepartures : Model -> Result Http.Error (List Departure) -> Model
+updateDepartures model result =
+    case result of
+        Ok departures ->
+            { model | departures = departures }
+
+        Err errorMessage ->
+            { model | errorMessage = Just (toString errorMessage) }
 
 
 updateFilter : String -> Model -> Model

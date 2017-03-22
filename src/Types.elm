@@ -12,6 +12,7 @@ type alias Model =
     , chosenStop : Maybe Stop
     , departures : List Departure
     , now : Maybe Date
+    , errorMessage : Maybe String
     }
 
 
