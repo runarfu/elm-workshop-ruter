@@ -12,7 +12,14 @@ import RuterAPI exposing (..)
 
 view : Model -> Html Msg
 view model =
-    div [ style [ ( "width", "100%" ), ( "overflow", "hidden" ) ] ]
+    div
+        [ style
+            [ ( "width", "100%" )
+            , ( "overflow", "hidden" )
+            , ( "margin-left", "1em" )
+            , ( "margin-right", "1em" )
+            ]
+        ]
         [ header model
         , viewErrorMessageIfPresent model
         , leftColumn model
@@ -158,7 +165,14 @@ viewDepartures model =
 
 inputFilterBox : Html Msg
 inputFilterBox =
-    input [ onInput FilterInput, autofocus True, placeholder "Filtrér" ] []
+    p []
+        [ input
+            [ onInput FilterInput
+            , autofocus True
+            , placeholder "Filtrér"
+            ]
+            []
+        ]
 
 
 viewStops : List Stop -> Html Msg
