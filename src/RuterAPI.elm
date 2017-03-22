@@ -32,6 +32,15 @@ getAllStopsInOslo =
         Http.get url decodeStops
 
 
+getAllStops : Http.Request (List Stop)
+getAllStops =
+    let
+        url =
+            "http://reisapi.ruter.no/place/getstopsruter"
+    in
+        Http.get url decodeStops
+
+
 getDepartures : Stop -> Http.Request (List Departure)
 getDepartures stop =
     let

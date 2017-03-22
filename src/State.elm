@@ -53,7 +53,7 @@ updateChosenStop stop model =
 
 getAllStopsInOslo : Cmd Msg
 getAllStopsInOslo =
-    RuterAPI.getAllStopsInOslo
+    RuterAPI.getAllStops
         |> Http.send StopsResponse
 
 
