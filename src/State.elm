@@ -30,6 +30,7 @@ update msg model =
         ChooseStop stop ->
             model
                 |> updateChosenStop stop
+                |> discardCurrentDepartures
                 |> do (getDepartures stop)
 
         UpdateNow time ->
@@ -55,6 +56,11 @@ updateDepartures model departures =
 updateFilter : String -> Model -> Model
 updateFilter input model =
     { model | nameFilter = input }
+
+
+discardCurrentDepartures : Model -> Model
+discardCurrentDepartures model =
+    { model | departures = [] }
 
 
 updateChosenStop : Stop -> Model -> Model
