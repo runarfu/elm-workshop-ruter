@@ -59,24 +59,39 @@ viewChosenStop maybeStop =
             div [] []
 
 
-timeDeltaInMinutes : Maybe Date -> Date -> String
-timeDeltaInMinutes maybeNow arrivalTime =
+formatTimedelta : Maybe Date -> Date -> String
+formatTimedelta maybeNow arrivalTime =
     case maybeNow of
         Just now ->
             let
-                time1 =
-                    Date.toTime now
-
-                time2 =
-                    Date.toTime arrivalTime
-
                 timeDelta =
-                    time2 - time1
+                    Date.toTime arrivalTime - Date.toTime now
+
+                hours =
+                    timeDelta
+                        |> Time.inHours
+                        |> floor
+
+                afterHours =
+                    timeDelta - (toFloat hours * Time.hour)
+
+                minutes =
+                    afterHours
+                        |> Time.inMinutes
+                        |> floor
+
+                afterMinutes =
+                    afterHours - (toFloat minutes * Time.minute)
+
+                seconds =
+                    afterMinutes
+                        |> Time.inSeconds
+                        |> floor
             in
-                timeDelta
-                    |> inMinutes
-                    |> ceiling
-                    |> toString
+                [ hours, minutes, seconds ]
+                    |> List.map toString
+                    |> List.map (String.padLeft 2 '0')
+                    |> String.join ":"
 
         Nothing ->
             "N/A"
@@ -105,7 +120,7 @@ viewDepartures model =
                 [ td [] [ colourBox departure.lineColour ]
                 , td [] [ text departure.lineRef ]
                 , td [] [ text departure.destinationName ]
-                , td [] [ text (timeDeltaInMinutes model.now departure.expectedArrivalTime) ]
+                , td [] [ text (formatTimedelta model.now departure.expectedArrivalTime) ]
                 , td [] [ text (toString departure.expectedArrivalTime) ]
                 ]
     in
