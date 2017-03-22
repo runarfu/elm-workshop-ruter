@@ -13,10 +13,22 @@ import RuterAPI exposing (..)
 view : Model -> Html Msg
 view model =
     div [ style [ ( "width", "100%" ), ( "overflow", "hidden" ) ] ]
-        [ h1 [] [ text "Sanntidsdata fra Ruter" ]
+        [ header model
         , leftColumn model
         , rightColumn model
         ]
+
+
+header : Model -> Html Msg
+header model =
+    let
+        time =
+            model.now
+                |> Maybe.map toString
+                |> Maybe.map ((++) " ")
+                |> Maybe.withDefault ""
+    in
+        h1 [] [ text ("Sanntidsdata fra Ruter" ++ time) ]
 
 
 leftColumn : Model -> Html Msg
