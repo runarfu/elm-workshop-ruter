@@ -20,7 +20,8 @@ type Msg
     | StopsResponse (Result Http.Error (List Stop))
     | ChooseStop Stop
     | DeparturesResponse (Result Http.Error (List Departure))
-    | Tick Time
+    | UpdateNow Time
+    | RefreshDepartures Time
 
 
 

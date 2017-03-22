@@ -20,7 +20,7 @@ update msg model =
             response
                 |> crashIfError
                 |> updateDepartures model
-                |> do (getDeparturesIfStopIsChosen model.chosenStop)
+                |> noCmd
 
         FilterInput input ->
             model
@@ -32,10 +32,14 @@ update msg model =
                 |> updateChosenStop stop
                 |> do (getDepartures stop)
 
-        Tick time ->
+        UpdateNow time ->
             model
                 |> updateNow time
                 |> noCmd
+
+        RefreshDepartures _ ->
+            model
+                |> do (getDeparturesIfStopIsChosen model.chosenStop)
 
 
 updateStops : Model -> List Stop -> Model

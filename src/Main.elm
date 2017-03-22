@@ -29,4 +29,7 @@ initModel =
 
 subscriptions : Model -> Sub Msg
 subscriptions model =
-    every second Tick
+    Sub.batch
+        [ every second UpdateNow
+        , every (10 * second) RefreshDepartures
+        ]
