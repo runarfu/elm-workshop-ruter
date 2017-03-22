@@ -115,6 +115,18 @@ colourBox colour =
 viewDepartures : Model -> Html Msg
 viewDepartures model =
     let
+        headers =
+            if List.length model.departures > 1 then
+                tr []
+                    [ th [] [ text "" ]
+                    , th [] [ text "Linje" ]
+                    , th [] [ text "Destinasjon" ]
+                    , th [] [ text "" ]
+                    , th [] [ text "Avgang" ]
+                    ]
+            else
+                tr [] []
+
         row departure =
             tr []
                 [ td [] [ colourBox departure.lineColour ]
@@ -126,6 +138,7 @@ viewDepartures model =
     in
         model.departures
             |> List.map row
+            |> List.append [ headers ]
             |> table []
 
 
