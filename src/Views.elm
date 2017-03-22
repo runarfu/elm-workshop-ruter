@@ -165,7 +165,10 @@ viewStops : List Stop -> Html Msg
 viewStops stops =
     let
         row stop =
-            div [ onClick (ChooseStop stop) ] [ text stop.name ]
+            div []
+                [ button [ onClick (ChooseStop stop), style [ ( "margin-right", "10px" ) ] ] [ text "🕐" ]
+                , span [] [ text stop.name ]
+                ]
     in
         stops
             |> List.sortBy .name
