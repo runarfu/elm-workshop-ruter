@@ -1,0 +1,248 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "VehicleMode" : 0,
+         "OriginName" : "Grorud T [buss]",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "300409"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "InCongestion" : false,
+         "PublishedLineName" : "62",
+         "VehicleJourneyName" : "100620113",
+         "BlockRef" : "6301",
+         "OriginRef" : "3011941",
+         "DestinationName" : "Ammerud - Huken",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3011941",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "VisitNumber" : 5,
+            "ExpectedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken"
+         },
+         "LineRef" : "62",
+         "OperatorRef" : "Norgesbuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "308051"
+      },
+      "MonitoringRef" : "3011933",
+      "RecordedAtTime" : "2017-03-25T08:20:50.71+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3011933",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:50.71+01:00",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "62",
+         "OperatorRef" : "Norgesbuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "308047",
+         "DestinationName" : "Ammerud - Huken",
+         "OriginRef" : "3011941",
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "VisitNumber" : 5,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "ExpectedArrivalTime" : "2017-03-25T09:18:00+01:00"
+         },
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "100620115",
+         "PublishedLineName" : "62",
+         "BlockRef" : "6302",
+         "TrainBlockPart" : null,
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "DirectionName" : "1",
+         "OriginName" : "Grorud T [buss]",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "300509"
+         }
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "100620117",
+         "PublishedLineName" : "62",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "OriginName" : "Grorud T [buss]",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100620117",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "62",
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+         "VehicleRef" : null,
+         "DestinationName" : "Ammerud - Huken",
+         "OriginRef" : "3011941",
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:50.9741384+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011933"
+   },
+   {
+      "MonitoringRef" : "3011933",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:50.9741384+01:00",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "VehicleJourneyName" : "100620119",
+         "PublishedLineName" : "62",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100620119",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Grorud T [buss]",
+         "OperatorRef" : null,
+         "LineRef" : "62",
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "VehicleRef" : null,
+         "DestinationName" : "Ammerud - Huken",
+         "OriginRef" : "3011941",
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:03:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:03:00+01:00"
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3011933",
+      "RecordedAtTime" : "2017-03-25T08:20:50.9741384+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "VehicleJourneyName" : "100620121",
+         "PublishedLineName" : "62",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100620121"
+         },
+         "OriginName" : "Grorud T [buss]",
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+         "OperatorRef" : null,
+         "LineRef" : "62",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "AimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:18:00+01:00"
+         },
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Ammerud - Huken",
+         "OriginRef" : "3011941"
+      }
+   }
+]

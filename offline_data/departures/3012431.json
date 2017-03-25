@@ -1,0 +1,398 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "602259",
+         "Delay" : "PT0S",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53607"
+         },
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "DirectionRef" : "1",
+         "DestinationRef" : "3010203",
+         "LineRef" : "46",
+         "BlockRef" : "4501",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Nettbuss",
+         "DestinationName" : "Majorstuen",
+         "OriginRef" : "3012445",
+         "PublishedLineName" : "46",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Majorstuen",
+            "DeparturePlatformName" : "A",
+            "AimedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "VisitNumber" : 4,
+            "VehicleAtStop" : false
+         },
+         "VehicleJourneyName" : "900460536",
+         "Monitored" : true,
+         "OriginName" : "Ullerntoppen"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : true,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "A"
+      },
+      "MonitoringRef" : "3012431",
+      "RecordedAtTime" : "2017-03-25T08:22:13.804+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:13.805+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "B",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : true
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "602256",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50207",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "DirectionRef" : "2",
+         "DestinationRef" : "3012445",
+         "LineRef" : "46",
+         "BlockRef" : "4502",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Ullerntoppen",
+         "OriginRef" : "3010203",
+         "OperatorRef" : "Nettbuss",
+         "PublishedLineName" : "46",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "B",
+            "DestinationDisplay" : "Ullerntoppen",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 16,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00"
+         },
+         "VehicleJourneyName" : "900460502",
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : true
+      },
+      "MonitoringRef" : "3012431"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "A",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "602256",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53707"
+         },
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "DirectionRef" : "1",
+         "DestinationRef" : "3010203",
+         "BlockRef" : "4502",
+         "LineRef" : "46",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Majorstuen",
+         "OriginRef" : "3012445",
+         "OperatorRef" : "Nettbuss",
+         "PublishedLineName" : "46",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DeparturePlatformName" : "A",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "VisitNumber" : 4,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "900460537",
+         "OriginName" : "Ullerntoppen",
+         "Monitored" : true
+      },
+      "MonitoringRef" : "3012431",
+      "RecordedAtTime" : "2017-03-25T08:22:13.805+01:00"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "B",
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50307"
+         },
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "602265",
+         "Monitored" : true,
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 16,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Ullerntoppen",
+            "DeparturePlatformName" : "B"
+         },
+         "VehicleJourneyName" : "900460503",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Nettbuss",
+         "DestinationName" : "Ullerntoppen",
+         "OriginRef" : "3010203",
+         "PublishedLineName" : "46",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "46",
+         "BlockRef" : "4601",
+         "DestinationRef" : "3012445"
+      },
+      "MonitoringRef" : "3012431",
+      "RecordedAtTime" : "2017-03-25T08:22:13.805+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:14.1009+01:00",
+      "MonitoringRef" : "3012431",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900460538"
+         },
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "DestinationRef" : "3010203",
+         "LineRef" : "46",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+         "DestinationName" : "Majorstuen",
+         "OriginRef" : "3012445",
+         "OperatorRef" : null,
+         "PublishedLineName" : "46",
+         "OriginAimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DeparturePlatformName" : "A",
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00"
+         },
+         "VehicleJourneyName" : "900460538",
+         "OriginName" : "Ullerntoppen",
+         "Monitored" : false
+      }
+   },
+   {
+      "MonitoringRef" : "3012431",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "900460504",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ullerntoppen",
+            "DeparturePlatformName" : "B",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : false,
+         "DestinationName" : "Ullerntoppen",
+         "PublishedLineName" : "46",
+         "OriginRef" : "3010203",
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+         "DestinationRef" : "3012445",
+         "LineRef" : "46",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900460504"
+         },
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "VehicleRef" : null,
+         "VehicleMode" : 0
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:14.1009+01:00"
+   },
+   {
+      "MonitoringRef" : "3012431",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : true,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900460539"
+         },
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "InCongestion" : false,
+         "OriginName" : "Ullerntoppen",
+         "Monitored" : false,
+         "VehicleJourneyName" : "900460539",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "DeparturePlatformName" : "A",
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "OriginRef" : "3012445",
+         "DestinationName" : "Majorstuen",
+         "PublishedLineName" : "46",
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:23:00+01:00",
+         "BlockRef" : null,
+         "LineRef" : "46",
+         "DestinationRef" : "3010203"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:14.1009+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:14.1009+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:26:00+01:00",
+         "BlockRef" : null,
+         "LineRef" : "46",
+         "DestinationRef" : "3012445",
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : false,
+         "VehicleJourneyName" : "900460505",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "B",
+            "DestinationDisplay" : "Ullerntoppen",
+            "ExpectedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:20:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "OriginRef" : "3010203",
+         "DestinationName" : "Ullerntoppen",
+         "PublishedLineName" : "46",
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900460505"
+         },
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "InCongestion" : false,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null
+      },
+      "MonitoringRef" : "3012431"
+   }
+]

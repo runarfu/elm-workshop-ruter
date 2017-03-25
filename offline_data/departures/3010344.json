@@ -1,0 +1,1371 @@
+[
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "OriginName" : "Skøyen stasjon [buss]",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "BlockRef" : "2005",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "410661",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:20:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:20:00+01:00",
+            "VisitNumber" : 9,
+            "ExpectedArrivalTime" : "2017-03-25T08:20:00+01:00",
+            "DestinationDisplay" : "Galgeberg",
+            "DeparturePlatformName" : "1"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51410"
+         },
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "DestinationName" : "Galgeberg",
+         "VehicleJourneyName" : "200200353",
+         "OriginRef" : "3012501",
+         "DirectionName" : "1",
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DestinationRef" : "3010640"
+      }
+   },
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "OriginName" : "Majorstuen (i Sørkedalsveien)",
+         "OriginAimedDepartureTime" : "2017-03-25T08:22:00+01:00",
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "236010250"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "DestinationDisplay" : "Oslo lufthavn",
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "VisitNumber" : 0
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "FB1",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "2350301",
+         "LineRef" : "3601",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Oslo lufthavn",
+         "OriginRef" : "3010202",
+         "VehicleJourneyName" : "236010250"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "949494",
+         "Deviations" : [],
+         "OccupancyData" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2010",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : true,
+         "Delay" : "PT73S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DestinationRef" : "3012501",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "200200356",
+         "OriginRef" : "3010640",
+         "DestinationName" : "Skøyen",
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T08:27:13+01:00",
+            "DestinationDisplay" : "Skøyen",
+            "VisitNumber" : 15,
+            "AimedArrivalTime" : "2017-03-25T08:26:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:26:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:27:13+01:00",
+            "VehicleAtStop" : false
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51510",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "100686",
+         "DirectionRef" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Galgeberg",
+         "OriginRef" : "3012501",
+         "VehicleJourneyName" : "200200359",
+         "DirectionName" : "1",
+         "DestinationRef" : "3010640",
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "101023",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51610"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "VisitNumber" : 9,
+            "DestinationDisplay" : "Galgeberg",
+            "ExpectedArrivalTime" : "2017-03-25T08:35:00+01:00"
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "2008",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "OriginName" : "Skøyen stasjon [buss]"
+      },
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : true,
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2504",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "25",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "VisitNumber" : 2,
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "57110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : "100543",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "1",
+         "LineRef" : "25",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "2301771",
+         "DirectionName" : "1",
+         "VehicleJourneyName" : "200250151",
+         "OriginRef" : "3010203",
+         "DestinationName" : "Lørenskog stasjon"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   },
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "100696",
+         "DirectionRef" : "2",
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "DestinationDisplay" : "Skøyen",
+            "AimedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "VisitNumber" : 15,
+            "AimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51710",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "200200362",
+         "OriginRef" : "3010640",
+         "DestinationName" : "Skøyen",
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DestinationRef" : "3012501",
+         "DirectionName" : "2",
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : true,
+         "BlockRef" : "2001",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "OriginName" : "Lørenskog stasjon [buss]",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "2505",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "100553",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60410"
+         },
+         "MonitoredCall" : {
+            "VisitNumber" : 50,
+            "AimedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "25",
+         "DestinationName" : "Majorstuen",
+         "OriginRef" : "2301771",
+         "VehicleJourneyName" : "200250250",
+         "DirectionName" : "2",
+         "DestinationRef" : "3010203",
+         "TrainBlockPart" : null,
+         "LineRef" : "25"
+      },
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "200200365",
+         "OriginRef" : "3012501",
+         "DestinationName" : "Galgeberg",
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3010640",
+         "DirectionName" : "1",
+         "VehicleRef" : "100686",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "1",
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "DestinationDisplay" : "Galgeberg",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 9,
+            "DeparturePlatformName" : "1"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51810"
+         },
+         "BlockRef" : "2010",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Skøyen stasjon [buss]",
+         "Monitored" : true
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51910",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:56:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:56:00+01:00",
+            "DestinationDisplay" : "Skøyen",
+            "AimedArrivalTime" : "2017-03-25T08:56:00+01:00",
+            "VisitNumber" : 15
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "DirectionRef" : "2",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "410658",
+         "DirectionName" : "2",
+         "DestinationRef" : "3012501",
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Skøyen",
+         "OriginRef" : "3010640",
+         "VehicleJourneyName" : "200200368",
+         "Monitored" : true,
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "2003"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "2001",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "OriginName" : "Skøyen stasjon [buss]",
+         "DestinationName" : "Galgeberg",
+         "OriginRef" : "3012501",
+         "VehicleJourneyName" : "200200371",
+         "DirectionName" : "1",
+         "DestinationRef" : "3010640",
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "VehicleRef" : "100696",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "52010",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "VisitNumber" : 9,
+            "DestinationDisplay" : "Galgeberg",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "20"
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2505",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : true,
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "25",
+         "DestinationRef" : "2301771",
+         "DirectionName" : "1",
+         "VehicleJourneyName" : "200250154",
+         "OriginRef" : "3010203",
+         "DestinationName" : "Lørenskog stasjon",
+         "PublishedLineName" : "25",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "VisitNumber" : 2
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "57210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "100553",
+         "DirectionRef" : "1"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   },
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3012501",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "200200374",
+         "OriginRef" : "3010640",
+         "DestinationName" : "Skøyen",
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:11:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:11:00+01:00",
+            "DestinationDisplay" : "Skøyen",
+            "ExpectedArrivalTime" : "2017-03-25T09:11:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:11:00+01:00",
+            "VisitNumber" : 15
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "52110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : "410661",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2005",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : true,
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:25.576+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "BlockRef" : "2501",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "OriginName" : "Lørenskog stasjon [buss]",
+         "DestinationName" : "Majorstuen",
+         "VehicleJourneyName" : "200250253",
+         "OriginRef" : "2301771",
+         "DirectionName" : "2",
+         "TrainBlockPart" : null,
+         "LineRef" : "25",
+         "DestinationRef" : "3010203",
+         "VehicleRef" : "410528",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "VisitNumber" : 50,
+            "AimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60510",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "25",
+         "InCongestion" : false
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T09:38:00+01:00",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "OriginName" : "Skøyen stasjon [buss]",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "DestinationRef" : "3010640",
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DirectionName" : null,
+         "OriginRef" : "3012501",
+         "VehicleJourneyName" : "200200377",
+         "DestinationName" : "Galgeberg",
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200377",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Galgeberg",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "949494",
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "PublishedLineName" : "FB1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "236010253",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "DestinationDisplay" : "Oslo lufthavn",
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1"
+         },
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DestinationRef" : "2350301",
+         "LineRef" : "3601",
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "OriginRef" : "3010202",
+         "VehicleJourneyName" : "236010253",
+         "DestinationName" : "Oslo lufthavn",
+         "OriginName" : "Majorstuen (i Sørkedalsveien)",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010640",
+         "VehicleJourneyName" : "200200380",
+         "DestinationName" : "Skøyen",
+         "DestinationRef" : "3012501",
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200200380"
+         },
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Skøyen",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   },
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "OriginAimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:32:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200250157",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00"
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "25",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "2301771",
+         "LineRef" : "25",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Lørenskog stasjon",
+         "OriginRef" : "3010203",
+         "VehicleJourneyName" : "200250157"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "OriginName" : "Skøyen stasjon [buss]",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200383",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Galgeberg",
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00"
+         },
+         "OriginRef" : "3012501",
+         "VehicleJourneyName" : "200200383",
+         "DestinationName" : "Galgeberg",
+         "DestinationRef" : "3010640",
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DirectionName" : null
+      },
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "25",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200250256",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "25",
+         "DestinationRef" : "3010203",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "200250256",
+         "OriginRef" : "2301771",
+         "DestinationName" : "Majorstuen",
+         "OriginName" : "Lørenskog stasjon [buss]",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:49:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012501",
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DirectionName" : null,
+         "OriginRef" : "3010640",
+         "VehicleJourneyName" : "200200386",
+         "DestinationName" : "Skøyen",
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200386",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Skøyen",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00"
+         },
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Skøyen stasjon [buss]",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Galgeberg",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200389",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DestinationRef" : "3010640",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "200200389",
+         "OriginRef" : "3012501",
+         "DestinationName" : "Galgeberg"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DestinationRef" : "3012501",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "200200392",
+         "OriginRef" : "3010640",
+         "DestinationName" : "Skøyen",
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Skøyen",
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200392",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "OriginAimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:02:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200250160"
+         },
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1"
+         },
+         "InCongestion" : false,
+         "PublishedLineName" : "25",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "2301771",
+         "TrainBlockPart" : null,
+         "LineRef" : "25",
+         "DestinationName" : "Lørenskog stasjon",
+         "OriginRef" : "3010203",
+         "VehicleJourneyName" : "200250160"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:23:00+01:00",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Skøyen stasjon [buss]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+         "Delay" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DestinationRef" : "3010640",
+         "DestinationName" : "Galgeberg",
+         "VehicleJourneyName" : "200200395",
+         "OriginRef" : "3012501",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "DestinationDisplay" : "Galgeberg",
+            "DeparturePlatformName" : "1"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200395",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "20",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   },
+   {
+      "MonitoringRef" : "3010344",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "OriginName" : "Galgeberg (i Jordalgata)",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+         "DestinationRef" : "3012501",
+         "TrainBlockPart" : null,
+         "LineRef" : "20",
+         "DirectionName" : null,
+         "OriginRef" : "3010640",
+         "VehicleJourneyName" : "200200398",
+         "DestinationName" : "Skøyen",
+         "InCongestion" : false,
+         "PublishedLineName" : "20",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200398",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Skøyen",
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:38:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+         "Delay" : null,
+         "Monitored" : false,
+         "OriginName" : "Skøyen stasjon [buss]",
+         "DestinationName" : "Galgeberg",
+         "VehicleJourneyName" : "200200401",
+         "OriginRef" : "3012501",
+         "DirectionName" : null,
+         "LineRef" : "20",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3010640",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "DestinationDisplay" : "Galgeberg",
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200200401",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "20",
+         "InCongestion" : false
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:25.7052412+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010344"
+   }
+]

@@ -1,0 +1,200 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "LineRef" : "25",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "57010",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010203",
+         "PublishedLineName" : "25",
+         "VehicleRef" : "410536",
+         "Delay" : "PT135S",
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "VehicleJourneyName" : "200250148",
+         "Monitored" : true,
+         "DestinationName" : "Lørenskog stasjon",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2503",
+         "DirectionName" : "1",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 26,
+            "ExpectedDepartureTime" : "2017-03-25T08:35:15+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "AimedArrivalTime" : "2017-03-25T08:33:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:33:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:35:15+01:00"
+         },
+         "DestinationRef" : "2301771",
+         "OperatorRef" : "Unibuss"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:40.823+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012181"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "25",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "57110"
+         },
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010203",
+         "VehicleRef" : "100543",
+         "PublishedLineName" : "25",
+         "Delay" : "PT0S",
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "VehicleJourneyName" : "200250151",
+         "Monitored" : true,
+         "DestinationName" : "Lørenskog stasjon",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2504",
+         "DirectionName" : "1",
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "VisitNumber" : 26,
+            "ExpectedDepartureTime" : "2017-03-25T09:03:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:03:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:03:00+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "AimedArrivalTime" : "2017-03-25T09:03:00+01:00"
+         },
+         "DestinationRef" : "2301771"
+      },
+      "MonitoringRef" : "3012181",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:40.823+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010203",
+         "PublishedLineName" : "25",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "LineRef" : "25",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200250154"
+         },
+         "TrainBlockPart" : null,
+         "DestinationName" : "Lørenskog stasjon",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:08:00+01:00",
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "AimedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:33:00+01:00"
+         },
+         "DestinationRef" : "2301771",
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : false,
+         "VehicleJourneyName" : "200250154"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:40.7994976+01:00",
+      "MonitoringRef" : "3012181",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3012181",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:40.7994976+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Majorstuen (i Valkyriegata)",
+         "Monitored" : false,
+         "VehicleJourneyName" : "200250157",
+         "OriginAimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Lørenskog stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "DestinationRef" : "2301771",
+         "DestinationName" : "Lørenskog stasjon",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "25",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200250157"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:32:00+01:00",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "25",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3010203"
+      }
+   }
+]

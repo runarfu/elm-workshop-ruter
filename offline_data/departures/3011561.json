@@ -1,0 +1,299 @@
+[
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "302709"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "OriginRef" : "3011547",
+         "VehicleJourneyName" : "100690197",
+         "DirectionName" : "2",
+         "DestinationName" : "Tveita",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:21:00+01:00",
+            "VisitNumber" : 17,
+            "AimedArrivalTime" : "2017-03-25T08:21:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:21:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:21:00+01:00",
+            "DestinationDisplay" : "Tveita",
+            "DeparturePlatformName" : "4",
+            "VehicleAtStop" : false
+         },
+         "InCongestion" : false,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "TrainBlockPart" : null,
+         "VehicleRef" : "308074",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3011521",
+         "OriginName" : "Ole Messelts vei",
+         "BlockRef" : "6901",
+         "DirectionRef" : "2",
+         "LineRef" : "69",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "69"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "4",
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:09.463+01:00",
+      "MonitoringRef" : "3011561"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011547",
+         "VehicleFeatureRef" : "",
+         "OriginName" : "Tveita T (foran senteret)",
+         "DirectionRef" : "1",
+         "BlockRef" : "6901",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "308074",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "69",
+         "LineRef" : "69",
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "OriginRef" : "3011521",
+         "VehicleJourneyName" : "100690147",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300209",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "VisitNumber" : 5,
+            "AimedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Lutvann via Hellerudtoppen",
+            "ExpectedArrivalTime" : "2017-03-25T08:48:00+01:00"
+         },
+         "InCongestion" : false,
+         "DestinationName" : "Lutvann via Hellerudtoppen",
+         "OperatorRef" : "Norgesbuss"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:09.463+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3011561"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:09.463+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "VisitNumber" : 10,
+            "DestinationDisplay" : "Tveita via Hellerudtoppen",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:14:00+01:00"
+         },
+         "DestinationName" : "Tveita via Hellerudtoppen",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "302809",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "OriginRef" : "3011547",
+         "VehicleJourneyName" : "100690199",
+         "LineRef" : "69",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "69",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "308074",
+         "VehicleFeatureRef" : "",
+         "OriginName" : "Ole Messelts vei",
+         "DestinationRef" : "3011521",
+         "DirectionRef" : "2",
+         "BlockRef" : "6901"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011561"
+   },
+   {
+      "MonitoringRef" : "3011561",
+      "RecordedAtTime" : "2017-03-25T08:20:09.754518+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "4",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011521",
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Ole Messelts vei",
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+         "PublishedLineName" : "69",
+         "LineRef" : "69",
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+         "OriginRef" : "3011547",
+         "VehicleJourneyName" : "100690199",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100690199",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DestinationName" : "Tveita",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:21:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Tveita",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "4",
+            "ExpectedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:21:00+01:00"
+         },
+         "OperatorRef" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3011561",
+      "RecordedAtTime" : "2017-03-25T08:20:09.754518+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "69",
+         "PublishedLineName" : "69",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Tveita T (foran senteret)",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3011547",
+         "OperatorRef" : null,
+         "DestinationName" : "Lutvann via Hellerudtoppen",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Lutvann via Hellerudtoppen",
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00"
+         },
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100690149"
+         },
+         "VehicleJourneyName" : "100690149",
+         "OriginRef" : "3011521",
+         "DirectionName" : null,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:09.754518+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Tveita via Hellerudtoppen",
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00"
+         },
+         "InCongestion" : false,
+         "DestinationName" : "Tveita via Hellerudtoppen",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "100690201",
+         "OriginRef" : "3011547",
+         "OriginAimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100690201"
+         },
+         "PublishedLineName" : "69",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "LineRef" : "69",
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "DestinationRef" : "3011521",
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Ole Messelts vei",
+         "VehicleRef" : null,
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011561"
+   }
+]

@@ -1,0 +1,200 @@
+[
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011752",
+      "RecordedAtTime" : "2017-03-25T08:20:37.007+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "308046",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Norgesbuss",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "6502",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:47:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:47:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:47:00+01:00",
+            "DestinationDisplay" : "Stovner",
+            "VisitNumber" : 8,
+            "AimedArrivalTime" : "2017-03-25T08:47:00+01:00"
+         },
+         "DestinationName" : "Stovner",
+         "OriginName" : "Furuset T [buss]",
+         "PublishedLineName" : "65",
+         "Delay" : "PT0S",
+         "LineRef" : "65",
+         "DestinationRef" : "3011721",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "100650287",
+         "OriginRef" : "3011621",
+         "DirectionName" : "1",
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "MonitoringRef" : "3011752",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:37.007+01:00",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "65",
+         "OriginName" : "Furuset T [buss]",
+         "DestinationName" : "Stovner",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "VisitNumber" : 8,
+            "DestinationDisplay" : "Stovner",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:17:00+01:00"
+         },
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "BlockRef" : "6501",
+         "VehicleRef" : "308071",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300509",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "Norgesbuss",
+         "VehicleJourneyName" : "100650289",
+         "DirectionName" : "1",
+         "OriginRef" : "3011621",
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3011721",
+         "Delay" : "PT0S",
+         "LineRef" : "65"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+         "VehicleJourneyName" : "100650291",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3011621",
+         "DirectionName" : null,
+         "Delay" : null,
+         "LineRef" : "65",
+         "DestinationRef" : "3011721",
+         "PublishedLineName" : "65",
+         "OriginName" : "Furuset T [buss]",
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100650291"
+         },
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "DestinationName" : "Stovner",
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Stovner",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:47:00+01:00"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:37.2551006+01:00",
+      "MonitoringRef" : "3011752",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:37.2551006+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:08:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100650293",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "DestinationDisplay" : "Stovner",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DestinationName" : "Stovner",
+         "OriginName" : "Furuset T [buss]",
+         "PublishedLineName" : "65",
+         "Delay" : null,
+         "LineRef" : "65",
+         "DestinationRef" : "3011721",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:25:00+01:00",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011621",
+         "VehicleJourneyName" : "100650293",
+         "DirectionName" : null,
+         "TrainBlockPart" : null
+      },
+      "MonitoringRef" : "3011752",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      }
+   }
+]

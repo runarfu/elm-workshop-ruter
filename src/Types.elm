@@ -1,25 +1,30 @@
 module Types exposing (..)
 
-import RuterAPI exposing (..)
 import Http
-import Time exposing (Time)
 import Date exposing (Date)
+import Time exposing (Time)
+import RuterAPI exposing (..)
 
 
-type Model
-    = Initialized
-    | ChoosingStops { stopFilter : String, availableStops : List Stop }
-    | ChosenStop { chosenStop : Stop, departures : List Departure, now : Maybe Date }
-    | Crashed { errorMessage : String }
-
-
-type alias HttpResponse a =
-    Result Http.Error a
+type alias Model =
+    { nameFilter : String
+    , stops : List Stop
+    , chosenStop : Maybe Stop
+    , departures : List Departure
+    , now : Maybe Date
+    , errorMessage : Maybe String
+    }
 
 
 type Msg
-    = StopFilterInput String
+    = FilterInput String
+    | StopsResponse (Result Http.Error (List Stop))
     | ChooseStop Stop
-    | StopsResponse (HttpResponse (List Stop))
-    | DeparturesResponse (HttpResponse (List Departure))
-    | Tick Time
+    | DeparturesResponse (Result Http.Error (List Departure))
+    | UpdateNow Time
+    | RefreshDepartures Time
+
+
+
+-- TODO DeparturesResponse burde prefikses med stopp-id, slik at
+-- responser som ikke matcher valgt stopp-id (gamle requester) kan forkastes

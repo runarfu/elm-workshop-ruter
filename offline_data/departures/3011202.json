@@ -1,0 +1,101 @@
+[
+   {
+      "MonitoringRef" : "3011202",
+      "RecordedAtTime" : "2017-03-25T08:19:17.603+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "DepartureNamePreMapping" : "C"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "OriginRef" : "3010619",
+         "DirectionRef" : "2",
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "550",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:07:00+01:00",
+            "DestinationDisplay" : "Lillestrøm",
+            "AimedDepartureTime" : "2017-03-25T09:07:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 6,
+            "ExpectedArrivalTime" : "2017-03-25T09:07:00+01:00",
+            "DeparturePlatformName" : "C",
+            "AimedArrivalTime" : "2017-03-25T09:07:00+01:00"
+         },
+         "VehicleFeatureRef" : "",
+         "OriginName" : "Oslo Bussterminal",
+         "VehicleRef" : "731004",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "33310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "Nobina",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Lillestrøm",
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "LineRef" : "550",
+         "DestinationRef" : "2310301",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "5500333",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "55001"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "2310301",
+         "LineRef" : "550",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "5500337",
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "Monitored" : false,
+         "OriginRef" : "3010619",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "550",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "DeparturePlatformName" : "C",
+            "ExpectedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Lillestrøm",
+            "AimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:07:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5500337",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:50:00+01:00",
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Lillestrøm"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : true,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:17.5341035+01:00",
+      "MonitoringRef" : "3011202"
+   }
+]

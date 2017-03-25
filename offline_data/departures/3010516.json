@@ -1,0 +1,1343 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "Delay" : "PT311S",
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:19:11+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:14:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 20,
+            "ExpectedArrivalTime" : "2017-03-25T08:19:11+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:14:00+01:00",
+            "DestinationDisplay" : "Aker brygge"
+         },
+         "VehicleRef" : "103028",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "200540253",
+         "LineRef" : "54",
+         "DestinationName" : "Aker brygge",
+         "PublishedLineName" : "54",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010090",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50910",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3012161",
+         "BlockRef" : "5407",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:22:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:23:50+01:00",
+            "VisitNumber" : 8,
+            "ExpectedArrivalTime" : "2017-03-25T08:23:50+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:22:00+01:00",
+            "DestinationDisplay" : "Kjelsås stasjon"
+         },
+         "VehicleRef" : "103030",
+         "Delay" : "PT110S",
+         "OriginName" : "Bryggetorget",
+         "OperatorRef" : "Unibuss",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "54",
+         "DestinationName" : "Kjelsås stasjon",
+         "VehicleJourneyName" : "200540256",
+         "DirectionRef" : "2",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "54",
+         "DestinationRef" : "3012161",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "BlockRef" : "5405",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51010"
+         },
+         "OriginRef" : "3010090"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010760",
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "BlockRef" : "3403",
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50510"
+         },
+         "OriginRef" : "3012231",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ekeberg hageby",
+            "AimedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:30:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:30:00+01:00",
+            "VisitNumber" : 11,
+            "VehicleAtStop" : false
+         },
+         "VehicleRef" : "100558",
+         "OperatorRef" : "Unibuss",
+         "Delay" : "PT0S",
+         "OriginName" : "Tåsen senter",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "VehicleJourneyName" : "200340194",
+         "DirectionRef" : "1"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "3401",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50610"
+         },
+         "DirectionName" : "2",
+         "OriginRef" : "3010760",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3012231",
+         "LineRef" : "34",
+         "DestinationName" : "Tåsen",
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "200340197",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:37:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:37:00+01:00",
+            "DestinationDisplay" : "Tåsen",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 15,
+            "ExpectedDepartureTime" : "2017-03-25T08:37:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:37:00+01:00"
+         },
+         "VehicleRef" : "410534",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "OriginName" : "Simensbråten",
+         "OperatorRef" : "Unibuss"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010090",
+         "PublishedLineName" : "54",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "OriginRef" : "3012161",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "1",
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "BlockRef" : "5401",
+         "Delay" : "PT0S",
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "OperatorRef" : "Unibuss",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "VehicleRef" : "103008",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 20,
+            "ExpectedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "DestinationDisplay" : "Aker brygge"
+         },
+         "VehicleJourneyName" : "200540259",
+         "DirectionRef" : "1",
+         "DestinationName" : "Aker brygge",
+         "LineRef" : "54"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010090",
+         "DirectionName" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "BlockRef" : "5407",
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "54",
+         "DestinationRef" : "3012161",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200540262",
+         "DirectionRef" : "2",
+         "DestinationName" : "Kjelsås stasjon",
+         "LineRef" : "54",
+         "Delay" : "PT0S",
+         "OriginName" : "Bryggetorget",
+         "OperatorRef" : "Unibuss",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "VehicleRef" : "103028",
+         "MonitoredCall" : {
+            "VisitNumber" : 8,
+            "AimedArrivalTime" : "2017-03-25T08:52:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:52:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Kjelsås stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T08:52:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:52:00+01:00"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00",
+      "MonitoringRef" : "3010516",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 11,
+            "AimedArrivalTime" : "2017-03-25T08:59:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:59:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:59:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:59:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby"
+         },
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : false,
+         "OriginName" : "Tåsen senter",
+         "Delay" : "PT0S",
+         "OperatorRef" : "Unibuss",
+         "LineRef" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "200340200",
+         "InCongestion" : false,
+         "PublishedLineName" : "34",
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010760",
+         "BlockRef" : "3405",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50710",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "1",
+         "OriginRef" : "3012231"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "VisitNumber" : 20,
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Aker brygge",
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00"
+         },
+         "VehicleRef" : null,
+         "Delay" : "PT0S",
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "OperatorRef" : "Unibuss",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "54",
+         "DestinationName" : "Aker brygge",
+         "VehicleJourneyName" : "200540265",
+         "DirectionRef" : "1",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "54",
+         "DestinationRef" : "3010090",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "BlockRef" : "5403",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "1",
+         "OriginRef" : "3012161"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.28+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.281+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Simensbråten",
+         "Delay" : "PT0S",
+         "OperatorRef" : "Unibuss",
+         "VehicleRef" : "100558",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Tåsen",
+            "ExpectedArrivalTime" : "2017-03-25T09:07:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:07:00+01:00",
+            "VisitNumber" : 15,
+            "AimedArrivalTime" : "2017-03-25T09:07:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:07:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "200340203",
+         "DestinationName" : "Tåsen",
+         "LineRef" : "34",
+         "DestinationRef" : "3012231",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "OriginRef" : "3010760",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50810",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "2",
+         "TrainBlockPart" : null,
+         "BlockRef" : "3403",
+         "VehicleMode" : 0
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010760",
+         "TrainBlockPart" : null,
+         "BlockRef" : "3401",
+         "VehicleMode" : 0,
+         "OriginRef" : "3012231",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50910"
+         },
+         "DirectionName" : "1",
+         "VehicleRef" : "410534",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 11,
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby"
+         },
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "OriginName" : "Tåsen senter",
+         "OperatorRef" : "Unibuss",
+         "DestinationName" : "Ekeberg hageby",
+         "LineRef" : "34",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "200340206"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.281+01:00"
+   },
+   {
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "OriginRef" : "3012161",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200540268"
+         },
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "DestinationRef" : "3010090",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "54",
+         "OriginAimedDepartureTime" : "2017-03-25T08:59:00+01:00",
+         "DestinationName" : "Aker brygge",
+         "LineRef" : "54",
+         "VehicleJourneyName" : "200540268",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:21:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:21:00+01:00",
+            "DestinationDisplay" : "Aker brygge"
+         },
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:37:00+01:00"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ]
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010090",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200540271"
+         },
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3012161",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "54",
+         "OriginAimedDepartureTime" : "2017-03-25T09:08:00+01:00",
+         "InCongestion" : false,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200540271",
+         "DestinationName" : "Kjelsås stasjon",
+         "LineRef" : "54",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Bryggetorget",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Kjelsås stasjon",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0
+         }
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200340212",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:29:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:29:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ekeberg hageby",
+            "AimedDepartureTime" : "2017-03-25T09:29:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:29:00+01:00"
+         },
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:49:00+01:00",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginName" : "Tåsen senter",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340212"
+         },
+         "DirectionName" : null,
+         "OriginRef" : "3012231",
+         "InCongestion" : false,
+         "DestinationRef" : "3010760",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "2017-03-25T09:18:00+01:00"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Tåsen"
+         },
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+         "Delay" : null,
+         "OriginName" : "Simensbråten",
+         "OperatorRef" : null,
+         "LineRef" : "34",
+         "DestinationName" : "Tåsen",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200340209",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "DestinationRef" : "3012231",
+         "PublishedLineName" : "34",
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340209"
+         },
+         "DirectionName" : null,
+         "OriginRef" : "3010760"
+      }
+   },
+   {
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "PublishedLineName" : "54",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+         "DestinationRef" : "3010090",
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3012161",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200540274"
+         },
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Aker brygge",
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00"
+         },
+         "Delay" : null,
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "DestinationName" : "Aker brygge",
+         "LineRef" : "54",
+         "VehicleJourneyName" : "200540274",
+         "DirectionRef" : null
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Kjelsås stasjon",
+         "LineRef" : "54",
+         "VehicleJourneyName" : "200540277",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kjelsås stasjon",
+            "AimedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "OriginName" : "Bryggetorget",
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010090",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200540277"
+         },
+         "InCongestion" : false,
+         "DestinationRef" : "3012161",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "54",
+         "OriginAimedDepartureTime" : "2017-03-25T09:23:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "DestinationRef" : "3010760",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340218"
+         },
+         "OriginRef" : "3012231",
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginName" : "Tåsen senter",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:44:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:44:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby"
+         },
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200340218",
+         "LineRef" : "34",
+         "DestinationName" : "Ekeberg hageby"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3012231",
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200340215",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3010760",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Simensbråten",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Tåsen",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00"
+         },
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200340215",
+         "LineRef" : "34",
+         "DestinationName" : "Tåsen"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Aker brygge",
+            "ExpectedArrivalTime" : "2017-03-25T09:51:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:51:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "OperatorRef" : null,
+         "LineRef" : "54",
+         "DestinationName" : "Aker brygge",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200540280",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:29:00+01:00",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "54",
+         "DestinationRef" : "3010090",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200540280",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "OriginRef" : "3012161"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Bryggetorget",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "DestinationDisplay" : "Kjelsås stasjon"
+         },
+         "VehicleJourneyName" : "200540283",
+         "DirectionRef" : null,
+         "DestinationName" : "Kjelsås stasjon",
+         "LineRef" : "54",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "54",
+         "OriginAimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+         "DestinationRef" : "3012161",
+         "InCongestion" : false,
+         "OriginRef" : "3010090",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200540283",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "BlockRef" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010516",
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:59:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:59:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:59:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+            "VisitNumber" : 0
+         },
+         "Delay" : null,
+         "OriginName" : "Tåsen senter",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:19:00+01:00",
+         "DestinationName" : "Ekeberg hageby",
+         "LineRef" : "34",
+         "VehicleJourneyName" : "200340224",
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "DestinationRef" : "3010760",
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "OriginRef" : "3012231",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340224"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "OriginRef" : "3010760",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200340221",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3012231",
+         "PublishedLineName" : "34",
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "DestinationName" : "Tåsen",
+         "LineRef" : "34",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200340221",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Tåsen"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:13:00+01:00",
+         "Monitored" : false,
+         "OriginName" : "Simensbråten",
+         "Delay" : null,
+         "OperatorRef" : null
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            }
+         ]
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "DestinationDisplay" : "Aker brygge"
+         },
+         "Delay" : null,
+         "OriginName" : "Kjelsås stasjon [buss]",
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+         "Monitored" : false,
+         "DestinationName" : "Aker brygge",
+         "LineRef" : "54",
+         "VehicleJourneyName" : "200540286",
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "DestinationRef" : "3010090",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:44:00+01:00",
+         "PublishedLineName" : "54",
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3012161",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200540286",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "OriginRef" : "3010090",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200540289"
+         },
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "54",
+         "DestinationRef" : "3012161",
+         "DestinationName" : "Kjelsås stasjon",
+         "LineRef" : "54",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200540289",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "DestinationDisplay" : "Kjelsås stasjon",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0
+         },
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:29:00+01:00",
+         "Delay" : null,
+         "OriginName" : "Bryggetorget",
+         "OperatorRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340230"
+         },
+         "OriginRef" : "3012231",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "PublishedLineName" : "34",
+         "DestinationRef" : "3010760",
+         "LineRef" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200340230",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby"
+         },
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:34:00+01:00",
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginName" : "Tåsen senter",
+         "OperatorRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.642112+01:00",
+      "MonitoringRef" : "3010516"
+   }
+]

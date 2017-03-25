@@ -1,0 +1,248 @@
+[
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3011941",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "308051",
+         "Delay" : "PT0S",
+         "LineRef" : "63",
+         "OperatorRef" : "Norgesbuss",
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:38:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Grorud T",
+            "AimedArrivalTime" : "2017-03-25T08:38:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:38:00+01:00",
+            "VisitNumber" : 9,
+            "ExpectedArrivalTime" : "2017-03-25T08:38:00+01:00"
+         },
+         "InCongestion" : false,
+         "DirectionRef" : "1",
+         "DestinationName" : "Grorud T",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "100630137",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300809",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Grorud T [buss]",
+         "DirectionName" : "1",
+         "DestinationRef" : "3011941",
+         "BlockRef" : "6301",
+         "PublishedLineName" : "63",
+         "VehicleFeatureRef" : ""
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:44.939+01:00",
+      "MonitoringRef" : "3011827",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   },
+   {
+      "MonitoringRef" : "3011827",
+      "RecordedAtTime" : "2017-03-25T08:20:44.939+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Norgesbuss",
+         "LineRef" : "63",
+         "Monitored" : true,
+         "OriginRef" : "3011941",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "VehicleRef" : "308047",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100630139",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:08:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:08:00+01:00",
+            "VisitNumber" : 9,
+            "DestinationDisplay" : "Grorud T",
+            "AimedArrivalTime" : "2017-03-25T09:08:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:08:00+01:00"
+         },
+         "DirectionRef" : "1",
+         "DestinationName" : "Grorud T",
+         "OriginName" : "Grorud T [buss]",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "300909"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "63",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3011941",
+         "BlockRef" : "6302"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "100630141",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+         "DestinationName" : "Grorud T",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:38:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:38:00+01:00",
+            "DestinationDisplay" : "Grorud T",
+            "AimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:38:00+01:00"
+         },
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "LineRef" : "63",
+         "Delay" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3011941",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+         "PublishedLineName" : "63",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "DestinationRef" : "3011941",
+         "DirectionName" : null,
+         "OriginName" : "Grorud T [buss]",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100630141",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null
+      },
+      "MonitoringRef" : "3011827",
+      "RecordedAtTime" : "2017-03-25T08:20:44.9556336+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "63",
+         "BlockRef" : null,
+         "DestinationRef" : "3011941",
+         "OriginName" : "Grorud T [buss]",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100630143",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "100630143",
+         "OriginAimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+         "DestinationName" : "Grorud T",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "DestinationDisplay" : "Grorud T",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:53:00+01:00"
+         },
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "LineRef" : "63",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:57:00+01:00"
+      },
+      "MonitoringRef" : "3011827",
+      "RecordedAtTime" : "2017-03-25T08:20:44.9556336+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "63",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3011941",
+         "BlockRef" : null,
+         "OriginName" : "Grorud T [buss]",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100630145",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "100630145",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:08:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:08:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+            "DestinationDisplay" : "Grorud T",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:08:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false
+         },
+         "InCongestion" : false,
+         "DirectionRef" : null,
+         "DestinationName" : "Grorud T",
+         "OperatorRef" : null,
+         "LineRef" : "63",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "OriginRef" : "3011941",
+         "Delay" : null,
+         "VehicleRef" : null
+      },
+      "MonitoringRef" : "3011827",
+      "RecordedAtTime" : "2017-03-25T08:20:44.9556336+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   }
+]

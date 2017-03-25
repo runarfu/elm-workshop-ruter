@@ -1,0 +1,542 @@
+[
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3012660",
+         "OriginRef" : "3012135",
+         "VehicleJourneyName" : "100560203",
+         "DirectionName" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Tamburveien",
+         "TrainBlockPart" : null,
+         "LineRef" : "56",
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleRef" : "308040",
+         "InCongestion" : false,
+         "DestinationName" : "Solemskogen",
+         "BlockRef" : "5602",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300209",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : "1",
+         "PublishedLineName" : "56",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:32:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:32:00+01:00",
+            "VisitNumber" : 7,
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:32:00+01:00",
+            "DestinationDisplay" : "Solemskogen",
+            "ExpectedArrivalTime" : "2017-03-25T08:32:00+01:00"
+         },
+         "Monitored" : true
+      },
+      "MonitoringRef" : "3012142",
+      "RecordedAtTime" : "2017-03-25T08:21:31.599+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:31.599+01:00",
+      "MonitoringRef" : "3012142",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "PublishedLineName" : "56",
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "VisitNumber" : 16,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:32:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:32:00+01:00",
+            "DestinationDisplay" : "Nydalen",
+            "ExpectedArrivalTime" : "2017-03-25T08:32:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:32:00+01:00"
+         },
+         "VehicleRef" : "308072",
+         "InCongestion" : false,
+         "DestinationName" : "Nydalen",
+         "OperatorRef" : "Norgesbuss",
+         "BlockRef" : "5601",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "303609",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "56",
+         "Delay" : "PT0S",
+         "VehicleMode" : 0,
+         "OriginRef" : "3012660",
+         "DestinationRef" : "3012135",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "100560271",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Solemskogen"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:31.599+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300309",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "5601",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleRef" : "308072",
+         "DestinationName" : "Solemskogen",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:02:00+01:00",
+            "DestinationDisplay" : "Solemskogen",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:02:00+01:00",
+            "VisitNumber" : 7,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:02:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:02:00+01:00"
+         },
+         "PublishedLineName" : "56",
+         "DirectionRef" : "1",
+         "OriginName" : "Tamburveien",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "100560205",
+         "DirectionName" : "1",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3012135",
+         "DestinationRef" : "3012660",
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "LineRef" : "56"
+      },
+      "MonitoringRef" : "3012142",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:31.599+01:00",
+      "MonitoringRef" : "3012142",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "303709",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "5602",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "308040",
+         "InCongestion" : false,
+         "DestinationName" : "Nydalen",
+         "OperatorRef" : "Norgesbuss",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:02:00+01:00",
+            "DestinationDisplay" : "Nydalen",
+            "AimedArrivalTime" : "2017-03-25T09:02:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 16,
+            "AimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:02:00+01:00"
+         },
+         "Monitored" : true,
+         "PublishedLineName" : "56",
+         "DirectionRef" : "2",
+         "TrainBlockPart" : null,
+         "OriginName" : "Solemskogen",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "100560273",
+         "OriginRef" : "3012660",
+         "DestinationRef" : "3012135",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "VehicleMode" : 0,
+         "LineRef" : "56"
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3012142",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VisitNumber" : 7,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "DestinationDisplay" : "Solemskogen",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:17:00+01:00"
+         },
+         "Monitored" : false,
+         "PublishedLineName" : "56",
+         "DirectionRef" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "306909",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "5611",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Norgesbuss",
+         "DestinationName" : "Solemskogen",
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "LineRef" : "56",
+         "OriginName" : "Tamburveien",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "100560337",
+         "DirectionName" : "1",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3012660",
+         "OriginRef" : "3012135"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:31.599+01:00"
+   },
+   {
+      "MonitoringRef" : "3012142",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "56",
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "VehicleJourneyName" : "100560207",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3012660",
+         "OriginRef" : "3012135",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+         "OriginName" : "Tamburveien",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "DestinationDisplay" : "Solemskogen",
+            "AimedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Monitored" : false,
+         "PublishedLineName" : "56",
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Solemskogen",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100560207",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:31.6900993+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "VehicleJourneyName" : "100560275",
+         "OriginRef" : "3012660",
+         "DestinationRef" : "3012135",
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Solemskogen",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:38:00+01:00",
+         "LineRef" : "56",
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+         "BlockRef" : null,
+         "DestinationName" : "Nydalen",
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100560275"
+         },
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "DestinationDisplay" : "Nydalen"
+         },
+         "Monitored" : false,
+         "PublishedLineName" : "56"
+      },
+      "MonitoringRef" : "3012142",
+      "RecordedAtTime" : "2017-03-25T08:21:31.6900993+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012142",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "DestinationDisplay" : "Solemskogen"
+         },
+         "Monitored" : false,
+         "PublishedLineName" : "56",
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100560338",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Solemskogen",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "LineRef" : "56",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "OriginName" : "Tamburveien",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "100560338",
+         "OriginRef" : "3012135",
+         "DestinationRef" : "3012660",
+         "VehicleFeatureRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:31.6900993+01:00"
+   },
+   {
+      "MonitoringRef" : "3012142",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Tamburveien",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:13:00+01:00",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "100560209",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3012135",
+         "DestinationRef" : "3012660",
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "LineRef" : "56",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100560209",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "DestinationName" : "Solemskogen",
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Solemskogen",
+            "ExpectedArrivalTime" : "2017-03-25T10:02:00+01:00"
+         },
+         "PublishedLineName" : "56",
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:31.6900993+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:31.6900993+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3012660",
+         "DestinationRef" : "3012135",
+         "VehicleJourneyName" : "100560277",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "OriginName" : "Solemskogen",
+         "TrainBlockPart" : null,
+         "LineRef" : "56",
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "OperatorRef" : null,
+         "DestinationName" : "Nydalen",
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100560277"
+         },
+         "DirectionRef" : null,
+         "PublishedLineName" : "56",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Nydalen",
+            "ExpectedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0
+         },
+         "Monitored" : false
+      },
+      "MonitoringRef" : "3012142",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100560339",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Solemskogen",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Solemskogen",
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00"
+         },
+         "Monitored" : false,
+         "PublishedLineName" : "56",
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:28:00+01:00",
+         "OriginName" : "Tamburveien",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "100560339",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3012660",
+         "OriginRef" : "3012135",
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "LineRef" : "56"
+      },
+      "MonitoringRef" : "3012142",
+      "RecordedAtTime" : "2017-03-25T08:21:31.6900993+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   }
+]

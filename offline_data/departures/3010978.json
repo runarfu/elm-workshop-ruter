@@ -1,0 +1,98 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200720062",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "72",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+         "DestinationRef" : "3010980",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010951",
+         "BlockRef" : null,
+         "PublishedLineName" : "72A",
+         "Delay" : null,
+         "DestinationName" : "Dal",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200720062",
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Mortensrud T [buss]",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "DestinationDisplay" : "Dal",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0
+         }
+      },
+      "MonitoringRef" : "3010978",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:58.7842693+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:58.7842693+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010978",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010980",
+         "BlockRef" : null,
+         "PublishedLineName" : "72A",
+         "Delay" : null,
+         "DestinationName" : "Mortensrud",
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "200720113",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Lille Dal",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Mortensrud",
+            "ExpectedArrivalTime" : "2017-03-25T09:55:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200720113"
+         },
+         "Monitored" : false,
+         "LineRef" : "72",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "DestinationRef" : "3010951",
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null
+      }
+   }
+]

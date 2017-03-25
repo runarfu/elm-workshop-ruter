@@ -1,0 +1,1532 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "VehicleRef" : "348854",
+         "VehicleJourneyName" : "403010607",
+         "PublishedLineName" : "301",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60704"
+         },
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 49,
+            "ExpectedDepartureTime" : "2017-03-25T08:25:12+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:25:12+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "OperatorRef" : "Norgesbuss",
+         "DestinationName" : "Oslo bussterminal",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginRef" : "2330180",
+         "OriginName" : "Kongskog",
+         "DestinationRef" : "3010618",
+         "Delay" : "PT72S",
+         "LineRef" : "301",
+         "BlockRef" : "30105",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "F",
+         "LineColour" : "76A300"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.773+01:00",
+      "MonitoringRef" : "3012104"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "F",
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.773+01:00",
+      "MonitoringRef" : "3012104",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Norgesbuss",
+         "DestinationName" : "Nydalen",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Nydalen",
+            "AimedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "VisitNumber" : 18,
+            "ExpectedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "VehicleRef" : "308045",
+         "VehicleJourneyName" : "100580229",
+         "PublishedLineName" : "58",
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "303009",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "5803",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Tveita T (foran senteret)",
+         "OriginRef" : "3011521",
+         "LineRef" : "58",
+         "DestinationRef" : "3012135",
+         "Delay" : "PT0S"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "F",
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.773+01:00",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "31",
+         "Delay" : "PT0S",
+         "DestinationRef" : "2190017",
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "3121",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60409"
+         },
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310464",
+         "VehicleRef" : "741287",
+         "DirectionRef" : "2",
+         "DestinationName" : "Fornebu",
+         "OperatorRef" : "Nobina",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Fornebu",
+            "AimedDepartureTime" : "2017-03-25T08:29:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:29:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:29:00+01:00",
+            "VisitNumber" : 8,
+            "AimedArrivalTime" : "2017-03-25T08:29:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Snarøya",
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "VisitNumber" : 16,
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "OperatorRef" : "Nobina",
+         "DestinationName" : "Snarøya",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "53409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "DirectionRef" : "2",
+         "VehicleRef" : "741301",
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310394",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3104",
+         "DestinationRef" : "2190030",
+         "Delay" : "PT0S",
+         "LineRef" : "31",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "F"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.773+01:00",
+      "MonitoringRef" : "3012104"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:42:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "F",
+            "ExpectedArrivalTime" : "2017-03-25T08:45:00.198+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:45:00.198+01:00",
+            "VisitNumber" : 38,
+            "AimedArrivalTime" : "2017-03-25T08:42:00+01:00"
+         },
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60304"
+         },
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "403210603",
+         "PublishedLineName" : "321",
+         "VehicleRef" : "441649",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "BlockRef" : "32103",
+         "Delay" : "PT180S",
+         "DestinationRef" : "3010618",
+         "LineRef" : "321",
+         "OriginRef" : "2310301",
+         "OriginName" : "Lillestrøm terminal",
+         "TrainBlockPart" : null,
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "F"
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "F",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "DestinationDisplay" : "Fornebu",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "VisitNumber" : 8,
+            "AimedArrivalTime" : "2017-03-25T08:46:00+01:00"
+         },
+         "OperatorRef" : "Nobina",
+         "DestinationName" : "Fornebu",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60509",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DirectionRef" : "2",
+         "VehicleRef" : "741290",
+         "VehicleJourneyName" : "500310465",
+         "PublishedLineName" : "31",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3123",
+         "DestinationRef" : "2190017",
+         "Delay" : "PT0S",
+         "LineRef" : "31",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "F",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ]
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nobina",
+         "DestinationName" : "Snarøya",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:56:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:56:00+01:00",
+            "VisitNumber" : 16,
+            "ExpectedArrivalTime" : "2017-03-25T08:56:00+01:00"
+         },
+         "VehicleRef" : "741260",
+         "VehicleJourneyName" : "500310395",
+         "PublishedLineName" : "31",
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "53509",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "3105",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941",
+         "LineRef" : "31",
+         "DestinationRef" : "2190030",
+         "Delay" : "PT0S"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT130S",
+         "DestinationRef" : "3010618",
+         "LineRef" : "301",
+         "OriginName" : "Hellerudhaugen",
+         "OriginRef" : "2330220",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "BlockRef" : "30101",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60904",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "403010609",
+         "PublishedLineName" : "301",
+         "VehicleRef" : "348861",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:56:10+01:00",
+            "VisitNumber" : 50,
+            "ExpectedDepartureTime" : "2017-03-25T08:56:10+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00"
+         },
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "IsHub" : true,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "F"
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "5802",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "OriginRef" : "3011521",
+         "OriginName" : "Tveita T (foran senteret)",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "DestinationRef" : "3012135",
+         "LineRef" : "58",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "F",
+            "AimedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "VisitNumber" : 18,
+            "AimedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "DestinationDisplay" : "Nydalen"
+         },
+         "DestinationName" : "Nydalen",
+         "OperatorRef" : "Norgesbuss",
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "100580231",
+         "PublishedLineName" : "58",
+         "VehicleRef" : "308029",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "303109",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "F",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "IsHub" : true
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "F",
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "MonitoringRef" : "3012104",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 16,
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Snarøya"
+         },
+         "OperatorRef" : "Nobina",
+         "DestinationName" : "Snarøya",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53609"
+         },
+         "Monitored" : false,
+         "DirectionRef" : "2",
+         "VehicleRef" : null,
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310396",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3106",
+         "DestinationRef" : "2190030",
+         "Delay" : "PT0S",
+         "LineRef" : "31",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "DestinationName" : "Oslo bussterminal",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "VisitNumber" : 38,
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00"
+         },
+         "VehicleRef" : null,
+         "PublishedLineName" : "321",
+         "VehicleJourneyName" : "403210605",
+         "DirectionRef" : "1",
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60504"
+         },
+         "BlockRef" : "32104",
+         "DirectionName" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginRef" : "2310301",
+         "OriginName" : "Lillestrøm terminal",
+         "LineRef" : "321",
+         "DestinationRef" : "3010618",
+         "Delay" : "PT0S"
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "Extensions" : {
+         "IsHub" : true,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "F",
+         "LineColour" : "76A300"
+      }
+   },
+   {
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "Extensions" : {
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "F",
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "31",
+         "Delay" : "PT0S",
+         "DestinationRef" : "2190017",
+         "OriginName" : "Tonsenhagen",
+         "OriginRef" : "3012070",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "3115",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60609"
+         },
+         "VehicleJourneyName" : "500310466",
+         "PublishedLineName" : "31",
+         "VehicleRef" : "741297",
+         "DirectionRef" : "2",
+         "DestinationName" : "Fornebu",
+         "OperatorRef" : "Nobina",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "VisitNumber" : 8,
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Fornebu",
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00"
+         },
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:23.774+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "F",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "3107",
+         "LineRef" : "31",
+         "Delay" : "PT0S",
+         "DestinationRef" : "2190030",
+         "OriginRef" : "3011941",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Snarøya",
+         "OperatorRef" : "Nobina",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Snarøya",
+            "AimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "VisitNumber" : 16,
+            "ExpectedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53709"
+         },
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310397",
+         "VehicleRef" : "741312",
+         "DirectionRef" : "2"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "31",
+         "DestinationRef" : "2190017",
+         "Delay" : null,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500310467",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310467",
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "DestinationName" : "Fornebu",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Fornebu"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:16:00+01:00",
+         "VehicleMode" : 0
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "403010611",
+         "PublishedLineName" : "301",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "403010611"
+         },
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T08:33:00+01:00",
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "F",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "OriginName" : "Kongskog",
+         "OriginRef" : "2330180",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "LineRef" : "301",
+         "Delay" : null,
+         "DestinationRef" : "3010618",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : true
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43009,
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet"
+            }
+         ],
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+         "DestinationName" : "Nydalen",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Nydalen",
+            "AimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "F"
+         },
+         "PublishedLineName" : "58",
+         "VehicleJourneyName" : "100580233",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100580233"
+         },
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Tveita T (foran senteret)",
+         "OriginRef" : "3011521",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "LineRef" : "58",
+         "Delay" : null,
+         "DestinationRef" : "3012135"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : true,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941",
+         "LineRef" : "31",
+         "DestinationRef" : "2190030",
+         "Delay" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310398",
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310398"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationName" : "Snarøya",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00"
+         }
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500310468",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310468",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "DestinationDisplay" : "Fornebu"
+         },
+         "OperatorRef" : null,
+         "DestinationName" : "Fornebu",
+         "OriginAimedDepartureTime" : "2017-03-25T09:28:00+01:00",
+         "VehicleMode" : 0,
+         "DestinationRef" : "2190017",
+         "Delay" : null,
+         "LineRef" : "31",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Tonsenhagen",
+         "OriginRef" : "3012070",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:19:00+01:00",
+         "BlockRef" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : true
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "F"
+         },
+         "VehicleRef" : null,
+         "PublishedLineName" : "321",
+         "VehicleJourneyName" : "403210607",
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "403210607"
+         },
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Lillestrøm terminal",
+         "OriginRef" : "2310301",
+         "LineRef" : "321",
+         "DestinationRef" : "3010618",
+         "Delay" : null
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationName" : "Snarøya",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Snarøya",
+            "AimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "500310399",
+         "PublishedLineName" : "31",
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310399"
+         },
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941",
+         "LineRef" : "31",
+         "DestinationRef" : "2190030",
+         "Delay" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500310469",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "PublishedLineName" : "31",
+         "VehicleJourneyName" : "500310469",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "DestinationDisplay" : "Fornebu"
+         },
+         "DestinationName" : "Fornebu",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "Delay" : null,
+         "DestinationRef" : "2190017",
+         "LineRef" : "31",
+         "OriginName" : "Tonsenhagen",
+         "OriginRef" : "3012070",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:31:00+01:00",
+         "DirectionName" : null,
+         "BlockRef" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : true
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "403010613",
+         "PublishedLineName" : "301",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "403010613"
+         },
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:01:00+01:00",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00"
+         },
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : null,
+         "OriginName" : "Hellerudhaugen",
+         "OriginRef" : "2330220",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "DestinationRef" : "3010618",
+         "LineRef" : "301",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+         "DirectionName" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "BlockRef" : null,
+         "DestinationRef" : "2190030",
+         "Delay" : null,
+         "LineRef" : "31",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00"
+         },
+         "OperatorRef" : null,
+         "DestinationName" : "Snarøya",
+         "OriginAimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310400"
+         },
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "500310400",
+         "PublishedLineName" : "31"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "PublishedLineName" : "58",
+         "VehicleJourneyName" : "100580235",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100580235"
+         },
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Nydalen",
+            "AimedDepartureTime" : "2017-03-25T09:57:00+01:00"
+         },
+         "OperatorRef" : null,
+         "DestinationName" : "Nydalen",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginName" : "Tveita T (foran senteret)",
+         "OriginRef" : "3011521",
+         "DestinationRef" : "3012135",
+         "Delay" : null,
+         "LineRef" : "58",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:04:00+01:00"
+      },
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "Extensions" : {
+         "IsHub" : true,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:43:00+01:00",
+         "DirectionName" : null,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "DestinationRef" : "2190017",
+         "LineRef" : "31",
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Fornebu",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "DestinationName" : "Fornebu",
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "500310470",
+         "PublishedLineName" : "31",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310470"
+         },
+         "Monitored" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:51:00+01:00",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3011941",
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "31",
+         "DestinationRef" : "2190030",
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationName" : "Snarøya",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Snarøya",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "F"
+         },
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "500310401",
+         "PublishedLineName" : "31",
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500310401",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : true,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:55:00+01:00",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "DestinationRef" : "2190017",
+         "Delay" : null,
+         "LineRef" : "31",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "DestinationDisplay" : "Fornebu"
+         },
+         "OperatorRef" : null,
+         "DestinationName" : "Fornebu",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "500310471",
+         "PublishedLineName" : "31",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500310471",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "MonitoringRef" : "3012104",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "403210609",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "321",
+         "VehicleJourneyName" : "403210609",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+         "VehicleMode" : 0,
+         "LineRef" : "321",
+         "Delay" : null,
+         "DestinationRef" : "3010618",
+         "OriginRef" : "2310301",
+         "OriginName" : "Lillestrøm terminal",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null
+      }
+   },
+   {
+      "MonitoringRef" : "3012104",
+      "RecordedAtTime" : "2017-03-25T08:21:23.8307841+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "IsHub" : true
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Snarøya",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Snarøya",
+            "AimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "DeparturePlatformName" : "F",
+            "VehicleAtStop" : false
+         },
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310402"
+         },
+         "VehicleJourneyName" : "500310402",
+         "PublishedLineName" : "31",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:03:00+01:00",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "LineRef" : "31",
+         "Delay" : null,
+         "DestinationRef" : "2190030",
+         "OriginName" : "Grorud T [buss]",
+         "OriginRef" : "3011941",
+         "TrainBlockPart" : null,
+         "InCongestion" : false
+      }
+   }
+]

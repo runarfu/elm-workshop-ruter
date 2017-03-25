@@ -1,0 +1,296 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "DestinationRef" : "2310208",
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "DestinationDisplay" : "Kjeller",
+            "VisitNumber" : 10,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "441621",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "DirectionRef" : "2",
+         "BlockRef" : "32114",
+         "OriginRef" : "3010619",
+         "LineRef" : "401",
+         "DestinationName" : "Kjeller",
+         "OriginName" : "Oslo Bussterminal",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61004"
+         },
+         "VehicleJourneyName" : "404010610",
+         "PublishedLineName" : "401"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:54.541+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011474"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Monitored" : true,
+         "VehicleRef" : "441763",
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 10,
+            "AimedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:04:00+01:00"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "2310208",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kjeller",
+         "OriginName" : "Oslo Bussterminal",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61304"
+         },
+         "PublishedLineName" : "401",
+         "VehicleJourneyName" : "404010613",
+         "OriginRef" : "3010619",
+         "BlockRef" : "40101",
+         "LineRef" : "401",
+         "DirectionRef" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:54.541+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3011474"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "OriginRef" : "3010619",
+         "LineRef" : "401",
+         "DirectionRef" : null,
+         "DestinationName" : "Kjeller",
+         "OriginName" : "Oslo Bussterminal",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010616"
+         },
+         "VehicleJourneyName" : "404010616",
+         "PublishedLineName" : "401",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:25:00+01:00",
+         "DirectionName" : null,
+         "DestinationRef" : "2310208",
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:54.5493772+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011474"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:54.5493772+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3011474",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "LineRef" : "401",
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "PublishedLineName" : "401",
+         "VehicleJourneyName" : "404010618",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010618"
+         },
+         "DestinationName" : "Kjeller",
+         "OriginName" : "Oslo Bussterminal",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+         "Delay" : null,
+         "DestinationRef" : "2310208",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:40:00+01:00",
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:49:00+01:00",
+            "DestinationDisplay" : "Kjeller",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:49:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:49:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:49:00+01:00"
+         },
+         "Monitored" : false,
+         "InCongestion" : false,
+         "VehicleRef" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3011474",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:54.5493772+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00"
+         },
+         "OperatorRef" : null,
+         "DestinationRef" : "2310208",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:55:00+01:00",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "Delay" : null,
+         "PublishedLineName" : "401",
+         "VehicleJourneyName" : "404010621",
+         "DestinationName" : "Kjeller",
+         "OriginName" : "Oslo Bussterminal",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010621"
+         },
+         "LineRef" : "401",
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "DirectionRef" : null
+      }
+   },
+   {
+      "MonitoringRef" : "3011474",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:54.5493772+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "401",
+         "VehicleJourneyName" : "404010624",
+         "DestinationName" : "Kjeller",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010624"
+         },
+         "OriginName" : "Oslo Bussterminal",
+         "DirectionRef" : null,
+         "LineRef" : "401",
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:19:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:19:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:19:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedArrivalTime" : "2017-03-25T10:19:00+01:00"
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+         "DestinationRef" : "2310208",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:10:00+01:00"
+      }
+   }
+]

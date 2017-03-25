@@ -1,0 +1,1250 @@
+[
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleRef" : "200132",
+         "PublishedLineName" : "11",
+         "OperatorRef" : "Sporvognsdrift",
+         "BlockRef" : "1205",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112009",
+         "DirectionRef" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200907"
+         },
+         "Delay" : "PT13S",
+         "DestinationName" : "Kjelsås",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:24:13+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 21,
+            "ExpectedDepartureTime" : "2017-03-25T08:24:13+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "DestinationDisplay" : "Kjelsås"
+         },
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012147",
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201207",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "11",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112012",
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "11",
+         "BlockRef" : "1203",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : "200117",
+         "OriginRef" : "3012162",
+         "DestinationRef" : "3010201",
+         "MonitoredCall" : {
+            "VisitNumber" : 4,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:26:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:26:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedDepartureTime" : "2017-03-25T08:26:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:26:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "DestinationName" : "Majorstuen"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "DestinationName" : "Majorstuen",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "OriginRef" : "3012162",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 4,
+            "ExpectedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122012",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : "200127",
+         "PublishedLineName" : "12",
+         "OperatorRef" : "Sporvognsdrift",
+         "BlockRef" : "1101",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "12",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201207"
+         },
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "MonitoringRef" : "3012147",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kjelsås",
+            "AimedArrivalTime" : "2017-03-25T08:37:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:37:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:37:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:37:00+01:00",
+            "VisitNumber" : 26,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1"
+         },
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kjelsås",
+         "Delay" : "PT0S",
+         "LineRef" : "12",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200907"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "400122009",
+         "InCongestion" : false,
+         "BlockRef" : "1103",
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "12",
+         "VehicleRef" : "200111",
+         "OriginName" : "Majorstuen (i Kirkeveien)"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "1",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201107",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112011",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleRef" : "200128",
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "11",
+         "BlockRef" : "1207",
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "VisitNumber" : 21,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Kjelsås",
+            "AimedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:44:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "DestinationName" : "Kjelsås",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "MonitoringRef" : "3012147",
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201407",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "11",
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112014",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : "200132",
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "11",
+         "BlockRef" : "1205",
+         "DestinationRef" : "3010201",
+         "OriginRef" : "3012162",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "VisitNumber" : 4,
+            "VehicleAtStop" : false
+         },
+         "Delay" : "PT0S",
+         "DestinationName" : "Majorstuen",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3
+      },
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 43242,
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret"
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122014",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : "200111",
+         "PublishedLineName" : "12",
+         "OperatorRef" : "Sporvognsdrift",
+         "BlockRef" : "1103",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201407",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "12",
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "DestinationName" : "Majorstuen",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "OriginRef" : "3012162",
+         "DestinationRef" : "3010201",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 4,
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00"
+         }
+      },
+      "MonitoringRef" : "3012147",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012147",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122011",
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "12",
+         "BlockRef" : "1105",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleRef" : "200104",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "12",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201107"
+         },
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "DestinationName" : "Kjelsås",
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 26,
+            "ExpectedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "ExpectedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:57:00+01:00"
+         }
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201307"
+         },
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleRef" : "200135",
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "11",
+         "BlockRef" : "1209",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112013",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 21,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "AimedArrivalTime" : "2017-03-25T09:04:00+01:00"
+         },
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "Delay" : "PT0S",
+         "DestinationName" : "Kjelsås",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3
+      },
+      "MonitoringRef" : "3012147",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "DestinationName" : "Majorstuen",
+         "DestinationRef" : "3010201",
+         "OriginRef" : "3012162",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 4,
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112016",
+         "PublishedLineName" : "11",
+         "OperatorRef" : "Sporvognsdrift",
+         "BlockRef" : "1207",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : "200128",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201607"
+         },
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2"
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012147",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201607",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "LineRef" : "12",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : "200104",
+         "PublishedLineName" : "12",
+         "OperatorRef" : "Sporvognsdrift",
+         "BlockRef" : "1105",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122016",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "VisitNumber" : 4,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "OriginRef" : "3012162",
+         "DestinationRef" : "3010201",
+         "Delay" : "PT0S",
+         "DestinationName" : "Majorstuen",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "ID" : 43242,
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret"
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.847+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 43242,
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "1201",
+         "PublishedLineName" : "12",
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleRef" : "200105",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleJourneyName" : "400122013",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201307",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "12",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kjelsås",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "ExpectedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 26,
+            "ExpectedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201"
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00"
+         },
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "Delay" : null,
+         "DestinationName" : "Kjelsås",
+         "OriginAimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+         "Monitored" : false,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400112015"
+         },
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "PublishedLineName" : "11",
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112015"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012147",
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "MonitoringRef" : "3012147",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400112018",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400112018",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "PublishedLineName" : "11",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "DestinationRef" : "3010201",
+         "OriginRef" : "3012162",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Majorstuen",
+         "Delay" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "MonitoringRef" : "3012147",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "12",
+         "VehicleJourneyName" : "400122018",
+         "InCongestion" : false,
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:31:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400122018",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "12",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:11:00+01:00",
+         "DestinationName" : "Majorstuen",
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2"
+         },
+         "OriginRef" : "3012162",
+         "DestinationRef" : "3010201"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "400122015",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "12",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "LineRef" : "12",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400122015",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:40:00+01:00",
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "DestinationName" : "Kjelsås",
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010201",
+         "DestinationRef" : "3012162",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kjelsås",
+            "AimedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:37:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "DeparturePlatformName" : "1"
+         }
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "LineRef" : "11",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400112017"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+         "VehicleJourneyName" : "400112017",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "11",
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "ExpectedDepartureTime" : "2017-03-25T09:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:44:00+01:00"
+         },
+         "DestinationName" : "Kjelsås",
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "41BECD",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012147",
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "MonitoringRef" : "3012147",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "DestinationName" : "Majorstuen",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "OriginRef" : "3012162",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:46:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:46:00+01:00"
+         },
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400112020",
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "11",
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400112020"
+         },
+         "LineRef" : "11",
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:44:00+01:00"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "PublishedLineName" : "12",
+         "BlockRef" : null,
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122020",
+         "OriginAimedDepartureTime" : "2017-03-25T09:51:00+01:00",
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:31:00+01:00",
+         "Monitored" : false,
+         "LineRef" : "12",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400122020"
+         },
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "Delay" : null,
+         "DestinationName" : "Majorstuen",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "DestinationDisplay" : "Majorstuen",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0
+         },
+         "DestinationRef" : "3010201",
+         "OriginRef" : "3012162"
+      },
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43242,
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret"
+            }
+         ],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "MonitoringRef" : "3012147",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43242,
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret"
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+         "LineRef" : "12",
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400122017",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122017",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "VehicleRef" : null,
+         "PublishedLineName" : "12",
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "DestinationRef" : "3012162",
+         "OriginRef" : "3010201",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "ExpectedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "Delay" : null,
+         "DestinationName" : "Kjelsås",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400112019"
+         },
+         "LineRef" : "11",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400112019",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "11",
+         "VehicleRef" : null,
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "OriginRef" : "3010201",
+         "DestinationRef" : "3012162",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "DestinationDisplay" : "Kjelsås",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00"
+         },
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kjelsås",
+         "Delay" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "41BECD",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3012162",
+         "DestinationRef" : "3010201",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00"
+         },
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Majorstuen",
+         "Delay" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400112022"
+         },
+         "LineRef" : "11",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:35:00+01:00",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400112022",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "PublishedLineName" : "11",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Kjelsås (i Midtoddveien)"
+      },
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3012147"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012147",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Kjelsås (i Midtoddveien)",
+         "VehicleRef" : null,
+         "PublishedLineName" : "12",
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400122022",
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:11:00+01:00",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:51:00+01:00",
+         "Monitored" : false,
+         "LineRef" : "12",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400122022"
+         },
+         "Delay" : null,
+         "DestinationName" : "Majorstuen",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Majorstuen",
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "OriginRef" : "3012162",
+         "DestinationRef" : "3010201"
+      },
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:33.9869786+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012147",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010201",
+         "DestinationRef" : "3012162",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Kjelsås",
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00"
+         },
+         "DestinationName" : "Kjelsås",
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "LineRef" : "12",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400122019",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "VehicleJourneyName" : "400122019",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "12"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stopper ikke på Ruseløkka, Aker brygge og Kontraskjæret",
+               "ID" : 43242
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      }
+   }
+]

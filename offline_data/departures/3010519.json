@@ -1,0 +1,641 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "30",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "2",
+         "LineRef" : "30",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "OperatorRef" : "Nobina",
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:28:32+01:00",
+            "VisitNumber" : 11,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "DestinationDisplay" : "Bygdøy",
+            "ExpectedDepartureTime" : "2017-03-25T08:28:32+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "OriginRef" : "3012135",
+         "Delay" : "PT92S",
+         "VehicleJourneyName" : "500300262",
+         "DestinationRef" : "3010151",
+         "DirectionName" : "2",
+         "DestinationName" : "Bygdøy",
+         "OriginName" : "Tamburveien",
+         "BlockRef" : "3010",
+         "VehicleRef" : "741303",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "57709",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "MonitoringRef" : "3010519",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "ID" : 43009,
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.702+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:17:46.702+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "500300187",
+         "Delay" : "PT0S",
+         "OriginRef" : "3010151",
+         "BlockRef" : "3006",
+         "VehicleRef" : "741309",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50209",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Huk",
+         "DirectionName" : "1",
+         "DestinationName" : "Nydalen",
+         "DestinationRef" : "3012135",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nobina",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "DestinationDisplay" : "Nydalen",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "VisitNumber" : 18,
+            "ExpectedArrivalTime" : "2017-03-25T08:30:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:30:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "Monitored" : true,
+         "PublishedLineName" : "30",
+         "LineRef" : "30",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "1"
+      },
+      "MonitoringRef" : "3010519"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:46.702+01:00",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 43009,
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010519",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "30",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "2",
+         "PublishedLineName" : "30",
+         "Monitored" : true,
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "VisitNumber" : 11,
+            "ExpectedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "DestinationDisplay" : "Bygdøy",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:57:00+01:00"
+         },
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nobina",
+         "DestinationName" : "Bygdøy",
+         "DirectionName" : "2",
+         "DestinationRef" : "3010151",
+         "VehicleRef" : "741293",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3002",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "57809"
+         },
+         "OriginName" : "Tamburveien",
+         "OriginRef" : "3012135",
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "500300263"
+      }
+   },
+   {
+      "MonitoringRef" : "3010519",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "PublishedLineName" : "30",
+         "LineRef" : "30",
+         "DirectionRef" : "1",
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nobina",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 18,
+            "ExpectedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Nydalen",
+            "ExpectedDepartureTime" : "2017-03-25T09:00:00+01:00"
+         },
+         "VehicleJourneyName" : "500300188",
+         "OriginRef" : "3010151",
+         "Delay" : "PT0S",
+         "VehicleRef" : "741294",
+         "BlockRef" : "3007",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50309",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Huk",
+         "DirectionName" : "1",
+         "DestinationName" : "Nydalen",
+         "DestinationRef" : "3012135"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:46.702+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:23:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:23:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:23:00+01:00",
+            "DestinationDisplay" : "Bygdøy via Bygdøynes",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:23:00+01:00"
+         },
+         "VehicleJourneyName" : "500300264",
+         "Delay" : null,
+         "OriginRef" : "3012135",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500300264"
+         },
+         "OriginName" : "Tamburveien",
+         "DirectionName" : null,
+         "DestinationName" : "Bygdøy via Bygdøynes",
+         "DestinationRef" : "3010151",
+         "Monitored" : false,
+         "PublishedLineName" : "30",
+         "LineRef" : "30",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "TrainBlockPart" : null
+      },
+      "MonitoringRef" : "3010519"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "30",
+         "PublishedLineName" : "30",
+         "Monitored" : false,
+         "DestinationRef" : "3012135",
+         "DirectionName" : null,
+         "DestinationName" : "Nydalen",
+         "OriginName" : "Huk",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500300189",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : null,
+         "OriginRef" : "3010151",
+         "VehicleJourneyName" : "500300189",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Nydalen"
+         },
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "VehicleMode" : 0
+      },
+      "MonitoringRef" : "3010519",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 43009,
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010151",
+         "DirectionName" : null,
+         "DestinationName" : "Bygdøy via Bygdøynes",
+         "OriginName" : "Tamburveien",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500300265"
+         },
+         "Delay" : null,
+         "OriginRef" : "3012135",
+         "VehicleJourneyName" : "500300265",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:38:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:38:00+01:00",
+            "DestinationDisplay" : "Bygdøy via Bygdøynes",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:38:00+01:00"
+         },
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "30",
+         "PublishedLineName" : "30",
+         "Monitored" : false
+      },
+      "MonitoringRef" : "3010519",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "ID" : 43009,
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet"
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "500300190",
+         "OriginRef" : "3010151",
+         "Delay" : null,
+         "OriginName" : "Huk",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500300190",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+         "DestinationRef" : "3012135",
+         "DirectionName" : null,
+         "DestinationName" : "Nydalen",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "DestinationDisplay" : "Nydalen"
+         },
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:19:00+01:00",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "PublishedLineName" : "30",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "30"
+      },
+      "MonitoringRef" : "3010519"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "30",
+         "Monitored" : false,
+         "LineRef" : "30",
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "DestinationDisplay" : "Bygdøy via Bygdøynes",
+            "ExpectedDepartureTime" : "2017-03-25T09:53:00+01:00"
+         },
+         "OriginRef" : "3012135",
+         "Delay" : null,
+         "VehicleJourneyName" : "500300266",
+         "DirectionName" : null,
+         "DestinationName" : "Bygdøy via Bygdøynes",
+         "DestinationRef" : "3010151",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500300266"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:29:00+01:00",
+         "OriginName" : "Tamburveien"
+      },
+      "MonitoringRef" : "3010519",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "ID" : 43009,
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet"
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "500300191",
+         "OriginRef" : "3010151",
+         "Delay" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:21:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500300191",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Huk",
+         "DestinationName" : "Nydalen",
+         "DirectionName" : null,
+         "DestinationRef" : "3012135",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Nydalen",
+            "ExpectedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "PublishedLineName" : "30",
+         "LineRef" : "30",
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null
+      },
+      "MonitoringRef" : "3010519",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ]
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            },
+            {
+               "Header" : "Stoppestedet Nordpolen skole mot sentrum er flyttet",
+               "ID" : 43009
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:17:47.0327497+01:00",
+      "MonitoringRef" : "3010519",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Bygdøy via Bygdøynes",
+            "ExpectedDepartureTime" : "2017-03-25T10:08:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:08:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:08:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "OriginRef" : "3012135",
+         "Delay" : null,
+         "VehicleJourneyName" : "500300267",
+         "DestinationRef" : "3010151",
+         "DestinationName" : "Bygdøy via Bygdøynes",
+         "DirectionName" : null,
+         "OriginName" : "Tamburveien",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:44:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500300267",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "30",
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "30",
+         "OriginAimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+         "TrainBlockPart" : null
+      }
+   }
+]

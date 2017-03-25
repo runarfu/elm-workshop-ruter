@@ -1,0 +1,703 @@
+[
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.007+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010071",
+         "LineRef" : "60",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "DestinationName" : "Vippetangen",
+         "Delay" : "PT120S",
+         "PublishedLineName" : "60",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "305409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "100600361",
+         "DirectionRef" : "2",
+         "DirectionName" : "2",
+         "BlockRef" : "6001",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "VehicleRef" : "308081",
+         "OperatorRef" : "Norgesbuss",
+         "OriginName" : "Tonsenhagen",
+         "OriginRef" : "3012070",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Vippetangen",
+            "AimedArrivalTime" : "2017-03-25T08:23:00+01:00",
+            "VisitNumber" : 16,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:23:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:25:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "MonitoringRef" : "3011421"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.007+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011421",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "60",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "305509"
+         },
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "100600363",
+         "DirectionRef" : "2",
+         "DirectionName" : "2",
+         "BlockRef" : "6002",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010071",
+         "LineRef" : "60",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "DestinationName" : "Vippetangen",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:38:00+01:00",
+            "DestinationDisplay" : "Vippetangen",
+            "VisitNumber" : 16,
+            "ExpectedArrivalTime" : "2017-03-25T08:38:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:38:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:38:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "308082",
+         "OperatorRef" : "Norgesbuss",
+         "OriginName" : "Tonsenhagen",
+         "OriginRef" : "3012070"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Norgesbuss",
+         "VehicleRef" : "308084",
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:53:00+01:00",
+            "DestinationDisplay" : "Vippetangen",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:53:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:53:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:53:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 16
+         },
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "60",
+         "DestinationRef" : "3010071",
+         "Delay" : "PT0S",
+         "DestinationName" : "Vippetangen",
+         "VehicleJourneyName" : "100600365",
+         "VehicleFeatureRef" : "",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "305609"
+         },
+         "PublishedLineName" : "60",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : false,
+         "BlockRef" : "6003",
+         "DirectionName" : "2",
+         "DirectionRef" : "2"
+      },
+      "MonitoringRef" : "3011421",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:41.007+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300109",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "60",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "100600255",
+         "BlockRef" : "6001",
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "LineRef" : "60",
+         "DestinationRef" : "3012070",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "DestinationName" : "Tonsenhagen",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "VisitNumber" : 12,
+            "DestinationDisplay" : "Tonsenhagen",
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "308081",
+         "OperatorRef" : "Norgesbuss",
+         "OriginName" : "Vippetangen (ved Fiskehallen)",
+         "OriginRef" : "3010071"
+      },
+      "MonitoringRef" : "3011421",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Omkjøring",
+               "ID" : 38069
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:41.007+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.007+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Omkjøring",
+               "ID" : 38069
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Norgesbuss",
+         "VehicleRef" : null,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "VisitNumber" : 16,
+            "ExpectedArrivalTime" : "2017-03-25T09:08:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:08:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:08:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:08:00+01:00",
+            "DestinationDisplay" : "Vippetangen"
+         },
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3010071",
+         "LineRef" : "60",
+         "Delay" : "PT0S",
+         "DestinationName" : "Vippetangen",
+         "VehicleJourneyName" : "100600367",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "60",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "305709"
+         },
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "DirectionRef" : "2",
+         "BlockRef" : "6004"
+      },
+      "MonitoringRef" : "3011421"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:07:00+01:00",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:28:00+01:00",
+            "DestinationDisplay" : "Vippetangen",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:28:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:28:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:28:00+01:00"
+         },
+         "Delay" : null,
+         "DestinationName" : "Vippetangen",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "60",
+         "DestinationRef" : "3010071",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "VehicleJourneyName" : "100600369",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100600369"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "60"
+      },
+      "MonitoringRef" : "3011421",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Omkjøring",
+               "ID" : 38069
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Omkjøring",
+               "ID" : 38069
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011421",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "100600257",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "60",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100600257",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3012070",
+         "LineRef" : "60",
+         "Delay" : null,
+         "DestinationName" : "Tonsenhagen",
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Tonsenhagen",
+            "AimedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:32:00+01:00"
+         },
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010071",
+         "OriginName" : "Vippetangen (ved Fiskehallen)"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "60",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100600371",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "100600371",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+         "DestinationRef" : "3010071",
+         "LineRef" : "60",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "DestinationName" : "Vippetangen",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Vippetangen",
+            "AimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:43:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T09:43:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Tonsenhagen",
+         "OriginRef" : "3012070"
+      },
+      "MonitoringRef" : "3011421",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Tonsenhagen",
+            "AimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "VisitNumber" : 0
+         },
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010071",
+         "OriginName" : "Vippetangen (ved Fiskehallen)",
+         "VehicleJourneyName" : "100600259",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100600259",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "60",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "60",
+         "DestinationRef" : "3012070",
+         "Delay" : null,
+         "DestinationName" : "Tonsenhagen"
+      },
+      "MonitoringRef" : "3011421",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00",
+      "MonitoringRef" : "3011421",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "60",
+         "DestinationRef" : "3010071",
+         "Delay" : null,
+         "DestinationName" : "Vippetangen",
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "100600373",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100600373",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "60",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen",
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:58:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:58:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T09:58:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Vippetangen",
+            "AimedArrivalTime" : "2017-03-25T09:58:00+01:00"
+         }
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3011421",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100600261"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "60",
+         "VehicleJourneyName" : "100600261",
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Tonsenhagen",
+         "Delay" : null,
+         "LineRef" : "60",
+         "DestinationRef" : "3012070",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "DestinationDisplay" : "Tonsenhagen"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "OriginName" : "Vippetangen (ved Fiskehallen)",
+         "OriginRef" : "3010071",
+         "VehicleRef" : null,
+         "OperatorRef" : null
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Omkjøring",
+               "ID" : 38069
+            }
+         ]
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011421",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "100600375",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100600375",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "60",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:33:00+01:00",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "60",
+         "DestinationRef" : "3010071",
+         "Delay" : null,
+         "DestinationName" : "Vippetangen",
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:13:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:13:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T10:13:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Vippetangen",
+            "AimedArrivalTime" : "2017-03-25T10:13:00+01:00"
+         },
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3012070",
+         "OriginName" : "Tonsenhagen"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:41.1430075+01:00",
+      "MonitoringRef" : "3011421",
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "DestinationDisplay" : "Tonsenhagen",
+            "VehicleAtStop" : false
+         },
+         "OriginRef" : "3010071",
+         "OriginName" : "Vippetangen (ved Fiskehallen)",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "100600263",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100600263"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "60",
+         "Delay" : null,
+         "DestinationName" : "Tonsenhagen",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "LineRef" : "60",
+         "DestinationRef" : "3012070"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 38069,
+               "Header" : "Omkjøring"
+            }
+         ],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "StopVisitNote" : []
+   }
+]

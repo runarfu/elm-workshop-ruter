@@ -1,0 +1,2078 @@
+[
+   {
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.649+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50804"
+         },
+         "VehicleJourneyName" : "404110508",
+         "OriginRef" : "3010619",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "2310301",
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "BlockRef" : "32119",
+         "PublishedLineName" : "411",
+         "OriginName" : "Oslo Bussterminal",
+         "DirectionRef" : "2",
+         "Delay" : "PT63S",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:21:03+01:00",
+            "DestinationDisplay" : "Lillestrøm",
+            "AimedArrivalTime" : "2017-03-25T08:20:00+01:00",
+            "VisitNumber" : 6,
+            "ExpectedArrivalTime" : "2017-03-25T08:21:03+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:20:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "411",
+         "VehicleRef" : "441632",
+         "DestinationName" : "Lillestrøm",
+         "DirectionName" : "2"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:06.649+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "100671",
+         "DirectionName" : "2",
+         "DestinationName" : "Nydalen T",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 3,
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "PublishedLineName" : "37",
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "BlockRef" : "3703",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3012131",
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "200370398",
+         "OriginRef" : "3011442",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "52610",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Helsfyr T",
+         "VehicleRef" : "100685",
+         "DirectionName" : "1",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 25
+         },
+         "DirectionRef" : "1",
+         "BlockRef" : "3712",
+         "PublishedLineName" : "37",
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3011442",
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "200370749",
+         "OriginRef" : "3012131",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "65010",
+            "DataFrameRef" : "2017-03-25"
+         }
+      }
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "404010610",
+         "OriginRef" : "3010619",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61004"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "2310208",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "BlockRef" : "32114",
+         "OriginName" : "Oslo Bussterminal",
+         "PublishedLineName" : "401",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "401",
+         "DestinationName" : "Kjeller",
+         "VehicleRef" : "441621",
+         "DirectionName" : "2",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:29:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:29:00+01:00",
+            "VisitNumber" : 6,
+            "AimedArrivalTime" : "2017-03-25T08:29:00+01:00",
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedDepartureTime" : "2017-03-25T08:29:00+01:00",
+            "DeparturePlatformName" : "1"
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "100685",
+         "DestinationName" : "Nydalen T",
+         "DirectionName" : "2",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "DirectionRef" : "2",
+         "BlockRef" : "3712",
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "DestinationRef" : "3012131",
+         "VehicleMode" : 0,
+         "OriginRef" : "3011442",
+         "VehicleJourneyName" : "200370401",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "52710",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ]
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "1",
+         "VehicleRef" : "100680",
+         "DestinationName" : "Helsfyr T",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "37",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "VisitNumber" : 25,
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "DirectionRef" : "1",
+         "OriginName" : "Nydalen T [buss]",
+         "PublishedLineName" : "37",
+         "BlockRef" : "3707",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3011442",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "200370752",
+         "OriginRef" : "3012131",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "65110"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3010619",
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "404010606",
+         "OriginRef" : "2310208",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60604"
+         },
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "441763",
+         "DirectionName" : "1",
+         "DestinationName" : "Oslo bussterminal",
+         "Delay" : "PT32S",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:40:32+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:40:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:40:32+01:00",
+            "VisitNumber" : 43,
+            "AimedDepartureTime" : "2017-03-25T08:40:00+01:00"
+         },
+         "DirectionRef" : "1",
+         "BlockRef" : "40101",
+         "PublishedLineName" : "401",
+         "OriginName" : "Fritidshuset"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "76A300",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Lillestrøm terminal",
+         "PublishedLineName" : "411",
+         "BlockRef" : "40115",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T08:45:25+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:43:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:45:25+01:00",
+            "VisitNumber" : 55,
+            "AimedArrivalTime" : "2017-03-25T08:43:00+01:00"
+         },
+         "Delay" : "PT145S",
+         "VehicleRef" : "441764",
+         "DestinationName" : "Oslo bussterminal",
+         "DirectionName" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "411",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50704",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "404110507",
+         "OriginRef" : "2310301",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "DestinationRef" : "3010619",
+         "TrainBlockPart" : null,
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "OriginName" : "Oslo Bussterminal",
+         "PublishedLineName" : "411",
+         "BlockRef" : "40119",
+         "DestinationName" : "Lillestrøm",
+         "VehicleRef" : "441766",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "411",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Lillestrøm",
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 6
+         },
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "404110510",
+         "OriginRef" : "3010619",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51004"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "DestinationRef" : "2310301"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3011442",
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginRef" : "3012131",
+         "VehicleJourneyName" : "200370755",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "65210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "37",
+         "VehicleRef" : "410663",
+         "DirectionName" : "1",
+         "DestinationName" : "Helsfyr T",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "VisitNumber" : 25,
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : "1",
+         "BlockRef" : "3710",
+         "PublishedLineName" : "37",
+         "OriginName" : "Nydalen T [buss]"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643"
+   },
+   {
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3012131",
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "52810"
+         },
+         "VehicleJourneyName" : "200370404",
+         "OriginRef" : "3011442",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Nydalen T",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "37",
+         "DirectionName" : "2",
+         "VehicleRef" : "100680",
+         "DestinationName" : "Nydalen T",
+         "BlockRef" : "3707",
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "DirectionRef" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "OriginName" : "Fritidshuset",
+         "PublishedLineName" : "401",
+         "BlockRef" : "40102",
+         "VehicleRef" : "441762",
+         "DirectionName" : "1",
+         "DestinationName" : "Oslo bussterminal",
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:57:08.137+01:00",
+            "VisitNumber" : 43,
+            "AimedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:57:08.137+01:00"
+         },
+         "Delay" : "PT128S",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "404010608",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "2310208",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60804",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "DestinationRef" : "3010619"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "DestinationRef" : "2310208",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3010619",
+         "VehicleJourneyName" : "404010613",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61304"
+         },
+         "DestinationName" : "Kjeller",
+         "VehicleRef" : "441763",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "401",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedDepartureTime" : "2017-03-25T08:59:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:59:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:59:00+01:00",
+            "VisitNumber" : 6,
+            "ExpectedArrivalTime" : "2017-03-25T08:59:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "OriginName" : "Oslo Bussterminal",
+         "PublishedLineName" : "401",
+         "BlockRef" : "40101"
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "BlockRef" : "3710",
+         "DestinationName" : "Nydalen T",
+         "VehicleRef" : "410663",
+         "DirectionName" : "2",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "VisitNumber" : 3,
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "DestinationDisplay" : "Nydalen T",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "200370407",
+         "OriginRef" : "3011442",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "52910"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "DestinationRef" : "3012131"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "200370758",
+         "OriginRef" : "3012131",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "65310"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3011442",
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "BlockRef" : "3701",
+         "PublishedLineName" : "37",
+         "OriginName" : "Nydalen T [buss]",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "103002",
+         "DirectionName" : "1",
+         "DestinationName" : "Helsfyr T",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Helsfyr T",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "VisitNumber" : 25,
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Fritidshuset",
+         "PublishedLineName" : "401",
+         "BlockRef" : "40114",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:10:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:10:00+01:00",
+            "VisitNumber" : 43,
+            "AimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:10:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "DestinationName" : "Oslo bussterminal",
+         "VehicleRef" : "441761",
+         "DirectionName" : "1",
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60904"
+         },
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "2310208",
+         "VehicleJourneyName" : "404010609",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3010619",
+         "TrainBlockPart" : null,
+         "InCongestion" : false
+      }
+   },
+   {
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Oslo bussterminal",
+         "VehicleRef" : "441620",
+         "DirectionName" : "1",
+         "LineRef" : "411",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "VisitNumber" : 55,
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "Delay" : "PT0S",
+         "DirectionRef" : "1",
+         "PublishedLineName" : "411",
+         "OriginName" : "Lillestrøm terminal",
+         "BlockRef" : "32110",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3010619",
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "404110509",
+         "OriginRef" : "2310301",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50904",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.65+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "DestinationRef" : "2310301",
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404110513"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010619",
+         "VehicleJourneyName" : "404110513",
+         "OriginAimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Lillestrøm",
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "Delay" : null,
+         "DestinationName" : "Lillestrøm",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "LineRef" : "411",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+         "PublishedLineName" : "411",
+         "OriginName" : "Oslo Bussterminal",
+         "BlockRef" : null,
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Nydalen T",
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00"
+         },
+         "Delay" : null,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Nydalen T",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3012131",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200370410"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011442",
+         "VehicleJourneyName" : "200370410",
+         "OriginAimedDepartureTime" : "2017-03-25T09:18:00+01:00"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "PublishedLineName" : "37",
+         "OriginName" : "Nydalen T [buss]",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:28:00+01:00",
+         "VehicleRef" : null,
+         "DestinationName" : "Helsfyr T",
+         "DirectionName" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T08:57:00+01:00",
+         "VehicleJourneyName" : "200370761",
+         "OriginRef" : "3012131",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200370761"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3011442",
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleMode" : 0
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404010611",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:26:00+01:00",
+         "VehicleJourneyName" : "404010611",
+         "OriginRef" : "2310208",
+         "VehicleMode" : 0,
+         "DestinationRef" : "3010619",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "401",
+         "OriginName" : "Fritidshuset",
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00"
+         },
+         "Delay" : null,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:33:00+01:00"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:29:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Kjeller",
+            "AimedDepartureTime" : "2017-03-25T09:29:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:29:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:29:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Kjeller",
+         "DirectionName" : null,
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:25:00+01:00",
+         "PublishedLineName" : "401",
+         "OriginName" : "Oslo Bussterminal",
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "2310208",
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010616"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "404010616",
+         "OriginRef" : "3010619",
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00"
+      }
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3012131",
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "200370413",
+         "OriginRef" : "3011442",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370413",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Nydalen T",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+         "LineRef" : "37",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DestinationDisplay" : "Nydalen T",
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "BlockRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "2310208",
+         "VehicleJourneyName" : "404010612",
+         "OriginAimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010612"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3010619",
+         "DirectionRef" : null,
+         "OriginName" : "Fritidshuset",
+         "PublishedLineName" : "401",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+         "LineRef" : "401",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:40:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:40:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:40:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "Delay" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "OriginName" : "Nydalen T [buss]",
+         "PublishedLineName" : "37",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Helsfyr T",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Helsfyr T",
+            "AimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "VehicleJourneyName" : "200370764",
+         "OriginRef" : "3012131",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200370764"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3011442"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010619",
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404110511",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T08:45:00+01:00",
+         "VehicleJourneyName" : "404110511",
+         "OriginRef" : "2310301",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:43:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T09:43:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "LineRef" : "411",
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "BlockRef" : null,
+         "PublishedLineName" : "411",
+         "OriginName" : "Lillestrøm terminal",
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:40:00+01:00",
+         "DestinationName" : "Kjeller",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kjeller",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:44:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:44:00+01:00"
+         },
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "PublishedLineName" : "401",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationRef" : "2310208",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "404010618",
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+         "OriginRef" : "3010619",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010618"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "2310301",
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+         "VehicleJourneyName" : "404110516",
+         "OriginRef" : "3010619",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404110516"
+         },
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Lillestrøm",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:46:00+01:00",
+         "LineRef" : "411",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DestinationDisplay" : "Lillestrøm"
+         },
+         "Delay" : null,
+         "DirectionRef" : null,
+         "PublishedLineName" : "411",
+         "OriginName" : "Oslo Bussterminal",
+         "BlockRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011442",
+         "VehicleJourneyName" : "200370416",
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370416",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3012131",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "PublishedLineName" : "37",
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Nydalen T",
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DestinationDisplay" : "Nydalen T",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643",
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+         "LineRef" : "401",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "Delay" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Fritidshuset",
+         "PublishedLineName" : "401",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3010619",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "2310208",
+         "VehicleJourneyName" : "404010614",
+         "OriginAimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404010614",
+            "DataFrameRef" : "2017-03-25"
+         }
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "PublishedLineName" : "37",
+         "OriginName" : "Nydalen T [buss]",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "DestinationDisplay" : "Helsfyr T"
+         },
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+         "VehicleRef" : null,
+         "DestinationName" : "Helsfyr T",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200370767"
+         },
+         "VehicleJourneyName" : "200370767",
+         "OriginRef" : "3012131",
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3011442",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "TrainBlockPart" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010643"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "411",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "VehicleRef" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "DirectionName" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:58:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:58:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:58:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "OriginName" : "Lillestrøm terminal",
+         "PublishedLineName" : "411",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3010619",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+         "VehicleJourneyName" : "404110512",
+         "OriginRef" : "2310301",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404110512"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "PublishedLineName" : "401",
+         "OriginName" : "Oslo Bussterminal",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Kjeller",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:55:00+01:00",
+         "LineRef" : "401",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:59:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:59:00+01:00",
+            "DestinationDisplay" : "Kjeller",
+            "ExpectedDepartureTime" : "2017-03-25T09:59:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "VehicleJourneyName" : "404010621",
+         "OriginRef" : "3010619",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010621"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "2310208",
+         "Monitored" : false,
+         "OperatorRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3012131",
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370419",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "200370419",
+         "OriginRef" : "3011442",
+         "OriginAimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:34:00+01:00",
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Nydalen T",
+         "BlockRef" : null,
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "404010615",
+         "OriginRef" : "2310208",
+         "OriginAimedDepartureTime" : "2017-03-25T09:11:00+01:00",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010615"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3010619",
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "OriginName" : "Fritidshuset",
+         "PublishedLineName" : "401",
+         "LineRef" : "401",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Oslo bussterminal",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:10:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:10:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:10:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:10:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Oslo bussterminal"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Helsfyr T",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "LineRef" : "37",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "DestinationDisplay" : "Helsfyr T"
+         },
+         "Delay" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Nydalen T [buss]",
+         "PublishedLineName" : "37",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3011442",
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "200370770",
+         "OriginRef" : "3012131",
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370770",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "OriginName" : "Lillestrøm terminal",
+         "PublishedLineName" : "411",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T10:13:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:13:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:13:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:13:00+01:00"
+         },
+         "LineRef" : "411",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+         "DestinationName" : "Oslo bussterminal",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404110514",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "404110514",
+         "OriginAimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+         "OriginRef" : "2310301",
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DestinationRef" : "3010619",
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Kjeller"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T11:10:00+01:00",
+         "LineRef" : "401",
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationName" : "Kjeller",
+         "BlockRef" : null,
+         "PublishedLineName" : "401",
+         "OriginName" : "Oslo Bussterminal",
+         "DirectionRef" : null,
+         "DestinationRef" : "2310208",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404010624",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+         "VehicleJourneyName" : "404010624",
+         "OriginRef" : "3010619",
+         "VehicleFeatureRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "76A300",
+         "Deviations" : []
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "200370422",
+         "OriginRef" : "3011442",
+         "OriginAimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370422",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3012131",
+         "DirectionRef" : null,
+         "OriginName" : "Helsfyr (i Etterstadsletta)",
+         "PublishedLineName" : "37",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Nydalen T",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:44:00+01:00",
+         "LineRef" : "37",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "DestinationDisplay" : "Nydalen T",
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "Delay" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:06.830842+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010643",
+      "StopVisitNote" : []
+   }
+]

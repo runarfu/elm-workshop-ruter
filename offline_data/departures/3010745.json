@@ -1,0 +1,650 @@
+[
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "OriginName" : "Rådhusgata (i Kirkegata)",
+         "DestinationAimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+         "DestinationName" : "Mortensrud",
+         "OriginAimedDepartureTime" : "2017-03-25T08:08:00+01:00",
+         "PublishedLineName" : "74",
+         "LineRef" : "74",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200740138",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Mortensrud",
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:25:00+01:00"
+         },
+         "VehicleJourneyName" : "200740138",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "DirectionName" : null,
+         "DestinationRef" : "3010951",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010033",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:19.152+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "7404",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "200740138",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "VisitNumber" : 17,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Mortensrud T",
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:26:14+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:26:14+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00"
+         },
+         "Delay" : "PT74S",
+         "VehicleRef" : "101274",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3012946",
+         "TrainBlockPart" : null,
+         "OperatorRef" : "Unibuss",
+         "DirectionName" : "1",
+         "DestinationRef" : "3010951",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Mortensrud T",
+         "OriginName" : null,
+         "InCongestion" : false,
+         "LineRef" : "74",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "74"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.152+01:00",
+      "MonitoringRef" : "3010745",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "7401",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 18,
+            "ExpectedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "DestinationDisplay" : "Kvadraturen"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "55710"
+         },
+         "Delay" : "PT0S",
+         "VehicleRef" : "101284",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3010951",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "DestinationRef" : "3012946",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Kvadraturen",
+         "OriginName" : "Mortensrud T [buss]",
+         "InCongestion" : false,
+         "LineRef" : "74",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "74"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Mortensrud T [buss]",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T08:51:00+01:00",
+         "DestinationName" : "Kvadraturen",
+         "LineRef" : "74",
+         "PublishedLineName" : "74",
+         "OriginAimedDepartureTime" : "2017-03-25T08:19:00+01:00",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200740303",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "DestinationDisplay" : "Kvadraturen",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200740303"
+         },
+         "OriginRef" : "3010951",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3010029",
+         "DirectionName" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ]
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:19.152+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "DirectionName" : "1",
+         "DestinationRef" : "3010951",
+         "TrainBlockPart" : null,
+         "OperatorRef" : "Unibuss",
+         "OriginRef" : "3012946",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "101282",
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "DestinationDisplay" : "Mortensrud T",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 17
+         },
+         "VehicleJourneyName" : "200740141",
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "BlockRef" : "7406",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "74",
+         "LineRef" : "74",
+         "InCongestion" : false,
+         "OriginName" : null,
+         "DestinationName" : "Mortensrud T",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "MonitoringRef" : "3010745",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke",
+               "ID" : 43016
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200740141",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200740141",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Mortensrud",
+            "AimedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:55:00+01:00"
+         },
+         "OriginRef" : "3010033",
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "3010951",
+         "OriginName" : "Rådhusgata (i Kirkegata)",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+         "DestinationName" : "Mortensrud",
+         "LineRef" : "74",
+         "OriginAimedDepartureTime" : "2017-03-25T08:38:00+01:00",
+         "PublishedLineName" : "74"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "74",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "74",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Kvadraturen",
+         "OriginName" : "Mortensrud T [buss]",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "101274",
+         "OriginRef" : "3010951",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3012946",
+         "DirectionName" : "2",
+         "Monitored" : true,
+         "BlockRef" : "7404",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "55810"
+         },
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DestinationDisplay" : "Kvadraturen",
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 18
+         },
+         "Delay" : "PT0S"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745",
+      "RecordedAtTime" : "2017-03-25T08:18:19.153+01:00"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "OriginName" : "Mortensrud T [buss]",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:21:00+01:00",
+         "DestinationName" : "Kvadraturen",
+         "PublishedLineName" : "74",
+         "OriginAimedDepartureTime" : "2017-03-25T08:49:00+01:00",
+         "LineRef" : "74",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DestinationDisplay" : "Kvadraturen",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200740306",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "200740306",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "DirectionName" : null,
+         "DestinationRef" : "3010029",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010951",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010745",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "74",
+         "OriginAimedDepartureTime" : "2017-03-25T09:08:00+01:00",
+         "PublishedLineName" : "74",
+         "OriginName" : "Rådhusgata (i Kirkegata)",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:39:00+01:00",
+         "DestinationName" : "Mortensrud",
+         "OriginRef" : "3010033",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "3010951",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200740144",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200740144",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "DestinationDisplay" : "Mortensrud",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00"
+   },
+   {
+      "MonitoringRef" : "3010745",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010951",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "DirectionName" : null,
+         "DestinationRef" : "3010029",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200740309",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "DestinationDisplay" : "Kvadraturen",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200740309"
+         },
+         "LineRef" : "74",
+         "OriginAimedDepartureTime" : "2017-03-25T09:19:00+01:00",
+         "PublishedLineName" : "74",
+         "InCongestion" : false,
+         "OriginName" : "Mortensrud T [buss]",
+         "DestinationName" : "Kvadraturen",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:51:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke",
+               "ID" : 43016
+            }
+         ]
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010745",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3010951",
+         "DirectionName" : null,
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010033",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200740147"
+         },
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Mortensrud",
+            "AimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200740147",
+         "OriginAimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+         "PublishedLineName" : "74",
+         "LineRef" : "74",
+         "DestinationName" : "Mortensrud",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+         "OriginName" : "Rådhusgata (i Kirkegata)",
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200740312"
+         },
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "DestinationDisplay" : "Kvadraturen"
+         },
+         "Delay" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200740312",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "3010029",
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010951",
+         "DestinationName" : "Kvadraturen",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:21:00+01:00",
+         "OriginName" : "Mortensrud T [buss]",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:49:00+01:00",
+         "PublishedLineName" : "74",
+         "LineRef" : "74"
+      },
+      "MonitoringRef" : "3010745",
+      "RecordedAtTime" : "2017-03-25T08:18:19.1897184+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43016,
+               "Header" : "Stoppestedene Rådhuset og Vika benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null
+      }
+   }
+]

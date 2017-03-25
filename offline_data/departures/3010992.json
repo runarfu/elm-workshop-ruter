@@ -1,0 +1,197 @@
+[
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:01.592+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "OriginRef" : "3010990",
+         "VehicleRef" : "712032",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "40610"
+         },
+         "Monitored" : true,
+         "PublishedLineName" : "515",
+         "BlockRef" : "51502",
+         "DirectionName" : "1",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginName" : "Sværsvann bru",
+         "VehicleJourneyName" : "5150406",
+         "DestinationName" : "Ski stasjon",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "OperatorRef" : "Nobina",
+         "LineRef" : "515",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "2130301",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ski stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T08:28:00+01:00",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T08:28:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:28:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:28:00+01:00",
+            "VehicleAtStop" : false
+         }
+      },
+      "MonitoringRef" : "3010992"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:01.592+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "5151297",
+         "OriginName" : "Ski terminal",
+         "OperatorRef" : "Nobina",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "DestinationName" : "Sværsvann",
+         "LineRef" : "515",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "VisitNumber" : 33,
+            "ExpectedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "DestinationDisplay" : "Sværsvann"
+         },
+         "DestinationRef" : "3010990",
+         "VehicleRef" : null,
+         "OriginRef" : "2130301",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "129710",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "PublishedLineName" : "515",
+         "BlockRef" : "51503",
+         "DirectionName" : "2",
+         "TrainBlockPart" : null,
+         "InCongestion" : false
+      },
+      "MonitoringRef" : "3010992"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010992",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "PublishedLineName" : "515",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010990",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5150409"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:28:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:28:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:28:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:28:00+01:00",
+            "DestinationDisplay" : "Ski stasjon"
+         },
+         "DestinationRef" : "2130301",
+         "LineRef" : "515",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "DestinationName" : "Ski stasjon",
+         "VehicleFeatureRef" : null,
+         "VehicleJourneyName" : "5150409",
+         "OriginName" : "Sværsvann bru"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:01.5496966+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:23:00+01:00",
+         "LineRef" : "515",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "DestinationDisplay" : "Sværsvann",
+            "VisitNumber" : 0
+         },
+         "DestinationRef" : "3010990",
+         "VehicleJourneyName" : "5151320",
+         "OriginName" : "Ski terminal",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Sværsvann",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5151320",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "OriginRef" : "2130301",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "PublishedLineName" : "515"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010992",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:01.5496966+01:00"
+   }
+]

@@ -1,0 +1,538 @@
+[
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.325+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "BlockRef" : "102:THL3X401",
+         "VehicleFeatureRef" : "",
+         "Monitored" : true,
+         "OperatorRef" : "me",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "4754"
+         },
+         "LineRef" : "1",
+         "Delay" : "PT65S",
+         "OriginName" : "HFY2",
+         "DestinationName" : "Frognerseteren",
+         "PublishedLineName" : "1",
+         "VehicleRef" : "210",
+         "OriginRef" : "3011440",
+         "VehicleJourneyName" : "700010530",
+         "InCongestion" : false,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 3
+         },
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:35:30+01:00",
+            "VisitNumber" : 22,
+            "DestinationDisplay" : "Frognerseteren",
+            "AimedDepartureTime" : "2017-03-25T08:35:30+01:00",
+            "VehicleAtStop" : true,
+            "ExpectedDepartureTime" : "2017-03-25T08:36:35+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:36:35+01:00",
+            "DeparturePlatformName" : "2 (Retning Frognerseteren)"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3012630",
+         "VehicleMode" : 4
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "4697",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "me",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "101:THL3X401",
+         "PublishedLineName" : "1",
+         "DestinationName" : "Ryen",
+         "OriginName" : "FRS1",
+         "Delay" : "PT0S",
+         "LineRef" : "1",
+         "VehicleJourneyName" : "700010537",
+         "VehicleRef" : "209",
+         "OriginRef" : "3012630",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 3
+         },
+         "InCongestion" : false,
+         "DestinationRef" : "3011200",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:51:22+01:00",
+            "DestinationDisplay" : "Ryen",
+            "ExpectedArrivalTime" : "2017-03-25T08:51:22+01:00",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "VehicleAtStop" : true,
+            "ExpectedDepartureTime" : "2017-03-25T08:51:22+01:00",
+            "VisitNumber" : 5,
+            "AimedArrivalTime" : "2017-03-25T08:51:22+01:00"
+         },
+         "VehicleMode" : 4
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.325+01:00",
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:07.325+01:00",
+      "MonitoringRef" : "3012375",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "DestinationRef" : "3012630",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:05:30+01:00",
+            "DestinationDisplay" : "Frognerseteren",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:30+01:00",
+            "DeparturePlatformName" : "2 (Retning Frognerseteren)",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:05:30+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:05:30+01:00",
+            "VisitNumber" : 22
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 3
+         },
+         "VehicleRef" : "212",
+         "OriginRef" : "3011440",
+         "VehicleJourneyName" : "700010536",
+         "PublishedLineName" : "1",
+         "LineRef" : "1",
+         "Delay" : "PT0S",
+         "DestinationName" : "Frognerseteren",
+         "OriginName" : "HFY2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "4854",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "104:THL3X401",
+         "Monitored" : false,
+         "OperatorRef" : "me",
+         "DirectionName" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "4757",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "Monitored" : true,
+         "BlockRef" : "102:THL3X401",
+         "OperatorRef" : "me",
+         "PublishedLineName" : "1",
+         "Delay" : "PT0S",
+         "LineRef" : "1",
+         "OriginName" : "FRS1",
+         "DestinationName" : "Helsfyr",
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3011440",
+         "MonitoredCall" : {
+            "VisitNumber" : 5,
+            "AimedArrivalTime" : "2017-03-25T09:21:22+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:21:22+01:00",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T09:21:22+01:00",
+            "VehicleAtStop" : true,
+            "AimedDepartureTime" : "2017-03-25T09:21:22+01:00",
+            "DestinationDisplay" : "Helsfyr"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 4,
+         "VehicleRef" : "210",
+         "OriginRef" : "3012630",
+         "VehicleJourneyName" : "700010544",
+         "InCongestion" : false,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 3
+         }
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.325+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "F07800"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00",
+      "MonitoringRef" : "3012375",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Helsfyr [T-bane]",
+         "DestinationName" : "Frognerseteren",
+         "LineRef" : "1",
+         "Delay" : null,
+         "PublishedLineName" : "1",
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700010542"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Frognerseteren)",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DestinationDisplay" : "Frognerseteren"
+         },
+         "DestinationRef" : "3012630",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700010542",
+         "VehicleRef" : null,
+         "OriginRef" : "3011440"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "1",
+         "LineRef" : "1",
+         "Delay" : null,
+         "OriginName" : "Majorstuen [T-bane]",
+         "DestinationName" : "Frognerseteren",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700010547"
+         },
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:28:00+01:00",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "DestinationRef" : "3012630",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Frognerseteren)",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "DestinationDisplay" : "Frognerseteren",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010200",
+         "VehicleJourneyName" : "700010547"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700010552",
+         "VehicleRef" : null,
+         "OriginRef" : "3012630",
+         "VehicleMode" : 4,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:26:00+01:00",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Helsfyr",
+            "AimedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "ExpectedArrivalTime" : "2017-03-25T09:51:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:51:00+01:00"
+         },
+         "DestinationRef" : "3011440",
+         "OriginAimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "DestinationName" : "Helsfyr",
+         "OriginName" : "Frognerseteren [T-bane]",
+         "LineRef" : "1",
+         "Delay" : null,
+         "PublishedLineName" : "1",
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700010552",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700010549"
+         },
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "PublishedLineName" : "1",
+         "LineRef" : "1",
+         "Delay" : null,
+         "DestinationName" : "Frognerseteren",
+         "OriginName" : "Helsfyr [T-bane]",
+         "OriginRef" : "3011440",
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700010549",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3012630",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "DestinationDisplay" : "Frognerseteren",
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Frognerseteren)",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+         "VehicleMode" : 4
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00",
+      "MonitoringRef" : "3012375",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700010556"
+         },
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "1",
+         "Delay" : null,
+         "LineRef" : "1",
+         "DestinationName" : "Helsfyr",
+         "OriginName" : "Frognerseteren [T-bane]",
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:58:00+01:00",
+         "DestinationRef" : "3011440",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "DestinationDisplay" : "Helsfyr"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:41:00+01:00",
+         "VehicleMode" : 4,
+         "VehicleRef" : null,
+         "OriginRef" : "3012630",
+         "VehicleJourneyName" : "700010556",
+         "InCongestion" : false,
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012375",
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "1",
+         "Delay" : null,
+         "LineRef" : "1",
+         "OriginName" : "Majorstuen [T-bane]",
+         "DestinationName" : "Frognerseteren",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700010557",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:58:00+01:00",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "DestinationRef" : "3012630",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "DestinationDisplay" : "Frognerseteren",
+            "DeparturePlatformName" : "2 (Retning Frognerseteren)",
+            "ExpectedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:20:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:29:00+01:00",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010200",
+         "VehicleJourneyName" : "700010557"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:21:00+01:00",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Helsfyr",
+            "AimedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T10:21:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:56:00+01:00",
+         "DestinationRef" : "3011440",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3012630",
+         "VehicleJourneyName" : "700010562",
+         "Delay" : null,
+         "LineRef" : "1",
+         "DestinationName" : "Helsfyr",
+         "OriginName" : "Frognerseteren [T-bane]",
+         "PublishedLineName" : "1",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700010562",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:13:00+01:00",
+         "DirectionName" : null,
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:07.3625612+01:00",
+      "MonitoringRef" : "3012375",
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : []
+      }
+   }
+]

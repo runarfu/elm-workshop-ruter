@@ -1,168 +1,195 @@
 module Views exposing (..)
 
+import Date exposing (Date)
+import Time exposing (inMinutes)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import Http
-import Time exposing (Time)
-import Date exposing (Date)
-import String
-import Char
-import Strftime
+import Simple.Fuzzy
 import Types exposing (..)
 import RuterAPI exposing (..)
 
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ h1 [] [ text "Sanntidsdata fra Ruter" ]
-        , case model of
-            Initialized ->
-                initialized
-
-            ChoosingStops { availableStops, stopFilter } ->
-                div []
-                    [ viewStopFilter
-                    , availableStops
-                        |> filterStops stopFilter
-                        |> viewStops
-                    ]
-
-            ChosenStop { chosenStop, departures, now } ->
-                viewDepartures chosenStop departures now
-
-            Crashed { errorMessage } ->
-                viewCrashReport errorMessage
+    div
+        [ style
+            [ ( "width", "100%" )
+            , ( "overflow", "hidden" )
+            , ( "margin-left", "1em" )
+            , ( "margin-right", "1em" )
+            ]
+        ]
+        [ header model
+        , viewErrorMessageIfPresent model
+        , leftColumn model
+        , rightColumn model
         ]
 
 
-initialized : Html Msg
-initialized =
-    div [] [ text "" ]
-
-
-viewStopFilter : Html Msg
-viewStopFilter =
-    input [ onInput StopFilterInput, placeholder "Filtrér", autofocus True ] []
-
-
-filterStops : String -> List Stop -> List Stop
-filterStops pattern stops =
+header : Model -> Html Msg
+header model =
     let
-        match stop =
-            String.contains (String.map Char.toLower pattern) (String.map Char.toLower stop.name)
+        time =
+            model.now
+                |> Maybe.map toString
+                |> Maybe.map ((++) " ")
+                |> Maybe.withDefault ""
     in
-        stops
-            |> List.filter match
+        h1 [] [ text ("Sanntidsdata fra Ruter" ++ time) ]
+
+
+viewErrorMessageIfPresent : Model -> Html Msg
+viewErrorMessageIfPresent model =
+    case model.errorMessage of
+        Just errorMessage ->
+            div []
+                [ h2 [] [ text "Oh noes, noe feilet!" ]
+                , p [] [ text errorMessage ]
+                ]
+
+        Nothing ->
+            div [] []
+
+
+leftColumn : Model -> Html Msg
+leftColumn model =
+    div [ style [ ( "float", "left" ), ( "width", "50%" ) ] ]
+        [ inputFilterBox
+        , model.stops
+            |> Simple.Fuzzy.filter .name model.nameFilter
+            |> viewStops
+        ]
+
+
+rightColumn : Model -> Html Msg
+rightColumn model =
+    div [ style [ ( "float", "right" ), ( "width", "50%" ) ] ]
+        [ viewChosenStop model.chosenStop
+        , viewDepartures model
+        ]
+
+
+viewChosenStop : Maybe Stop -> Html Msg
+viewChosenStop maybeStop =
+    case maybeStop of
+        Just stop ->
+            h2 [] [ text stop.name ]
+
+        Nothing ->
+            div [] []
+
+
+formatTimedelta : Maybe Date -> Date -> String
+formatTimedelta maybeNow arrivalTime =
+    case maybeNow of
+        Just now ->
+            let
+                timeDelta =
+                    Date.toTime arrivalTime - Date.toTime now
+
+                hours =
+                    timeDelta
+                        |> Time.inHours
+                        |> floor
+
+                afterHours =
+                    timeDelta - (toFloat hours * Time.hour)
+
+                minutes =
+                    afterHours
+                        |> Time.inMinutes
+                        |> floor
+
+                afterMinutes =
+                    afterHours - (toFloat minutes * Time.minute)
+
+                seconds =
+                    afterMinutes
+                        |> Time.inSeconds
+                        |> floor
+            in
+                [ hours, minutes, seconds ]
+                    |> List.map toString
+                    |> List.map (String.padLeft 2 '0')
+                    |> String.join ":"
+
+        Nothing ->
+            "N/A"
+
+
+colourBox : String -> Html Msg
+colourBox colour =
+    div
+        [ style
+            [ ( "float", "left" )
+            , ( "width", "20px" )
+            , ( "height", "20px" )
+            , ( "margin", "5px" )
+            , ( "border", "1 px solid rgba(0, 0, 0, .2)" )
+            , ( "background", "#" ++ colour )
+            ]
+        ]
+        []
+
+
+viewDepartures : Model -> Html Msg
+viewDepartures model =
+    let
+        headers =
+            if List.length model.departures > 1 then
+                tr []
+                    [ th [] [ text "" ]
+                    , th [] [ text "Linje" ]
+                    , th [] [ text "Destinasjon" ]
+                    , th [] [ text "" ]
+                    , th [] [ text "Avgang" ]
+                    ]
+            else
+                tr [] []
+
+        row departure =
+            tr []
+                [ td [] [ colourBox departure.lineColour ]
+                , td [] [ text departure.lineRef ]
+                , td [] [ text departure.destinationName ]
+                , td [] [ text (formatTimedelta model.now departure.expectedArrivalTime) ]
+                , td [] [ text (toString departure.expectedArrivalTime) ]
+                ]
+    in
+        model.departures
+            |> List.map row
+            |> List.append [ headers ]
+            |> table []
+
+
+inputFilterBox : Html Msg
+inputFilterBox =
+    p []
+        [ input
+            [ onInput FilterInput
+            , autofocus True
+            , placeholder "Filtrér"
+            ]
+            []
+        ]
 
 
 viewStops : List Stop -> Html Msg
-viewStops availableStops =
+viewStops stops =
     let
         row stop =
-            div [] [ button [ onClick (ChooseStop stop) ] [ text stop.name ] ]
+            div []
+                [ button
+                    [ onClick (ChooseStop stop)
+                    , style [ ( "margin-right", "10px" ) ]
+                    , title ("Last sanntidsdata for " ++ stop.name)
+                    ]
+                    [ text "🕐" ]
+                , span [] [ text stop.name ]
+                ]
     in
-        availableStops
+        stops
             |> List.sortBy .name
             |> List.map row
             |> div []
-
-
-googleCalendarUrl : Departure -> String
-googleCalendarUrl departure =
-    let
-        txt =
-            "Ta linje " ++ departure.lineRef ++ " mot " ++ departure.destinationName
-
-        timeString =
-            departure.expectedArrivalTime
-                |> Strftime.format "%Y%m%dT%H%M%S"
-    in
-        "https://calendar.google.com/calendar/render?action=TEMPLATE"
-            ++ "&text="
-            ++ Http.encodeUri txt
-            ++ "&dates="
-            ++ timeString
-            ++ "/"
-            ++ timeString
-
-
-viewDateDifference : Date.Date -> Date.Date -> String
-viewDateDifference date1 date2 =
-    let
-        timeDelta =
-            Date.toTime date1
-                - Date.toTime date2
-    in
-        if timeDelta > 0 then
-            formatTimedelta timeDelta
-        else
-            "- " ++ formatTimedelta ((-1) * timeDelta)
-
-
-formatTimedelta : Time.Time -> String
-formatTimedelta timeDelta =
-    let
-        hours =
-            timeDelta
-                |> Time.inHours
-                |> floor
-
-        afterHours =
-            timeDelta - (toFloat hours * Time.hour)
-
-        minutes =
-            afterHours
-                |> Time.inMinutes
-                |> floor
-
-        afterMinutes =
-            afterHours - (toFloat minutes * Time.minute)
-
-        seconds =
-            afterMinutes
-                |> Time.inSeconds
-                |> floor
-    in
-        [ hours, minutes, seconds ]
-            |> List.map toString
-            |> List.map (String.padLeft 2 '0')
-            |> String.join ":"
-
-
-viewDepartures : Stop -> List Departure -> Maybe Date -> Html Msg
-viewDepartures stop departures date =
-    let
-        calendarLink departure =
-            a [ googleCalendarUrl departure |> href, target "_blank" ] [ text "📅" ]
-
-        now =
-            date
-                |> Maybe.withDefault (Date.fromTime 0)
-
-        row departure =
-            [ departure.lineRef
-            , departure.destinationName
-            , viewDateDifference departure.expectedArrivalTime now
-            , departure.expectedArrivalTime |> toString
-            ]
-                |> List.map (\content -> td [] [ text content ])
-                |> List.append [ calendarLink departure ]
-                |> tr []
-    in
-        div []
-            [ h2 [] [ text stop.name ]
-            , p [] [ text (toString now) ]
-            , departures
-                |> List.map row
-                |> table []
-            ]
-
-
-viewCrashReport : String -> Html Msg
-viewCrashReport errorMessage =
-    div []
-        [ h2 [] [ text "Oh noes!" ]
-        , p [] [ text errorMessage ]
-        ]

@@ -1,0 +1,1250 @@
+[
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:20:00+01:00",
+            "DeparturePlatformName" : "12",
+            "ExpectedDepartureTime" : "2017-03-25T08:20:54+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:20:54+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:20:00+01:00",
+            "VisitNumber" : 6,
+            "DestinationDisplay" : "Majorstuen",
+            "VehicleAtStop" : false
+         },
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "200101",
+         "OriginRef" : "3010870",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "19",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201107",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "400192011",
+         "DirectionRef" : "2",
+         "DirectionName" : "2",
+         "PublishedLineName" : "19",
+         "DestinationName" : "Majorstuen",
+         "Delay" : "PT54S",
+         "BlockRef" : "1107",
+         "InCongestion" : false,
+         "OriginName" : "Ljabru [trikk]"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD"
+      },
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "VehicleFeatureRef" : "lowFloor",
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "VisitNumber" : 20,
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:26:08+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:26:08+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "DeparturePlatformName" : "11"
+         },
+         "VehicleRef" : "200145",
+         "OriginRef" : "3012324",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200807"
+         },
+         "DirectionName" : "1",
+         "PublishedLineName" : "18",
+         "VehicleJourneyName" : "400182008",
+         "DirectionRef" : "1",
+         "BlockRef" : "1807",
+         "InCongestion" : false,
+         "OriginName" : "Rikshospitalet",
+         "DestinationName" : "Ljabru",
+         "Delay" : "PT128S"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T08:30:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:30:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 6
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleFeatureRef" : "lowFloor",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010870",
+         "VehicleRef" : "200166",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3012324",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201107"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "400182011",
+         "DirectionRef" : "2",
+         "DirectionName" : "2",
+         "PublishedLineName" : "18",
+         "Delay" : "PT0S",
+         "DestinationName" : "Rikshospitalet",
+         "OriginName" : "Ljabru [trikk]",
+         "InCongestion" : false,
+         "BlockRef" : "1805"
+      },
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "11",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "DestinationName" : "Ljabru",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "BlockRef" : "1102",
+         "InCongestion" : false,
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "400192010",
+         "PublishedLineName" : "19",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201007",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "19",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010870",
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010201",
+         "VehicleRef" : "200139",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "VisitNumber" : 17,
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T08:34:00+01:00"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleFeatureRef" : "",
+         "Monitored" : true
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201307"
+         },
+         "LineRef" : "19",
+         "PublishedLineName" : "19",
+         "DirectionName" : "2",
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "400192013",
+         "BlockRef" : "1109",
+         "InCongestion" : false,
+         "OriginName" : "Ljabru [trikk]",
+         "DestinationName" : "Majorstuen",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T08:40:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:40:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:40:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:40:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Majorstuen",
+            "VisitNumber" : 6
+         },
+         "VehicleRef" : "200129",
+         "OriginRef" : "3010870",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null
+      },
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "1",
+         "PublishedLineName" : "18",
+         "VehicleJourneyName" : "400182010",
+         "DirectionRef" : "1",
+         "InCongestion" : false,
+         "BlockRef" : "1809",
+         "OriginName" : "Rikshospitalet",
+         "DestinationName" : "Ljabru",
+         "Delay" : "PT0S",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201007"
+         },
+         "LineRef" : "18",
+         "VehicleRef" : "200159",
+         "OriginRef" : "3012324",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "Monitored" : true,
+         "VehicleFeatureRef" : "lowFloor",
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 20,
+            "AimedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "DeparturePlatformName" : "11",
+            "AimedArrivalTime" : "2017-03-25T08:44:00+01:00"
+         }
+      },
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ]
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201307",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3012324",
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "DestinationName" : "Rikshospitalet",
+         "OriginName" : "Ljabru [trikk]",
+         "InCongestion" : false,
+         "BlockRef" : "1807",
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "400182013",
+         "PublishedLineName" : "18",
+         "DirectionName" : "2",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 6,
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleFeatureRef" : "lowFloor",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010870",
+         "VehicleRef" : "200145"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "11",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010201",
+         "VehicleRef" : "200140",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 17,
+            "DeparturePlatformName" : "11",
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleFeatureRef" : "",
+         "Monitored" : true,
+         "Delay" : "PT0S",
+         "DestinationName" : "Ljabru",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "BlockRef" : "1104",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400192012",
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "PublishedLineName" : "19",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201207"
+         },
+         "LineRef" : "19",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010870",
+         "VehicleMode" : 3
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "19",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201507",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "19",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "400192015",
+         "DirectionRef" : "2",
+         "InCongestion" : false,
+         "BlockRef" : "1102",
+         "OriginName" : "Ljabru [trikk]",
+         "DestinationName" : "Majorstuen",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Majorstuen",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 6,
+            "ExpectedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:00:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T09:00:00+01:00"
+         },
+         "VehicleRef" : "200139",
+         "OriginRef" : "3010870",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ],
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Ljabru",
+         "Delay" : "PT0S",
+         "BlockRef" : "1801",
+         "InCongestion" : false,
+         "OriginName" : "Rikshospitalet",
+         "VehicleJourneyName" : "400182012",
+         "DirectionRef" : "1",
+         "PublishedLineName" : "18",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201207",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "200164",
+         "OriginRef" : "3012324",
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "DeparturePlatformName" : "11",
+            "VisitNumber" : 20,
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:04:00+01:00"
+         },
+         "Monitored" : true,
+         "VehicleFeatureRef" : "lowFloor"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "18",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "400182015",
+         "DirectionRef" : "2",
+         "BlockRef" : "1809",
+         "InCongestion" : false,
+         "OriginName" : "Ljabru [trikk]",
+         "DestinationName" : "Rikshospitalet",
+         "Delay" : "PT0S",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3012324",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201507",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : "200159",
+         "OriginRef" : "3010870",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "lowFloor",
+         "OperatorRef" : "Sporvognsdrift",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Rikshospitalet",
+            "VisitNumber" : 6,
+            "AimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:10:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:10:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T09:10:00+01:00"
+         }
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:17.783+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "11"
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010201",
+         "VehicleRef" : "200116",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+            "VisitNumber" : 17,
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ljabru",
+            "AimedArrivalTime" : "2017-03-25T09:14:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T09:14:00+01:00"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "DirectionName" : "1",
+         "PublishedLineName" : "19",
+         "VehicleJourneyName" : "400192014",
+         "DirectionRef" : "1",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "InCongestion" : false,
+         "BlockRef" : "1106",
+         "Delay" : "PT0S",
+         "DestinationName" : "Ljabru",
+         "DestinationRef" : "3010870",
+         "VehicleMode" : 3,
+         "LineRef" : "19",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201407"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "19",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "400192017",
+         "DirectionRef" : null,
+         "OriginName" : "Ljabru [trikk]",
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "Delay" : null,
+         "DestinationName" : "Majorstuen",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400192017"
+         },
+         "LineRef" : "19",
+         "OriginAimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+         "OriginRef" : "3010870",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Majorstuen",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00"
+         },
+         "OperatorRef" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DeparturePlatformName" : "11",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ljabru",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00"
+         },
+         "VehicleRef" : null,
+         "OriginRef" : "3012324",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:31:00+01:00",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:52:00+01:00",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400182014",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "3010870",
+         "VehicleMode" : 3,
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "OriginName" : "Rikshospitalet",
+         "DestinationName" : "Ljabru",
+         "Delay" : null,
+         "DirectionName" : null,
+         "PublishedLineName" : "18",
+         "VehicleJourneyName" : "400182014",
+         "DirectionRef" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD"
+      },
+      "MonitoringRef" : "3010740"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012324",
+         "VehicleMode" : 3,
+         "OriginAimedDepartureTime" : "2017-03-25T09:23:00+01:00",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400182017"
+         },
+         "VehicleJourneyName" : "400182017",
+         "DirectionRef" : null,
+         "PublishedLineName" : "18",
+         "DirectionName" : null,
+         "DestinationName" : "Rikshospitalet",
+         "Delay" : null,
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "OriginName" : "Ljabru [trikk]",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Rikshospitalet",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00"
+         },
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "3010870"
+      },
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00"
+   },
+   {
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ljabru"
+         },
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010201",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400192016"
+         },
+         "LineRef" : "19",
+         "OriginAimedDepartureTime" : "2017-03-25T09:07:00+01:00",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "Delay" : null,
+         "DestinationName" : "Ljabru",
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400192016",
+         "DirectionName" : null,
+         "PublishedLineName" : "19"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:40:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T09:40:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Majorstuen",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:40:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:40:00+01:00"
+         },
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "VehicleRef" : null,
+         "OriginRef" : "3010870",
+         "DestinationRef" : "3010201",
+         "VehicleMode" : 3,
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400192019"
+         },
+         "LineRef" : "19",
+         "VehicleJourneyName" : "400192019",
+         "DirectionRef" : null,
+         "PublishedLineName" : "19",
+         "DirectionName" : null,
+         "DestinationName" : "Majorstuen",
+         "Delay" : null,
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "OriginName" : "Ljabru [trikk]"
+      },
+      "MonitoringRef" : "3010740",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : null,
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "11",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:44:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "11",
+            "AimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:44:00+01:00"
+         },
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:51:00+01:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3012324",
+         "VehicleRef" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400182016"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "VehicleJourneyName" : "400182016",
+         "DirectionRef" : null,
+         "PublishedLineName" : "18",
+         "DirectionName" : null,
+         "Delay" : null,
+         "DestinationName" : "Ljabru",
+         "OriginName" : "Rikshospitalet",
+         "BlockRef" : null,
+         "InCongestion" : false
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Rikshospitalet",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+         "OriginRef" : "3010870",
+         "VehicleRef" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3012324",
+         "LineRef" : "18",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400182019"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+         "VehicleJourneyName" : "400182019",
+         "DirectionRef" : null,
+         "PublishedLineName" : "18",
+         "DirectionName" : null,
+         "Delay" : null,
+         "DestinationName" : "Rikshospitalet",
+         "OriginName" : "Ljabru [trikk]",
+         "BlockRef" : null,
+         "InCongestion" : false
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010740",
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "Delay" : null,
+         "DestinationName" : "Ljabru",
+         "DirectionName" : null,
+         "PublishedLineName" : "19",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400192018",
+         "LineRef" : "19",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400192018"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "DestinationRef" : "3010870",
+         "VehicleMode" : 3,
+         "OriginRef" : "3010201",
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:01:00+01:00",
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false
+         },
+         "OperatorRef" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010740"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400192021",
+         "DirectionName" : null,
+         "PublishedLineName" : "19",
+         "Delay" : null,
+         "DestinationName" : "Majorstuen",
+         "OriginName" : "Ljabru [trikk]",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010201",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400192021",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "19",
+         "OriginAimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:28:00+01:00",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010870",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Majorstuen",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "Monitored" : false
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD"
+      },
+      "MonitoringRef" : "3010740",
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "OriginRef" : "3012324",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:11:00+01:00",
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "DestinationDisplay" : "Ljabru",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "11",
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00"
+         },
+         "PublishedLineName" : "18",
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400182018",
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "OriginName" : "Rikshospitalet",
+         "DestinationName" : "Ljabru",
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "OriginAimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400182018"
+         },
+         "LineRef" : "18"
+      },
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "11",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ]
+      },
+      "MonitoringRef" : "3010740",
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 3,
+         "DestinationRef" : "3012324",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400182021",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "18",
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "PublishedLineName" : "18",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "400182021",
+         "DirectionRef" : null,
+         "OriginName" : "Ljabru [trikk]",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "Delay" : null,
+         "DestinationName" : "Rikshospitalet",
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Rikshospitalet",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:10:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:10:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:10:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedArrivalTime" : "2017-03-25T10:10:00+01:00"
+         },
+         "OperatorRef" : null,
+         "OriginRef" : "3010870",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:42:00+01:00",
+         "TrainBlockPart" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD"
+      },
+      "MonitoringRef" : "3010740",
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010740",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "19",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "400192020",
+         "DirectionRef" : null,
+         "OriginName" : "Majorstuen (i Kirkeveien)",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "Delay" : null,
+         "DestinationName" : "Ljabru",
+         "VehicleMode" : 3,
+         "DestinationRef" : "3010870",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400192020",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "19",
+         "OriginAimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+         "OriginRef" : "3010201",
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:21:00+01:00",
+         "VehicleFeatureRef" : null,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "11",
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ljabru",
+            "VisitNumber" : 0
+         },
+         "OperatorRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:18.2209075+01:00",
+      "StopVisitNote" : []
+   }
+]

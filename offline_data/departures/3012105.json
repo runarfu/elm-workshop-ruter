@@ -1,0 +1,653 @@
+[
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "G",
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "LineColour" : "41BECD",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : true
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012105",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "400172010",
+         "VehicleFeatureRef" : "lowFloor",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Sporvognsdrift",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201007",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "17",
+         "OriginName" : "Rikshospitalet",
+         "Delay" : "PT72S",
+         "LineRef" : "17",
+         "OriginRef" : "3012324",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "VisitNumber" : 22,
+            "DeparturePlatformName" : "G",
+            "AimedArrivalTime" : "2017-03-25T08:33:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:34:12+01:00",
+            "DestinationDisplay" : "Sinsen-Grefsen stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T08:34:12+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:33:00+01:00"
+         },
+         "BlockRef" : "1310",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "200154",
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "Monitored" : true,
+         "DestinationName" : "Sinsen-Grefsen stasjon",
+         "DestinationRef" : "3012111"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.252+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "400172013",
+         "VehicleFeatureRef" : "lowFloor",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201307",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "PublishedLineName" : "17",
+         "BlockRef" : "1705",
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "200170",
+         "OriginRef" : "3012111",
+         "LineRef" : "17",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 2,
+            "AimedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "DeparturePlatformName" : "H",
+            "DestinationDisplay" : "Rikshospitalet",
+            "ExpectedDepartureTime" : "2017-03-25T08:41:00+01:00"
+         },
+         "DirectionName" : "2",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3012324",
+         "Monitored" : true,
+         "DestinationName" : "Rikshospitalet"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.252+01:00",
+      "MonitoringRef" : "3012105",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "H",
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "LineColour" : "41BECD",
+         "IsHub" : true
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:24.252+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201207",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "PublishedLineName" : "17",
+         "OriginName" : "Rikshospitalet",
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "400172012",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "lowFloor",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "DestinationName" : "Sinsen-Grefsen stasjon",
+         "Monitored" : true,
+         "DestinationRef" : "3012111",
+         "OriginRef" : "3012324",
+         "LineRef" : "17",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:53:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:53:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:53:00+01:00",
+            "DestinationDisplay" : "Sinsen-Grefsen stasjon",
+            "VisitNumber" : 22,
+            "DeparturePlatformName" : "G",
+            "AimedArrivalTime" : "2017-03-25T08:53:00+01:00"
+         },
+         "BlockRef" : "1311",
+         "VehicleMode" : 3,
+         "VehicleRef" : "200151",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "MonitoringRef" : "3012105",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "41BECD",
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "G",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ]
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "LineColour" : "41BECD",
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "H"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "lowFloor",
+         "VehicleJourneyName" : "400172015",
+         "Delay" : "PT0S",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "PublishedLineName" : "17",
+         "OperatorRef" : "Sporvognsdrift",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201507",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "200143",
+         "VehicleMode" : 3,
+         "BlockRef" : "1707",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:01:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:01:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 2,
+            "DeparturePlatformName" : "H",
+            "AimedArrivalTime" : "2017-03-25T09:01:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:01:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet"
+         },
+         "LineRef" : "17",
+         "OriginRef" : "3012111",
+         "Monitored" : true,
+         "DestinationName" : "Rikshospitalet",
+         "DestinationRef" : "3012324",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.252+01:00",
+      "MonitoringRef" : "3012105"
+   },
+   {
+      "MonitoringRef" : "3012105",
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "400172014",
+         "VehicleFeatureRef" : "lowFloor",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201407"
+         },
+         "OperatorRef" : "Sporvognsdrift",
+         "OriginName" : "Rikshospitalet",
+         "PublishedLineName" : "17",
+         "BlockRef" : "1701",
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "200155",
+         "OriginRef" : "3012324",
+         "LineRef" : "17",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "VisitNumber" : 22,
+            "DeparturePlatformName" : "G",
+            "AimedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "DestinationDisplay" : "Sinsen-Grefsen stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : "1",
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "DestinationName" : "Sinsen-Grefsen stasjon",
+         "Monitored" : true,
+         "DestinationRef" : "3012111"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.253+01:00",
+      "Extensions" : {
+         "IsHub" : true,
+         "LineColour" : "41BECD",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "G"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "12",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ],
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "IsHub" : true
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012105",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400172017"
+         },
+         "OperatorRef" : null,
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "PublishedLineName" : "17",
+         "Delay" : null,
+         "VehicleJourneyName" : "400172017",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationName" : "Rikshospitalet",
+         "DestinationRef" : "3012324",
+         "OriginRef" : "3012111",
+         "LineRef" : "17",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet",
+            "ExpectedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:21:00+01:00",
+            "DeparturePlatformName" : "H",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:21:00+01:00"
+         },
+         "BlockRef" : null,
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "VehicleRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "41BECD",
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "11",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "DestinationName" : "Sinsen-Grefsen stasjon",
+         "DestinationRef" : "3012111",
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Sinsen-Grefsen stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "DeparturePlatformName" : "G",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:33:00+01:00"
+         },
+         "OriginRef" : "3012324",
+         "LineRef" : "17",
+         "Delay" : null,
+         "PublishedLineName" : "17",
+         "OriginName" : "Rikshospitalet",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400172016"
+         },
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400172016"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00",
+      "MonitoringRef" : "3012105"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "VehicleRef" : null,
+         "OriginRef" : "3012111",
+         "LineRef" : "17",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "H",
+            "AimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet",
+            "ExpectedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3012324",
+         "DestinationName" : "Rikshospitalet",
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "VehicleJourneyName" : "400172019",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400172019"
+         },
+         "OperatorRef" : null,
+         "PublishedLineName" : "17",
+         "OriginName" : "Grefsen stasjon [trikk]"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00",
+      "MonitoringRef" : "3012105",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "12",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ],
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "IsHub" : true
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "11",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ]
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012105",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "OriginName" : "Rikshospitalet",
+         "PublishedLineName" : "17",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400172018",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400172018",
+         "Monitored" : false,
+         "DestinationName" : "Sinsen-Grefsen stasjon",
+         "DestinationRef" : "3012111",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "DeparturePlatformName" : "G",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "DestinationDisplay" : "Sinsen-Grefsen stasjon",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:53:00+01:00"
+         },
+         "DirectionRef" : null,
+         "OriginRef" : "3012324",
+         "LineRef" : "17"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "12",
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "IsHub" : true
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012105",
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "400172021",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400172021",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "PublishedLineName" : "17",
+         "Delay" : null,
+         "LineRef" : "17",
+         "OriginRef" : "3012111",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "H",
+            "AimedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:01:00+01:00"
+         },
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:32:00+01:00",
+         "VehicleMode" : 3,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationName" : "Rikshospitalet",
+         "DestinationRef" : "3012324"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : true,
+         "LineColour" : "41BECD",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43147,
+               "Header" : "Stoppestedet Stensgata benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "11"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012105",
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400172020"
+         },
+         "OriginName" : "Rikshospitalet",
+         "PublishedLineName" : "17",
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "VehicleJourneyName" : "400172020",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3012111",
+         "DestinationName" : "Sinsen-Grefsen stasjon",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleRef" : null,
+         "VehicleMode" : 3,
+         "LineRef" : "17",
+         "OriginRef" : "3012324",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:13:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:13:00+01:00",
+            "DeparturePlatformName" : "G",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:13:00+01:00",
+            "DestinationDisplay" : "Sinsen-Grefsen stasjon",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:13:00+01:00"
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3012105",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "PublishedLineName" : "17",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400172024"
+         },
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:20:00+01:00",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "400172024",
+         "DestinationRef" : "3012324",
+         "Monitored" : false,
+         "DestinationName" : "Rikshospitalet",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "VehicleMode" : 3,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:52:00+01:00",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "DestinationDisplay" : "Rikshospitalet",
+            "AimedArrivalTime" : "2017-03-25T10:21:00+01:00",
+            "DeparturePlatformName" : "H",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:21:00+01:00"
+         },
+         "OriginRef" : "3012111",
+         "LineRef" : "17"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:24.6310993+01:00",
+      "Extensions" : {
+         "IsHub" : true,
+         "OccupancyData" : null,
+         "LineColour" : "41BECD",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Stensgata benyttes ikke",
+               "ID" : 43147
+            }
+         ],
+         "DepartureNamePreMapping" : "12"
+      },
+      "StopVisitNote" : []
+   }
+]
