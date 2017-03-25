@@ -59,7 +59,16 @@ viewExercises : List Exercise -> Html a
 viewExercises exercises =
     let
         row exercise =
-            tr []
+            tr
+                [ style
+                    [ ( "background-color"
+                      , if exercise.isCompleted then
+                            "lightgreen"
+                        else
+                            ""
+                      )
+                    ]
+                ]
                 [ td []
                     [ input
                         [ type_ "checkbox"
