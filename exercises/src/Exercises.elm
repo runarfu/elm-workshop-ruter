@@ -1,16 +1,29 @@
-module Exercises exposing (ExerciseSet)
+module Exercises exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
+import String
 import E00
+import E01
 
 
-type alias ExerciseSet =
-    List ( String, String )
+model : Model
+model =
+    [ E00.exercises
+    , E01.exercises
+    ]
+        |> List.concat
+        |> List.map parseExercise
 
 
 type alias Model =
-    List ExerciseSet
+    List Exercise
+
+
+type alias Exercise =
+    { isCompleted : Bool
+    , description : String
+    }
 
 
 main : Program Never Model a
@@ -22,28 +35,62 @@ main =
         }
 
 
-model : Model
-model =
-    [ E00.exercises
-    ]
-
-
-viewExercises : Int -> List ( String, String ) -> Html a
-viewExercises index exercises =
+parseExercise : String -> Exercise
+parseExercise string =
     let
-        content ( number, description ) =
+        prefix =
+            string
+                |> String.trim
+                |> String.left 4
+                |> String.trim
+
+        suffix =
+            string
+                |> String.trim
+                |> String.dropLeft 4
+                |> String.trim
+    in
+        { isCompleted = prefix /= "TODO"
+        , description = suffix
+        }
+
+
+viewExercises : List Exercise -> Html a
+viewExercises exercises =
+    let
+        row exercise =
             tr []
-                [ td [] [ input [ type_ "checkbox" ] [] ]
-                , td [] [ text number ]
-                , td [] [ text description ]
+                [ td []
+                    [ input
+                        [ type_ "checkbox"
+                        , checked exercise.isCompleted
+                        , disabled True
+                        ]
+                        []
+                    ]
+                , td [] [ text exercise.description ]
                 ]
     in
-        div []
-            [ h2 [] [ text ("Oppgavesett " ++ (toString index)) ]
-            , exercises
-                |> List.map content
-                |> table []
-            ]
+        exercises
+            |> List.map row
+            |> table []
+
+
+viewCounts : Model -> Html a
+viewCounts model =
+    let
+        totalExercises =
+            List.length model
+
+        finished =
+            model
+                |> List.filter .isCompleted
+                |> List.length
+    in
+        toString finished
+            ++ "/"
+            ++ toString totalExercises
+            |> text
 
 
 view : Model -> Html a
@@ -52,9 +99,10 @@ view model =
         header =
             h1 [] [ text "Oppgaver" ]
 
+        counts =
+            h2 [] [ viewCounts model ]
+
         paragraphs =
-            model
-                |> List.indexedMap viewExercises
-                |> div []
+            viewExercises model
     in
-        div [] [ header, paragraphs ]
+        div [] [ header, counts, paragraphs ]

@@ -9,11 +9,11 @@ import Html exposing (..)
 -- å bli fulgt.
 
 
-exercises : List ( String, String )
+exercises : List String
 exercises =
-    [ ( "0.1", "Vis frem startverdien i datamodellen." )
-    , ( "0.2", "Endre datamodellen når det skrives i input-feltet." )
-    , ( "0.3", "Legg til en knapp som blanker ut datamodellen." )
+    [ "TODO 0.0 Vis frem startverdien i datamodellen."
+    , "TODO 0.1 Endre datamodellen når det skrives i input-feltet."
+    , "TODO 0.2 Legg til en knapp som blanker ut datamodellen."
     ]
 
 
