@@ -1,0 +1,996 @@
+[
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Holmlia stasjon [buss]",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "DestinationName" : "Grorud T",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50910",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Delay" : "PT79S",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:25:19+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 23,
+            "DestinationDisplay" : "Grorud T",
+            "ExpectedArrivalTime" : "2017-03-25T08:25:19+01:00"
+         },
+         "DestinationRef" : "3011941",
+         "OriginRef" : "3010921",
+         "Monitored" : true,
+         "PublishedLineName" : "79",
+         "LineRef" : "79",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "200790188",
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "7954",
+         "VehicleRef" : "101232",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "101252",
+         "VehicleJourneyName" : "200790185",
+         "DirectionName" : "1",
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "7951",
+         "LineRef" : "79",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3011941",
+         "Monitored" : true,
+         "DestinationRef" : "3010921",
+         "PublishedLineName" : "79",
+         "InCongestion" : false,
+         "Delay" : "PT234S",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50810"
+         },
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Holmlia stasjon",
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "VisitNumber" : 32,
+            "ExpectedDepartureTime" : "2017-03-25T08:28:54.657+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:28:54.657+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00"
+         },
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "DestinationName" : "Holmlia stasjon",
+         "OriginName" : "Grorud T [buss]"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011441",
+         "Monitored" : true,
+         "OriginRef" : "3010911",
+         "PublishedLineName" : "76",
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "VisitNumber" : 14,
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "DestinationName" : "Helsfyr T",
+         "OriginName" : "Hauketo stasjon [buss]",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "101212",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "200760159",
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "7604",
+         "LineRef" : "76",
+         "TrainBlockPart" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "MonitoringRef" : "3011136",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "101211",
+         "OperatorRef" : "Unibuss",
+         "DirectionName" : "1",
+         "VehicleJourneyName" : "200760309",
+         "BlockRef" : "7602",
+         "LineRef" : "76",
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "76",
+         "OriginRef" : "3011441",
+         "DestinationRef" : "3010911",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "55210"
+         },
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:42:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:42:00+01:00",
+            "VisitNumber" : 17,
+            "DestinationDisplay" : "Hauketo stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T08:42:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:42:00+01:00"
+         },
+         "DestinationName" : "Hauketo stasjon",
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "OriginName" : "Helsfyr T [bussterminal]"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "DestinationName" : "Oslo lufthavn",
+         "OriginName" : "Mortensrud T [buss]",
+         "Monitored" : false,
+         "DestinationRef" : "2350301",
+         "OriginRef" : "3010951",
+         "PublishedLineName" : "FB6",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:51:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:51:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Oslo lufthavn",
+            "ExpectedArrivalTime" : "2017-03-25T08:51:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:51:00+01:00"
+         },
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "236060208"
+         },
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "VehicleJourneyName" : "236060208",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "3606",
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T08:40:00+01:00",
+         "VehicleRef" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "949494",
+         "Deviations" : [
+            {
+               "ID" : 42794,
+               "Header" : "Feil i reiseplanlegger"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011136",
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "101233",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "79",
+         "BlockRef" : "7955",
+         "VehicleJourneyName" : "200790194",
+         "DirectionName" : "2",
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 23,
+            "DestinationDisplay" : "Grorud T",
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "DestinationRef" : "3011941",
+         "OriginRef" : "3010921",
+         "Monitored" : true,
+         "PublishedLineName" : "79",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "DestinationName" : "Grorud T"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "LineRef" : "79",
+         "BlockRef" : "7952",
+         "DirectionName" : "1",
+         "VehicleJourneyName" : "200790191",
+         "OperatorRef" : "Unibuss",
+         "VehicleRef" : "101254",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Grorud T [buss]",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "DestinationName" : "Holmlia stasjon",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "VisitNumber" : 32,
+            "AimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "VehicleAtStop" : false
+         },
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51010"
+         },
+         "Delay" : "PT0S",
+         "OriginRef" : "3011941",
+         "Monitored" : true,
+         "DestinationRef" : "3010921",
+         "PublishedLineName" : "79"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "VisitNumber" : 14,
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : "PT0S",
+         "DestinationRef" : "3011441",
+         "Monitored" : true,
+         "OriginRef" : "3010911",
+         "PublishedLineName" : "76",
+         "OriginName" : "Hauketo stasjon [buss]",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "DestinationName" : "Helsfyr T",
+         "VehicleRef" : "101213",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "76",
+         "BlockRef" : "7601",
+         "VehicleJourneyName" : "200760162",
+         "DirectionName" : "2",
+         "OperatorRef" : "Unibuss"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "MonitoringRef" : "3011136",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "DestinationName" : "Hauketo stasjon",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "DestinationRef" : "3010911",
+         "OriginRef" : "3011441",
+         "Monitored" : true,
+         "PublishedLineName" : "76",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Hauketo stasjon",
+            "VisitNumber" : 17,
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "55310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "BlockRef" : "7603",
+         "VehicleJourneyName" : "200760312",
+         "DirectionName" : "1",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "LineRef" : "76",
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "101215"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:13.62+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "MonitoringRef" : "3011136",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "UE1",
+         "OriginRef" : "3010866",
+         "DestinationRef" : "2350301",
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "OSL-ekspressen",
+            "AimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:17:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "236210111"
+         },
+         "InCongestion" : false,
+         "Delay" : null,
+         "DestinationName" : "OSL-ekspressen",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "OriginName" : "Leirskallen",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:03:00+01:00",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "236210111",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "3621"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "949494",
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DestinationName" : "Grorud T",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "OriginRef" : "3010921",
+         "DestinationRef" : "3011941",
+         "Monitored" : false,
+         "PublishedLineName" : "79",
+         "InCongestion" : false,
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200790200",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Grorud T",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "VehicleJourneyName" : "200790200",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "LineRef" : "79",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:59:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+         "VehicleRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "LineRef" : "79",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "200790197",
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+         "OriginName" : "Grorud T [buss]",
+         "DestinationName" : "Holmlia stasjon",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200790197",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Delay" : null,
+         "PublishedLineName" : "79",
+         "Monitored" : false,
+         "OriginRef" : "3011941",
+         "DestinationRef" : "3010921"
+      },
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Hauketo stasjon [buss]",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DestinationName" : "Helsfyr T",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200760165"
+         },
+         "InCongestion" : false,
+         "DestinationRef" : "3011441",
+         "OriginRef" : "3010911",
+         "Monitored" : false,
+         "PublishedLineName" : "76",
+         "TrainBlockPart" : null,
+         "LineRef" : "76",
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "VehicleJourneyName" : "200760165",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "DestinationName" : "Hauketo stasjon",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200760315",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Hauketo stasjon",
+            "AimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "PublishedLineName" : "76",
+         "Monitored" : false,
+         "DestinationRef" : "3010911",
+         "OriginRef" : "3011441",
+         "LineRef" : "76",
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "200760315",
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "VehicleFeatureRef" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "MonitoringRef" : "3011136",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010951",
+         "Monitored" : false,
+         "DestinationRef" : "2350301",
+         "PublishedLineName" : "FB6",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Oslo lufthavn",
+            "AimedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:51:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:51:00+01:00"
+         },
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "236060210"
+         },
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "DestinationName" : "Oslo lufthavn",
+         "OriginName" : "Mortensrud T [buss]",
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:44:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "VehicleJourneyName" : "236060210",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "3606"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 42794,
+               "Header" : "Feil i reiseplanlegger"
+            }
+         ],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "949494"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3011136",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "79",
+         "OriginRef" : "3011941",
+         "DestinationRef" : "3010921",
+         "Monitored" : false,
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200790203"
+         },
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "VisitNumber" : 0
+         },
+         "DestinationName" : "Holmlia stasjon",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "OriginName" : "Grorud T [buss]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "200790203",
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "LineRef" : "79",
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00"
+   },
+   {
+      "MonitoringRef" : "3011136",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:29:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:31:00+01:00",
+         "VehicleFeatureRef" : null,
+         "LineRef" : "79",
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "VehicleJourneyName" : "200790206",
+         "BlockRef" : null,
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200790206"
+         },
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Grorud T",
+            "AimedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:56:00+01:00"
+         },
+         "PublishedLineName" : "79",
+         "DestinationRef" : "3011941",
+         "Monitored" : false,
+         "OriginRef" : "3010921",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "DestinationName" : "Grorud T",
+         "VehicleMode" : 0,
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "76",
+         "Monitored" : false,
+         "OriginRef" : "3010911",
+         "DestinationRef" : "3011441",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200760168"
+         },
+         "InCongestion" : false,
+         "DestinationName" : "Helsfyr T",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "OriginName" : "Hauketo stasjon [buss]",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:29:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "200760168",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "76"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011136",
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200760318",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginRef" : "3011441",
+         "DestinationRef" : "3010911",
+         "Monitored" : false,
+         "PublishedLineName" : "76",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "DestinationName" : "Hauketo stasjon",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:28:00+01:00",
+         "LineRef" : "76",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200760318",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "BlockRef" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011136"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:13.925244+01:00",
+      "MonitoringRef" : "3011136",
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:08:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "3621",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "236210114",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "DestinationDisplay" : "OSL-ekspressen",
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "236210114",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Delay" : null,
+         "DestinationRef" : "2350301",
+         "Monitored" : false,
+         "OriginRef" : "3010866",
+         "PublishedLineName" : "UE1",
+         "OriginName" : "Leirskallen",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DestinationName" : "OSL-ekspressen"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "949494"
+      },
+      "StopVisitNote" : []
+   }
+]

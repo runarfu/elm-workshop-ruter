@@ -1,0 +1,638 @@
+[
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012226",
+      "RecordedAtTime" : "2017-03-25T08:21:46.366+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Tåsen senter",
+         "LineRef" : "34",
+         "DestinationRef" : "3010760",
+         "VehicleRef" : "100558",
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Ekeberg hageby",
+         "PublishedLineName" : "34",
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200340194",
+         "BlockRef" : "3403",
+         "Delay" : "PT32S",
+         "OperatorRef" : "Unibuss",
+         "OriginRef" : "3012231",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50510"
+         },
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:23:32.243+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ekeberg hageby",
+            "VisitNumber" : 4,
+            "ExpectedArrivalTime" : "2017-03-25T08:23:32.243+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:23:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:23:00+01:00"
+         },
+         "DirectionRef" : "1"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      }
+   },
+   {
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010760",
+         "OperatorRef" : "Unibuss",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:43:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T08:43:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:43:00+01:00",
+            "DestinationDisplay" : "Tåsen",
+            "VisitNumber" : 22,
+            "ExpectedDepartureTime" : "2017-03-25T08:43:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50610",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "DestinationName" : "Tåsen",
+         "BlockRef" : "3401",
+         "VehicleJourneyName" : "200340197",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "OriginName" : "Simensbråten",
+         "LineRef" : "34",
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "VehicleRef" : "410534",
+         "DestinationRef" : "3012231"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.366+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012226",
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.366+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Ekeberg hageby",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "InCongestion" : false,
+         "BlockRef" : "3405",
+         "VehicleJourneyName" : "200340200",
+         "Delay" : "PT0S",
+         "OriginRef" : "3012231",
+         "OperatorRef" : "Unibuss",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50710",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 4,
+            "DestinationDisplay" : "Ekeberg hageby",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "LineRef" : "34",
+         "OriginName" : "Tåsen senter",
+         "VehicleRef" : null,
+         "DestinationRef" : "3010760",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "VehicleRef" : "410534",
+         "DestinationRef" : "3010760",
+         "LineRef" : "34",
+         "OriginName" : "Tåsen senter",
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3401",
+         "VehicleJourneyName" : "200340206",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby",
+            "VisitNumber" : 4,
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "DirectionRef" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50910"
+         },
+         "OriginRef" : "3012231",
+         "OperatorRef" : "Unibuss",
+         "Delay" : "PT0S"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.366+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:46.366+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "LineRef" : "34",
+         "OriginName" : "Simensbråten",
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "VehicleRef" : "100558",
+         "DestinationRef" : "3012231",
+         "OriginRef" : "3010760",
+         "OperatorRef" : "Unibuss",
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "VisitNumber" : 22,
+            "DestinationDisplay" : "Tåsen",
+            "ExpectedArrivalTime" : "2017-03-25T09:13:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50810"
+         },
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "DestinationName" : "Tåsen",
+         "BlockRef" : "3403",
+         "VehicleJourneyName" : "200340203",
+         "InCongestion" : false
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012226"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.366+01:00",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "BlockRef" : "3402",
+         "VehicleJourneyName" : "200340212",
+         "DestinationName" : "Ekeberg hageby",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "34",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby",
+            "VisitNumber" : 4,
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00"
+         },
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "OriginRef" : "3012231",
+         "OperatorRef" : "Unibuss",
+         "VehicleRef" : null,
+         "DestinationRef" : "3010760",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "LineRef" : "34",
+         "OriginName" : "Tåsen senter",
+         "DirectionName" : "1",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012226"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Tåsen senter",
+         "LineRef" : "34",
+         "DestinationRef" : "3010760",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "OperatorRef" : null,
+         "OriginRef" : "3012231",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340218"
+         },
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby",
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00"
+         },
+         "DirectionRef" : null,
+         "DestinationName" : "Ekeberg hageby",
+         "PublishedLineName" : "34",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200340218",
+         "BlockRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012226"
+   },
+   {
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "34",
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Tåsen",
+         "VehicleJourneyName" : "200340209",
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "OriginRef" : "3010760",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Tåsen",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:38:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:38:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:38:00+01:00"
+         },
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340209"
+         },
+         "OriginName" : "Simensbråten",
+         "LineRef" : "34",
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3012231",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012226",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340224"
+         },
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "DirectionRef" : null,
+         "Delay" : null,
+         "OperatorRef" : null,
+         "OriginRef" : "3012231",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200340224",
+         "BlockRef" : null,
+         "DestinationName" : "Ekeberg hageby",
+         "PublishedLineName" : "34",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:19:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "DestinationRef" : "3010760",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "OriginName" : "Tåsen senter",
+         "LineRef" : "34"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "34",
+         "OriginName" : "Simensbråten",
+         "VehicleRef" : null,
+         "DestinationRef" : "3012231",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "Delay" : null,
+         "OriginRef" : "3010760",
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200340215"
+         },
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Tåsen",
+            "ExpectedArrivalTime" : "2017-03-25T09:53:00+01:00"
+         },
+         "DirectionRef" : null,
+         "DestinationName" : "Tåsen",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200340215"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "DestinationRef" : "3010760",
+         "OriginName" : "Tåsen senter",
+         "LineRef" : "34",
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:34:00+01:00",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200340230",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "DestinationDisplay" : "Ekeberg hageby",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200340230",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3012231",
+         "OperatorRef" : null,
+         "Delay" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00"
+   },
+   {
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "34",
+         "OriginName" : "Simensbråten",
+         "VehicleRef" : null,
+         "DestinationRef" : "3012231",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:13:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Tåsen",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "InCongestion" : false,
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200340221",
+         "Delay" : null,
+         "OriginRef" : "3010760",
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200340221",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:08:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Tåsen",
+            "ExpectedArrivalTime" : "2017-03-25T10:08:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:08:00+01:00"
+         },
+         "DirectionRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "MonitoringRef" : "3012226",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "34",
+         "DestinationName" : "Ekeberg hageby",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200340236",
+         "InCongestion" : false,
+         "OriginRef" : "3012231",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Ekeberg hageby",
+            "ExpectedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200340236",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Tåsen senter",
+         "LineRef" : "34",
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "DestinationRef" : "3010760",
+         "OriginAimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:49:00+01:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:46.3781459+01:00"
+   }
+]

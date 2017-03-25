@@ -1,0 +1,470 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3012131",
+         "PublishedLineName" : "37",
+         "VehicleJourneyName" : "200370749",
+         "VehicleRef" : "100685",
+         "BlockRef" : "3712",
+         "DestinationName" : "Helsfyr T",
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "65010"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Unibuss",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "VisitNumber" : 29,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:27:00+01:00"
+         },
+         "Monitored" : true,
+         "TrainBlockPart" : null,
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "DestinationRef" : "3011442",
+         "Delay" : "PT0S",
+         "LineRef" : "37"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:48.585+01:00",
+      "MonitoringRef" : "3011446"
+   },
+   {
+      "MonitoringRef" : "3011446",
+      "RecordedAtTime" : "2017-03-25T08:19:48.585+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011442",
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "LineRef" : "37",
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:42:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:42:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:42:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 29,
+            "AimedDepartureTime" : "2017-03-25T08:42:00+01:00"
+         },
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "65110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : "1",
+         "DestinationName" : "Helsfyr T",
+         "VehicleRef" : "100680",
+         "VehicleJourneyName" : "200370752",
+         "BlockRef" : "3707",
+         "PublishedLineName" : "37",
+         "OriginRef" : "3012131"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "VisitNumber" : 29
+         },
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "DestinationRef" : "3011442",
+         "Delay" : "PT0S",
+         "LineRef" : "37",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200370755",
+         "VehicleRef" : "410663",
+         "BlockRef" : "3710",
+         "OriginRef" : "3012131",
+         "PublishedLineName" : "37",
+         "VehicleMode" : 0,
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "65210"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "DestinationName" : "Helsfyr T"
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3011446",
+      "RecordedAtTime" : "2017-03-25T08:19:48.585+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "VisitNumber" : 29,
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Unibuss",
+         "Delay" : "PT0S",
+         "LineRef" : "37",
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "DestinationRef" : "3011442",
+         "TrainBlockPart" : null,
+         "BlockRef" : "3701",
+         "VehicleJourneyName" : "200370758",
+         "VehicleRef" : "103002",
+         "OriginRef" : "3012131",
+         "PublishedLineName" : "37",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "65310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "DestinationName" : "Helsfyr T"
+      },
+      "MonitoringRef" : "3011446",
+      "RecordedAtTime" : "2017-03-25T08:19:48.585+01:00"
+   },
+   {
+      "MonitoringRef" : "3011446",
+      "RecordedAtTime" : "2017-03-25T08:19:48.5966649+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "LineRef" : "37",
+         "InCongestion" : false,
+         "OriginName" : "Nydalen T [buss]",
+         "DestinationRef" : "3011442",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:28:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370761",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:57:00+01:00",
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "DestinationName" : "Helsfyr T",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200370761",
+         "VehicleRef" : null,
+         "OriginRef" : "3012131",
+         "PublishedLineName" : "37"
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:48.5966649+01:00",
+      "MonitoringRef" : "3011446",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "LineRef" : "37",
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "DestinationRef" : "3011442",
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:46:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:46:00+01:00"
+         },
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null,
+         "DestinationName" : "Helsfyr T",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200370764",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "VehicleMode" : 0,
+         "OriginRef" : "3012131",
+         "PublishedLineName" : "37",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200370764",
+         "VehicleRef" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ]
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 42064,
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke"
+            },
+            {
+               "ID" : 42062,
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet"
+            }
+         ],
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200370767"
+         },
+         "DestinationName" : "Helsfyr T",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "200370767",
+         "BlockRef" : null,
+         "PublishedLineName" : "37",
+         "OriginRef" : "3012131",
+         "DestinationRef" : "3011442",
+         "OriginName" : "Nydalen T [buss]",
+         "InCongestion" : false,
+         "LineRef" : "37",
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T",
+            "AimedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+         "OperatorRef" : null
+      },
+      "MonitoringRef" : "3011446",
+      "RecordedAtTime" : "2017-03-25T08:19:48.5966649+01:00"
+   },
+   {
+      "MonitoringRef" : "3011446",
+      "RecordedAtTime" : "2017-03-25T08:19:48.5966649+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T",
+            "DeparturePlatformName" : "1"
+         },
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "37",
+         "Delay" : null,
+         "DestinationRef" : "3011442",
+         "InCongestion" : false,
+         "OriginName" : "Nydalen T [buss]",
+         "PublishedLineName" : "37",
+         "OriginRef" : "3012131",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "200370770",
+         "DirectionRef" : null,
+         "DestinationName" : "Helsfyr T",
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200370770"
+         },
+         "VehicleMode" : 0
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Arendalsgata benyttes ikke",
+               "ID" : 42064
+            },
+            {
+               "Header" : "Stoppestedet Nordahl Bruns gate er flyttet",
+               "ID" : 42062
+            }
+         ],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      }
+   }
+]

@@ -1,0 +1,146 @@
+[
+   {
+      "MonitoringRef" : "3012389",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900480501"
+         },
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+         "OperatorRef" : null,
+         "DestinationName" : "Oslo vinterpark",
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "PublishedLineName" : "48",
+         "Delay" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "900480501",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "48",
+         "DestinationRef" : "3012628",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+         "OriginRef" : "3012389",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Oslo vinterpark",
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Voksenkollen T [buss]"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:09.2570437+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : []
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+         "DestinationName" : "Oslo vinterpark",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900480502"
+         },
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "3012628",
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "48",
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "900480502",
+         "BlockRef" : null,
+         "Monitored" : false,
+         "PublishedLineName" : "48",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Oslo vinterpark",
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "OriginName" : "Voksenkollen T [buss]",
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "OriginRef" : "3012389"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:09.2570437+01:00",
+      "MonitoringRef" : "3012389",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012389",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+         "OperatorRef" : null,
+         "DestinationName" : "Oslo vinterpark",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900480503"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "OriginRef" : "3012628",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "DestinationDisplay" : "Oslo vinterpark",
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Oslo vinterpark",
+         "LineRef" : "48",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3012628",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "48",
+         "Delay" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "900480503",
+         "Monitored" : false,
+         "BlockRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:09.2570437+01:00"
+   }
+]

@@ -1,0 +1,398 @@
+[
+   {
+      "MonitoringRef" : "3010933",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010921",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Holmlia stasjon",
+         "LineRef" : "80",
+         "OperatorRef" : "Unibuss",
+         "DirectionName" : "2",
+         "BlockRef" : "7955",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50810"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 5,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "OriginName" : "Åsbråten",
+         "PublishedLineName" : "80",
+         "VehicleJourneyName" : "200800100",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010937",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "VehicleRef" : "101233"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:45.666+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3010933",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50910",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : "1",
+         "Monitored" : true,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:26:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:26:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:26:00+01:00",
+            "VisitNumber" : 2,
+            "DestinationDisplay" : "Åsbråten",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:26:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "PublishedLineName" : "80",
+         "Delay" : "PT0S",
+         "VehicleRef" : "101253",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200800103",
+         "OriginRef" : "3010921",
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010937",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "DestinationName" : "Åsbråten",
+         "LineRef" : "80",
+         "OperatorRef" : "Unibuss",
+         "BlockRef" : "7902"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:45.666+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:45.666+01:00",
+      "MonitoringRef" : "3010933",
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "VehicleRef" : "101253",
+         "VehicleJourneyName" : "200800106",
+         "OriginRef" : "3010937",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OriginName" : "Åsbråten",
+         "PublishedLineName" : "80",
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "VisitNumber" : 5,
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51010",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "7902",
+         "DirectionName" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "DestinationName" : "Holmlia stasjon",
+         "LineRef" : "80",
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3010921",
+         "VehicleFeatureRef" : ""
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : []
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "80",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "VehicleRef" : "101252",
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200800109",
+         "OriginRef" : "3010921",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:56:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:56:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:56:00+01:00",
+            "VisitNumber" : 2,
+            "DestinationDisplay" : "Åsbråten",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionName" : "1",
+         "OperatorRef" : "Unibuss",
+         "DestinationName" : "Åsbråten",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "80",
+         "BlockRef" : "7951",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010937"
+      },
+      "MonitoringRef" : "3010933",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:45.666+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:45.6902933+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010933",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3010921",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "LineRef" : "80",
+         "OriginAimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+         "DestinationName" : "Holmlia stasjon",
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200800112",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "PublishedLineName" : "80",
+         "OriginName" : "Åsbråten",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3010937",
+         "VehicleJourneyName" : "200800112",
+         "InCongestion" : false,
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:45.6902933+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:23:00+01:00",
+         "DestinationName" : "Åsbråten",
+         "LineRef" : "80",
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3010937",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "PublishedLineName" : "80",
+         "OriginRef" : "3010921",
+         "VehicleJourneyName" : "200800115",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200800115",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "DestinationDisplay" : "Åsbråten",
+            "VisitNumber" : 0
+         },
+         "DirectionRef" : null,
+         "Monitored" : false
+      },
+      "MonitoringRef" : "3010933"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010933",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200800118"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00"
+         },
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Åsbråten",
+         "PublishedLineName" : "80",
+         "VehicleJourneyName" : "200800118",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "OriginRef" : "3010937",
+         "Delay" : null,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3010921",
+         "OriginAimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+         "VehicleMode" : 0,
+         "LineRef" : "80",
+         "DestinationName" : "Holmlia stasjon",
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "BlockRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:45.6902933+01:00"
+   },
+   {
+      "MonitoringRef" : "3010933",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "80",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200800121",
+         "OriginRef" : "3010921",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200800121",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Åsbråten",
+            "ExpectedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:56:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "DestinationName" : "Åsbråten",
+         "OriginAimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+         "LineRef" : "80",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3010937"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:45.6902933+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : []
+      }
+   }
+]

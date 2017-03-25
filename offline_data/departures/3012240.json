@@ -1,0 +1,634 @@
+[
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:49.825+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "700050527",
+         "VehicleRef" : "267",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "5",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "DirectionName" : "1",
+         "DestinationName" : "Ringen",
+         "BlockRef" : "507:THL3X401",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "5",
+         "OriginName" : "SOG1",
+         "OperatorRef" : "me",
+         "OriginRef" : "3012280",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Ringen",
+            "VisitNumber" : 4,
+            "ExpectedDepartureTime" : "2017-03-25T08:21:59+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:21:59+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:22:12+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:22:12+01:00",
+            "VehicleAtStop" : false
+         },
+         "InCongestion" : false,
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "6377"
+         },
+         "VehicleMode" : 4,
+         "Delay" : "-PT13S",
+         "DirectionRef" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3012120"
+      },
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:49.825+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "F07800"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3012120",
+         "OperatorRef" : "me",
+         "MonitoredCall" : {
+            "VehicleAtStop" : true,
+            "AimedArrivalTime" : "2017-03-25T08:35:04+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:35:10+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:35:04+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:35:10+01:00",
+            "VisitNumber" : 15,
+            "DestinationDisplay" : "Sognsvann",
+            "DeparturePlatformName" : "2 (Retning Sognsvann)"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "6461",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "InCongestion" : false,
+         "VehicleMode" : 4,
+         "Delay" : "PT6S",
+         "DirectionRef" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3012280",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "269",
+         "VehicleJourneyName" : "700050520",
+         "LineRef" : "5",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "509:THL3X401",
+         "DirectionName" : "2",
+         "DestinationName" : "Sognsvann",
+         "PublishedLineName" : "5",
+         "OriginName" : "STR2"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "MonitoringRef" : "3012240",
+      "RecordedAtTime" : "2017-03-25T08:21:49.825+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "SOG1",
+         "PublishedLineName" : "5",
+         "BlockRef" : "509:THL3X401",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "DestinationName" : "Ringen",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "LineRef" : "5",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "269",
+         "VehicleJourneyName" : "700050533",
+         "DestinationRef" : "3012120",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "DirectionRef" : "1",
+         "VehicleMode" : 4,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "6462"
+         },
+         "Monitored" : true,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:52:12+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:52:12+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:52:12+01:00",
+            "VehicleAtStop" : true,
+            "DestinationDisplay" : "Ringen",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T08:52:12+01:00",
+            "VisitNumber" : 4
+         },
+         "OperatorRef" : "me",
+         "OriginRef" : "3012280"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3012280",
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "6547",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 4,
+         "OperatorRef" : "me",
+         "OriginRef" : "3012120",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:05:04+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:04+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:05:04+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:05:04+01:00",
+            "VisitNumber" : 15,
+            "DestinationDisplay" : "Sognsvann",
+            "DeparturePlatformName" : "2 (Retning Sognsvann)"
+         },
+         "OriginName" : "STR2",
+         "PublishedLineName" : "5",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "DestinationName" : "Sognsvann",
+         "DirectionName" : "2",
+         "BlockRef" : "511:THL3X401",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "700050524",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "271",
+         "LineRef" : "5"
+      },
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:49.825+01:00",
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "MonitoringRef" : "3012240",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:49.825+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Sognsvann",
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "501:THL3X401",
+         "TrainBlockPart" : null,
+         "LineRef" : "5",
+         "VehicleJourneyName" : "700050535",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : null,
+         "OriginName" : "RYE2",
+         "PublishedLineName" : "5",
+         "VehicleMode" : 4,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "6136"
+         },
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Sognsvann",
+            "DeparturePlatformName" : "2 (Retning Sognsvann)",
+            "ExpectedDepartureTime" : "2017-03-25T09:19:58+01:00",
+            "VisitNumber" : 18,
+            "AimedArrivalTime" : "2017-03-25T09:19:58+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:19:58+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:19:58+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginRef" : "3011200",
+         "OperatorRef" : "me",
+         "DestinationRef" : "3012280",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "DirectionRef" : "2"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Sognsvann",
+         "PublishedLineName" : "5",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Ringen",
+         "TrainBlockPart" : null,
+         "LineRef" : "5",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+         "VehicleJourneyName" : "700050547",
+         "DestinationRef" : "3011730",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:30:00+01:00",
+         "Delay" : null,
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050547",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ringen",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginRef" : "3012280",
+         "OperatorRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "MonitoringRef" : "3012240",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "5",
+         "VehicleJourneyName" : "700050528",
+         "OriginAimedDepartureTime" : "2017-03-25T08:28:00+01:00",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Sognsvann",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "5",
+         "OriginName" : "Vestli [T-bane]",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Sognsvann)",
+            "DestinationDisplay" : "Sognsvann"
+         },
+         "OriginRef" : "3011730",
+         "OperatorRef" : null,
+         "VehicleMode" : 4,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050528"
+         },
+         "Delay" : null,
+         "DirectionRef" : null,
+         "DestinationRef" : "3012280",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:39:00+01:00"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "OriginRef" : "3012280",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ringen",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T09:37:00+01:00",
+            "VisitNumber" : 0
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050553",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "InCongestion" : false,
+         "VehicleMode" : 4,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:45:00+01:00",
+         "DestinationRef" : "3011730",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700050553",
+         "LineRef" : "5",
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Ringen",
+         "DirectionName" : null,
+         "PublishedLineName" : "5",
+         "OriginName" : "Sognsvann"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "MonitoringRef" : "3012240",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050538",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2 (Retning Sognsvann)",
+            "DestinationDisplay" : "Sognsvann",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OperatorRef" : null,
+         "OriginRef" : "3011200",
+         "DestinationRef" : "3012280",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Sognsvann",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "5",
+         "OriginAimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700050538",
+         "OriginName" : "Ryen [T-bane]",
+         "PublishedLineName" : "5"
+      }
+   },
+   {
+      "MonitoringRef" : "3012240",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050557",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Ringen"
+         },
+         "OriginRef" : "3012280",
+         "OperatorRef" : null,
+         "DestinationRef" : "3011730",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:00:00+01:00",
+         "Delay" : null,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "DestinationName" : "Ringen",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "5",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "VehicleJourneyName" : "700050557",
+         "OriginName" : "Sognsvann",
+         "PublishedLineName" : "5"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "LineColour" : "F07800"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050539"
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Sognsvann)",
+            "DestinationDisplay" : "Sognsvann"
+         },
+         "OriginRef" : "3011730",
+         "OperatorRef" : null,
+         "DestinationRef" : "3012280",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+         "Delay" : null,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Sognsvann",
+         "TrainBlockPart" : null,
+         "LineRef" : "5",
+         "OriginAimedDepartureTime" : "2017-03-25T08:58:00+01:00",
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700050539",
+         "OriginName" : "Vestli [T-bane]",
+         "PublishedLineName" : "5"
+      },
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3012280",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Ringen",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:07:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050561"
+         },
+         "Monitored" : false,
+         "InCongestion" : false,
+         "VehicleMode" : 4,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:15:00+01:00",
+         "DestinationRef" : "3011730",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "VehicleJourneyName" : "700050561",
+         "LineRef" : "5",
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Ringen",
+         "PublishedLineName" : "5",
+         "OriginName" : "Sognsvann"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012240"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:50.1785165+01:00",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "5",
+         "OriginName" : "Vestli [T-bane]",
+         "VehicleJourneyName" : "700050542",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+         "LineRef" : "5",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Sognsvann",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "DestinationRef" : "3012280",
+         "OriginRef" : "3011730",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Sognsvann",
+            "DeparturePlatformName" : "2 (Retning Sognsvann)",
+            "ExpectedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VisitNumber" : 0
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050542",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 4
+      },
+      "MonitoringRef" : "3012240"
+   }
+]

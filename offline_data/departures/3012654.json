@@ -1,0 +1,152 @@
+[
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:53.871+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "100510093",
+         "DestinationRef" : "3012135",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT65S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300109",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "Norgesbuss",
+         "PublishedLineName" : "51",
+         "OriginName" : "Skar",
+         "DestinationName" : "Nydalen T",
+         "OriginRef" : "3012650",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "51",
+         "Monitored" : true,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleRef" : "308061",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Nydalen T",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:23:05+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:22:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:23:05+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:22:00+01:00",
+            "VisitNumber" : 5
+         },
+         "DirectionName" : "1",
+         "BlockRef" : "5101",
+         "DirectionRef" : "1"
+      },
+      "MonitoringRef" : "3012654",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3012654",
+      "RecordedAtTime" : "2017-03-25T08:22:53.871+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "300209"
+         },
+         "OperatorRef" : "Norgesbuss",
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100510095",
+         "DestinationRef" : "3012135",
+         "DestinationName" : "Nydalen T",
+         "OriginRef" : "3012650",
+         "PublishedLineName" : "51",
+         "OriginName" : "Skar",
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "308061",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "VisitNumber" : 5,
+            "ExpectedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "Monitored" : true,
+         "LineRef" : "51",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "BlockRef" : "5101",
+         "DirectionName" : "1",
+         "DirectionRef" : "1"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "100510097",
+         "DestinationRef" : "3012135",
+         "OriginAimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100510097",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginName" : "Skar",
+         "PublishedLineName" : "51",
+         "DestinationName" : "Nydalen T",
+         "OriginRef" : "3012650",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "LineRef" : "51",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:22:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:22:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:22:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "BlockRef" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:54.0704964+01:00",
+      "MonitoringRef" : "3012654"
+   }
+]

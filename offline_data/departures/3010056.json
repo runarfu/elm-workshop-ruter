@@ -1,0 +1,1382 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "1",
+         "Delay" : "PT60S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "160",
+         "OriginRef" : "2190795",
+         "BlockRef" : "16004",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "VisitNumber" : 32,
+            "ExpectedArrivalTime" : "2017-03-25T08:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:16:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:17:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T08:16:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionName" : "1",
+         "PublishedLineName" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50207"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleJourneyName" : "501600502",
+         "VehicleRef" : "338229",
+         "DestinationRef" : "3010619",
+         "OriginName" : "Makedonien",
+         "DestinationName" : "Oslo bussterminal"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010056",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.209+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:16:46.209+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010056",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:20:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:20:45+01:00",
+            "DestinationDisplay" : "Gullhaug",
+            "ExpectedArrivalTime" : "2017-03-25T08:20:45+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:20:00+01:00",
+            "VisitNumber" : 3
+         },
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010619",
+         "BlockRef" : "15003",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "150",
+         "DirectionRef" : "2",
+         "Delay" : "PT45S",
+         "PublishedLineName" : "150",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "55407"
+         },
+         "DirectionName" : "2",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Gullhaug",
+         "OriginName" : "Oslo Bussterminal",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nettbuss",
+         "DestinationRef" : "2190860",
+         "VehicleJourneyName" : "501500554",
+         "VehicleRef" : "662031"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "2190860",
+         "BlockRef" : "15004",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "VisitNumber" : 30,
+            "DestinationDisplay" : "Oslo bussterminal",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "150",
+         "PublishedLineName" : "150",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50307"
+         },
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Oslo bussterminal",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nettbuss",
+         "VehicleRef" : "662032",
+         "VehicleJourneyName" : "501500503",
+         "DestinationRef" : "3010619",
+         "OriginName" : "Gullhaug"
+      },
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.209+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010619",
+         "BlockRef" : "25105",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "VisitNumber" : 3,
+            "AimedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "DestinationDisplay" : "Slemmestad",
+            "ExpectedDepartureTime" : "2017-03-25T08:36:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "250",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "63907",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "250",
+         "DirectionName" : "2",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Slemmestad",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleRef" : "328935",
+         "VehicleJourneyName" : "502500639",
+         "DestinationRef" : "6271527",
+         "OriginName" : "Oslo Bussterminal"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.209+01:00",
+      "MonitoringRef" : "3010056"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:16:46.209+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010056",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010619",
+         "BlockRef" : "16004",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "DestinationDisplay" : "Rykkinn",
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00"
+         },
+         "DirectionRef" : "2",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "55607",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "160",
+         "DirectionName" : "2",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Rykkinn",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleJourneyName" : "",
+         "VehicleRef" : "338229",
+         "DestinationRef" : "2190795",
+         "OriginName" : "Oslo Bussterminal"
+      }
+   },
+   {
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "501600556",
+         "DestinationRef" : "2190782",
+         "VehicleRef" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "DestinationName" : "Rykkinn",
+         "OriginAimedDepartureTime" : "2017-03-25T08:34:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "501600556",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "160",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "160",
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "DestinationDisplay" : "Rykkinn",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00"
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.209+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "VehicleRef" : "318969",
+         "VehicleJourneyName" : "502500604",
+         "DestinationRef" : "3010619",
+         "OriginName" : "Slemmestad",
+         "DestinationName" : "Oslo bussterminal",
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "250",
+         "OriginRef" : "6271527",
+         "BlockRef" : "25106",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedArrivalTime" : "2017-03-25T08:42:00+01:00",
+            "VisitNumber" : 37,
+            "AimedDepartureTime" : "2017-03-25T08:42:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:42:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:42:00+01:00"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60407"
+         },
+         "PublishedLineName" : "250",
+         "DirectionName" : "1"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "VehicleJourneyName" : "501600503",
+         "VehicleRef" : "328271",
+         "DestinationRef" : "3010619",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Norgesbuss",
+         "OriginName" : "Makedonien",
+         "DestinationName" : "Oslo bussterminal",
+         "Delay" : "PT0S",
+         "DirectionRef" : "1",
+         "LineRef" : "160",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "16001",
+         "OriginRef" : "2190795",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "VisitNumber" : 32,
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1"
+         },
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "160",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50307",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "76A300"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "501500555",
+         "VehicleRef" : "662032",
+         "DestinationRef" : "2190860",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Nettbuss",
+         "OriginName" : "Oslo Bussterminal",
+         "DestinationName" : "Gullhaug",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "55507"
+         },
+         "PublishedLineName" : "150",
+         "DirectionName" : "2",
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "LineRef" : "150",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "15004",
+         "OriginRef" : "3010619",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "DestinationDisplay" : "Gullhaug",
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00"
+         }
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : "Nettbuss",
+         "VehicleMode" : 0,
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "501500504",
+         "VehicleRef" : "662002",
+         "OriginName" : "Gullhaug",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50407",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "150",
+         "OriginRef" : "2190860",
+         "BlockRef" : "15001",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "VisitNumber" : 30,
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1"
+         },
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "150"
+      },
+      "MonitoringRef" : "3010056",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Sætre",
+         "OriginName" : "Oslo Bussterminal",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "502500640",
+         "DestinationRef" : "6280800",
+         "VehicleRef" : "318969",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Sætre",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010619",
+         "BlockRef" : "25106",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "250",
+         "DirectionRef" : "2",
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "64007",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "2",
+         "PublishedLineName" : "250"
+      },
+      "MonitoringRef" : "3010056",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "160",
+         "DirectionName" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "55707",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "DestinationDisplay" : "Rykkinn",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "BlockRef" : "16001",
+         "OriginRef" : "3010619",
+         "LineRef" : "160",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "DestinationName" : "Rykkinn",
+         "OriginName" : "Oslo Bussterminal",
+         "DestinationRef" : "2190795",
+         "VehicleJourneyName" : "",
+         "VehicleRef" : "328271",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "MonitoringRef" : "3010056"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "501600557"
+         },
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "OriginRef" : "3010619",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Rykkinn",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "LineRef" : "160",
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Rykkinn",
+         "VehicleJourneyName" : "501600557",
+         "VehicleRef" : null,
+         "DestinationRef" : "2190782",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "OriginName" : "Oslo Bussterminal",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:04:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:06:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "DirectionRef" : "1",
+         "LineRef" : "250",
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "25107",
+         "OriginRef" : "6271527",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "VisitNumber" : 37,
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60507",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "250",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "502500605",
+         "VehicleRef" : null,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "OriginName" : "Slemmestad",
+         "DestinationName" : "Oslo bussterminal"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.21+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50407",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "1",
+         "PublishedLineName" : "160",
+         "OriginRef" : "2190795",
+         "BlockRef" : "16002",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:16:00+01:00",
+            "VisitNumber" : 32,
+            "ExpectedArrivalTime" : "2017-03-25T09:16:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:16:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:16:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "160",
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleMode" : 0,
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "501600504",
+         "VehicleRef" : "328269",
+         "OriginName" : "Makedonien",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "150",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "501500556"
+         },
+         "DirectionName" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "LineRef" : "150",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "OriginRef" : "3010619",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Gullhaug",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "DestinationRef" : "2190860",
+         "VehicleJourneyName" : "501500556",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "DestinationName" : "Gullhaug",
+         "OriginAimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+         "InCongestion" : false,
+         "Monitored" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "BlockRef" : null,
+         "OriginRef" : "2190860",
+         "LineRef" : "150",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "PublishedLineName" : "150",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "501500505"
+         },
+         "Monitored" : false,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+         "DestinationName" : "Oslo bussterminal",
+         "OriginName" : "Gullhaug",
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "501500505",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null
+      }
+   },
+   {
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:31:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:25:00+01:00",
+         "DestinationName" : "Slemmestad",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "6271527",
+         "VehicleJourneyName" : "502500641",
+         "VehicleRef" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "DestinationDisplay" : "Slemmestad"
+         },
+         "DirectionRef" : null,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "250",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "502500641"
+         },
+         "PublishedLineName" : "250",
+         "DirectionName" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Rykkinn",
+            "AimedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "160",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "501600558"
+         },
+         "DirectionName" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:36:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+         "DestinationName" : "Rykkinn",
+         "OriginName" : "Oslo Bussterminal",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "501600558",
+         "DestinationRef" : "2190782",
+         "VehicleRef" : null
+      },
+      "MonitoringRef" : "3010056",
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "DirectionRef" : null,
+         "LineRef" : "250",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "OriginRef" : "6280800",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:42:00+01:00"
+         },
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "502500628"
+         },
+         "PublishedLineName" : "250",
+         "OriginAimedDepartureTime" : "2017-03-25T08:30:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleJourneyName" : "502500628",
+         "VehicleRef" : null,
+         "DestinationRef" : "3010619",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "OriginName" : "Sætre terminal",
+         "DestinationName" : "Oslo bussterminal"
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:46:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedDepartureTime" : "2017-03-25T09:46:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:46:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "OriginRef" : "2190795",
+         "LineRef" : "160",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "PublishedLineName" : "160",
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "501600505",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T08:57:00+01:00",
+         "DestinationName" : "Oslo bussterminal",
+         "OriginName" : "Makedonien",
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "501600505",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null
+      },
+      "MonitoringRef" : "3010056",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "LineColour" : "76A300"
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010056",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "150",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "501500557"
+         },
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "150",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DestinationDisplay" : "Gullhaug",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "2190860",
+         "VehicleJourneyName" : "501500557",
+         "VehicleRef" : null,
+         "DestinationName" : "Gullhaug",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:33:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+         "Monitored" : false,
+         "InCongestion" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010056",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleJourneyName" : "501600506",
+         "DestinationRef" : "3010619",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "OriginName" : "Makedonien",
+         "DestinationName" : "Oslo bussterminal",
+         "Delay" : null,
+         "DirectionRef" : null,
+         "LineRef" : "160",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "OriginRef" : "2190795",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:01:00+01:00"
+         },
+         "PublishedLineName" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "501600506",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "2190860",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : null,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "150",
+         "PublishedLineName" : "150",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "501500506",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "DestinationName" : "Oslo bussterminal",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "501500506",
+         "DestinationRef" : "3010619",
+         "OriginName" : "Gullhaug"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "250",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Slemmestad",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00"
+         },
+         "BlockRef" : null,
+         "OriginRef" : "3010619",
+         "PublishedLineName" : "250",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "502500642"
+         },
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:55:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T10:01:00+01:00",
+         "Monitored" : false,
+         "InCongestion" : false,
+         "OriginName" : "Oslo Bussterminal",
+         "DestinationRef" : "6271527",
+         "VehicleJourneyName" : "502500642",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationName" : "Slemmestad"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010056",
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Rykkinn",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "501600559",
+         "DestinationRef" : "2190782",
+         "OriginName" : "Oslo Bussterminal",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:06:00+01:00",
+         "PublishedLineName" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "501600559",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "OriginRef" : "3010619",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "DestinationDisplay" : "Rykkinn",
+            "ExpectedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2"
+         },
+         "DirectionRef" : null,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "160"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Oslo bussterminal",
+         "OriginName" : "Slemmestad",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "502500606",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "502500606"
+         },
+         "DirectionName" : null,
+         "PublishedLineName" : "250",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "OriginRef" : "6271527",
+         "BlockRef" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "250",
+         "DirectionRef" : null,
+         "Delay" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "MonitoringRef" : "3010056",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3010056",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:16:46.2989107+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "160",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "501600507",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "160",
+         "OriginRef" : "2190795",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1"
+         },
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "DestinationRef" : "3010619",
+         "VehicleJourneyName" : "501600507",
+         "VehicleRef" : null,
+         "OriginName" : "Makedonien",
+         "DestinationName" : "Oslo bussterminal",
+         "OriginAimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+         "InCongestion" : false,
+         "Monitored" : false
+      }
+   }
+]

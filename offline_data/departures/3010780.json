@@ -1,0 +1,490 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3012120",
+         "VehicleMode" : 4,
+         "VehicleJourneyName" : "700040519",
+         "Monitored" : true,
+         "DestinationRef" : "3011030",
+         "LineRef" : "4",
+         "PublishedLineName" : "4",
+         "VehicleRef" : "253",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5894"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "OriginName" : "STR1",
+         "Delay" : "PT68S",
+         "OperatorRef" : "me",
+         "DirectionName" : "1",
+         "BlockRef" : "407:THL3X401",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1 (Retning Bergkrystallen)",
+            "ExpectedDepartureTime" : "2017-03-25T08:42:43+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:42:43+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:41:35+01:00",
+            "VisitNumber" : 19,
+            "AimedDepartureTime" : "2017-03-25T08:41:35+01:00",
+            "DestinationDisplay" : "Bergkrystallen"
+         },
+         "DirectionRef" : "1",
+         "DestinationName" : "Bergkrystallen",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3010780",
+      "RecordedAtTime" : "2017-03-25T08:18:24.324+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:24.324+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010780",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3011030",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 4,
+         "VehicleJourneyName" : "700040526",
+         "Monitored" : true,
+         "DestinationRef" : "3012120",
+         "LineRef" : "4",
+         "PublishedLineName" : "4",
+         "VehicleRef" : "251",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5783"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "BKR1",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "Delay" : "PT0S",
+         "OperatorRef" : "me",
+         "DirectionName" : "2",
+         "BlockRef" : "405:THL3X401",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Vestli via Majorstuen",
+            "AimedDepartureTime" : "2017-03-25T08:45:32+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:45:32+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:45:32+01:00",
+            "VisitNumber" : 6,
+            "DeparturePlatformName" : "2 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T08:45:32+01:00",
+            "VehicleAtStop" : true
+         },
+         "DirectionRef" : "2",
+         "InCongestion" : false,
+         "DestinationName" : "Vestli via Majorstuen",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3010780",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "VehicleMode" : 4,
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3012120",
+         "VehicleJourneyName" : "700040523",
+         "DestinationRef" : "3011030",
+         "LineRef" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5964",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "4",
+         "VehicleRef" : "254",
+         "Delay" : "PT0S",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "OriginName" : "STR1",
+         "DirectionName" : "1",
+         "OperatorRef" : "me",
+         "MonitoredCall" : {
+            "VehicleAtStop" : true,
+            "ExpectedDepartureTime" : "2017-03-25T09:11:35+01:00",
+            "DeparturePlatformName" : "1 (Retning Bergkrystallen)",
+            "VisitNumber" : 19,
+            "AimedArrivalTime" : "2017-03-25T09:11:35+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:11:35+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:11:35+01:00",
+            "DestinationDisplay" : "Bergkrystallen"
+         },
+         "BlockRef" : "408:THL3X401",
+         "DirectionRef" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "DestinationName" : "Bergkrystallen"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:24.324+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:24.324+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "BKR1",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "VehicleRef" : "253",
+         "PublishedLineName" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5895",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "4",
+         "DestinationRef" : "3012120",
+         "VehicleJourneyName" : "700040532",
+         "OriginRef" : "3011030",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 4,
+         "Monitored" : true,
+         "InCongestion" : false,
+         "DestinationName" : "Vestli via Majorstuen",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "BlockRef" : "407:THL3X401",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:15:32+01:00",
+            "DestinationDisplay" : "Vestli via Majorstuen",
+            "ExpectedArrivalTime" : "2017-03-25T09:15:32+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:15:32+01:00",
+            "VisitNumber" : 6,
+            "DeparturePlatformName" : "2 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T09:15:32+01:00",
+            "VehicleAtStop" : false
+         },
+         "OperatorRef" : "me",
+         "DirectionName" : "2"
+      },
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010780"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:24.4397328+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "InCongestion" : false,
+         "DestinationName" : "Vestli via Majorstuen",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Vestli via Majorstuen",
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DeparturePlatformName" : "2 (Retning sentrum)"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040535",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "PublishedLineName" : "4",
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "Monitored" : false,
+         "VehicleJourneyName" : "700040535",
+         "OriginRef" : "3011030",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 4,
+         "LineRef" : "4",
+         "DestinationRef" : "3011730"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3010780"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:24.4397328+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Bergkrystallen)",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Bergkrystallen",
+            "AimedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:41:00+01:00"
+         },
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Bergkrystallen",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+         "DirectionRef" : null,
+         "DestinationRef" : "3011030",
+         "LineRef" : "4",
+         "OriginRef" : "3011730",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 4,
+         "VehicleJourneyName" : "700040527",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T08:49:00+01:00",
+         "OriginName" : "Vestli [T-bane]",
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "PublishedLineName" : "4",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700040527"
+         }
+      },
+      "MonitoringRef" : "3010780",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:24.4397328+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010780",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011730",
+         "LineRef" : "4",
+         "VehicleMode" : 4,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011030",
+         "VehicleJourneyName" : "700040541",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "TrainBlockPart" : null,
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "Delay" : null,
+         "PublishedLineName" : "4",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040541",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Vestli via Majorstuen",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2 (Retning sentrum)",
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Vestli via Majorstuen",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "DirectionRef" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:24.4397328+01:00",
+      "MonitoringRef" : "3010780",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "2 (Retning sentrum)",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Vestli via Majorstuen",
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:54:00+01:00",
+         "InCongestion" : false,
+         "DestinationName" : "Vestli via Majorstuen",
+         "Monitored" : false,
+         "VehicleJourneyName" : "700040546",
+         "OriginRef" : "3011030",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 4,
+         "LineRef" : "4",
+         "DestinationRef" : "3011730",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040546",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "4",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:55:00+01:00"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:11:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:11:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:11:00+01:00",
+            "DestinationDisplay" : "Bergkrystallen",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:11:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Bergkrystallen)"
+         },
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+         "DestinationName" : "Bergkrystallen",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleJourneyName" : "700040533",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 4,
+         "OriginRef" : "3011730",
+         "LineRef" : "4",
+         "DestinationRef" : "3011030",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040533",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "4",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Vestli [T-bane]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:19:00+01:00"
+      },
+      "MonitoringRef" : "3010780",
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:24.4397328+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:24.4397328+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Vestli via Majorstuen",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:09:00+01:00",
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "DeparturePlatformName" : "2 (Retning sentrum)",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Vestli via Majorstuen",
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00"
+         },
+         "VehicleRef" : null,
+         "PublishedLineName" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700040551"
+         },
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:10:00+01:00",
+         "Delay" : null,
+         "VehicleJourneyName" : "700040551",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 4,
+         "OriginRef" : "3011030",
+         "Monitored" : false,
+         "LineRef" : "4",
+         "DestinationRef" : "3011730"
+      },
+      "MonitoringRef" : "3010780",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "F07800"
+      }
+   }
+]

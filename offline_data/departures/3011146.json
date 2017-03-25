@@ -1,0 +1,398 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "76",
+         "DirectionRef" : "2",
+         "VehicleRef" : "101212",
+         "DirectionName" : "2",
+         "TrainBlockPart" : null,
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Hauketo stasjon [buss]",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "76",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "200760159",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "DestinationName" : "Helsfyr T",
+         "DestinationRef" : "3011441",
+         "MonitoredCall" : {
+            "VisitNumber" : 10,
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedDepartureTime" : "2017-03-25T08:33:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:33:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:33:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:33:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "OriginRef" : "3010911",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "7604"
+      },
+      "MonitoringRef" : "3011146",
+      "RecordedAtTime" : "2017-03-25T08:19:16.278+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:16.278+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3011146",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "7602",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "3011441",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:46:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T08:46:00+01:00",
+            "VisitNumber" : 21
+         },
+         "DestinationRef" : "3010911",
+         "DestinationName" : "Hauketo stasjon",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "55210"
+         },
+         "VehicleJourneyName" : "200760309",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "76",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "VehicleRef" : "101211",
+         "DirectionRef" : "1",
+         "LineRef" : "76"
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:16.278+01:00",
+      "MonitoringRef" : "3011146",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "LineRef" : "76",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "VehicleRef" : "101213",
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Hauketo stasjon [buss]",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "PublishedLineName" : "76",
+         "VehicleJourneyName" : "200760162",
+         "VehicleMode" : 0,
+         "DestinationName" : "Helsfyr T",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:03:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:03:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:03:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedDepartureTime" : "2017-03-25T09:03:00+01:00",
+            "VisitNumber" : 10
+         },
+         "DestinationRef" : "3011441",
+         "BlockRef" : "7601",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "OriginRef" : "3010911"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:16.278+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Hauketo stasjon",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:16:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:16:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:16:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T09:16:00+01:00",
+            "VisitNumber" : 21
+         },
+         "Delay" : "PT0S",
+         "DestinationRef" : "3010911",
+         "BlockRef" : "7603",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "3011441",
+         "InCongestion" : false,
+         "DirectionRef" : "1",
+         "LineRef" : "76",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "101215",
+         "DirectionName" : "1",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "55310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "200760312",
+         "PublishedLineName" : "76"
+      },
+      "MonitoringRef" : "3011146"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:16.5971455+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011146",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "InCongestion" : false,
+         "OriginRef" : "3010911",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "VisitNumber" : 0
+         },
+         "Delay" : null,
+         "DestinationRef" : "3011441",
+         "DestinationName" : "Helsfyr T",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200760165",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "PublishedLineName" : "76",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "200760165",
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Hauketo stasjon [buss]",
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "LineRef" : "76"
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:16.5971455+01:00",
+      "MonitoringRef" : "3011146",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010911",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T09:46:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:46:00+01:00"
+         },
+         "OriginRef" : "3011441",
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "BlockRef" : null,
+         "DestinationName" : "Hauketo stasjon",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "200760315",
+         "PublishedLineName" : "76",
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200760315",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "76",
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "MonitoringRef" : "3011146",
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Helsfyr T",
+         "InCongestion" : false,
+         "OriginRef" : "3010911",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:29:00+01:00",
+         "DestinationRef" : "3011441",
+         "Delay" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedDepartureTime" : "2017-03-25T10:03:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T10:03:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "76",
+         "DirectionRef" : null,
+         "PublishedLineName" : "76",
+         "VehicleJourneyName" : "200760168",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200760168",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "OperatorRef" : null,
+         "OriginName" : "Hauketo stasjon [buss]",
+         "VehicleFeatureRef" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:16.5971455+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:16.5971455+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "76",
+         "VehicleJourneyName" : "200760318",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200760318"
+         },
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "OperatorRef" : null,
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "76",
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "OriginRef" : "3011441",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:28:00+01:00",
+         "DestinationRef" : "3010911",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "DestinationName" : "Hauketo stasjon"
+      },
+      "MonitoringRef" : "3011146"
+   }
+]

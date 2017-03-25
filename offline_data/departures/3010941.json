@@ -1,0 +1,656 @@
+[
+   {
+      "MonitoringRef" : "3010941",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43014
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "8105",
+         "PublishedLineName" : "81B",
+         "DestinationName" : "Ødegården",
+         "InCongestion" : false,
+         "OperatorRef" : "Unibuss",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "VisitNumber" : 5,
+            "ExpectedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Ødegården"
+         },
+         "OriginRef" : "3010911",
+         "TrainBlockPart" : null,
+         "OriginName" : "Hauketo stasjon [buss]",
+         "LineRef" : "2081",
+         "DirectionName" : "1",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "220810082",
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "DestinationRef" : "2170150",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "101116",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50210",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:47.835+01:00"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010941",
+      "RecordedAtTime" : "2017-03-25T08:18:47.835+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "8101",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "81A",
+         "InCongestion" : false,
+         "DestinationName" : "Greverud",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010042",
+         "MonitoredCall" : {
+            "VisitNumber" : 18,
+            "ExpectedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "DestinationDisplay" : "Greverud",
+            "DeparturePlatformName" : "1"
+         },
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Unibuss",
+         "LineRef" : "81",
+         "OriginName" : "Vestbanen (i Dronning Mauds g.)",
+         "DirectionName" : "1",
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "200810098",
+         "DirectionRef" : "1",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50510"
+         },
+         "VehicleRef" : "101119",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "2170299"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Greverud kirke",
+         "LineRef" : "81",
+         "DirectionName" : "2",
+         "DirectionRef" : "2",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "200810101",
+         "Delay" : "PT140S",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "DestinationRef" : "3010042",
+         "VehicleRef" : "101115",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50610",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "8106",
+         "PublishedLineName" : "81A",
+         "DestinationName" : "Rådhuset",
+         "InCongestion" : false,
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:26:20.459+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 18,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:26:20.459+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Rådhuset"
+         },
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "2170299",
+         "TrainBlockPart" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:47.835+01:00",
+      "MonitoringRef" : "3010941",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "2",
+         "OriginName" : "Ødegården",
+         "LineRef" : "2081",
+         "VehicleRef" : "101116",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50310"
+         },
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010911",
+         "VehicleJourneyName" : "220810085",
+         "Delay" : "PT0S",
+         "DirectionRef" : "2",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "81B",
+         "BlockRef" : "8105",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "2170150",
+         "TrainBlockPart" : null,
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "VisitNumber" : 13,
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "DeparturePlatformName" : "2"
+         },
+         "VehicleFeatureRef" : "",
+         "DestinationName" : "Hauketo stasjon",
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:47.835+01:00",
+      "MonitoringRef" : "3010941",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:47.835+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "2",
+         "LineRef" : "81",
+         "OriginName" : "Greverud kirke",
+         "Monitored" : true,
+         "DestinationRef" : "3010042",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50810"
+         },
+         "VehicleRef" : "101136",
+         "VehicleMode" : 0,
+         "DirectionRef" : "2",
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "200810107",
+         "PublishedLineName" : "81A",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "8103",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Rådhuset",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 18,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00"
+         },
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "OriginRef" : "2170299",
+         "InCongestion" : false,
+         "DestinationName" : "Rådhuset"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43014
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010941"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "8102",
+         "PublishedLineName" : "81A",
+         "InCongestion" : false,
+         "DestinationName" : "Greverud",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "VisitNumber" : 18,
+            "AimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "DestinationDisplay" : "Greverud",
+            "DeparturePlatformName" : "1"
+         },
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010042",
+         "LineRef" : "81",
+         "OriginName" : "Vestbanen (i Dronning Mauds g.)",
+         "DirectionName" : "1",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "200810104",
+         "Monitored" : true,
+         "DestinationRef" : "2170299",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50710"
+         },
+         "VehicleRef" : "101142"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:47.835+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010941",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:48.1277952+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+         "DestinationRef" : "3010042",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200810113",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200810113",
+         "Delay" : null,
+         "DirectionName" : null,
+         "OriginName" : "Greverud kirke",
+         "LineRef" : "81",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Rådhuset",
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "2170299",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Rådhuset",
+         "InCongestion" : false,
+         "PublishedLineName" : "81A",
+         "OriginAimedDepartureTime" : "2017-03-25T09:08:00+01:00",
+         "BlockRef" : null
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010941",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010941",
+      "RecordedAtTime" : "2017-03-25T08:18:48.1277952+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Greverud",
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0
+         },
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "3010042",
+         "InCongestion" : false,
+         "DestinationName" : "Greverud",
+         "PublishedLineName" : "81A",
+         "OriginAimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+         "BlockRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:40:00+01:00",
+         "DestinationRef" : "2170299",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200810110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "Delay" : null,
+         "VehicleJourneyName" : "200810110",
+         "DirectionName" : null,
+         "LineRef" : "81",
+         "OriginName" : "Vestbanen (i Dronning Mauds g."
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "OriginName" : "Hauketo stasjon [buss]",
+         "LineRef" : "2081",
+         "DestinationRef" : "2170150",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "220810088"
+         },
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "220810088",
+         "Delay" : null,
+         "PublishedLineName" : "81B",
+         "OriginAimedDepartureTime" : "2017-03-25T09:21:00+01:00",
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ødegården",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00"
+         },
+         "OriginRef" : "3010911",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Ødegården",
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:48.1277952+01:00",
+      "MonitoringRef" : "3010941",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010941",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43014
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+         "BlockRef" : null,
+         "PublishedLineName" : "81B",
+         "DestinationName" : "Hauketo stasjon",
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Hauketo stasjon",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00"
+         },
+         "OriginRef" : "2170150",
+         "TrainBlockPart" : null,
+         "OriginName" : "Ødegården",
+         "LineRef" : "2081",
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "220810091",
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "Monitored" : false,
+         "DestinationRef" : "3010911",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "220810091"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:48.1277952+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:48.1277952+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Rådhuset"
+         },
+         "OriginRef" : "2170299",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Rådhuset",
+         "InCongestion" : false,
+         "PublishedLineName" : "81A",
+         "OriginAimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+         "BlockRef" : null,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "DestinationRef" : "3010042",
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200810119"
+         },
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "200810119",
+         "Delay" : null,
+         "DirectionName" : null,
+         "OriginName" : "Greverud kirke",
+         "LineRef" : "81"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010941"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Vestbanen (i Dronning Mauds g.",
+         "LineRef" : "81",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "200810116",
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200810116",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:10:00+01:00",
+         "DestinationRef" : "2170299",
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "PublishedLineName" : "81A",
+         "DestinationName" : "Greverud",
+         "InCongestion" : false,
+         "OriginRef" : "3010042",
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:55:00+01:00",
+            "DestinationDisplay" : "Greverud",
+            "DeparturePlatformName" : "1"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:48.1277952+01:00",
+      "MonitoringRef" : "3010941",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43014
+            }
+         ]
+      }
+   }
+]

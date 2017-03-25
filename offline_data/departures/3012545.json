@@ -1,0 +1,644 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "12",
+            "ExpectedDepartureTime" : "2017-03-25T08:23:38+01:00",
+            "DestinationDisplay" : "Bekkestua",
+            "VisitNumber" : 28,
+            "ExpectedArrivalTime" : "2017-03-25T08:23:38+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:21:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:21:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DestinationName" : "Bekkestua",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "400132008",
+         "DirectionRef" : "2",
+         "DestinationRef" : "2190148",
+         "LineRef" : "13",
+         "BlockRef" : "1307",
+         "PublishedLineName" : "13",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200807"
+         },
+         "VehicleFeatureRef" : "lowFloor",
+         "OperatorRef" : "Sporvognsdrift",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginRef" : "3012111",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "VehicleRef" : "200169",
+         "Delay" : "PT158S",
+         "VehicleMode" : 3
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [],
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:33.984+01:00",
+      "MonitoringRef" : "3012545",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "11",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Storo-Grefsen stasjon"
+         },
+         "DestinationName" : "Storo-Grefsen stasjon",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:08:00+01:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "13",
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "400132011",
+         "DestinationRef" : "3012111",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "PublishedLineName" : "13",
+         "OriginAimedDepartureTime" : "2017-03-25T08:20:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400132011"
+         },
+         "VehicleMode" : 3,
+         "Delay" : null,
+         "OriginName" : "Bekkestua [trikk]",
+         "OriginRef" : "2190148",
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "InCongestion" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "MonitoringRef" : "3012545",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "400132010",
+         "DestinationRef" : "2190148",
+         "DirectionRef" : "2",
+         "LineRef" : "13",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "DestinationDisplay" : "Bekkestua",
+            "VisitNumber" : 28,
+            "ExpectedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "DeparturePlatformName" : "12"
+         },
+         "DestinationName" : "Bekkestua",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "OriginRef" : "3012111",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "VehicleRef" : "200141",
+         "OperatorRef" : "Sporvognsdrift",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "VehicleMode" : 3,
+         "BlockRef" : "1308",
+         "PublishedLineName" : "13",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201007",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "lowFloor"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:33.984+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "200169",
+         "OriginRef" : "2190148",
+         "OriginName" : "Bekkestua [trikk]",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201307"
+         },
+         "BlockRef" : "1307",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "13",
+         "VehicleFeatureRef" : "lowFloor",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "400132013",
+         "DestinationRef" : "3012111",
+         "LineRef" : "13",
+         "DestinationName" : "Storo-Grefsen stasjon",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Storo-Grefsen stasjon",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:44:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:33.984+01:00",
+      "MonitoringRef" : "3012545",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:33.984+01:00",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201207"
+         },
+         "PublishedLineName" : "13",
+         "BlockRef" : "1309",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "lowFloor",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OperatorRef" : "Sporvognsdrift",
+         "VehicleRef" : "200172",
+         "OriginRef" : "3012111",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Bekkestua",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "12",
+            "ExpectedDepartureTime" : "2017-03-25T09:01:00+01:00",
+            "DestinationDisplay" : "Bekkestua",
+            "VisitNumber" : 28,
+            "ExpectedArrivalTime" : "2017-03-25T09:01:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:01:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:01:00+01:00"
+         },
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "400132012",
+         "DestinationRef" : "2190148",
+         "DirectionRef" : "2",
+         "LineRef" : "13"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:33.984+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "11",
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012111",
+         "VehicleJourneyName" : "400132015",
+         "DirectionRef" : "1",
+         "LineRef" : "13",
+         "DestinationName" : "Storo-Grefsen stasjon",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "VisitNumber" : 3,
+            "DestinationDisplay" : "Storo-Grefsen stasjon"
+         },
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "VehicleRef" : "200141",
+         "OriginRef" : "2190148",
+         "OriginName" : "Bekkestua [trikk]",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OperatorRef" : "Sporvognsdrift",
+         "Delay" : "PT0S",
+         "VehicleMode" : 3,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "201507",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "1308",
+         "PublishedLineName" : "13",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "lowFloor"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "LineColour" : "41BECD"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:33.985+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "DeparturePlatformName" : "12",
+            "ExpectedArrivalTime" : "2017-03-25T09:21:00+01:00",
+            "DestinationDisplay" : "Bekkestua",
+            "VisitNumber" : 28,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:21:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:21:00+01:00"
+         },
+         "DestinationName" : "Bekkestua",
+         "LineRef" : "13",
+         "VehicleJourneyName" : "400132014",
+         "DirectionRef" : "2",
+         "DestinationRef" : "2190148",
+         "VehicleFeatureRef" : "lowFloor",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "1310",
+         "PublishedLineName" : "13",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "201407"
+         },
+         "VehicleMode" : 3,
+         "Delay" : "PT0S",
+         "OperatorRef" : "Sporvognsdrift",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "OriginRef" : "3012111",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "VehicleRef" : "200154"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "13",
+         "VehicleJourneyName" : "400132017",
+         "DirectionRef" : null,
+         "DestinationRef" : "3012111",
+         "DirectionName" : null,
+         "DestinationName" : "Storo-Grefsen stasjon",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Storo-Grefsen stasjon",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "VehicleMode" : 3,
+         "Delay" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "2190148",
+         "OriginName" : "Bekkestua [trikk]",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400132017"
+         },
+         "BlockRef" : null,
+         "PublishedLineName" : "13",
+         "OriginAimedDepartureTime" : "2017-03-25T09:20:00+01:00"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "LineColour" : "41BECD",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "13",
+         "VehicleJourneyName" : "400132016",
+         "DestinationRef" : "2190148",
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+         "DestinationName" : "Bekkestua",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Bekkestua",
+            "ExpectedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "DeparturePlatformName" : "12",
+            "AimedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "OriginRef" : "3012111",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400132016",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "BlockRef" : null,
+         "PublishedLineName" : "13"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545",
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012111",
+         "VehicleJourneyName" : "400132019",
+         "DirectionRef" : null,
+         "LineRef" : "13",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:28:00+01:00",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:44:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Storo-Grefsen stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T09:44:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T09:44:00+01:00"
+         },
+         "DestinationName" : "Storo-Grefsen stasjon",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginRef" : "2190148",
+         "OriginName" : "Bekkestua [trikk]",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "BlockRef" : null,
+         "PublishedLineName" : "13",
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "400132019",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "12",
+         "LineColour" : "41BECD"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "2190148",
+         "VehicleJourneyName" : "400132018",
+         "DirectionRef" : null,
+         "LineRef" : "13",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "DestinationDisplay" : "Bekkestua",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "DeparturePlatformName" : "12",
+            "ExpectedDepartureTime" : "2017-03-25T10:01:00+01:00"
+         },
+         "DestinationName" : "Bekkestua",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginRef" : "3012111",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "VehicleRef" : null,
+         "VehicleMode" : 3,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "BlockRef" : null,
+         "PublishedLineName" : "13",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400132018"
+         },
+         "VehicleFeatureRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "11",
+         "LineColour" : "41BECD",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Storo-Grefsen stasjon",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Storo-Grefsen stasjon",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "DeparturePlatformName" : "11",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:48:00+01:00",
+         "DirectionName" : null,
+         "VehicleJourneyName" : "400132021",
+         "DirectionRef" : null,
+         "DestinationRef" : "3012111",
+         "LineRef" : "13",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400132021"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "BlockRef" : null,
+         "PublishedLineName" : "13",
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Bekkestua [trikk]",
+         "OriginRef" : "2190148",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "Delay" : null,
+         "VehicleMode" : 3
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012545"
+   },
+   {
+      "MonitoringRef" : "3012545",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "VehicleMode" : 3,
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginRef" : "3012111",
+         "OriginName" : "Grefsen stasjon [trikk]",
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "BlockRef" : null,
+         "PublishedLineName" : "13",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "400132020"
+         },
+         "LineRef" : "13",
+         "VehicleJourneyName" : "400132020",
+         "DestinationRef" : "2190148",
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:21:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Bekkestua",
+            "ExpectedArrivalTime" : "2017-03-25T10:21:00+01:00",
+            "DeparturePlatformName" : "12",
+            "ExpectedDepartureTime" : "2017-03-25T10:21:00+01:00"
+         },
+         "DestinationName" : "Bekkestua"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:34.0188681+01:00",
+      "Extensions" : {
+         "LineColour" : "41BECD",
+         "DepartureNamePreMapping" : "12",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : []
+      }
+   }
+]

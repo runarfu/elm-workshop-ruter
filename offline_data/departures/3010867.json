@@ -1,0 +1,98 @@
+[
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "21",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010867",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "75",
+         "OriginAimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200750024",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200750024",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:19:00+01:00",
+            "DeparturePlatformName" : "21",
+            "ExpectedDepartureTime" : "2017-03-25T09:19:00+01:00",
+            "DestinationDisplay" : "Lambertseter",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:19:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:19:00+01:00"
+         },
+         "VehicleRef" : null,
+         "DestinationName" : "Lambertseter",
+         "Delay" : null,
+         "DestinationRef" : "3011011",
+         "OriginRef" : "3011011",
+         "PublishedLineName" : "75A",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "OriginName" : "Lambertseter T [buss]",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:26:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "Monitored" : false
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:35.8306581+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:35.8306581+01:00",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "DestinationName" : "Lambertseter via Nordseter",
+         "PublishedLineName" : "75A",
+         "DestinationRef" : "3011011",
+         "OriginRef" : "3011011",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "DeparturePlatformName" : "22",
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "DestinationDisplay" : "Lambertseter via Nordseter",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00"
+         },
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "200750027",
+         "LineRef" : "75",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200750027"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OriginName" : "Lambertseter T [buss]",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:56:00+01:00"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010867",
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "22"
+      }
+   }
+]

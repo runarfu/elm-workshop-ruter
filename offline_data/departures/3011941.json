@@ -1,0 +1,1774 @@
+[
+   {
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "6"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T07:55:58.894+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 1,
+            "DeparturePlatformName" : "6",
+            "ExpectedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "LineRef" : "79",
+         "OriginName" : "Grorud T [buss]",
+         "PublishedLineName" : "79",
+         "OriginRef" : "3011941",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3010921",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "200790191",
+         "DestinationName" : "Holmlia stasjon",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51010"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "BlockRef" : "7952",
+         "VehicleRef" : "101254",
+         "DirectionName" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:52.953+01:00"
+   },
+   {
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VisitNumber" : 1,
+            "AimedArrivalTime" : "2017-03-25T08:24:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "ExpectedDepartureTime" : "2017-03-25T08:24:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "31",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "31",
+         "OperatorRef" : "Nobina",
+         "DestinationRef" : "2190030",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53409"
+         },
+         "DestinationName" : "Snarøya",
+         "VehicleJourneyName" : "500310394",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "DirectionName" : "2",
+         "VehicleRef" : "741301",
+         "BlockRef" : "3104"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:52.953+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "3",
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011941",
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "63",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:30:00+01:00",
+            "DestinationDisplay" : "Romsås",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "DeparturePlatformName" : "3",
+            "VisitNumber" : 1,
+            "AimedDepartureTime" : "2017-03-25T08:30:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:30:00+01:00"
+         },
+         "DestinationRef" : "3011941",
+         "OperatorRef" : "Norgesbuss",
+         "PublishedLineName" : "63",
+         "OriginRef" : "3011941",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "100630137",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300809",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Romsås",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "BlockRef" : "6301",
+         "VehicleRef" : "308051",
+         "DirectionName" : "1",
+         "Monitored" : true
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:52.953+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.953+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Norgesbuss",
+         "DestinationRef" : "3011441",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "66",
+         "OriginRef" : "3011941",
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "LineRef" : "66",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "4",
+            "AimedDepartureTime" : "2017-03-25T08:31:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedArrivalTime" : "2017-03-25T08:31:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:31:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "ExpectedDepartureTime" : "2017-03-25T08:31:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionName" : "2",
+         "BlockRef" : "6601",
+         "VehicleRef" : "308065",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100660369",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "305309"
+         },
+         "DestinationName" : "Helsfyr T via Ikea",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "4",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011941"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.953+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "2310138",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "361",
+         "OriginRef" : "3011941",
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "LineRef" : "361",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "7",
+            "ExpectedArrivalTime" : "2017-03-25T08:37:00+01:00",
+            "VisitNumber" : 1,
+            "AimedDepartureTime" : "2017-03-25T08:37:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:37:00+01:00",
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "ExpectedDepartureTime" : "2017-03-25T08:37:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionName" : "2",
+         "BlockRef" : "36103",
+         "VehicleRef" : "441714",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "403610610",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61004"
+         },
+         "DestinationName" : "Guldhaug-Tømte",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "7",
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.953+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3011941",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:38:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedArrivalTime" : "2017-03-25T08:38:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "AimedArrivalTime" : "2017-03-25T08:38:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:38:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "LineRef" : "31",
+         "OriginName" : "Grorud T [buss]",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "PublishedLineName" : "31",
+         "OriginRef" : "3011941",
+         "OperatorRef" : "Nobina",
+         "DestinationRef" : "2190030",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "53509",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Snarøya",
+         "VehicleJourneyName" : "500310395",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "DirectionName" : "2",
+         "VehicleRef" : "741260",
+         "BlockRef" : "3105"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "1",
+         "VehicleRef" : "308051",
+         "BlockRef" : "6301",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Ammerud - Huken",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100620113",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Norgesbuss",
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "62",
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "62",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ammerud - Huken",
+            "AimedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "VisitNumber" : 1
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "500310396",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53609"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Snarøya",
+         "Monitored" : false,
+         "BlockRef" : "3106",
+         "VehicleRef" : null,
+         "DirectionName" : "2",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "AimedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "31",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "31",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "2190030",
+         "OperatorRef" : "Nobina"
+      },
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "6",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011941",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Holmlia stasjon",
+            "AimedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:54:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "6",
+            "ExpectedArrivalTime" : "2017-03-25T08:54:00+01:00",
+            "VisitNumber" : 1,
+            "AimedDepartureTime" : "2017-03-25T08:54:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "LineRef" : "79",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "79",
+         "Delay" : "PT0S",
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3010921",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "200790197",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51210"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Holmlia stasjon",
+         "Monitored" : true,
+         "DirectionName" : "1",
+         "BlockRef" : "7953",
+         "VehicleRef" : "101251"
+      }
+   },
+   {
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "3",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "308047",
+         "BlockRef" : "6302",
+         "DirectionName" : "1",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300909",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Romsås",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100630139",
+         "VehicleMode" : 0,
+         "DestinationRef" : "3011941",
+         "OperatorRef" : "Norgesbuss",
+         "Delay" : "PT0S",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "63",
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "LineRef" : "63",
+         "OriginName" : "Grorud T [buss]",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:00:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "DestinationDisplay" : "Romsås",
+            "ExpectedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+            "VisitNumber" : 1,
+            "DeparturePlatformName" : "3"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3011941",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "3107",
+         "VehicleRef" : "741312",
+         "DirectionName" : "2",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "500310397",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Snarøya",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53709"
+         },
+         "VehicleMode" : 0,
+         "DestinationRef" : "2190030",
+         "OperatorRef" : "Nobina",
+         "PublishedLineName" : "31",
+         "OriginRef" : "3011941",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "LineRef" : "31",
+         "OriginName" : "Grorud T [buss]",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 1,
+            "AimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:00:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:00:00+01:00"
+         }
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00",
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "4",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "BlockRef" : "6301",
+         "VehicleRef" : "308051",
+         "DirectionName" : "2",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100660371",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "305409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Helsfyr T via Ikea",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "66",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3011441",
+         "OperatorRef" : "Norgesbuss",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:01:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedArrivalTime" : "2017-03-25T09:01:00+01:00",
+            "DeparturePlatformName" : "4",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:01:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "AimedArrivalTime" : "2017-03-25T09:01:00+01:00"
+         },
+         "InCongestion" : false,
+         "DirectionRef" : "2",
+         "TrainBlockPart" : null,
+         "LineRef" : "66",
+         "OriginName" : "Grorud T [buss]"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "403610612",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61204"
+         },
+         "DestinationName" : "Guldhaug-Tømte",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "DirectionName" : "2",
+         "BlockRef" : "36101",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "DirectionRef" : "2",
+         "TrainBlockPart" : null,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "361",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "AimedArrivalTime" : "2017-03-25T09:07:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:07:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "7",
+            "AimedDepartureTime" : "2017-03-25T09:07:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedArrivalTime" : "2017-03-25T09:07:00+01:00"
+         },
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "2310138",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "361",
+         "Delay" : "PT0S"
+      },
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "7",
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "VehicleRef" : "741246",
+         "BlockRef" : "3108",
+         "DirectionName" : "2",
+         "VehicleMode" : 0,
+         "DestinationName" : "Snarøya",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "53809",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "500310398",
+         "Delay" : "PT0S",
+         "PublishedLineName" : "31",
+         "OriginRef" : "3011941",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "2190030",
+         "OperatorRef" : "Nobina",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "InCongestion" : false,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "31",
+         "DirectionRef" : "2",
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3011941"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : "1",
+         "VehicleRef" : "308047",
+         "BlockRef" : "6302",
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300509",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Ammerud - Huken",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100620115",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Norgesbuss",
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "62",
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "62",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "VisitNumber" : 1,
+            "AimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ammerud - Huken",
+            "AimedArrivalTime" : "2017-03-25T09:15:00+01:00"
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "79",
+         "Delay" : "PT0S",
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3010921",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Holmlia stasjon",
+            "AimedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "6",
+            "VisitNumber" : 1,
+            "AimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:18:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "LineRef" : "79",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "DirectionName" : "1",
+         "BlockRef" : "7954",
+         "VehicleRef" : "101232",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "200790203",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51410"
+         },
+         "DestinationName" : "Holmlia stasjon",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "6",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:52.954+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "AimedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:24:00+01:00",
+            "DeparturePlatformName" : "1"
+         },
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "31",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "31",
+         "OriginRef" : "3011941",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "DestinationRef" : "2190030",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "500310399",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:24:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310399"
+         },
+         "DestinationName" : "Snarøya",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011941"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "3",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3011941",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "63",
+         "OperatorRef" : null,
+         "DestinationRef" : "3011941",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "3",
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Romsås",
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "LineRef" : "63",
+         "OriginName" : "Grorud T [buss]",
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100630141",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+         "DestinationName" : "Romsås",
+         "VehicleJourneyName" : "100630141",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:42:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100660373",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Helsfyr T via Ikea",
+         "OriginAimedDepartureTime" : "2017-03-25T09:31:00+01:00",
+         "VehicleJourneyName" : "100660373",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "4",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:31:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:31:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:31:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "ExpectedDepartureTime" : "2017-03-25T09:31:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "66",
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "66",
+         "OperatorRef" : null,
+         "DestinationRef" : "3011441"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "4",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011941",
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ]
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "LineRef" : "31",
+         "OriginName" : "Grorud T [buss]",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Snarøya",
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00"
+         },
+         "DestinationRef" : "2190030",
+         "OperatorRef" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "31",
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "VehicleJourneyName" : "500310400",
+         "OriginAimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310400"
+         },
+         "DestinationName" : "Snarøya",
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "7",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011941",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "7",
+            "ExpectedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:37:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "LineRef" : "361",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "361",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "DestinationRef" : "2310138",
+         "VehicleMode" : 0,
+         "VehicleJourneyName" : "403610614",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:26:00+01:00",
+         "DestinationName" : "Guldhaug-Tømte",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "403610614",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+         "VehicleJourneyName" : "100620117",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100620117"
+         },
+         "DestinationName" : "Ammerud - Huken",
+         "OriginAimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "LineRef" : "62",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "62",
+         "OriginRef" : "3011941",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "DestinationRef" : "3011941"
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100630143",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Romsås",
+         "OriginAimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+         "VehicleJourneyName" : "100630143",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "63",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "3011941",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Romsås",
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "3",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00"
+         },
+         "InCongestion" : false,
+         "LineRef" : "63",
+         "OriginName" : "Grorud T [buss]",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "3",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00"
+         },
+         "LineRef" : "31",
+         "OriginName" : "Grorud T [buss]",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "31",
+         "OperatorRef" : null,
+         "DestinationRef" : "2190030",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310401"
+         },
+         "DestinationName" : "Snarøya",
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "VehicleJourneyName" : "500310401",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:51:00+01:00",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "6",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011941",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:50:00+01:00",
+         "VehicleJourneyName" : "200790209",
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200790209",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Holmlia stasjon",
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "79",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "6",
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "VisitNumber" : 0
+         },
+         "DestinationRef" : "3010921",
+         "OperatorRef" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "79",
+         "Delay" : null,
+         "VehicleFeatureRef" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "LineRef" : "63",
+         "OriginName" : "Grorud T [buss]",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "DeparturePlatformName" : "3",
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Romsås",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "DestinationRef" : "3011941",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "63",
+         "OriginRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Romsås",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100630145"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "VehicleJourneyName" : "100630145",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false
+      },
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "3",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100620119",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "DestinationName" : "Ammerud - Huken",
+         "VehicleJourneyName" : "100620119",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "62",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "DestinationRef" : "3011941",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "62",
+         "OriginRef" : "3011941",
+         "VehicleFeatureRef" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011941"
+   },
+   {
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "31",
+         "OriginRef" : "3011941",
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "2190030",
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "LineRef" : "31",
+         "OriginName" : "Grorud T [buss]",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T11:03:00+01:00",
+         "VehicleJourneyName" : "500310402",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500310402",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Snarøya",
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "4"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "66",
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "ExpectedDepartureTime" : "2017-03-25T10:01:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "4",
+            "ExpectedArrivalTime" : "2017-03-25T10:01:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:01:00+01:00"
+         },
+         "OperatorRef" : null,
+         "DestinationRef" : "3011441",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "66",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100660375",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:01:00+01:00",
+         "DestinationName" : "Helsfyr T via Ikea",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "VehicleJourneyName" : "100660375",
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "AimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "7",
+            "ExpectedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:07:00+01:00"
+         },
+         "InCongestion" : false,
+         "LineRef" : "361",
+         "OriginName" : "Grorud T [buss]",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "361",
+         "OriginRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "2310138",
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "DestinationName" : "Guldhaug-Tømte",
+         "OriginAimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "403610616",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:56:00+01:00",
+         "VehicleJourneyName" : "403610616",
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "7",
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "DestinationName" : "Snarøya",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500310403"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+         "VehicleJourneyName" : "500310403",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:15:00+01:00",
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "DestinationDisplay" : "Snarøya",
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1"
+         },
+         "InCongestion" : false,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "31",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "31",
+         "OriginRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "2190030",
+         "OperatorRef" : null
+      },
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "DestinationDisplay" : "Ammerud - Huken",
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "62",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "62",
+         "OriginRef" : "3011941",
+         "OperatorRef" : null,
+         "DestinationRef" : "3011941",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100620121"
+         },
+         "DestinationName" : "Ammerud - Huken",
+         "OriginAimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleJourneyName" : "100620121",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "3",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011941",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100630147"
+         },
+         "DestinationName" : "Romsås",
+         "OriginAimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleJourneyName" : "100630147",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:27:00+01:00",
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Grorud T [buss]",
+         "LineRef" : "63",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Romsås",
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "DeparturePlatformName" : "3",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00"
+         },
+         "OperatorRef" : null,
+         "DestinationRef" : "3011941",
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "PublishedLineName" : "63",
+         "OriginRef" : "3011941"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "DestinationRef" : "3011441",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "66",
+         "OriginRef" : "3011941",
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "LineRef" : "66",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "DeparturePlatformName" : "4",
+            "ExpectedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "AimedArrivalTime" : "2017-03-25T10:16:00+01:00"
+         },
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "VehicleJourneyName" : "100660377",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100660377"
+         },
+         "DestinationName" : "Helsfyr T via Ikea",
+         "OriginAimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+         "VehicleMode" : 0
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011941",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "4",
+         "Deviations" : []
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:53.8179565+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "VehicleJourneyName" : "200790218",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:20:00+01:00",
+         "DestinationName" : "Holmlia stasjon",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200790218",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationRef" : "3010921",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011941",
+         "PublishedLineName" : "79",
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "LineRef" : "79",
+         "OriginName" : "Grorud T [buss]",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "DeparturePlatformName" : "6",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "AimedArrivalTime" : "2017-03-25T10:18:00+01:00"
+         }
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "6",
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011941"
+   }
+]

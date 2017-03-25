@@ -1,0 +1,98 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Unibuss",
+         "DestinationName" : "Jernbanetorget via Malmøya",
+         "TrainBlockPart" : null,
+         "DirectionRef" : "2",
+         "VehicleMode" : 0,
+         "BlockRef" : "8501",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Jernbanetorget via Malmøya",
+            "ExpectedArrivalTime" : "2017-03-25T08:33:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T08:33:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:33:00+01:00",
+            "VisitNumber" : 1,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:33:00+01:00"
+         },
+         "DestinationRef" : "3010005",
+         "PublishedLineName" : "85",
+         "VehicleJourneyName" : "200850050",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "2",
+         "Delay" : "PT0S",
+         "OriginName" : "Ulvøya",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "85",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "3010736",
+         "VehicleFeatureRef" : ""
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:17.523+01:00",
+      "MonitoringRef" : "3010736",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:17.4558858+01:00",
+      "MonitoringRef" : "3010736",
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Jernbanetorget via Malmøya",
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "PublishedLineName" : "85",
+         "DestinationRef" : "3010005",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "DestinationDisplay" : "Jernbanetorget via Malmøya",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200850056"
+         },
+         "VehicleJourneyName" : "200850056",
+         "DirectionName" : null,
+         "Delay" : null,
+         "OriginName" : "Ulvøya",
+         "Monitored" : false,
+         "LineRef" : "85",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010736"
+      }
+   }
+]

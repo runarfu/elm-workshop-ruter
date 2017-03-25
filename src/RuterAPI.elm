@@ -24,20 +24,20 @@ type alias Departure =
     }
 
 
-getAllStopsInOslo : Http.Request (List Stop)
-getAllStopsInOslo =
-    let
-        url =
-            "../static_data/alle_stopp_i_oslo.json"
-    in
-        Http.get url decodeStops
-
-
 getAllStops : Http.Request (List Stop)
 getAllStops =
     let
         url =
             "http://reisapi.ruter.no/place/getstopsruter"
+    in
+        Http.get url decodeStops
+
+
+getAllStopsInOsloFromOfflineFile : Http.Request (List Stop)
+getAllStopsInOsloFromOfflineFile =
+    let
+        url =
+            "../offline_data/stops/oslo.json"
     in
         Http.get url decodeStops
 
@@ -48,6 +48,17 @@ getDepartures stop =
         url =
             "https://reisapi.ruter.no/stopvisit/getdepartures/"
                 ++ toString stop.iD
+    in
+        Http.get url decodeDepartures
+
+
+getDeparturesInOsloFromOfflineFile : Stop -> Http.Request (List Departure)
+getDeparturesInOsloFromOfflineFile stop =
+    let
+        url =
+            "../offline_data/departures/"
+                ++ toString stop.iD
+                ++ ".json"
     in
         Http.get url decodeDepartures
 

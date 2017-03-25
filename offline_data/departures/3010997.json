@@ -1,0 +1,98 @@
+[
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "DestinationName" : "Mortensrud",
+         "PublishedLineName" : "72B",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "220720067",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "3010951",
+         "OriginAimedDepartureTime" : "2017-03-25T09:39:00+01:00",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Mortensrud",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:39:00+01:00"
+         },
+         "VehicleJourneyName" : "220720067",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "BlockRef" : null,
+         "OriginName" : "Pasop",
+         "OriginRef" : "3010997",
+         "LineRef" : "2072",
+         "VehicleRef" : null,
+         "Monitored" : false
+      },
+      "MonitoringRef" : "3010997",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:02.7215806+01:00"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3010997",
+      "RecordedAtTime" : "2017-03-25T08:19:02.7215806+01:00",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "2072",
+         "OriginRef" : "3010997",
+         "OriginName" : "Pasop",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "DestinationRef" : "3010951",
+         "DestinationName" : "Mortensrud",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "220720073",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "72B",
+         "VehicleJourneyName" : "220720073",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "DestinationDisplay" : "Mortensrud",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:09:00+01:00"
+         },
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:09:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null
+      },
+      "StopVisitNote" : []
+   }
+]

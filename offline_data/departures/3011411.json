@@ -1,0 +1,890 @@
+[
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "D",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : true,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.258+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "2103",
+         "Delay" : "PT78S",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50910"
+         },
+         "VehicleJourneyName" : "200210341",
+         "OriginRef" : "3010090",
+         "DirectionName" : "1",
+         "Monitored" : true,
+         "DestinationRef" : "3011441",
+         "DirectionRef" : "1",
+         "VehicleRef" : "101041",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:21:18+01:00",
+            "VisitNumber" : 17,
+            "DeparturePlatformName" : "D",
+            "AimedDepartureTime" : "2017-03-25T08:20:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:21:18+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:20:00+01:00"
+         },
+         "VehicleFeatureRef" : "",
+         "OperatorRef" : "Unibuss",
+         "OriginName" : "Bryggetorget",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Helsfyr T",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010090",
+         "Monitored" : true,
+         "DirectionName" : "2",
+         "VehicleRef" : "103003",
+         "DirectionRef" : "2",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "DestinationDisplay" : "Aker brygge",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "C",
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "VisitNumber" : 5,
+            "ExpectedDepartureTime" : "2017-03-25T08:25:00+01:00"
+         },
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21",
+         "DestinationName" : "Aker brygge",
+         "BlockRef" : "2101",
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "OriginRef" : "3011441",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "63010",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "200210704"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.258+01:00",
+      "MonitoringRef" : "3011411",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "C"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:38.258+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "D",
+         "Deviations" : [],
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3011411",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "VisitNumber" : 17,
+            "AimedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "DeparturePlatformName" : "D"
+         },
+         "VehicleFeatureRef" : "",
+         "Monitored" : true,
+         "DirectionName" : "1",
+         "DestinationRef" : "3011441",
+         "DirectionRef" : "1",
+         "VehicleRef" : "101042",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Helsfyr T",
+         "OperatorRef" : "Unibuss",
+         "OriginName" : "Bryggetorget",
+         "Delay" : "PT0S",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "BlockRef" : "2105",
+         "VehicleJourneyName" : "200210344",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "51010"
+         },
+         "OriginRef" : "3010090"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "2103",
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "Delay" : "PT0S",
+         "VehicleMode" : 0,
+         "OriginRef" : "3011441",
+         "VehicleJourneyName" : "200210707",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "63110",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : "101041",
+         "DirectionRef" : "2",
+         "DestinationRef" : "3010090",
+         "Monitored" : true,
+         "DirectionName" : "2",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Aker brygge",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:40:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:40:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:40:00+01:00",
+            "VisitNumber" : 5,
+            "DeparturePlatformName" : "C",
+            "AimedDepartureTime" : "2017-03-25T08:40:00+01:00"
+         },
+         "OperatorRef" : "Unibuss",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Aker brygge",
+         "LineRef" : "21",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.258+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "C",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "LineColour" : "E60000",
+         "IsHub" : true
+      },
+      "MonitoringRef" : "3011411"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 17,
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "DeparturePlatformName" : "D",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00"
+         },
+         "DestinationRef" : "3011441",
+         "Monitored" : true,
+         "DirectionName" : "1",
+         "VehicleRef" : "103005",
+         "DirectionRef" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21",
+         "DestinationName" : "Helsfyr T",
+         "OperatorRef" : "Unibuss",
+         "OriginName" : "Bryggetorget",
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "Delay" : "PT0S",
+         "VehicleMode" : 0,
+         "BlockRef" : "2107",
+         "OriginRef" : "3010090",
+         "VehicleJourneyName" : "200210347",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51110",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "D"
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.259+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:38.259+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "C"
+      },
+      "MonitoringRef" : "3011411",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Unibuss",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "DestinationName" : "Aker brygge",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "101042",
+         "DirectionRef" : "2",
+         "DestinationRef" : "3010090",
+         "DirectionName" : "2",
+         "Monitored" : true,
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "VisitNumber" : 5,
+            "AimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+            "DeparturePlatformName" : "C",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Aker brygge",
+            "ExpectedArrivalTime" : "2017-03-25T08:55:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:55:00+01:00"
+         },
+         "OriginRef" : "3011441",
+         "VehicleJourneyName" : "200210710",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "63210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "2105",
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "VehicleMode" : 0
+      }
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "949494",
+         "IsHub" : true,
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationRef" : "2350301",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:58:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:58:00+01:00",
+            "DestinationDisplay" : "Oslo lufthavn",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T08:58:00+01:00",
+            "DeparturePlatformName" : "D",
+            "ExpectedDepartureTime" : "2017-03-25T08:58:00+01:00"
+         },
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Hotel Scandinavia",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T08:40:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:40:00+01:00",
+         "DestinationName" : "Oslo lufthavn",
+         "LineRef" : "3605",
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "PublishedLineName" : "FB5",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "236050218",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "236050218",
+         "OriginRef" : "3010059"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "D",
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.259+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3010090",
+         "VehicleJourneyName" : "200210350",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "51210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : "2108",
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "OperatorRef" : "Unibuss",
+         "OriginName" : "Bryggetorget",
+         "DestinationName" : "Helsfyr T",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "100675",
+         "DirectionRef" : "1",
+         "DestinationRef" : "3011441",
+         "Monitored" : true,
+         "DirectionName" : "1",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "VisitNumber" : 17,
+            "DeparturePlatformName" : "D",
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false
+         }
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "VehicleRef" : "103005",
+         "DirectionName" : "2",
+         "Monitored" : true,
+         "DestinationRef" : "3010090",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:12:00+01:00",
+            "DeparturePlatformName" : "C",
+            "VisitNumber" : 5,
+            "DestinationDisplay" : "Aker brygge",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:12:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:12:00+01:00"
+         },
+         "VehicleFeatureRef" : "",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "OperatorRef" : "Unibuss",
+         "DestinationName" : "Aker brygge",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "21",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "2107",
+         "VehicleMode" : 0,
+         "Delay" : "PT0S",
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200210713",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "63310"
+         },
+         "OriginRef" : "3011441"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.259+01:00",
+      "MonitoringRef" : "3011411",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "C",
+         "Deviations" : []
+      }
+   },
+   {
+      "MonitoringRef" : "3011411",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Bryggetorget",
+         "OperatorRef" : null,
+         "DestinationName" : "Helsfyr T",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+         "LineRef" : "21",
+         "OriginAimedDepartureTime" : "2017-03-25T08:59:00+01:00",
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "DestinationRef" : "3011441",
+         "DirectionName" : null,
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "D",
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Helsfyr T",
+            "VehicleAtStop" : false
+         },
+         "OriginRef" : "3010090",
+         "VehicleJourneyName" : "200210353",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200210353",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : null,
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "Delay" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+         "TrainBlockPart" : null,
+         "LineRef" : "21",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "DestinationName" : "Aker brygge",
+         "DestinationRef" : "3010090",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "C",
+            "AimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "DestinationDisplay" : "Aker brygge",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:27:00+01:00"
+         },
+         "OriginRef" : "3011441",
+         "VehicleJourneyName" : "200210716",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200210716"
+         },
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "VehicleMode" : 0,
+         "Delay" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "21",
+         "InCongestion" : false,
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "OriginRef" : "3010090",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200210356"
+         },
+         "VehicleJourneyName" : "200210356",
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "DeparturePlatformName" : "D",
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00"
+         },
+         "DestinationRef" : "3011441",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:14:00+01:00",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:40:00+01:00",
+         "DestinationName" : "Helsfyr T",
+         "LineRef" : "21",
+         "OriginName" : "Bryggetorget",
+         "OperatorRef" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : true
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "VehicleJourneyName" : "200210719",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200210719",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3011441",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3010090",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:42:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Aker brygge",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:42:00+01:00",
+            "DeparturePlatformName" : "C",
+            "ExpectedDepartureTime" : "2017-03-25T09:42:00+01:00"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "OperatorRef" : null,
+         "LineRef" : "21",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "DestinationName" : "Aker brygge",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200210359"
+         },
+         "VehicleJourneyName" : "200210359",
+         "OriginRef" : "3010090",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3011441",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "D",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Bryggetorget",
+         "LineRef" : "21",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+         "DestinationName" : "Helsfyr T",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:29:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoringRef" : "3011411",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010090",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "DeparturePlatformName" : "C",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Aker brygge",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:57:00+01:00"
+         },
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Aker brygge",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+         "LineRef" : "21",
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "OriginRef" : "3011441",
+         "VehicleJourneyName" : "200210722",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200210722",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoringRef" : "3011411",
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "DirectionName" : null,
+         "DestinationRef" : "2350301",
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Oslo lufthavn",
+            "AimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:58:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:58:00+01:00",
+            "DeparturePlatformName" : "D",
+            "AimedDepartureTime" : "2017-03-25T09:58:00+01:00",
+            "VisitNumber" : 0
+         },
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Hotel Scandinavia",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "DestinationName" : "Oslo lufthavn",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:40:00+01:00",
+         "LineRef" : "3605",
+         "BlockRef" : null,
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "PublishedLineName" : "FB5",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "236050227"
+         },
+         "VehicleJourneyName" : "236050227",
+         "OriginRef" : "3010059"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "949494",
+         "IsHub" : true,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011411"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : true,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3011411",
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "OriginName" : "Bryggetorget",
+         "OriginAimedDepartureTime" : "2017-03-25T09:44:00+01:00",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Helsfyr T",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:10:00+01:00",
+         "LineRef" : "21",
+         "DestinationRef" : "3011441",
+         "DirectionName" : null,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Helsfyr T",
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "DeparturePlatformName" : "D"
+         },
+         "OriginRef" : "3010090",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200210362"
+         },
+         "VehicleJourneyName" : "200210362",
+         "BlockRef" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "VehicleMode" : 0,
+         "Delay" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3011411",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "IsHub" : true,
+         "OccupancyData" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:38.4404025+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3011441",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200210725"
+         },
+         "VehicleJourneyName" : "200210725",
+         "InCongestion" : false,
+         "PublishedLineName" : "21",
+         "Delay" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "DestinationName" : "Aker brygge",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:37:00+01:00",
+         "LineRef" : "21",
+         "OriginAimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:12:00+01:00",
+            "DeparturePlatformName" : "C",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Aker brygge",
+            "ExpectedArrivalTime" : "2017-03-25T10:12:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:12:00+01:00"
+         },
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "DestinationRef" : "3010090",
+         "DirectionName" : null,
+         "Monitored" : false
+      },
+      "StopVisitNote" : []
+   }
+]

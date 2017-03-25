@@ -1,0 +1,586 @@
+[
+   {
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:18.591+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "3011630",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5188"
+         },
+         "InCongestion" : false,
+         "OperatorRef" : "me",
+         "PublishedLineName" : "2",
+         "OriginName" : "ELÅ2",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "Monitored" : true,
+         "LineRef" : "2",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Østerås",
+            "DeparturePlatformName" : "2 (Retning Østerås)",
+            "AimedDepartureTime" : "2017-03-25T08:33:06+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:33:06+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:33:06+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:33:06+01:00",
+            "VisitNumber" : 23
+         },
+         "DestinationName" : "Østerås",
+         "VehicleMode" : 4,
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "BlockRef" : "205:THL3X401",
+         "VehicleJourneyName" : "700020524",
+         "Delay" : "PT0S",
+         "VehicleRef" : "221",
+         "DestinationRef" : "2190090"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "2190090",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "2",
+         "OperatorRef" : "me",
+         "Monitored" : false,
+         "OriginName" : "ØSÅ2",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "LineRef" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5149",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "VehicleMode" : 4,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "BlockRef" : "203:THL3X401",
+         "VehicleRef" : "219",
+         "VehicleJourneyName" : "700020527",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "VisitNumber" : 4,
+            "ExpectedArrivalTime" : "2017-03-25T08:36:13+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:36:13+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:36:13+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:36:13+01:00",
+            "DestinationDisplay" : "Ellingsrudåsen",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "VehicleAtStop" : true
+         },
+         "DestinationName" : "Ellingsrudåsen",
+         "DestinationRef" : "3011630"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:18.591+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012460"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3012460",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:18.591+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "2190090",
+         "DestinationName" : "Østerås",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2 (Retning Østerås)",
+            "DestinationDisplay" : "Østerås",
+            "VehicleAtStop" : true,
+            "ExpectedArrivalTime" : "2017-03-25T09:03:06+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:03:06+01:00",
+            "VisitNumber" : 23,
+            "AimedDepartureTime" : "2017-03-25T09:03:06+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:03:06+01:00"
+         },
+         "BlockRef" : "207:THL3X401",
+         "VehicleJourneyName" : "700020526",
+         "VehicleRef" : "223",
+         "Delay" : "PT0S",
+         "VehicleMode" : 4,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "DirectionName" : "2",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5231"
+         },
+         "LineRef" : "2",
+         "OperatorRef" : "me",
+         "PublishedLineName" : "2",
+         "Monitored" : true,
+         "OriginName" : "ELÅ2",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011630",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:18.591+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "me",
+         "PublishedLineName" : "2",
+         "OriginName" : "ØSÅ2",
+         "Monitored" : true,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "LineRef" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5189",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "2190090",
+         "VehicleFeatureRef" : "",
+         "DestinationRef" : "3011630",
+         "VehicleMode" : 4,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "BlockRef" : "205:THL3X401",
+         "VehicleJourneyName" : "700020531",
+         "VehicleRef" : "221",
+         "Delay" : "PT0S",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:06:13+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:06:13+01:00",
+            "VisitNumber" : 4,
+            "ExpectedDepartureTime" : "2017-03-25T09:06:13+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:13+01:00",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Ellingsrudåsen",
+            "VehicleAtStop" : false
+         },
+         "DestinationName" : "Ellingsrudåsen"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "OccupancyData" : null
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "2",
+         "PublishedLineName" : "2",
+         "OperatorRef" : null,
+         "OriginName" : "Ellingsrudåsen [T-bane]",
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700020528"
+         },
+         "OriginRef" : "3011630",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:38:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "2190090",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700020528",
+         "Delay" : null,
+         "VehicleMode" : 4,
+         "OriginAimedDepartureTime" : "2017-03-25T08:55:00+01:00",
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Østerås",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:33:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:33:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Østerås",
+            "DeparturePlatformName" : "2 (Retning Østerås)"
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "2190090",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleFeatureRef" : null,
+         "LineRef" : "2",
+         "OriginName" : "Østerås [T-bane]",
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "2",
+         "OperatorRef" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700020542",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "700020542",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "BlockRef" : null,
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+         "DirectionName" : null,
+         "VehicleMode" : 4,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Ellingsrudåsen",
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00"
+         },
+         "DestinationName" : "Ellingsrudåsen",
+         "DestinationRef" : "3011630"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "Deviations" : []
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Østerås",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Østerås",
+            "DeparturePlatformName" : "2 (Retning Østerås)",
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "VisitNumber" : 0
+         },
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700020535",
+         "Delay" : null,
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "DestinationRef" : "2190090",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011630",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700020535"
+         },
+         "LineRef" : "2",
+         "OriginName" : "Ellingsrudåsen [T-bane]",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "PublishedLineName" : "2",
+         "OperatorRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3012460"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "2190090",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:30:00+01:00",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700020551",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "2",
+         "OriginName" : "Østerås [T-bane]",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "PublishedLineName" : "2",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Ellingsrudåsen",
+            "ExpectedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:51:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:51:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:51:00+01:00"
+         },
+         "DestinationName" : "Ellingsrudåsen",
+         "VehicleJourneyName" : "700020551",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+         "DirectionRef" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 4,
+         "DestinationRef" : "3011630"
+      },
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012460"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3012460",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Ellingsrudåsen [T-bane]",
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "2",
+         "OperatorRef" : null,
+         "LineRef" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700020537"
+         },
+         "InCongestion" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "OriginRef" : "3011630",
+         "VehicleFeatureRef" : null,
+         "DestinationRef" : "2190090",
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "Delay" : null,
+         "VehicleJourneyName" : "700020537",
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "DestinationName" : "Østerås",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2 (Retning Østerås)",
+            "DestinationDisplay" : "Østerås",
+            "ExpectedDepartureTime" : "2017-03-25T10:03:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:03:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:03:00+01:00"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "VehicleJourneyName" : "700020555",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "VehicleMode" : 4,
+         "OriginAimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Ellingsrudåsen",
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "VisitNumber" : 0
+         },
+         "DestinationName" : "Ellingsrudåsen",
+         "DestinationRef" : "3011630",
+         "OriginRef" : "2190090",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:45:00+01:00",
+         "VehicleFeatureRef" : null,
+         "LineRef" : "2",
+         "PublishedLineName" : "2",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Østerås [T-bane]",
+         "Monitored" : false,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700020555",
+            "DataFrameRef" : "2017-03-25"
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "2190090",
+         "DestinationName" : "Østerås",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2 (Retning Østerås)",
+            "DestinationDisplay" : "Østerås",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:18:00+01:00"
+         },
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700020547",
+         "Delay" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700020547",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginName" : "Ellingsrudåsen [T-bane]",
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "PublishedLineName" : "2",
+         "LineRef" : "2",
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:23:00+01:00",
+         "OriginRef" : "3011630"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:18.6907035+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011630",
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "700020562",
+         "Delay" : null,
+         "VehicleMode" : 4,
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+         "DirectionName" : null,
+         "DestinationName" : "Ellingsrudåsen",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:21:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:21:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:21:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1 (Retning sentrum)",
+            "DestinationDisplay" : "Ellingsrudåsen"
+         },
+         "LineRef" : "2",
+         "PublishedLineName" : "2",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Østerås [T-bane]",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700020562",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "2190090",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:00:00+01:00",
+         "VehicleFeatureRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012460",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      }
+   }
+]

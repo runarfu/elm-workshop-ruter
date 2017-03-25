@@ -1,0 +1,200 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT65S",
+         "OperatorRef" : "Norgesbuss",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300109",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "51",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "OriginName" : "Skar",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:26:05+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:25:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:26:05+01:00",
+            "VisitNumber" : 7,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:25:00+01:00",
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "DirectionName" : "1",
+         "DestinationName" : "Nydalen T",
+         "BlockRef" : "5101",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "100510093",
+         "VehicleMode" : 0,
+         "LineRef" : "51",
+         "DestinationRef" : "3012135",
+         "OriginRef" : "3012650",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "VehicleRef" : "308061",
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:50.794+01:00",
+      "MonitoringRef" : "3012637"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:50.794+01:00",
+      "MonitoringRef" : "3012637",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 16,
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Maridalen"
+         },
+         "DestinationName" : "Maridalen",
+         "OriginName" : "Tamburveien",
+         "Delay" : "PT0S",
+         "PublishedLineName" : "51",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "301809",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : "Norgesbuss",
+         "Monitored" : true,
+         "VehicleRef" : "308061",
+         "OriginRef" : "3012135",
+         "DestinationRef" : "3012650",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "5101",
+         "VehicleMode" : 0,
+         "LineRef" : "51",
+         "DirectionRef" : "2",
+         "VehicleJourneyName" : "100510127"
+      }
+   },
+   {
+      "MonitoringRef" : "3012637",
+      "RecordedAtTime" : "2017-03-25T08:22:50.7527538+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Skar",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:25:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+            "DestinationDisplay" : "Nydalen T"
+         },
+         "DirectionName" : null,
+         "DestinationName" : "Nydalen T",
+         "Delay" : null,
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100510095",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "PublishedLineName" : "51",
+         "DestinationRef" : "3012135",
+         "OriginRef" : "3012650",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:39:00+01:00",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "100510095",
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "LineRef" : "51"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100510129"
+         },
+         "PublishedLineName" : "51",
+         "Delay" : null,
+         "OriginName" : "Tamburveien",
+         "DestinationName" : "Maridalen",
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Maridalen",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null,
+         "VehicleJourneyName" : "100510129",
+         "LineRef" : "51",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationRef" : "3012650",
+         "OriginRef" : "3012135",
+         "VehicleRef" : null,
+         "Monitored" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012637",
+      "RecordedAtTime" : "2017-03-25T08:22:50.7527538+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false
+      }
+   }
+]

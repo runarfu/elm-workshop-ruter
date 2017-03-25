@@ -1,0 +1,1122 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012120",
+         "OriginName" : "LØR2",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Bergkrystallen via Storo",
+            "ExpectedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)",
+            "ExpectedArrivalTime" : "2017-03-25T08:39:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:39:00+01:00",
+            "VehicleAtStop" : true,
+            "VisitNumber" : 2
+         },
+         "OperatorRef" : "me",
+         "VehicleRef" : "254",
+         "Monitored" : true,
+         "BlockRef" : "408:THL3X401",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "VehicleJourneyName" : "700040523",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "PublishedLineName" : "4",
+         "OriginRef" : "3011490",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5963"
+         },
+         "Delay" : "PT0S",
+         "VehicleMode" : 4,
+         "DestinationName" : "Bergkrystallen via Storo",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012100",
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Sognsvann via Tøyen",
+         "VehicleMode" : 4,
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "6547"
+         },
+         "LineRef" : "5",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "5",
+         "OriginRef" : "3012120",
+         "DirectionName" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700050524",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "BlockRef" : "511:THL3X401",
+         "Monitored" : true,
+         "OperatorRef" : "me",
+         "VehicleRef" : "271",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "ExpectedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "DestinationDisplay" : "Sognsvann via Tøyen",
+            "AimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "VisitNumber" : 2
+         },
+         "OriginName" : "STR2",
+         "DestinationRef" : "3012280"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00",
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3012100",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00",
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "6377",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3012280",
+         "PublishedLineName" : "5",
+         "LineRef" : "5",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "1",
+         "DestinationName" : "Ringen via Storo",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 4,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "BlockRef" : "507:THL3X401",
+         "Monitored" : true,
+         "VehicleRef" : "267",
+         "OperatorRef" : "me",
+         "DestinationRef" : "3012120",
+         "MonitoredCall" : {
+            "VisitNumber" : 18,
+            "AimedDepartureTime" : "2017-03-25T08:45:30+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:45:30+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)",
+            "AimedArrivalTime" : "2017-03-25T08:45:30+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:45:30+01:00",
+            "DestinationDisplay" : "Ringen via Storo"
+         },
+         "OriginName" : "SOG1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700050527"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012100"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012100",
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "OriginRef" : "3012120",
+         "PublishedLineName" : "4",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5680"
+         },
+         "DestinationName" : "Vestli",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "VehicleMode" : 4,
+         "BlockRef" : "403:THL3X401",
+         "Monitored" : true,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "DestinationRef" : "3011490",
+         "MonitoredCall" : {
+            "VisitNumber" : 2,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:47:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:47:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "DestinationDisplay" : "Vestli",
+            "AimedArrivalTime" : "2017-03-25T08:47:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:47:00+01:00"
+         },
+         "OriginName" : "STR2",
+         "VehicleRef" : "249",
+         "OperatorRef" : "me",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "VehicleJourneyName" : "700040522"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "4",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011490",
+         "PublishedLineName" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5576",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : "PT0S",
+         "VehicleMode" : 4,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Bergkrystallen via Storo",
+         "DirectionRef" : "1",
+         "OriginName" : "LØR2",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Bergkrystallen via Storo",
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)",
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "VehicleAtStop" : true,
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "VisitNumber" : 2
+         },
+         "DestinationRef" : "3012120",
+         "OperatorRef" : "me",
+         "VehicleRef" : "247",
+         "Monitored" : true,
+         "BlockRef" : "401:THL3X401",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "VehicleJourneyName" : "700040527",
+         "InCongestion" : false,
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "F07800"
+      }
+   },
+   {
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "700050528",
+         "InCongestion" : false,
+         "DirectionName" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "STR2",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:11:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:11:00+01:00",
+            "DestinationDisplay" : "Sognsvann via Tøyen",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "ExpectedArrivalTime" : "2017-03-25T09:11:00+01:00",
+            "VehicleAtStop" : true,
+            "AimedDepartureTime" : "2017-03-25T09:11:00+01:00",
+            "VisitNumber" : 2
+         },
+         "DestinationRef" : "3012280",
+         "OperatorRef" : "me",
+         "VehicleRef" : "262",
+         "Monitored" : true,
+         "BlockRef" : "502:THL3X401",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "VehicleMode" : 4,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Sognsvann via Tøyen",
+         "DirectionRef" : "2",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "5",
+         "OriginRef" : "3012120",
+         "PublishedLineName" : "5",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "6178"
+         },
+         "Delay" : "PT0S"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "6462"
+         },
+         "LineRef" : "5",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "5",
+         "OriginRef" : "3012280",
+         "DirectionRef" : "1",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Ringen via Storo",
+         "VehicleMode" : 4,
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "Monitored" : true,
+         "BlockRef" : "509:THL3X401",
+         "OperatorRef" : "me",
+         "VehicleRef" : "269",
+         "OriginName" : "SOG1",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:15:30+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:15:30+01:00",
+            "VisitNumber" : 18,
+            "ExpectedDepartureTime" : "2017-03-25T09:15:30+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:15:30+01:00",
+            "DestinationDisplay" : "Ringen via Storo",
+            "DeparturePlatformName" : "1 (Retning Storo)"
+         },
+         "DestinationRef" : "3012120",
+         "DirectionName" : "1",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700050533"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5784",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3012120",
+         "PublishedLineName" : "4",
+         "LineRef" : "4",
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "VehicleMode" : 4,
+         "DirectionRef" : "2",
+         "DestinationName" : "Vestli",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "251",
+         "OperatorRef" : "me",
+         "DestinationRef" : "3011490",
+         "MonitoredCall" : {
+            "VisitNumber" : 2,
+            "ExpectedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "VehicleAtStop" : true,
+            "ExpectedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "DestinationDisplay" : "Vestli",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)"
+         },
+         "OriginName" : "STR2",
+         "TrainBlockPart" : {
+            "NumberOfBlockParts" : 6
+         },
+         "BlockRef" : "405:THL3X401",
+         "Monitored" : true,
+         "VehicleJourneyName" : "700040526",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "InCongestion" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.106+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3012100",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050538"
+         },
+         "OriginRef" : "3011200",
+         "PublishedLineName" : "5",
+         "LineRef" : "5",
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null,
+         "DestinationName" : "Sognsvann via Tøyen",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+         "VehicleMode" : 4,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "DestinationRef" : "3012280",
+         "OriginName" : "Ryen [T-bane]",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "DestinationDisplay" : "Sognsvann via Tøyen",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "ExpectedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700050538"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "LineRef" : "5",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010020",
+         "PublishedLineName" : "5",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050549"
+         },
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "DestinationName" : "Ringen via Storo",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "DestinationDisplay" : "Ringen via Storo",
+            "ExpectedDepartureTime" : "2017-03-25T09:30:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:30:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)"
+         },
+         "OriginName" : "Stortinget [T-bane]",
+         "DestinationRef" : "3011730",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+         "VehicleJourneyName" : "700050549"
+      },
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012100",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "DestinationRef" : "3011730",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "DestinationDisplay" : "Vestli",
+            "AimedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:32:00+01:00"
+         },
+         "OriginName" : "Ryen [T-bane]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700040529",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040529",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3011200",
+         "PublishedLineName" : "4",
+         "VehicleFeatureRef" : null,
+         "LineRef" : "4",
+         "DirectionRef" : null,
+         "DestinationName" : "Vestli",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+         "VehicleMode" : 4
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Vestli [T-bane]",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Bergkrystallen via Storo",
+            "AimedArrivalTime" : "2017-03-25T09:39:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:39:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)"
+         },
+         "DestinationRef" : "3011030",
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:19:00+01:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700040533",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040533",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "LineRef" : "4",
+         "OriginRef" : "3011730",
+         "PublishedLineName" : "4",
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+         "DestinationName" : "Bergkrystallen via Storo",
+         "VehicleMode" : 4
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3012100"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "5",
+         "OriginRef" : "3011730",
+         "LineRef" : "5",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050539",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : null,
+         "VehicleMode" : 4,
+         "DestinationName" : "Sognsvann via Tøyen",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+         "DirectionRef" : null,
+         "DestinationRef" : "3012280",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "ExpectedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "DestinationDisplay" : "Sognsvann via Tøyen"
+         },
+         "OriginName" : "Vestli [T-bane]",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "700050539",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T08:58:00+01:00",
+         "DirectionName" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "F07800"
+      },
+      "MonitoringRef" : "3012100"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+         "VehicleJourneyName" : "700050547",
+         "BlockRef" : null,
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Ringen via Storo",
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)"
+         },
+         "OriginName" : "Sognsvann",
+         "DestinationRef" : "3011730",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:30:00+01:00",
+         "DestinationName" : "Ringen via Storo",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "5",
+         "PublishedLineName" : "5",
+         "OriginRef" : "3012280",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700050547",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012100"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "4",
+         "OriginRef" : "3011030",
+         "LineRef" : "4",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040532",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : null,
+         "VehicleMode" : 4,
+         "DestinationName" : "Vestli",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+         "DirectionRef" : null,
+         "DestinationRef" : "3011730",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "DestinationDisplay" : "Vestli",
+            "AimedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "VisitNumber" : 0
+         },
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "700040532",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:10:00+01:00",
+         "DirectionName" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "700040538",
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+         "InCongestion" : false,
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "DestinationDisplay" : "Bergkrystallen via Storo",
+            "DeparturePlatformName" : "1 (Retning Storo)",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:54:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:54:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Vestli [T-bane]",
+         "DestinationRef" : "3011030",
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 4,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:32:00+01:00",
+         "DestinationName" : "Bergkrystallen via Storo",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040538",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "4",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011730",
+         "PublishedLineName" : "4",
+         "Delay" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012100",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "DestinationName" : "Sognsvann via Tøyen",
+         "DirectionRef" : null,
+         "LineRef" : "5",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011730",
+         "PublishedLineName" : "5",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050542"
+         },
+         "Delay" : null,
+         "VehicleJourneyName" : "700050542",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+         "OriginName" : "Vestli [T-bane]",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "DestinationDisplay" : "Sognsvann via Tøyen",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "ExpectedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "VisitNumber" : 0
+         },
+         "DestinationRef" : "3012280",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "DestinationRef" : "3011730",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:00:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "DestinationDisplay" : "Ringen via Storo",
+            "DeparturePlatformName" : "1 (Retning Storo)",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:00:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:00:00+01:00"
+         },
+         "OriginName" : "Sognsvann",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700050553",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050553"
+         },
+         "OriginRef" : "3012280",
+         "PublishedLineName" : "5",
+         "LineRef" : "5",
+         "VehicleFeatureRef" : null,
+         "DirectionRef" : null,
+         "DestinationName" : "Ringen via Storo",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:45:00+01:00",
+         "VehicleMode" : 4
+      },
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "F07800",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "DirectionRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "DestinationName" : "Vestli",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040535",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "LineRef" : "4",
+         "OriginRef" : "3011030",
+         "PublishedLineName" : "4",
+         "Delay" : null,
+         "VehicleJourneyName" : "700040535",
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "InCongestion" : false,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "DestinationDisplay" : "Vestli",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "DestinationRef" : "3011730",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "BlockRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012100",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "DestinationRef" : "3011030",
+         "OriginName" : "Vestli [T-bane]",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "DestinationDisplay" : "Bergkrystallen via Storo",
+            "DeparturePlatformName" : "1 (Retning Storo)",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:09:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:09:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:49:00+01:00",
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "VehicleJourneyName" : "700040542",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700040542"
+         },
+         "PublishedLineName" : "4",
+         "OriginRef" : "3011730",
+         "VehicleFeatureRef" : null,
+         "LineRef" : "4",
+         "DirectionRef" : null,
+         "DestinationName" : "Bergkrystallen via Storo",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:47:00+01:00",
+         "VehicleMode" : 4
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "F07800",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012100",
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 4,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "DestinationName" : "Sognsvann via Tøyen",
+         "DirectionRef" : null,
+         "LineRef" : "5",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011730",
+         "PublishedLineName" : "5",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050550"
+         },
+         "Delay" : null,
+         "VehicleJourneyName" : "700050550",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:28:00+01:00",
+         "OriginName" : "Vestli [T-bane]",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:11:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:11:00+01:00",
+            "DestinationDisplay" : "Sognsvann via Tøyen",
+            "ExpectedDepartureTime" : "2017-03-25T10:11:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:11:00+01:00",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)"
+         },
+         "DestinationRef" : "3012280",
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "LineColour" : "F07800",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3012100",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011730",
+         "OriginName" : "Sognsvann",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Ringen via Storo",
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "DeparturePlatformName" : "1 (Retning Storo)"
+         },
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "700050557",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+         "DirectionName" : null,
+         "OriginRef" : "3012280",
+         "PublishedLineName" : "5",
+         "VehicleFeatureRef" : null,
+         "LineRef" : "5",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "700050557"
+         },
+         "Delay" : null,
+         "VehicleMode" : 4,
+         "DestinationName" : "Ringen via Storo",
+         "DestinationAimedArrivalTime" : "2017-03-25T11:00:00+01:00",
+         "DirectionRef" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:40:00+01:00",
+         "VehicleJourneyName" : "700040541",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "OriginName" : "Bergkrystallen [T-bane]",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "DestinationDisplay" : "Vestli",
+            "DeparturePlatformName" : "2 (Retning Tøyen/Vestli)"
+         },
+         "DestinationRef" : "3011730",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "DestinationName" : "Vestli",
+         "DirectionRef" : null,
+         "VehicleMode" : 4,
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "LineRef" : "4",
+         "OriginRef" : "3011030",
+         "PublishedLineName" : "4",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "700040541",
+            "DataFrameRef" : "2017-03-25"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:22.2062222+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012100",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "F07800",
+         "OccupancyData" : null,
+         "Deviations" : []
+      }
+   }
+]

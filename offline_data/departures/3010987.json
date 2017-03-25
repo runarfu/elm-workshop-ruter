@@ -1,0 +1,149 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "VehicleRef" : "731004",
+         "OriginRef" : "2290180",
+         "Delay" : "PT80S",
+         "LineRef" : "550",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "386610"
+         },
+         "InCongestion" : false,
+         "DestinationRef" : "3010619",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "OriginName" : "Enebakk kirke",
+         "OperatorRef" : "Nobina",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "PublishedLineName" : "550",
+         "TrainBlockPart" : null,
+         "BlockRef" : "55001",
+         "DirectionRef" : "1",
+         "VehicleJourneyName" : "5503866",
+         "DestinationName" : "Oslo",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:27:20+01:00",
+            "VisitNumber" : 41,
+            "ExpectedDepartureTime" : "2017-03-25T08:27:20+01:00",
+            "DestinationDisplay" : "Oslo",
+            "AimedArrivalTime" : "2017-03-25T08:26:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:26:00+01:00",
+            "DeparturePlatformName" : "1"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:00.782+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "76A300",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010987"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010987",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "OccupancyData" : null
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "OriginRef" : "3010619",
+         "VehicleRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:00:00+01:00",
+         "LineRef" : "550",
+         "DestinationRef" : "2310301",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "5500333",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "OriginName" : "Oslo Bussterminal",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:50:00+01:00",
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "550",
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Lillestrøm",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "DirectionRef" : null,
+         "DestinationName" : "Lillestrøm",
+         "VehicleJourneyName" : "5500333"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:00.7215719+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010987",
+      "Extensions" : {
+         "LineColour" : "76A300",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:00.7215719+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "OriginRef" : "2290180",
+         "Delay" : null,
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "5503870"
+         },
+         "DestinationRef" : "3010619",
+         "LineRef" : "550",
+         "OriginAimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+         "OperatorRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "OriginName" : "Enebakk kirke",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "PublishedLineName" : "550",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "5503870",
+         "DestinationName" : "Oslo",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+            "DestinationDisplay" : "Oslo",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:26:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:26:00+01:00"
+         }
+      }
+   }
+]

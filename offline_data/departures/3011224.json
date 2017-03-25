@@ -1,0 +1,290 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011230",
+         "DestinationName" : "Østensjø ring",
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "78B",
+         "VehicleJourneyName" : "220780105",
+         "InCongestion" : false,
+         "BlockRef" : "7803",
+         "Delay" : "PT0S",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Abildsø",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "52410"
+         },
+         "DestinationRef" : "3011223",
+         "LineRef" : "2078",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "VisitNumber" : 16,
+            "AimedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "DestinationDisplay" : "Østensjø ring",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:04:00+01:00"
+         },
+         "DirectionName" : "1",
+         "DirectionRef" : "1",
+         "VehicleMode" : 0
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:23.659+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3011224"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "OriginName" : "Bryn senter (senteret)",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "BlockRef" : "7803",
+         "VehicleJourneyName" : "200780032",
+         "PublishedLineName" : "78A",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "Unibuss",
+         "DestinationName" : "Østensjø ring",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "3011223",
+         "DirectionName" : "1",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "VisitNumber" : 2,
+            "ExpectedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "DestinationDisplay" : "Østensjø ring",
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false
+         },
+         "TrainBlockPart" : null,
+         "LineRef" : "78",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50010",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "3011223"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011224",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:23.659+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Bryn senter (senteret)",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+         "Delay" : null,
+         "BlockRef" : null,
+         "PublishedLineName" : "78B",
+         "VehicleJourneyName" : "220780033",
+         "InCongestion" : false,
+         "DestinationName" : "Østensjø ring",
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:03:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011223",
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Østensjø ring",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "LineRef" : "2078",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "220780033",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "3011223"
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:23.6435455+01:00",
+      "MonitoringRef" : "3011224"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Østensjø ring",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00"
+         },
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "DestinationRef" : "3011223",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200780035",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "LineRef" : "78",
+         "BlockRef" : null,
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Bryn senter (senteret)",
+         "OriginRef" : "3011223",
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "DestinationName" : "Østensjø ring",
+         "OriginAimedDepartureTime" : "2017-03-25T09:44:00+01:00",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200780035",
+         "PublishedLineName" : "78A"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:23.6435455+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011224"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:06:00+01:00",
+         "OriginName" : "Bryn senter (senteret)",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3011223",
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00",
+         "OperatorRef" : null,
+         "DestinationName" : "Østensjø ring",
+         "PublishedLineName" : "78B",
+         "VehicleJourneyName" : "220780036",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Østensjø ring",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00"
+         },
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "220780036"
+         },
+         "DestinationRef" : "3011223",
+         "LineRef" : "2078"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:23.6435455+01:00",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3011224"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:23.6435455+01:00",
+      "MonitoringRef" : "3011224",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3011223",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200780038"
+         },
+         "LineRef" : "78",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Østensjø ring",
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00"
+         },
+         "OriginRef" : "3011223",
+         "VehicleFeatureRef" : null,
+         "InCongestion" : false,
+         "PublishedLineName" : "78A",
+         "VehicleJourneyName" : "200780038",
+         "DestinationName" : "Østensjø ring",
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:14:00+01:00",
+         "Delay" : null,
+         "BlockRef" : null,
+         "VehicleRef" : null,
+         "OriginName" : "Bryn senter (senteret)",
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:45:00+01:00"
+      },
+      "StopVisitNote" : []
+   }
+]

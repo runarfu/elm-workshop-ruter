@@ -1,0 +1,273 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "VisitNumber" : 7,
+            "ExpectedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "DestinationDisplay" : "Lysaker"
+         },
+         "Delay" : "PT0S",
+         "BlockRef" : "2301",
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "3010760",
+         "VehicleJourneyName" : "200230199",
+         "OriginName" : "Simensbråten",
+         "PublishedLineName" : "23",
+         "VehicleRef" : "101058",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50410",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "2192549",
+         "LineRef" : "23",
+         "DestinationName" : "Lysaker",
+         "InCongestion" : false,
+         "DirectionName" : "2",
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:19:23.046+01:00",
+      "MonitoringRef" : "3011222",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [
+            {
+               "Header" : "Forsinkelser kan oppstå",
+               "ID" : 43251
+            }
+         ]
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [
+            {
+               "Header" : "Forsinkelser kan oppstå",
+               "ID" : 43251
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoringRef" : "3011222",
+      "RecordedAtTime" : "2017-03-25T08:19:23.046+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "DirectionRef" : "2",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "OperatorRef" : "Unibuss",
+         "Monitored" : true,
+         "Delay" : "PT0S",
+         "BlockRef" : "2302",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 7,
+            "AimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "DestinationDisplay" : "Lysaker",
+            "AimedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:15:00+01:00"
+         },
+         "LineRef" : "23",
+         "TrainBlockPart" : null,
+         "DirectionName" : "2",
+         "DestinationName" : "Lysaker",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "200230202",
+         "OriginRef" : "3010760",
+         "VehicleRef" : "101072",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50510"
+         },
+         "DestinationRef" : "2192549",
+         "OriginName" : "Simensbråten",
+         "PublishedLineName" : "23"
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "Header" : "Forsinkelser kan oppstå",
+               "ID" : 43251
+            }
+         ]
+      },
+      "MonitoringRef" : "3011222",
+      "RecordedAtTime" : "2017-03-25T08:19:23.3004132+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Lysaker",
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00"
+         },
+         "LineRef" : "23",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Lysaker",
+         "OriginRef" : "3010760",
+         "VehicleJourneyName" : "200230205",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200230205"
+         },
+         "DestinationRef" : "2192549",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+         "VehicleRef" : null,
+         "OriginName" : "Simensbråten",
+         "PublishedLineName" : "23"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoringRef" : "3011222",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Forsinkelser kan oppstå",
+               "ID" : 43251
+            }
+         ],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "DestinationDisplay" : "Lysaker"
+         },
+         "Delay" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "23",
+         "OriginName" : "Simensbråten",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:36:00+01:00",
+         "DestinationRef" : "2192549",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200230208",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3010760",
+         "VehicleJourneyName" : "200230208",
+         "DestinationName" : "Lysaker",
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "LineRef" : "23"
+      },
+      "RecordedAtTime" : "2017-03-25T08:19:23.3004132+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:19:23.3004132+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:10:00+01:00",
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:16:00+01:00",
+            "DestinationDisplay" : "Lysaker",
+            "ExpectedArrivalTime" : "2017-03-25T10:16:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:16:00+01:00"
+         },
+         "Delay" : null,
+         "BlockRef" : null,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DestinationName" : "Lysaker",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "LineRef" : "23",
+         "PublishedLineName" : "23",
+         "OriginName" : "Simensbråten",
+         "VehicleRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:56:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200230211"
+         },
+         "DestinationRef" : "2192549",
+         "OriginRef" : "3010760",
+         "VehicleJourneyName" : "200230211"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "Header" : "Forsinkelser kan oppstå",
+               "ID" : 43251
+            }
+         ],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3011222"
+   }
+]

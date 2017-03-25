@@ -1,0 +1,398 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "OriginRef" : "3011941",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "AimedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 6,
+            "AimedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T08:36:00+01:00"
+         },
+         "PublishedLineName" : "66",
+         "BlockRef" : "6601",
+         "LineRef" : "66",
+         "DestinationName" : "Helsfyr T via Ikea",
+         "Delay" : "PT0S",
+         "DestinationRef" : "3011441",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "OperatorRef" : "Norgesbuss",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "305309",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "VehicleRef" : "308065",
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Grorud T [buss]",
+         "VehicleJourneyName" : "100660369"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:23.072+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3011646"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:23.072+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011646",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "LineRef" : "66",
+         "DestinationName" : "Grorud T",
+         "DestinationRef" : "3011941",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "OriginRef" : "3011441",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:43:00+01:00",
+            "DestinationDisplay" : "Grorud T",
+            "ExpectedDepartureTime" : "2017-03-25T08:43:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:43:00+01:00",
+            "VisitNumber" : 13,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T08:43:00+01:00"
+         },
+         "DirectionRef" : "1",
+         "BlockRef" : "6302",
+         "PublishedLineName" : "66",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleJourneyName" : "100660269",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "VehicleRef" : "308047",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300309",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:23.072+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011646",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Grorud T [buss]",
+         "VehicleJourneyName" : "100660371",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "VehicleMode" : 0,
+         "VehicleRef" : "308051",
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "305409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationName" : "Helsfyr T via Ikea",
+         "LineRef" : "66",
+         "Delay" : "PT0S",
+         "DestinationRef" : "3011441",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "OriginRef" : "3011941",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "VisitNumber" : 6,
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "PublishedLineName" : "66",
+         "BlockRef" : "6301"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Grorud T",
+         "LineRef" : "66",
+         "Delay" : "PT0S",
+         "DestinationRef" : "3011941",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "InCongestion" : false,
+         "OriginRef" : "3011441",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 13,
+            "AimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:13:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:13:00+01:00",
+            "DestinationDisplay" : "Grorud T"
+         },
+         "PublishedLineName" : "66",
+         "BlockRef" : "6601",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleJourneyName" : "100660271",
+         "OperatorRef" : "Norgesbuss",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "1",
+         "VehicleRef" : "308065",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:23.072+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011646"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3011646",
+      "RecordedAtTime" : "2017-03-25T08:20:23.1436089+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100660373",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "100660373",
+         "OriginName" : "Grorud T [buss]",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+         "BlockRef" : null,
+         "PublishedLineName" : "66",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "AimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:36:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : null,
+         "OriginRef" : "3011941",
+         "InCongestion" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:31:00+01:00",
+         "Monitored" : false,
+         "DestinationRef" : "3011441",
+         "DestinationName" : "Helsfyr T via Ikea",
+         "LineRef" : "66",
+         "Delay" : null
+      }
+   },
+   {
+      "MonitoringRef" : "3011646",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:23.1436089+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "VehicleRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100660273"
+         },
+         "TrainBlockPart" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:51:00+01:00",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "VehicleJourneyName" : "100660273",
+         "OriginRef" : "3011441",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Grorud T",
+            "AimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:43:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:43:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+            "VisitNumber" : 0
+         },
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "PublishedLineName" : "66",
+         "Delay" : null,
+         "LineRef" : "66",
+         "DestinationName" : "Grorud T",
+         "DestinationRef" : "3011941",
+         "OriginAimedDepartureTime" : "2017-03-25T09:30:00+01:00",
+         "Monitored" : false
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Helsfyr T via Ikea",
+         "LineRef" : "66",
+         "Delay" : null,
+         "DestinationRef" : "3011441",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T10:01:00+01:00",
+         "InCongestion" : false,
+         "OriginRef" : "3011941",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "DestinationDisplay" : "Helsfyr T via Ikea",
+            "ExpectedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "PublishedLineName" : "66",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "OriginName" : "Grorud T [buss]",
+         "VehicleJourneyName" : "100660375",
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100660375",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:23.1436089+01:00",
+      "MonitoringRef" : "3011646",
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "PublishedLineName" : "66",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "DestinationDisplay" : "Grorud T",
+            "ExpectedDepartureTime" : "2017-03-25T10:14:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T10:14:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T10:14:00+01:00"
+         },
+         "DirectionRef" : null,
+         "OriginRef" : "3011441",
+         "InCongestion" : false,
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T10:00:00+01:00",
+         "DestinationRef" : "3011941",
+         "DestinationName" : "Grorud T",
+         "LineRef" : "66",
+         "Delay" : null,
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "TrainBlockPart" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100660275"
+         },
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "VehicleJourneyName" : "100660275",
+         "OriginName" : "Helsfyr T [bussterminal]",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:23:00+01:00"
+      },
+      "MonitoringRef" : "3011646",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:23.1436089+01:00"
+   }
+]

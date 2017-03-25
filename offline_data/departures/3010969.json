@@ -1,0 +1,398 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010921",
+         "OriginName" : "Langteigåsen",
+         "PublishedLineName" : "77",
+         "VehicleFeatureRef" : "",
+         "MonitoredCall" : {
+            "VisitNumber" : 7,
+            "AimedArrivalTime" : "2017-03-25T08:22:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:22:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T08:22:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:22:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "DestinationName" : "Holmlia stasjon",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "77",
+         "OriginRef" : "3010976",
+         "DirectionName" : "2",
+         "VehicleRef" : "101163",
+         "BlockRef" : "7703",
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "53810",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "200770241",
+         "DirectionRef" : "2",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "InCongestion" : false
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "MonitoringRef" : "3010969",
+      "RecordedAtTime" : "2017-03-25T08:18:55.622+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3010976",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "77",
+         "MonitoredCall" : {
+            "VisitNumber" : 11,
+            "AimedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Bjørndal - Langteigåsen",
+            "ExpectedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:27:00+01:00"
+         },
+         "DestinationName" : "Bjørndal - Langteigåsen",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "77",
+         "OriginRef" : "3010921",
+         "DirectionName" : "1",
+         "VehicleRef" : "101162",
+         "BlockRef" : "7702",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50210",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "200770133",
+         "OperatorRef" : "Unibuss",
+         "DirectionRef" : "1",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "InCongestion" : false,
+         "Monitored" : true
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:55.622+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         }
+      },
+      "MonitoringRef" : "3010969"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010969",
+      "RecordedAtTime" : "2017-03-25T08:18:55.622+01:00",
+      "MonitoredVehicleJourney" : {
+         "DirectionRef" : "2",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "Monitored" : true,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "200770244",
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "53910"
+         },
+         "BlockRef" : "7702",
+         "VehicleRef" : "101162",
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginRef" : "3010976",
+         "LineRef" : "77",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:52:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:52:00+01:00",
+            "VisitNumber" : 7,
+            "ExpectedArrivalTime" : "2017-03-25T08:52:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:52:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "77",
+         "DestinationName" : "Holmlia stasjon",
+         "DestinationRef" : "3010921",
+         "OriginName" : "Langteigåsen"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Monitored" : true,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "OperatorRef" : "Unibuss",
+         "TrainBlockPart" : null,
+         "BlockRef" : "7703",
+         "VehicleJourneyName" : "200770136",
+         "Delay" : "PT0S",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginRef" : "3010921",
+         "LineRef" : "77",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleRef" : "101163",
+         "DirectionName" : "1",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "DestinationRef" : "3010976",
+         "DestinationName" : "Bjørndal - Langteigåsen",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:57:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Bjørndal - Langteigåsen",
+            "ExpectedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "VisitNumber" : 11,
+            "AimedArrivalTime" : "2017-03-25T08:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:57:00+01:00"
+         },
+         "PublishedLineName" : "77",
+         "VehicleFeatureRef" : ""
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3010969",
+      "RecordedAtTime" : "2017-03-25T08:18:55.622+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:55.6116654+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "MonitoringRef" : "3010969",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:16:00+01:00",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200770247",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200770247"
+         },
+         "Delay" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:37:00+01:00",
+         "LineRef" : "77",
+         "OriginRef" : "3010976",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "3010921",
+         "OriginName" : "Langteigåsen",
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Holmlia stasjon",
+            "ExpectedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "DeparturePlatformName" : "2"
+         },
+         "PublishedLineName" : "77",
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Holmlia stasjon"
+      }
+   },
+   {
+      "MonitoringRef" : "3010969",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:55.6116654+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "200770139",
+         "Delay" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200770139",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : null,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:13:00+01:00",
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "DestinationName" : "Bjørndal - Langteigåsen",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Bjørndal - Langteigåsen",
+            "ExpectedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "VisitNumber" : 0
+         },
+         "VehicleFeatureRef" : null,
+         "PublishedLineName" : "77",
+         "OriginName" : "Holmlia stasjon [buss]",
+         "DestinationRef" : "3010976",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "OriginRef" : "3010921",
+         "LineRef" : "77",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:33:00+01:00"
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:18:55.6116654+01:00",
+      "MonitoringRef" : "3010969",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200770250",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Delay" : null,
+         "VehicleJourneyName" : "200770250",
+         "OriginAimedDepartureTime" : "2017-03-25T09:46:00+01:00",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "OriginName" : "Langteigåsen",
+         "DestinationRef" : "3010921",
+         "DestinationName" : "Holmlia stasjon",
+         "PublishedLineName" : "77",
+         "VehicleFeatureRef" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "DestinationDisplay" : "Holmlia stasjon",
+            "VehicleAtStop" : false
+         },
+         "LineRef" : "77",
+         "OriginRef" : "3010976",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+         "DirectionName" : null,
+         "VehicleRef" : null
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "Monitored" : false,
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "TrainBlockPart" : null,
+         "BlockRef" : null,
+         "VehicleJourneyName" : "200770142",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200770142"
+         },
+         "Delay" : null,
+         "LineRef" : "77",
+         "OriginRef" : "3010921",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "OriginName" : "Holmlia stasjon [buss]",
+         "DestinationRef" : "3010976",
+         "DestinationName" : "Bjørndal - Langteigåsen",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:57:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:57:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Bjørndal - Langteigåsen"
+         },
+         "PublishedLineName" : "77",
+         "VehicleFeatureRef" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010969",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:55.6116654+01:00"
+   }
+]

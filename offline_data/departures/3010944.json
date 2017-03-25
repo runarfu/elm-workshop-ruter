@@ -1,0 +1,220 @@
+[
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:48.876+01:00",
+      "MonitoringRef" : "3010944",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         },
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Hauketo stasjon [buss]",
+         "PublishedLineName" : "81B",
+         "LineRef" : "2081",
+         "VehicleJourneyName" : "220810082",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50210"
+         },
+         "DestinationRef" : "2170150",
+         "VehicleRef" : "101116",
+         "VehicleFeatureRef" : "",
+         "DestinationName" : "Ødegården",
+         "DirectionName" : "1",
+         "OriginRef" : "3010911",
+         "BlockRef" : "8105",
+         "TrainBlockPart" : null,
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "1",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Ødegården",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T08:27:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:27:00+01:00",
+            "VisitNumber" : 7,
+            "ExpectedArrivalTime" : "2017-03-25T08:27:00+01:00"
+         },
+         "InCongestion" : false,
+         "VehicleMode" : 0
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:48.876+01:00",
+      "MonitoredVehicleJourney" : {
+         "OperatorRef" : "Unibuss",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "81B",
+         "OriginName" : "Ødegården",
+         "LineRef" : "2081",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50310",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "220810085",
+         "DestinationRef" : "3010911",
+         "VehicleRef" : "101116",
+         "VehicleFeatureRef" : "",
+         "DirectionName" : "2",
+         "DestinationName" : "Hauketo stasjon",
+         "BlockRef" : "8105",
+         "OriginRef" : "2170150",
+         "TrainBlockPart" : null,
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:52:00+01:00",
+            "VisitNumber" : 11,
+            "ExpectedArrivalTime" : "2017-03-25T08:52:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:52:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:52:00+01:00",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "DeparturePlatformName" : "2"
+         },
+         "InCongestion" : false,
+         "VehicleMode" : 0
+      },
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 20
+         }
+      },
+      "MonitoringRef" : "3010944"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T09:36:00+01:00",
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:27:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Ødegården",
+            "AimedDepartureTime" : "2017-03-25T09:27:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "InCongestion" : false,
+         "VehicleMode" : 0,
+         "OriginRef" : "3010911",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "Delay" : null,
+         "DestinationRef" : "2170150",
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Ødegården",
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:21:00+01:00",
+         "OriginName" : "Hauketo stasjon [buss]",
+         "PublishedLineName" : "81B",
+         "LineRef" : "2081",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "220810088"
+         },
+         "VehicleJourneyName" : "220810088"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3010944",
+      "RecordedAtTime" : "2017-03-25T08:18:49.1121864+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:49.1121864+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [
+            {
+               "ID" : 43014,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            }
+         ],
+         "LineColour" : "E60000"
+      },
+      "MonitoringRef" : "3010944",
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Hauketo stasjon",
+            "ExpectedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:52:00+01:00"
+         },
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "OriginRef" : "2170150",
+         "TrainBlockPart" : null,
+         "Monitored" : false,
+         "Delay" : null,
+         "DestinationRef" : "3010911",
+         "VehicleRef" : null,
+         "VehicleFeatureRef" : null,
+         "DestinationName" : "Hauketo stasjon",
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:43:00+01:00",
+         "PublishedLineName" : "81B",
+         "OriginName" : "Ødegården",
+         "LineRef" : "2081",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "220810091"
+         },
+         "VehicleJourneyName" : "220810091"
+      }
+   }
+]

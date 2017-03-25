@@ -1,0 +1,836 @@
+[
+   {
+      "MonitoringRef" : "3011724",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00",
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:23:00+01:00",
+            "DestinationDisplay" : "Stovner",
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T08:23:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:24:15+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:24:15+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 14
+         },
+         "VehicleRef" : "308071",
+         "OriginRef" : "3011621",
+         "DirectionName" : "1",
+         "InCongestion" : false,
+         "DestinationName" : "Stovner",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300309",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT75S",
+         "LineRef" : "65",
+         "DirectionRef" : "1",
+         "OperatorRef" : "Norgesbuss",
+         "DestinationRef" : "3011721",
+         "PublishedLineName" : "65",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "100650285",
+         "Monitored" : true,
+         "OriginName" : "Furuset T [buss]",
+         "BlockRef" : "6501",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : []
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DestinationName" : "Furuset",
+         "DirectionName" : "2",
+         "OriginRef" : "3011721",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "DestinationDisplay" : "Furuset",
+            "DeparturePlatformName" : "1",
+            "AimedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 3
+         },
+         "VehicleRef" : "308071",
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3011621",
+         "OperatorRef" : "Norgesbuss",
+         "DirectionRef" : "2",
+         "LineRef" : "65",
+         "Delay" : "PT0S",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "305609",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "100650391",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "65",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "6501",
+         "Monitored" : true,
+         "OriginName" : "Stovner T [buss]"
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00"
+   },
+   {
+      "MonitoringRef" : "3011724",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : false
+         },
+         "LineColour" : "76A300",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61004"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "LineRef" : "361",
+         "DirectionRef" : "2",
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "2310138",
+         "TrainBlockPart" : null,
+         "VehicleRef" : "441714",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "VisitNumber" : 9,
+            "ExpectedArrivalTime" : "2017-03-25T08:45:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:45:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "AimedArrivalTime" : "2017-03-25T08:45:00+01:00"
+         },
+         "OriginRef" : "3011941",
+         "DirectionName" : "2",
+         "InCongestion" : false,
+         "DestinationName" : "Guldhaug-Tømte",
+         "OriginName" : "Grorud T [buss]",
+         "Monitored" : true,
+         "BlockRef" : "36103",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "361",
+         "VehicleJourneyName" : "403610610"
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "76A300",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DestinationName" : "Grorud T",
+         "DirectionName" : "1",
+         "OriginRef" : "2310138",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Grorud T",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "VisitNumber" : 37,
+            "ExpectedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00"
+         },
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationRef" : "3011941",
+         "OperatorRef" : "Unibuss",
+         "DirectionRef" : "1",
+         "Delay" : "PT0S",
+         "LineRef" : "361",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60704"
+         },
+         "VehicleJourneyName" : "403610607",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "361",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "36101",
+         "OriginName" : "Gullhaug-Tømte",
+         "Monitored" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00"
+   },
+   {
+      "MonitoringRef" : "3011724",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "308046",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Stovner",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:53:00+01:00",
+            "VisitNumber" : 14,
+            "ExpectedDepartureTime" : "2017-03-25T08:53:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:53:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:53:00+01:00"
+         },
+         "OriginRef" : "3011621",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Stovner",
+         "DirectionName" : "1",
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "300409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : "1",
+         "DestinationRef" : "3011721",
+         "OperatorRef" : "Norgesbuss",
+         "LineRef" : "65",
+         "Delay" : "PT0S",
+         "VehicleJourneyName" : "100650287",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "65",
+         "BlockRef" : "6502",
+         "Monitored" : true,
+         "OriginName" : "Furuset T [buss]",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      }
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "VehicleRef" : "308046",
+         "MonitoredCall" : {
+            "VisitNumber" : 3,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:04:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Furuset",
+            "AimedArrivalTime" : "2017-03-25T09:04:00+01:00"
+         },
+         "OriginRef" : "3011721",
+         "DirectionName" : "2",
+         "DestinationName" : "Furuset",
+         "InCongestion" : false,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "305709",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "LineRef" : "65",
+         "DirectionRef" : "2",
+         "OperatorRef" : "Norgesbuss",
+         "DestinationRef" : "3011621",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "65",
+         "VehicleJourneyName" : "100650393",
+         "OriginName" : "Stovner T [buss]",
+         "Monitored" : true,
+         "BlockRef" : "6502",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00"
+      },
+      "MonitoringRef" : "3011724",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:33.839+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "36101",
+         "Monitored" : false,
+         "OriginName" : "Grorud T [buss]",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "403610612",
+         "PublishedLineName" : "361",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "61204"
+         },
+         "DestinationRef" : "2310138",
+         "OperatorRef" : "Unibuss",
+         "DirectionRef" : "2",
+         "LineRef" : "361",
+         "Delay" : "PT0S",
+         "OriginRef" : "3011941",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "AimedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:15:00+01:00",
+            "VisitNumber" : 9,
+            "ExpectedArrivalTime" : "2017-03-25T09:15:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:15:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Guldhaug-Tømte",
+         "DirectionName" : "2"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : []
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:33.84+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "MonitoredVehicleJourney" : {
+         "Monitored" : true,
+         "OriginName" : "Gullhaug-Tømte",
+         "BlockRef" : "36102",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "361",
+         "VehicleJourneyName" : "403610609",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60904",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "Delay" : "PT0S",
+         "LineRef" : "361",
+         "DirectionRef" : "1",
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3011941",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "VisitNumber" : 37,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Grorud T",
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00"
+         },
+         "VehicleRef" : "441711",
+         "OriginRef" : "2310138",
+         "DirectionName" : "1",
+         "InCongestion" : false,
+         "DestinationName" : "Grorud T"
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : {
+            "OccupancyAvailable" : false,
+            "OccupancyPercentage" : 0
+         },
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      }
+   },
+   {
+      "MonitoringRef" : "3011724",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DestinationName" : "Stovner",
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:23:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Stovner",
+            "ExpectedArrivalTime" : "2017-03-25T09:23:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:23:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:23:00+01:00"
+         },
+         "VehicleRef" : null,
+         "OriginRef" : "3011621",
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "DestinationRef" : "3011721",
+         "Delay" : null,
+         "LineRef" : "65",
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100650289",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "100650289",
+         "PublishedLineName" : "65",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:25:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T09:08:00+01:00",
+         "BlockRef" : null,
+         "OriginName" : "Furuset T [buss]",
+         "Monitored" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "E60000"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "3011721",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Furuset",
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "VisitNumber" : 0
+         },
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Furuset",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100650395",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : null,
+         "DestinationRef" : "3011621",
+         "DirectionRef" : null,
+         "Delay" : null,
+         "LineRef" : "65",
+         "VehicleJourneyName" : "100650395",
+         "PublishedLineName" : "65",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+         "BlockRef" : null,
+         "OriginName" : "Stovner T [buss]",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:33:00+01:00"
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      },
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "OriginName" : "Grorud T [buss]",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+         "VehicleJourneyName" : "403610614",
+         "PublishedLineName" : "361",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:26:00+01:00",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "403610614"
+         },
+         "DestinationRef" : "2310138",
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "LineRef" : "361",
+         "Delay" : null,
+         "OriginRef" : "3011941",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:45:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:45:00+01:00",
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:45:00+01:00"
+         },
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Guldhaug-Tømte",
+         "DirectionName" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "64A",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:08:00+01:00",
+         "VehicleJourneyName" : "100640081",
+         "OriginAimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+         "OriginName" : "Stovner T [buss]",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Furuset via Høybråten",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Furuset via Høybråten",
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00"
+         },
+         "VehicleRef" : null,
+         "OriginRef" : "3011721",
+         "LineRef" : "64",
+         "Delay" : null,
+         "DirectionRef" : null,
+         "DestinationRef" : "3011621",
+         "OperatorRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100640081",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Gullhaug-Tømte",
+         "Monitored" : false,
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:07:00+01:00",
+         "PublishedLineName" : "361",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:59:00+01:00",
+         "VehicleJourneyName" : "403610611",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "403610611",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "Delay" : null,
+         "LineRef" : "361",
+         "OperatorRef" : null,
+         "DestinationRef" : "3011941",
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "OriginRef" : "2310138",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Grorud T",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "VehicleRef" : null,
+         "DirectionName" : null,
+         "DestinationName" : "Grorud T",
+         "InCongestion" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Stovner",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:53:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:53:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:53:00+01:00"
+         },
+         "OriginRef" : "3011621",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Stovner",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "100650291"
+         },
+         "DirectionRef" : null,
+         "DestinationRef" : "3011721",
+         "OperatorRef" : null,
+         "Delay" : null,
+         "LineRef" : "65",
+         "VehicleJourneyName" : "100650291",
+         "PublishedLineName" : "65",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:55:00+01:00",
+         "BlockRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Furuset T [buss]",
+         "OriginAimedDepartureTime" : "2017-03-25T09:38:00+01:00"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "IsHub" : false
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "100650397",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+         "PublishedLineName" : "65",
+         "BlockRef" : null,
+         "OriginName" : "Stovner T [buss]",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T10:03:00+01:00",
+         "OriginRef" : "3011721",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Furuset",
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00"
+         },
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Furuset",
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "100650397",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OperatorRef" : null,
+         "DestinationRef" : "3011621",
+         "DirectionRef" : null,
+         "LineRef" : "65",
+         "Delay" : null
+      },
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "403610616",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:56:00+01:00",
+         "PublishedLineName" : "361",
+         "BlockRef" : null,
+         "OriginName" : "Grorud T [buss]",
+         "Monitored" : false,
+         "OriginAimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+         "OriginRef" : "3011941",
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T10:15:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:15:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Guldhaug-Tømte",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T10:15:00+01:00"
+         },
+         "VehicleRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Guldhaug-Tømte",
+         "InCongestion" : false,
+         "DirectionName" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "403610616"
+         },
+         "DestinationRef" : "2310138",
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "Delay" : null,
+         "LineRef" : "361"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00",
+      "MonitoringRef" : "3011724"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3011724",
+      "RecordedAtTime" : "2017-03-25T08:20:34.1612851+01:00",
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "403610613",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:29:00+01:00",
+         "PublishedLineName" : "361",
+         "OriginAimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+         "BlockRef" : null,
+         "OriginName" : "Gullhaug-Tømte",
+         "Monitored" : false,
+         "InCongestion" : false,
+         "DestinationName" : "Grorud T",
+         "DirectionName" : null,
+         "OriginRef" : "2310138",
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Grorud T",
+            "AimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:20:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "OperatorRef" : null,
+         "DestinationRef" : "3011941",
+         "DirectionRef" : null,
+         "LineRef" : "361",
+         "Delay" : null,
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "403610613"
+         }
+      },
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      }
+   }
+]

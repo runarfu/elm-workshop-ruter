@@ -1,0 +1,194 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : null,
+         "LineRef" : "9103",
+         "OriginRef" : null,
+         "PublishedLineName" : "L3",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Oslo S",
+         "VehicleMode" : 2,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "242_2017-03-25_07:21"
+         },
+         "VehicleJourneyName" : "191031023",
+         "Monitored" : true,
+         "DirectionRef" : "2",
+         "VehicleRef" : "242",
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "NG",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T08:40:00+01:00",
+            "VisitNumber" : 1,
+            "ExpectedDepartureTime" : "2017-03-25T08:41:06+01:00",
+            "DestinationDisplay" : null,
+            "ExpectedArrivalTime" : "2017-03-25T08:41:06+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:40:00+01:00"
+         },
+         "OriginName" : null,
+         "TrainBlockPart" : null,
+         "Delay" : "PT2M0S"
+      },
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "32374B",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "GRE",
+      "RecordedAtTime" : "2017-03-25T08:20:19+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T04:15:51+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "32374B",
+         "OccupancyData" : null,
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoringRef" : "GRE",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : null,
+         "TrainBlockPart" : null,
+         "Delay" : "PT0S",
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "VehicleRef" : "223",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "OperatorRef" : "NG",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:09:00+01:00",
+            "VisitNumber" : 1,
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:09:00+01:00",
+            "DestinationDisplay" : null,
+            "AimedDepartureTime" : "2017-03-25T09:09:00+01:00"
+         },
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Gjøvik",
+         "VehicleMode" : 2,
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "223_2017-03-25_09:02",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "191301030",
+         "DestinationRef" : null,
+         "LineRef" : "9130",
+         "OriginRef" : null,
+         "PublishedLineName" : "R30"
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:20+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "9130",
+         "PublishedLineName" : "R30",
+         "OriginRef" : null,
+         "DestinationRef" : null,
+         "VehicleMode" : 2,
+         "VehicleFeatureRef" : null,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Oslo S",
+         "VehicleJourneyName" : "191301013",
+         "BlockRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "208_2017-03-25_07:33",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : null,
+         "VehicleRef" : "208",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "OperatorRef" : "NG",
+         "InCongestion" : false,
+         "Monitored" : true,
+         "DirectionRef" : "2",
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:22:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 1,
+            "ExpectedDepartureTime" : "2017-03-25T09:23:00+01:00",
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T09:22:00+01:00",
+            "DestinationDisplay" : null,
+            "ExpectedArrivalTime" : "2017-03-25T09:23:00+01:00"
+         },
+         "OriginName" : null,
+         "TrainBlockPart" : null,
+         "Delay" : "PT60S"
+      },
+      "Extensions" : {
+         "LineColour" : "32374B",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "GRE"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T04:16:07+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : null,
+         "PublishedLineName" : "L3",
+         "OriginRef" : null,
+         "LineRef" : "9103",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "267_2017-03-25_09:42",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "BlockRef" : null,
+         "VehicleJourneyName" : "191031045",
+         "DestinationName" : "Jaren",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 2,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 1,
+            "DestinationDisplay" : null,
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "InCongestion" : false,
+         "OperatorRef" : "NG",
+         "VehicleRef" : "267",
+         "DirectionName" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "OriginName" : null
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "32374B",
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "GRE"
+   }
+]

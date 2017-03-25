@@ -1,0 +1,395 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "VehicleJourneyName" : "404010606",
+         "Delay" : "PT32S",
+         "DestinationName" : "Oslo bussterminal",
+         "InCongestion" : false,
+         "DestinationRef" : "3010619",
+         "DirectionName" : "1",
+         "Monitored" : true,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "60604"
+         },
+         "VehicleRef" : "441763",
+         "OperatorRef" : "Unibuss",
+         "LineRef" : "401",
+         "OriginName" : "Fritidshuset",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "401",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:35:32+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:35:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "VisitNumber" : 39,
+            "ExpectedDepartureTime" : "2017-03-25T08:35:32+01:00",
+            "VehicleAtStop" : false
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "BlockRef" : "40101",
+         "OriginRef" : "2310208",
+         "VehicleFeatureRef" : ""
+      },
+      "MonitoringRef" : "3012056",
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : {
+            "OccupancyPercentage" : 20,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:13.471+01:00"
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:13.471+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "OriginRef" : "2310208",
+         "BlockRef" : "40102",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T08:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:52:08.137+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:50:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 39,
+            "ExpectedDepartureTime" : "2017-03-25T08:52:08.137+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1",
+         "VehicleFeatureRef" : "",
+         "PublishedLineName" : "401",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60804",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : true,
+         "LineRef" : "401",
+         "VehicleRef" : "441762",
+         "OperatorRef" : "Unibuss",
+         "DestinationRef" : "3010619",
+         "OriginName" : "Fritidshuset",
+         "Delay" : "PT128S",
+         "VehicleJourneyName" : "404010608",
+         "InCongestion" : false,
+         "DestinationName" : "Oslo bussterminal"
+      },
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3012056"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "DestinationName" : "Oslo bussterminal",
+         "VehicleJourneyName" : "404010609",
+         "Delay" : "PT0S",
+         "OriginName" : "Fritidshuset",
+         "VehicleRef" : "441761",
+         "OperatorRef" : "Unibuss",
+         "LineRef" : "401",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60904",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "1",
+         "Monitored" : true,
+         "DestinationRef" : "3010619",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "401",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleFeatureRef" : "",
+         "OriginRef" : "2310208",
+         "BlockRef" : "40114",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "VisitNumber" : 39,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:05:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Oslo bussterminal"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : "1"
+      },
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "76A300",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3012056",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:13.471+01:00"
+   },
+   {
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      },
+      "MonitoringRef" : "3012056",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : "",
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 39,
+            "ExpectedDepartureTime" : "2017-03-25T09:20:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionRef" : "1",
+         "OriginRef" : "2310208",
+         "BlockRef" : "40103",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "401",
+         "OriginName" : "Fritidshuset",
+         "DestinationRef" : "3010619",
+         "Monitored" : false,
+         "DirectionName" : "1",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "61104",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleRef" : null,
+         "OperatorRef" : "Unibuss",
+         "LineRef" : "401",
+         "DestinationName" : "Oslo bussterminal",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "404010611",
+         "Delay" : "PT0S"
+      },
+      "RecordedAtTime" : "2017-03-25T08:21:13.471+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:21:13.7871221+01:00",
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      },
+      "MonitoringRef" : "3012056",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "401",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+         "OriginAimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+         "BlockRef" : null,
+         "OriginRef" : "2310208",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Oslo bussterminal",
+            "ExpectedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:35:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:35:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "ExpectedDepartureTime" : "2017-03-25T09:35:00+01:00"
+         },
+         "DirectionRef" : null,
+         "TrainBlockPart" : null,
+         "VehicleFeatureRef" : null,
+         "Delay" : null,
+         "VehicleJourneyName" : "404010612",
+         "InCongestion" : false,
+         "DestinationName" : "Oslo bussterminal",
+         "VehicleRef" : null,
+         "OperatorRef" : null,
+         "LineRef" : "401",
+         "Monitored" : false,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404010612",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "3010619",
+         "OriginName" : "Fritidshuset"
+      }
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T08:56:00+01:00",
+         "PublishedLineName" : "401",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:03:00+01:00",
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "2310208",
+         "BlockRef" : null,
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T09:50:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:50:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:50:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "InCongestion" : false,
+         "DestinationName" : "Oslo bussterminal",
+         "Delay" : null,
+         "VehicleJourneyName" : "404010614",
+         "OriginName" : "Fritidshuset",
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "LineRef" : "401",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010614"
+         },
+         "DirectionName" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3010619"
+      },
+      "MonitoringRef" : "3012056",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "76A300",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:13.7871221+01:00"
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "76A300",
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "Deviations" : []
+      },
+      "MonitoringRef" : "3012056",
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "TrainBlockPart" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:05:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:05:00+01:00",
+            "VisitNumber" : 0
+         },
+         "DirectionRef" : null,
+         "BlockRef" : null,
+         "OriginRef" : "2310208",
+         "OriginAimedDepartureTime" : "2017-03-25T09:11:00+01:00",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+         "VehicleMode" : 0,
+         "PublishedLineName" : "401",
+         "OriginName" : "Fritidshuset",
+         "DestinationRef" : "3010619",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "404010615"
+         },
+         "Monitored" : false,
+         "DirectionName" : null,
+         "OperatorRef" : null,
+         "VehicleRef" : null,
+         "LineRef" : "401",
+         "DestinationName" : "Oslo bussterminal",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "404010615",
+         "Delay" : null
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:21:13.7871221+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Fritidshuset",
+         "VehicleRef" : null,
+         "LineRef" : "401",
+         "OperatorRef" : null,
+         "DirectionName" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "404010617",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "Monitored" : false,
+         "DestinationRef" : "3010619",
+         "InCongestion" : false,
+         "DestinationName" : "Oslo bussterminal",
+         "Delay" : null,
+         "VehicleJourneyName" : "404010617",
+         "VehicleFeatureRef" : null,
+         "BlockRef" : null,
+         "OriginRef" : "2310208",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "VisitNumber" : 0,
+            "DestinationDisplay" : "Oslo bussterminal",
+            "DeparturePlatformName" : "2",
+            "AimedArrivalTime" : "2017-03-25T10:20:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:20:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:20:00+01:00"
+         },
+         "TrainBlockPart" : null,
+         "DirectionRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:26:00+01:00",
+         "PublishedLineName" : "401",
+         "VehicleMode" : 0,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:33:00+01:00"
+      },
+      "Extensions" : {
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "LineColour" : "76A300"
+      },
+      "MonitoringRef" : "3012056",
+      "RecordedAtTime" : "2017-03-25T08:21:13.7871221+01:00",
+      "StopVisitNote" : []
+   }
+]

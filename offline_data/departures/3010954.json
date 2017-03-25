@@ -1,0 +1,446 @@
+[
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 8,
+            "AimedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T08:41:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:41:00+01:00",
+            "DestinationDisplay" : "Mortensrud T"
+         },
+         "DirectionName" : "2",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "OriginName" : "Bjørndal",
+         "BlockRef" : "7101",
+         "PublishedLineName" : "71A",
+         "OriginRef" : "3010975",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "57410"
+         },
+         "DestinationRef" : "3010951",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Mortensrud T",
+         "Monitored" : true,
+         "DirectionRef" : "2",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "VehicleRef" : "101161",
+         "VehicleJourneyName" : "200710378",
+         "TrainBlockPart" : null,
+         "LineRef" : "71"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:50.955+01:00",
+      "MonitoringRef" : "3010954",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 40,
+            "OccupancyAvailable" : true
+         }
+      }
+   },
+   {
+      "MonitoringRef" : "3010954",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : "7101",
+         "PublishedLineName" : "71A",
+         "OriginName" : "Mortensrud T [buss]",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "1",
+         "MonitoredCall" : {
+            "VisitNumber" : 3,
+            "AimedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:48:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T08:48:00+01:00",
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Bjørndal",
+            "AimedDepartureTime" : "2017-03-25T08:48:00+01:00"
+         },
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "LineRef" : "71",
+         "VehicleRef" : "101161",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200710171",
+         "VehicleMode" : 0,
+         "DirectionRef" : "1",
+         "Monitored" : true,
+         "OperatorRef" : "Unibuss",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50510",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Bjørndal",
+         "DestinationRef" : "3010975",
+         "OriginRef" : "3010951",
+         "VehicleFeatureRef" : ""
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:50.955+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 40
+         },
+         "IsHub" : false
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 40
+         },
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : []
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:50.955+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "101161",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200710381",
+         "LineRef" : "71",
+         "Monitored" : true,
+         "DirectionRef" : "2",
+         "OperatorRef" : "Unibuss",
+         "VehicleMode" : 0,
+         "OriginRef" : "3010975",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "57510",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DestinationRef" : "3010951",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Mortensrud T",
+         "OriginName" : "Bjørndal",
+         "BlockRef" : "7101",
+         "PublishedLineName" : "71A",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DirectionName" : "2",
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:11:00+01:00",
+            "VisitNumber" : 8,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:11:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:11:00+01:00",
+            "DeparturePlatformName" : "2",
+            "DestinationDisplay" : "Mortensrud T",
+            "AimedDepartureTime" : "2017-03-25T09:11:00+01:00"
+         }
+      },
+      "MonitoringRef" : "3010954"
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 40
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010954",
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50610",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationName" : "Bjørndal",
+         "DestinationRef" : "3010975",
+         "OriginRef" : "3010951",
+         "VehicleFeatureRef" : "",
+         "LineRef" : "71",
+         "VehicleRef" : "101161",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200710174",
+         "VehicleMode" : 0,
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "OperatorRef" : "Unibuss",
+         "DirectionName" : "1",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "VisitNumber" : 3,
+            "ExpectedArrivalTime" : "2017-03-25T09:18:00+01:00",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:18:00+01:00",
+            "DestinationDisplay" : "Bjørndal"
+         },
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "BlockRef" : "7101",
+         "PublishedLineName" : "71A",
+         "OriginName" : "Mortensrud T [buss]",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:50.955+01:00"
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : []
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:18:51.0491563+01:00",
+      "MonitoredVehicleJourney" : {
+         "OriginName" : "Bjørndal",
+         "BlockRef" : null,
+         "PublishedLineName" : "71A",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:43:00+01:00",
+         "DirectionName" : null,
+         "Delay" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:41:00+01:00",
+            "VisitNumber" : 0,
+            "AimedDepartureTime" : "2017-03-25T09:41:00+01:00",
+            "DestinationDisplay" : "Mortensrud T"
+         },
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "200710384",
+         "TrainBlockPart" : null,
+         "LineRef" : "71",
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0,
+         "OriginRef" : "3010975",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200710384",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "OriginAimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+         "DestinationName" : "Mortensrud T",
+         "DestinationRef" : "3010951"
+      },
+      "MonitoringRef" : "3010954"
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "1",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "MonitoredVehicleJourney" : {
+         "DirectionName" : null,
+         "Delay" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Bjørndal",
+            "AimedDepartureTime" : "2017-03-25T09:48:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:48:00+01:00",
+            "DeparturePlatformName" : "1",
+            "ExpectedDepartureTime" : "2017-03-25T09:48:00+01:00"
+         },
+         "OriginName" : "Mortensrud T [buss]",
+         "BlockRef" : null,
+         "PublishedLineName" : "71A",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:54:00+01:00",
+         "OriginRef" : "3010951",
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200710177"
+         },
+         "DestinationRef" : "3010975",
+         "OriginAimedDepartureTime" : "2017-03-25T09:46:00+01:00",
+         "DestinationName" : "Bjørndal",
+         "VehicleRef" : null,
+         "VehicleJourneyName" : "200710177",
+         "TrainBlockPart" : null,
+         "LineRef" : "71",
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "VehicleMode" : 0
+      },
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010954",
+      "RecordedAtTime" : "2017-03-25T08:18:51.0491563+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3010954",
+      "MonitoredVehicleJourney" : {
+         "PublishedLineName" : "71A",
+         "BlockRef" : null,
+         "OriginName" : "Bjørndal",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:58:00+01:00",
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Mortensrud T",
+            "AimedDepartureTime" : "2017-03-25T09:56:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "AimedArrivalTime" : "2017-03-25T09:56:00+01:00",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T09:56:00+01:00"
+         },
+         "InCongestion" : false,
+         "Delay" : null,
+         "LineRef" : "71",
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "200710387",
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "DestinationRef" : "3010951",
+         "OriginAimedDepartureTime" : "2017-03-25T09:49:00+01:00",
+         "DestinationName" : "Mortensrud T",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200710387"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010975"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:51.0491563+01:00",
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : []
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "LineColour" : "E60000",
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "71",
+         "VehicleJourneyName" : "200710390",
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "VehicleMode" : 0,
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "DestinationRef" : "3010951",
+         "OriginAimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+         "DestinationName" : "Mortensrud T",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "200710390"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010975",
+         "PublishedLineName" : "71A",
+         "BlockRef" : null,
+         "OriginName" : "Bjørndal",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:13:00+01:00",
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:11:00+01:00",
+            "DestinationDisplay" : "Mortensrud T",
+            "DeparturePlatformName" : "2",
+            "ExpectedDepartureTime" : "2017-03-25T10:11:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:11:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:11:00+01:00",
+            "VisitNumber" : 0
+         },
+         "InCongestion" : false,
+         "Delay" : null
+      },
+      "MonitoringRef" : "3010954",
+      "RecordedAtTime" : "2017-03-25T08:18:51.0491563+01:00"
+   },
+   {
+      "MonitoringRef" : "3010954",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010951",
+         "OriginAimedDepartureTime" : "2017-03-25T10:16:00+01:00",
+         "DestinationName" : "Bjørndal",
+         "DestinationRef" : "3010975",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "200710180",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleJourneyName" : "200710180",
+         "TrainBlockPart" : null,
+         "VehicleRef" : null,
+         "LineRef" : "71",
+         "OperatorRef" : null,
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "VehicleMode" : 0,
+         "DirectionName" : null,
+         "InCongestion" : false,
+         "Delay" : null,
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "DestinationDisplay" : "Bjørndal",
+            "ExpectedDepartureTime" : "2017-03-25T10:18:00+01:00",
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T10:18:00+01:00",
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:18:00+01:00"
+         },
+         "OriginName" : "Mortensrud T [buss]",
+         "PublishedLineName" : "71A",
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00"
+      },
+      "RecordedAtTime" : "2017-03-25T08:18:51.0491563+01:00",
+      "Extensions" : {
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1",
+         "IsHub" : false,
+         "OccupancyData" : null
+      }
+   }
+]

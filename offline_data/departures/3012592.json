@@ -1,0 +1,698 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "32",
+         "VehicleRef" : "741240",
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "DirectionName" : "1",
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:36:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 14,
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T08:36:00+01:00",
+            "DestinationDisplay" : "Kværnerbyen"
+         },
+         "OriginName" : "Voksen skog",
+         "PublishedLineName" : "32",
+         "OriginRef" : "3012480",
+         "OperatorRef" : "Nobina",
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "56209"
+         },
+         "VehicleMode" : 0,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3204",
+         "DestinationRef" : "3010648",
+         "VehicleJourneyName" : "500320196",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kværnerbyen"
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:42.107+01:00",
+      "MonitoringRef" : "3012592",
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43013
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "741258",
+         "LineRef" : "32",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 17,
+            "AimedArrivalTime" : "2017-03-25T08:47:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T08:47:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T08:47:00+01:00",
+            "DestinationDisplay" : "Voksen skog",
+            "AimedDepartureTime" : "2017-03-25T08:47:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "OriginName" : "Kværnerbyen",
+         "DirectionName" : "2",
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "OperatorRef" : "Nobina",
+         "OriginRef" : "3010648",
+         "PublishedLineName" : "32",
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "50309"
+         },
+         "BlockRef" : "3201",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "500320137",
+         "DestinationRef" : "3012480",
+         "InCongestion" : false,
+         "DestinationName" : "Voksen skog",
+         "TrainBlockPart" : null,
+         "Delay" : "PT0S"
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.108+01:00",
+      "Extensions" : {
+         "OccupancyData" : {
+            "OccupancyAvailable" : true,
+            "OccupancyPercentage" : 0
+         },
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 43013,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            },
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ]
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "ID" : 43013,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kværnerbyen",
+         "Delay" : "PT0S",
+         "InCongestion" : false,
+         "VehicleJourneyName" : "500320197",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "DestinationRef" : "3010648",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "BlockRef" : "3206",
+         "VehicleMode" : 0,
+         "VehicleFeatureRef" : "",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "56309"
+         },
+         "OriginRef" : "3012480",
+         "OperatorRef" : "Nobina",
+         "PublishedLineName" : "32",
+         "MonitoredCall" : {
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 14,
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Kværnerbyen",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "VehicleAtStop" : false
+         },
+         "DirectionName" : "1",
+         "OriginName" : "Voksen skog",
+         "Monitored" : true,
+         "DirectionRef" : "1",
+         "VehicleRef" : "741257",
+         "LineRef" : "32"
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.108+01:00"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleRef" : "741261",
+         "LineRef" : "32",
+         "OriginName" : "Kværnerbyen",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Voksen skog",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 17,
+            "ExpectedArrivalTime" : "2017-03-25T09:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:17:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:17:00+01:00"
+         },
+         "DirectionName" : "2",
+         "DirectionRef" : "2",
+         "Monitored" : true,
+         "OperatorRef" : "Nobina",
+         "OriginRef" : "3010648",
+         "PublishedLineName" : "32",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "50409",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : "",
+         "BlockRef" : "3202",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "VehicleJourneyName" : "500320138",
+         "DestinationRef" : "3012480",
+         "InCongestion" : false,
+         "DestinationName" : "Voksen skog",
+         "TrainBlockPart" : null,
+         "Delay" : "PT0S"
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.108+01:00",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43013
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         }
+      }
+   },
+   {
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "MonitoringRef" : "3012592",
+      "MonitoredVehicleJourney" : {
+         "Delay" : null,
+         "DestinationName" : "Voksen skog",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationRef" : "3012480",
+         "DestinationAimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+         "VehicleJourneyName" : "500320139",
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:02:00+01:00",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500320139",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "PublishedLineName" : "32",
+         "OperatorRef" : null,
+         "OriginRef" : "3010648",
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "DirectionName" : null,
+         "MonitoredCall" : {
+            "ExpectedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:32:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+            "DestinationDisplay" : "Voksen skog"
+         },
+         "OriginName" : "Kværnerbyen",
+         "LineRef" : "32",
+         "VehicleRef" : null
+      },
+      "StopVisitNote" : [],
+      "Extensions" : {
+         "IsHub" : false,
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 43013,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43013
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500320198"
+         },
+         "VehicleMode" : 0,
+         "PublishedLineName" : "32",
+         "OperatorRef" : null,
+         "OriginRef" : "3012480",
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Kværnerbyen",
+            "AimedDepartureTime" : "2017-03-25T09:37:00+01:00",
+            "VehicleAtStop" : false,
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "AimedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T09:37:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:37:00+01:00"
+         },
+         "OriginName" : "Voksen skog",
+         "DirectionName" : null,
+         "LineRef" : "32",
+         "VehicleRef" : null,
+         "Delay" : null,
+         "DestinationName" : "Kværnerbyen",
+         "TrainBlockPart" : null,
+         "InCongestion" : false,
+         "DestinationRef" : "3010648",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:09:00+01:00",
+         "VehicleJourneyName" : "500320198",
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:23:00+01:00"
+      }
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "32",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "OriginName" : "Kværnerbyen",
+         "MonitoredCall" : {
+            "DestinationDisplay" : "Voksen skog",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0,
+            "ExpectedArrivalTime" : "2017-03-25T09:47:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:47:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:47:00+01:00"
+         },
+         "DirectionName" : null,
+         "PublishedLineName" : "32",
+         "OperatorRef" : null,
+         "OriginRef" : "3010648",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500320140"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:17:00+01:00",
+         "DestinationRef" : "3012480",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:01:00+01:00",
+         "VehicleJourneyName" : "500320140",
+         "InCongestion" : false,
+         "Delay" : null,
+         "DestinationName" : "Voksen skog",
+         "TrainBlockPart" : null
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "ID" : 43013,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      }
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43013,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            },
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "DepartureNamePreMapping" : "1"
+      },
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "InCongestion" : false,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Kværnerbyen",
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:38:00+01:00",
+         "BlockRef" : null,
+         "VehicleJourneyName" : "500320199",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:24:00+01:00",
+         "DestinationRef" : "3010648",
+         "OriginRef" : "3012480",
+         "OperatorRef" : null,
+         "PublishedLineName" : "32",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500320199",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleRef" : null,
+         "LineRef" : "32",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "DestinationDisplay" : "Kværnerbyen",
+            "ExpectedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:52:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:52:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0
+         },
+         "DirectionName" : null,
+         "OriginName" : "Voksen skog",
+         "Monitored" : false,
+         "DirectionRef" : null
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00"
+   },
+   {
+      "MonitoredVehicleJourney" : {
+         "MonitoredCall" : {
+            "AimedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Voksen skog",
+            "AimedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:02:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:02:00+01:00",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0
+         },
+         "DirectionName" : null,
+         "OriginName" : "Kværnerbyen",
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "VehicleRef" : null,
+         "LineRef" : "32",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "500320141",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "VehicleFeatureRef" : null,
+         "OriginRef" : "3010648",
+         "OperatorRef" : null,
+         "PublishedLineName" : "32",
+         "VehicleJourneyName" : "500320141",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+         "DestinationRef" : "3012480",
+         "OriginAimedDepartureTime" : "2017-03-25T09:32:00+01:00",
+         "BlockRef" : null,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Voksen skog",
+         "Delay" : null,
+         "InCongestion" : false
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "MonitoringRef" : "3012592",
+      "Extensions" : {
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43013
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ],
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "LineColour" : "E60000",
+         "OccupancyData" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43013
+            },
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "IsHub" : false
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "MonitoringRef" : "3012592",
+      "MonitoredVehicleJourney" : {
+         "LineRef" : "32",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:07:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "1",
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:07:00+01:00",
+            "DestinationDisplay" : "Kværnerbyen"
+         },
+         "DirectionName" : null,
+         "OriginName" : "Voksen skog",
+         "PublishedLineName" : "32",
+         "OperatorRef" : null,
+         "OriginRef" : "3012480",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500320200"
+         },
+         "VehicleFeatureRef" : null,
+         "VehicleMode" : 0,
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:53:00+01:00",
+         "DestinationRef" : "3010648",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:39:00+01:00",
+         "VehicleJourneyName" : "500320200",
+         "InCongestion" : false,
+         "Delay" : null,
+         "DestinationName" : "Kværnerbyen",
+         "TrainBlockPart" : null
+      },
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "LineColour" : "E60000",
+         "OccupancyData" : null,
+         "IsHub" : false,
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [
+            {
+               "Header" : "Stoppestedet Rådhuset er flyttet",
+               "ID" : 43013
+            },
+            {
+               "ID" : 43012,
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke"
+            }
+         ]
+      },
+      "MonitoredVehicleJourney" : {
+         "OriginAimedDepartureTime" : "2017-03-25T09:47:00+01:00",
+         "BlockRef" : null,
+         "DestinationRef" : "3012480",
+         "VehicleJourneyName" : "500320142",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:31:00+01:00",
+         "InCongestion" : false,
+         "Delay" : null,
+         "TrainBlockPart" : null,
+         "DestinationName" : "Voksen skog",
+         "LineRef" : "32",
+         "VehicleRef" : null,
+         "Monitored" : false,
+         "DirectionRef" : null,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "ExpectedArrivalTime" : "2017-03-25T10:17:00+01:00",
+            "VisitNumber" : 0,
+            "DeparturePlatformName" : "2",
+            "AimedDepartureTime" : "2017-03-25T10:17:00+01:00",
+            "VehicleAtStop" : false,
+            "DestinationDisplay" : "Voksen skog"
+         },
+         "OriginName" : "Kværnerbyen",
+         "DirectionName" : null,
+         "PublishedLineName" : "32",
+         "OriginRef" : "3010648",
+         "OperatorRef" : null,
+         "VehicleFeatureRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500320142"
+         },
+         "VehicleMode" : 0
+      },
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "MonitoringRef" : "3012592"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "DestinationAimedArrivalTime" : "2017-03-25T10:54:00+01:00",
+         "VehicleJourneyName" : "500320201",
+         "DestinationRef" : "3010648",
+         "BlockRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T10:08:00+01:00",
+         "DestinationName" : "Kværnerbyen",
+         "TrainBlockPart" : null,
+         "Delay" : null,
+         "InCongestion" : false,
+         "OriginName" : "Voksen skog",
+         "MonitoredCall" : {
+            "VehicleAtStop" : false,
+            "AimedDepartureTime" : "2017-03-25T10:22:00+01:00",
+            "DestinationDisplay" : "Kværnerbyen",
+            "ExpectedArrivalTime" : "2017-03-25T10:22:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:22:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:22:00+01:00",
+            "DeparturePlatformName" : "1",
+            "VisitNumber" : 0
+         },
+         "DirectionName" : null,
+         "DirectionRef" : null,
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "LineRef" : "32",
+         "VehicleMode" : 0,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "500320201"
+         },
+         "VehicleFeatureRef" : null,
+         "OperatorRef" : null,
+         "OriginRef" : "3012480",
+         "PublishedLineName" : "32"
+      },
+      "MonitoringRef" : "3012592",
+      "RecordedAtTime" : "2017-03-25T08:22:42.2058584+01:00",
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [
+            {
+               "ID" : 43013,
+               "Header" : "Stoppestedet Rådhuset er flyttet"
+            },
+            {
+               "Header" : "Stoppestedet Kongens gate (i Tollbugata) benyttes ikke",
+               "ID" : 43012
+            }
+         ],
+         "DepartureNamePreMapping" : "1"
+      }
+   }
+]

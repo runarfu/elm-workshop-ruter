@@ -1,0 +1,248 @@
+[
+   {
+      "MonitoredVehicleJourney" : {
+         "DestinationName" : "Sørkedalen",
+         "OriginName" : "Røa T (i Vækerøveien)",
+         "OperatorRef" : "Nettbuss",
+         "DirectionRef" : "2",
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "60207",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionName" : "2",
+         "TrainBlockPart" : null,
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "PublishedLineName" : "41",
+         "VehicleFeatureRef" : "",
+         "VehicleJourneyName" : "900410602",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "DestinationRef" : "3012620",
+         "VehicleRef" : "602260",
+         "LineRef" : "41",
+         "BlockRef" : "4101",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "Monitored" : true,
+         "VehicleMode" : 0,
+         "OriginRef" : "3012451",
+         "MonitoredCall" : {
+            "ExpectedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T08:34:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "VisitNumber" : 11,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "2",
+            "ExpectedArrivalTime" : "2017-03-25T08:34:00+01:00",
+            "DestinationDisplay" : "Sørkedalen"
+         }
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:45.266+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012614",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "Deviations" : [],
+         "IsHub" : false,
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "LineColour" : "E60000"
+      }
+   },
+   {
+      "Extensions" : {
+         "DepartureNamePreMapping" : "1",
+         "LineColour" : "E60000",
+         "OccupancyData" : {
+            "OccupancyPercentage" : 0,
+            "OccupancyAvailable" : true
+         },
+         "Deviations" : [],
+         "IsHub" : false
+      },
+      "MonitoringRef" : "3012614",
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012451",
+         "InCongestion" : false,
+         "Delay" : "PT0S",
+         "BlockRef" : "4101",
+         "DestinationAimedArrivalTime" : "0001-01-01T00:00:00",
+         "LineRef" : "41",
+         "Monitored" : true,
+         "VehicleRef" : "602260",
+         "MonitoredCall" : {
+            "VisitNumber" : 13,
+            "DeparturePlatformName" : "1",
+            "ExpectedArrivalTime" : "2017-03-25T09:06:00+01:00",
+            "DestinationDisplay" : "Røa",
+            "VehicleAtStop" : false,
+            "ExpectedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:06:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T09:06:00+01:00"
+         },
+         "VehicleMode" : 0,
+         "OriginRef" : "3012620",
+         "OriginName" : "Skansebakken",
+         "DestinationName" : "Røa",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "63107"
+         },
+         "DirectionRef" : "1",
+         "OperatorRef" : "Nettbuss",
+         "PublishedLineName" : "41",
+         "OriginAimedDepartureTime" : "0001-01-01T00:00:00",
+         "TrainBlockPart" : null,
+         "DirectionName" : "1",
+         "VehicleJourneyName" : "900410631",
+         "VehicleFeatureRef" : ""
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:45.266+01:00",
+      "StopVisitNote" : []
+   },
+   {
+      "Extensions" : {
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "IsHub" : false,
+         "Deviations" : [],
+         "DepartureNamePreMapping" : "2"
+      },
+      "MonitoredVehicleJourney" : {
+         "DestinationRef" : "3012620",
+         "Delay" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T09:34:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T09:34:00+01:00",
+            "DestinationDisplay" : "Sørkedalen via Wyllerløypa",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0
+         },
+         "OriginRef" : "3012451",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "BlockRef" : null,
+         "DestinationAimedArrivalTime" : "2017-03-25T09:46:00+01:00",
+         "LineRef" : "41",
+         "VehicleRef" : null,
+         "DirectionRef" : null,
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900410603"
+         },
+         "OperatorRef" : null,
+         "OriginName" : "Røa T (i Vækerøveien)",
+         "DestinationName" : "Sørkedalen via Wyllerløypa",
+         "VehicleJourneyName" : "900410603",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:25:00+01:00",
+         "PublishedLineName" : "41",
+         "DirectionName" : null,
+         "TrainBlockPart" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:45.5078147+01:00",
+      "StopVisitNote" : [],
+      "MonitoringRef" : "3012614"
+   },
+   {
+      "StopVisitNote" : [],
+      "MonitoredVehicleJourney" : {
+         "FramedVehicleJourneyRef" : {
+            "DatedVehicleJourneyRef" : "900410604",
+            "DataFrameRef" : "2017-03-25"
+         },
+         "DirectionRef" : null,
+         "OperatorRef" : null,
+         "OriginName" : "Røa T (i Vækerøveien)",
+         "DestinationName" : "Sørkedalen via Wyllerløypa",
+         "VehicleJourneyName" : "900410604",
+         "VehicleFeatureRef" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:55:00+01:00",
+         "PublishedLineName" : "41",
+         "TrainBlockPart" : null,
+         "DirectionName" : null,
+         "DestinationRef" : "3012620",
+         "Delay" : null,
+         "InCongestion" : false,
+         "MonitoredCall" : {
+            "AimedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:04:00+01:00",
+            "VehicleAtStop" : false,
+            "ExpectedArrivalTime" : "2017-03-25T10:04:00+01:00",
+            "DestinationDisplay" : "Sørkedalen via Wyllerløypa",
+            "DeparturePlatformName" : "2",
+            "VisitNumber" : 0
+         },
+         "OriginRef" : "3012451",
+         "VehicleMode" : 0,
+         "Monitored" : false,
+         "DestinationAimedArrivalTime" : "2017-03-25T10:16:00+01:00",
+         "BlockRef" : null,
+         "LineRef" : "41",
+         "VehicleRef" : null
+      },
+      "RecordedAtTime" : "2017-03-25T08:22:45.5078147+01:00",
+      "MonitoringRef" : "3012614",
+      "Extensions" : {
+         "DepartureNamePreMapping" : "2",
+         "IsHub" : false,
+         "Deviations" : [],
+         "LineColour" : "E60000",
+         "OccupancyData" : null
+      }
+   },
+   {
+      "Extensions" : {
+         "IsHub" : false,
+         "Deviations" : [],
+         "OccupancyData" : null,
+         "LineColour" : "E60000",
+         "DepartureNamePreMapping" : "1"
+      },
+      "MonitoringRef" : "3012614",
+      "StopVisitNote" : [],
+      "RecordedAtTime" : "2017-03-25T08:22:45.5078147+01:00",
+      "MonitoredVehicleJourney" : {
+         "BlockRef" : null,
+         "LineRef" : "41",
+         "DestinationAimedArrivalTime" : "2017-03-25T10:15:00+01:00",
+         "Monitored" : false,
+         "VehicleRef" : null,
+         "MonitoredCall" : {
+            "VisitNumber" : 0,
+            "VehicleAtStop" : false,
+            "DeparturePlatformName" : "1",
+            "DestinationDisplay" : "Røa",
+            "ExpectedArrivalTime" : "2017-03-25T10:06:00+01:00",
+            "ExpectedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedDepartureTime" : "2017-03-25T10:06:00+01:00",
+            "AimedArrivalTime" : "2017-03-25T10:06:00+01:00"
+         },
+         "VehicleMode" : 0,
+         "OriginRef" : "3012620",
+         "DestinationRef" : "3012451",
+         "InCongestion" : false,
+         "Delay" : null,
+         "OriginAimedDepartureTime" : "2017-03-25T09:57:00+01:00",
+         "PublishedLineName" : "41",
+         "DirectionName" : null,
+         "TrainBlockPart" : null,
+         "VehicleJourneyName" : "900410632",
+         "VehicleFeatureRef" : null,
+         "OriginName" : "Skansebakken",
+         "DestinationName" : "Røa",
+         "FramedVehicleJourneyRef" : {
+            "DataFrameRef" : "2017-03-25",
+            "DatedVehicleJourneyRef" : "900410632"
+         },
+         "DirectionRef" : null,
+         "OperatorRef" : null
+      }
+   }
+]
