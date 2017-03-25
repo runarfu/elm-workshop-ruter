@@ -12,14 +12,23 @@ import Http
 
 exercises : List String
 exercises =
-    [ """
-    TODO 1.0 Lag en `Cmd` som henter data fra en nettside,
-    f.eks. https://httpbin.org/get. Send denne kommandoen til Elm, og putt
-    responsen i modellen.
+    [ """ TODO 1.0 Lag en `Cmd` som henter data fra en nettside,
+                   f.eks. https://httpbin.org/get.
+                   Send denne kommandoen til Elm, og putt responsen i modellen.
       """
-    , """
-    TODO 1.1 Endre kommandoen du lagde til å hente fra ../offline_data/stops/stops.json
-    istedet.
+    , """ TODO 1.1 Endre kommandoen du lagde til å hente fra
+                   ../offline_data/stops/stops.json istedet.
+      """
+    , """ TODO 1.2 Lag en record-type for stopp-informasjon.
+      """
+    , """ TODO 1.3 Lag en JSON-parser som parser stopp-informasjon og bruker
+                   record-typen fra forrige oppgave.
+      """
+    , """ TODO 1.4 Hent inn stopp ved oppstart av applikasjonen, og vis frem informasjon om stoppene.
+      """
+    , """ TODO 1.5 Utvid modelltypen til å holde på et valgt stopp.
+                   Legg til en knapp på hver stoppested-rad hvor man kan velge
+                   stoppet.
       """
     ]
 
