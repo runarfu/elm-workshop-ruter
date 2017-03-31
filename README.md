@@ -31,3 +31,5 @@ Følgende lenker kan være nyttige:
 * Alternativ modul for å dekode JSON (foretrukket av mange): http://package.elm-lang.org/packages/NoRedInk/elm-decode-pipeline/latest 
 * Verktøy for å generere JSON-dekodere (og -enkodere) fra eksempel-JSON: http://noredink.github.io/json-to-elm/
 
+## Ekstra tips
+* Test kode og del med andre, direkte i nettleseren: https://runelm.io/
