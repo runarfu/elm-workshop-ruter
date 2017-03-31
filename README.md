@@ -31,5 +31,13 @@ Følgende lenker kan være nyttige:
 * Alternativ modul for å dekode JSON (foretrukket av mange): http://package.elm-lang.org/packages/NoRedInk/elm-decode-pipeline/latest 
 * Verktøy for å generere JSON-dekodere (og -enkodere) fra eksempel-JSON: http://noredink.github.io/json-to-elm/
 
+## Interop med JavaScript
+Elm har et begrenset sett med muligheter for å interagere med JavaScript-kode.
+Vi har lagt ved et js-bibliotek, `utm-converter.js`, som dere kan bruke for å
+konvertere fra lengde-/breddegrader til UTM-32 som Ruter-apiet bruker.
+Nyttige lenker:
+* Guide til JavaScript-interop: https://guide.elm-lang.org/interop/javascript.html
+* GitHub-siden til biblioteket: https://github.com/urbanetic/utm-converter
+
 ## Ekstra tips
 * Test kode og del med andre, direkte i nettleseren: https://runelm.io/
