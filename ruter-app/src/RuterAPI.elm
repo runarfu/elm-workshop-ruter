@@ -10,7 +10,7 @@ type alias Stop =
     { x : Int
     , y : Int
     , shortName : String
-    , iD : Int
+    , stopId : Int
     , name : String
     }
 
@@ -47,7 +47,7 @@ getDepartures stop =
     let
         url =
             "https://reisapi.ruter.no/stopvisit/getdepartures/"
-                ++ toString stop.iD
+                ++ toString stop.stopId
     in
         Http.get url decodeDepartures
 
@@ -57,7 +57,7 @@ getDeparturesInOsloFromOfflineFile stop =
     let
         url =
             "../offline_data/departures/"
-                ++ toString stop.iD
+                ++ toString stop.stopId
                 ++ ".json"
     in
         Http.get url decodeDepartures
