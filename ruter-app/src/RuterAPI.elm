@@ -28,7 +28,7 @@ getAllStops : Http.Request (List Stop)
 getAllStops =
     let
         url =
-            "http://reisapi.ruter.no/place/getstopsruter"
+            "https://reisapi.ruter.no/place/getstopsruter"
     in
         Http.get url decodeStops
 
