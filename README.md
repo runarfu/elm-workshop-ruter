@@ -1,5 +1,5 @@
 # elm-workshop-ruter
-Elm-workshop. Henter og presenterer sanntidsdata fra Ruter sitt API.
+Elm-workshop. Henter og presenterer sanntidsdata fra Ruter sitt API. Demo på https://runarfu.github.io/elm-workshop-ruter/.
 
 ## Relevant dokumentasjon
 * Installasjon av Elm og tips til IDE-oppsett: https://guide.elm-lang.org/install.html (jeg anbefaler Atom med Elm-plugins)
