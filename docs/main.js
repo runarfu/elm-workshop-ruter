@@ -9273,7 +9273,7 @@ var _runarfu$elm_workshop_ruter$RuterAPI$decodeStop = A3(
 					_NoRedInk$elm_decode_pipeline$Json_Decode_Pipeline$decode(_runarfu$elm_workshop_ruter$RuterAPI$Stop))))));
 var _runarfu$elm_workshop_ruter$RuterAPI$decodeStops = _elm_lang$core$Json_Decode$list(_runarfu$elm_workshop_ruter$RuterAPI$decodeStop);
 var _runarfu$elm_workshop_ruter$RuterAPI$getAllStops = function () {
-	var url = 'http://reisapi.ruter.no/place/getstopsruter';
+	var url = 'https://reisapi.ruter.no/place/getstopsruter';
 	return A2(_elm_lang$http$Http$get, url, _runarfu$elm_workshop_ruter$RuterAPI$decodeStops);
 }();
 var _runarfu$elm_workshop_ruter$RuterAPI$getAllStopsInOsloFromOfflineFile = function () {
