@@ -73,6 +73,10 @@ exercises =
     , """ [ ] Finn en måte å vise hvor lang tid det er igjen til de ulike avgangene.
               Dette kan f.eks. gjøres ved å sørge for at modellen har et feltet
               for nåværende tidspunkt, og så kan dette sammenliknes med avgangstidene.
+              Hvis du vil rendre denne tiden som HH:MM:SS kan du lage din egen
+              funksjon, TDD-style, ved å implementere formatTimedelta som det
+              finnes enhetstester for i tests/Tests.elm. Disse testene kjøres
+              med `elm-test` når du står i `ruter-app`-katalogen.
       """
     , """ [ ] Oppdater departures for valgt stopp med jevne mellomrom, ikke bare
               etter at et stopp er valgt.
